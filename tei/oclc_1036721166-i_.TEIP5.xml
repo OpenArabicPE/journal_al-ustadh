@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ar">مجلة الأستاذ</title>
+                <title type="sub">TEI edition</title>
+                <editor xml:lang="ar">
+                    <persName>
+                  <persName>عبد الله النديم</persName>
+               </persName>
+                </editor>
+                <tei:respStmt xml:lang="en">
+                    <tei:resp>TEI edition</tei:resp>
+                    <tei:persName xml:id="pers_TG">
+                        <tei:forename>Till</tei:forename>
+                        <tei:surname>Grallert</tei:surname>
+                    </tei:persName>
+                </tei:respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Unpulished TEI edition</p>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="ar">
+                        <monogr xml:lang="ar">
+                            <title level="j" xml:lang="ar">الأستاذ</title>
+                            <title level="j" xml:lang="ar-Latn-x-ijmes">al-Ustādh</title>
+                            <idno type="jid" xml:lang="ar">106</idno>
+                            <idno type="OCLC">1036721166</idno>
+                            <textLang mainLang="ar"/>
+                            <editor xml:lang="ar">
+                                <persName ref="oape:pers:2807 viaf:72750911" xml:lang="ar">
+                                    <forename xml:lang="ar">عبد الله</forename>
+                                    <surname xml:lang="ar">النديم</surname>
+                                    <addName type="nisbah" xml:lang="ar">الإدريسي</addName>
+                                </persName>
+                            </editor>
+                            <imprint xml:lang="ar">
+                                <publisher/>
+                                <pubPlace xml:lang="ar">
+                                    <placeName xml:lang="ar" ref="geon:360630">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630">Cairo</placeName>
+                                </pubPlace>
+                                <!-- this is seems to be the first issue -->
+                                <date when="1892-08-24" xml:lang="ar">24 أغسطس 1892</date>
+                            </imprint>
+                            <!-- <biblScope unit="issue" xml:lang="ar">العدد رقم 1</biblScope> -->
+                        </monogr>
+                    </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+         <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
+         <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+            <change change="d2e82" when="2019-05-17" who="#pers_TG" xml:lang="en">Converted the mark-up of 
+                <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>
+                s from 
+                <gi>p</gi>
+                s divided by a 
+                <gi>gap</gi>
+                to 
+                <gi>l</gi>
+                of 
+                <att>type</att>
+                ="bayt" comprising two 
+                <gi>seg</gi>
+                nodes.</change>
+            <change when="2019-05-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of 
+                <tei:gi xml:lang="en">tei:lb</tei:gi>
+                into 
+                <tei:gi xml:lang="en">xml:p</tei:gi>
+                s.</change>
+            <change when="2019-05-17" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of 
+                <tei:gi xml:lang="en">tei:head</tei:gi>
+                into 
+                <tei:gi xml:lang="en">xml:div</tei:gi>
+                s.</change>
+            <change when="2019-05-17" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
+        </revisionDesc>
+    </teiHeader>
+   <tei:text xml:lang="ar">
+      <tei:body>
+         <tei:div
+                  change="#d2e64"
+                  subtype="article"
+                  type="item">
+                <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1.xhtml"
+                ed="shamela"
+                n=""/>
+            </tei:div>
+         <tei:div
+                  change="#d2e64"
+                  subtype="article"
+                  type="item">
+                <head>ـ[مجلة الأستاذ]ـ</head>
+                <tei:p change="#d2e73">المؤلف: جريدةٌ علميةٌ تهذيبيةٌ فكاهيةٌ صدرت في 24 أغسطس عام 1892 م على يد <persName>عبد الله النديم</persName> (المتوفى: 1314هـ)</tei:p>
+                <tei:p change="#d2e73">الناشر: دار كتبخانة للنشر والتوزيع، مصر</tei:p>
+                <tei:p change="#d2e73">الطبعة: الأولى -طبق الأصل-، 1985 م</tei:p>
+                <tei:p change="#d2e73">عدد الأجزاء: 1</tei:p>
+                <tei:p change="#d2e73">[ترقيم الكتاب موافق للمطبوع]
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P2.xhtml"
+                   ed="shamela"
+                   n="n1-p1"/>
+                    مجلة الأستاذ</tei:p>
+                <byline change="#d2e150">(جريدةٌ علميةٌ تهذيبيةٌ فكاهيةٌ)</byline>
+            </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

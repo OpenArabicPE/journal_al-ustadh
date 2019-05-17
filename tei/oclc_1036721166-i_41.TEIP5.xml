@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ar">مجلة الأستاذ</title>
+                <title type="sub">TEI edition</title>
+                <editor xml:lang="ar">
+                    <persName>
+                  <persName>عبد الله النديم</persName>
+               </persName>
+                </editor>
+                <tei:respStmt xml:lang="en">
+                    <tei:resp>TEI edition</tei:resp>
+                    <tei:persName xml:id="pers_TG">
+                        <tei:forename>Till</tei:forename>
+                        <tei:surname>Grallert</tei:surname>
+                    </tei:persName>
+                </tei:respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Unpulished TEI edition</p>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="ar">
+                        <monogr xml:lang="ar">
+                            <title level="j" xml:lang="ar">الأستاذ</title>
+                            <title level="j" xml:lang="ar-Latn-x-ijmes">al-Ustādh</title>
+                            <idno type="jid" xml:lang="ar">106</idno>
+                            <idno type="OCLC">1036721166</idno>
+                            <textLang mainLang="ar"/>
+                            <editor xml:lang="ar">
+                                <persName ref="oape:pers:2807 viaf:72750911" xml:lang="ar">
+                                    <forename xml:lang="ar">عبد الله</forename>
+                                    <surname xml:lang="ar">النديم</surname>
+                                    <addName type="nisbah" xml:lang="ar">الإدريسي</addName>
+                                </persName>
+                            </editor>
+                            <imprint xml:lang="ar">
+                                <publisher/>
+                                <pubPlace xml:lang="ar">
+                                    <placeName xml:lang="ar" ref="geon:360630">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630">Cairo</placeName>
+                                </pubPlace>
+                                <!-- this is seems to be the first issue -->
+                                <date when="1892-08-24" xml:lang="ar">24 أغسطس 1892</date>
+                            </imprint>
+                            <!-- <biblScope unit="issue" xml:lang="ar">العدد رقم 1</biblScope> -->
+                        </monogr>
+                    </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+         <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
+         <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
+            <change change="d2e82" when="2019-05-17" who="#pers_TG" xml:lang="en">Converted the mark-up of 
+                <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>
+                s from 
+                <gi>p</gi>
+                s divided by a 
+                <gi>gap</gi>
+                to 
+                <gi>l</gi>
+                of 
+                <att>type</att>
+                ="bayt" comprising two 
+                <gi>seg</gi>
+                nodes.</change>
+            <change when="2019-05-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of 
+                <tei:gi xml:lang="en">tei:lb</tei:gi>
+                into 
+                <tei:gi xml:lang="en">xml:p</tei:gi>
+                s.</change>
+            <change when="2019-05-17" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of 
+                <tei:gi xml:lang="en">tei:head</tei:gi>
+                into 
+                <tei:gi xml:lang="en">xml:div</tei:gi>
+                s.</change>
+            <change when="2019-05-17" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
+        </revisionDesc>
+    </teiHeader>
+   <tei:text xml:lang="ar">
+      <pb
+          corresp="../epub/shamela_35118/OEBPS/xhtml/P983.xhtml"
+          ed="shamela"
+          n="n1-p985"/>
+      <tei:body>
+         <tei:div
+                  change="#d2e64"
+                  subtype="article"
+                  type="item">
+                <head>العدد 41</head>
+                <dateline>- بتاريخ: 
+                    <date when="1893-08-03">1893-08-03</date>
+            </dateline>
+            </tei:div>
+         <tei:div
+                  change="#d2e64"
+                  subtype="article"
+                  type="item">
+                <head>محمدةٌ عُدت مذمة</head>
+                <tei:p change="#d2e73">لا يخفى على أهل العلم أن الزجل من أبواب الشعر كالدوبيت والقوما وكان وكان والموشح موقد تناظر به كثير من الشعراء وافتخر بأحكامه بعض الأدباء حتى عدت صناعته أصعب من قرض الشعر إذا كان مشتملاً على المعاني الغريبة مسبوكاً في قوالب لطيفة فالتفنن فيه من محامد الشعراء لا من مذامّهم وقد كنت أحاول نظم شيء منه في الأيام الخالية فيتعاصى لعدم الباعث ثم اتفق لي أني كنت بمولد سيدي أحمد البدوي رضي الله تعالى عنه سنة 1294 هجرية وكان معي السيد علي أبو النصر والشيخ رمضان حلاوة والسيد محمد قاسم والشيخ أحمد أبو الفرج الدمنهوري فجلسنا على قهوة الصباغ نتفرّج على أديب وقف يناظر آخر فلما فطن أحدهما لانتقادنا عليهما استأنف أخاه إلينا وخصانا بالكلام فأخذا يمدحاننا واحداً فواحداً إلى أن جاء دورهم إليَّ فقال أحدهما يخاطبني
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P984.xhtml"
+                   ed="shamela"
+                   n="n1-p986"/>
+                    أنعم بقرشك يا جندي 
+                    <gap resp="#org_MS"/>
+                    وإلاّ اكسنا أمال يا أفندي</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>إلا لا وحياتك عندي</tei:seg>
+                        <tei:seg>بقي لي شهرين طول جيعان</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقلت على سبيل المزح معه</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أما الفلوس أنا مدّبشي</tei:seg>
+                        <tei:seg>وأنت تقول لي ما مشيشي</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>يطلع عليَّ حشيشي</tei:seg>
+                        <tei:seg>أقوم أملَّص لك لِودان</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">ثم أخذنا نتبادل الكلام نحو ساعة حتى غلباً عند ما فرغ محفوظهما فلما قمنا وتوجهنا منزل المرحوم شاهين باشا وكنا نازلين عنده جميعاً أخبره السيد على أبو النصر بما كان مني مع الأديبين فلما أصبحنا استدعى شاهين باشا شيخ الأدبية وطلب منه أن يستحضر أمهر الأدبية عنده ووعده أنهم أن غلبوني يعطهم ألف قرش وأن غلبتهم يضرب كل واحد منهم عشرين كرباجاً فرضي بذلك واستحضر الشيخ داود والحاج إسماعيل الشهيرين بعمل الزجل وإنشاده ارتجالاً في أي غرض واستحضر معهما ستة من أشهر الحفظة المقتدرين على ارتجالاً في أي غرض واستحضر معهما ستة من أشهر الحفظة المقتدرين على الارتجال أيضاً وعقد الباشا لذلك مجلساً إمام بيته بطنطا وأجلسني بينه وبين المرحوم جعفر باشا مظهر وقد وقف الناس أُلوفاً والعساكر تدفعهم عنا ثم ابتدأ الشيخ فقال:</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أول كلام حمد الله</tei:seg>
+                        <tei:seg>ثم الصلاة على الهادي</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>ماذا تريد يا عبد الله</tei:seg>
+                        <tei:seg>قدَّام أميرنا وأسيادي</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقلت</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أنا أريد أحمد ربي</tei:seg>
+                        <tei:seg>بعد الصلاة على المختار</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">وإن كنت تطمع في أدبي 
+                    <gap resp="#org_MS"/>
+                    أسمعك حسن الأشعار
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P985.xhtml"
+                   ed="shamela"
+                   n="n1-p987"/>
+                    فقال</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>دعنا من الأدب المشهور</tei:seg>
+                        <tei:seg>وأدخل بنا باب الدعكه</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>ندخل على أسيادنا بسرور</tei:seg>
+                        <tei:seg>ونغنم الخير والبركه</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقلت</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>هياّ احتكم في البحر وشوف</tei:seg>
+                        <tei:seg>فن النديم ولاّ فنك</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>دلوقت تسمع يا متحوف</tei:seg>
+                        <tei:seg>أحسن أدب وحياة دقنك</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقال هات مدح في الحضرة على قد:</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>تعمل عمايلك يا منصان</tei:seg>
+                        <tei:seg>يابو الشفيفه العسليه</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>يا صاحب الحجل الرنان</tei:seg>
+                        <tei:seg>ودي الأمور الحيِليه</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>ماذا تريد من دي الولهان</tei:seg>
+                        <tei:seg>قل لي وأسعف</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أحسن أنا من خمر الحان</tei:seg>
+                        <tei:seg>قصدي أرشف</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>وإن كنت تسمح يابو الخير</tei:seg>
+                        <tei:seg>يبقى الوصال الدّواليه</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقلت</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>المجلس العالي محمود</tei:seg>
+                        <tei:seg>فيه الأمارا والأعيان</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>واليومُ دا يومٌ مشهود</tei:seg>
+                        <tei:seg>خلعت عليه حلة إحسان</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>شاهين باشا فيه موجود</tei:seg>
+                        <tei:seg>حظو أزهر</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أما المدير هذا المسعود</tei:seg>
+                        <tei:seg>جعفر مظهر</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>فإنه في الناس معدود</tei:seg>
+                        <tei:seg>من ضمن أرباب العرفان</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">دور</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>مجلس عليه حسن مهابه</tei:seg>
+                        <tei:seg>كأنه مجلس سلطان</tei:seg>
+                    </tei:l>
+                <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P986.xhtml"
+                   ed="shamela"
+                   n="n1-p988"/>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>والحاضرين أهل نجابه</tei:seg>
+                        <tei:seg>وينقدوا قول الإنسان</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>اترك بقي شرب الغابه</tei:seg>
+                        <tei:seg>وأنشد نسمع</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>وإن كان تغني بربابه</tei:seg>
+                        <tei:seg>تطرب مجمع</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>حسن الكلام مثل سحابه</tei:seg>
+                        <tei:seg>تمطر على شجر البستان</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقال</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>القصد منك يانديمنا</tei:seg>
+                        <tei:seg>تعمل زجل هِيله بِيله</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>إلا أنت دلوقت غريمنا</tei:seg>
+                        <tei:seg>قصدي أحدفك بالفلفيله</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>وإن كنت تجهل تقريمنا</tei:seg>
+                        <tei:seg>اسأل عنا</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أوعا تعيب في تكليمنا</tei:seg>
+                        <tei:seg>وأحذر منا</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أحسن أوديك لعظيمنا</tei:seg>
+                        <tei:seg>يشيّلك الفين شيله</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقلت</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أننا صغرا له نُونُو</tei:seg>
+                        <tei:seg>وفي الزجل منتش مجدع</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>اتبع نديم تلقى فنونو</tei:seg>
+                        <tei:seg>تأتيك من المعنى الابدع</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أما عظيمك وجنونو</tei:seg>
+                        <tei:seg>يأكل نفسه</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>وإن كان يعارض بمجونو</tei:seg>
+                        <tei:seg>يطلب عكسه</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>لأن فني وشجونو</tei:seg>
+                        <tei:seg>لكل متعنطظ يردع</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">وبعد أن دار الكلام بيني وبينه في كثير من هذا الوزن قام الشيخ داود وقال:</tei:p>
+                <tei:p change="#d2e73">قصدي أقولُ كلاماًيحكي لضمات الزهورهات أشجنا بنظام</tei:p>
+                <tei:p change="#d2e73">من فن كان وكان</tei:p>
+                <tei:p change="#d2e73">ادخل بنا لمعانكالبكر من خلف الستورفي قلب متحلٍّ
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P987.xhtml"
+                   ed="shamela"
+                   n="n1-p989"/>
+                    في النظم إلاتقان</tei:p>
+                <tei:p change="#d2e73">فقلت</tei:p>
+                <tei:p change="#d2e73">اسمع كلام نديممن طيه كل السرور وأعقل نصيحة حبر</tei:p>
+                <tei:p change="#d2e73">يدعوك للعرفان</tei:p>
+                <tei:p change="#d2e73">لا تستخف بخصم لو كان من أوهى الطيوروأصفح فكل صفوح</tei:p>
+                <tei:p change="#d2e73">يعلو على الأعيان</tei:p>
+                <tei:p change="#d2e73">وأخش اللئيم دواماًفاللؤْم داع للشرورواحفظ مودة حر</tei:p>
+                <tei:p change="#d2e73">في عهده ما خان</tei:p>
+                <tei:p change="#d2e73">لا تصطحب بوضيعينزلك عن سرج الظهوروأصحب أخيّ شريفاً</tei:p>
+                <tei:p change="#d2e73">وأطلب رضا الأخوان</tei:p>
+                <tei:p change="#d2e73">وأنزل ببيت كريمإن كنت ضيفاً في العبور واسمع سؤال فقير</tei:p>
+                <tei:p change="#d2e73">أودى به الحرمان</tei:p>
+                <tei:p change="#d2e73">هذى نصيحة حرقد جرب الدهر الجسورإن كان يعجب هذا</tei:p>
+                <tei:p change="#d2e73">أولا فخذ تبيان</tei:p>
+                <tei:p change="#d2e73">فالبحر بحر لآلٍإن قُلدت زانت نحوروالفكر فكر ذكيّ</tei:p>
+                <tei:p change="#d2e73">لا يعرف النسيان</tei:p>
+                <tei:p change="#d2e73">فأعرض عن كان وكان عجزاً منه وقال هات فخراً على؟؟</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>يا صبا نجد ورامه</tei:seg>
+                        <tei:seg>هجت للمشتاق وجدا</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>كل صبّ في غرامهُ</tei:seg>
+                        <tei:seg>ما اشتكى في الليل سهداً</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>عنفوني عذبوني</tei:seg>
+                        <tei:seg>ذقت في التعذيب شهداً</tei:seg>
+                    </tei:l>
+                <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P988.xhtml"
+                   ed="shamela"
+                   n="n1-p990"/>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>والهوى أحرق ضرامه</tei:seg>
+                        <tei:seg>كل أحشائي وقلبي</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقلت</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>فخر مثلي في بيانُه</tei:seg>
+                        <tei:seg>والغبي يفخر بمالهُ</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>والأدب أحسن صفاتي</tei:seg>
+                        <tei:seg>فالذكي حسنوُ كماله</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>واللبيب يظهر بعلمو</tei:seg>
+                        <tei:seg>والغلام مجده جماله</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>كل قول المرء يفنى</tei:seg>
+                        <tei:seg>غير محمود المآثر</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقال</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>فخر مثلي في نكايت</tei:seg>
+                        <tei:seg>تضحك الشيخ العبوس</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>ألحس المعنى برجلي</tei:seg>
+                        <tei:seg>وأشرب القول بالكؤُس</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>لا تلم من قال حظي</tei:seg>
+                        <tei:seg>وائتناسي بالفلوس</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>لا تقل زيد وعمرو</tei:seg>
+                        <tei:seg>ليس في النحو مفاخر</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقلت</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>الفلوس حظ المفلس</tei:seg>
+                        <tei:seg>والجعيدي والحرامي</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>والعلوم روض الأكابر</tei:seg>
+                        <tei:seg>لطفها في العقل نامي</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>والمضاحك والمساخر</tei:seg>
+                        <tei:seg>مالها دخل فْ كلامي</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>كل مضحك بين قومو</tei:seg>
+                        <tei:seg>مسخره للمجد خاسر</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقال</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>ساعة الحظ وحيده</tei:seg>
+                        <tei:seg>عند محبوب وحان</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>لا أُبالي يوم أُنسي</tei:seg>
+                        <tei:seg>بالمعاني والبيان</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>منتهى قصدي فلوس</tei:seg>
+                        <tei:seg>تملأ البيت بالأوان</tei:seg>
+                    </tei:l>
+                <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P989.xhtml"
+                   ed="shamela"
+                   n="n1-p991"/>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>إن كيسي أن كيسي</tei:seg>
+                        <tei:seg>مجمع الدنيا ولآخر</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقلت</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>كل ما في الكيس بفارق</tei:seg>
+                        <tei:seg>يادَوُد فاسمع وفكر</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>والفخار والمجد كلوُّ</tei:seg>
+                        <tei:seg>في العلوم فاطلب وبكّر</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>وإن تكن شيخ حق عالمٍ</tei:seg>
+                        <tei:seg>فامش بين الناس وذكر</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>تحي كل الناس بعملك</tei:seg>
+                        <tei:seg>بل ترى المجموع شاكر</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">وبعد مبادلة الكلام في هذا الوزن نحو نصف ساعة قال هات عزلاً على قد:</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>مدود حمارك مطرحو في الغيط</tei:seg>
+                        <tei:seg>في جنب بستان الأمير</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>وإن كان يجي لك لدارك أربطو في الحيط</tei:seg>
+                        <tei:seg>أحسن يبرطع في الحمير</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>وإن كان مكسر فأنو يمنعك مِن الميط</tei:seg>
+                        <tei:seg>وقت السفر في الهجير</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أوعا حمارك يا فتى أوعاه</tei:seg>
+                        <tei:seg>أحسن ما تمشي عَ القدم</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">فقلت</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>من يوم عرفتك والفؤَاد ولهان</tei:seg>
+                        <tei:seg>في حسنك الزاهي النصير</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>والخد من دمع العيون ريان</tei:seg>
+                        <tei:seg>تجري عليه كالغدير</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أبيت ليلي بالأرق سهران</tei:seg>
+                        <tei:seg>بين الكراسي والسرير</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>وكل وِردي في الدجى آه آه</tei:seg>
+                        <tei:seg>من يستطع من يصبرِ</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">دور</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>قلبي المعذب في لهيب الخدود</tei:seg>
+                        <tei:seg>والوجد في الأحشا جحيم</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بالله من أوراك باب الصدود</tei:seg>
+                        <tei:seg>لقتل مضناك العديم</tei:seg>
+                    </tei:l>
+                <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P990.xhtml"
+                   ed="shamela"
+                   n="n1-p992"/>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أين الوفا يا منيتي بالوعود</tei:seg>
+                        <tei:seg>ورقة القلب الرحيم</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أواه من نار الجفا أوّاه</tei:seg>
+                        <tei:seg>لو يعشق الريم يعذرِ</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">دور</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>قد كان لي سعد السعود خدام</tei:seg>
+                        <tei:seg>لما التقينا في الطريق</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>وقلت بالحاجب أروح قدام</tei:seg>
+                        <tei:seg>وأنت ورايا يا صديق</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>فصرت أنظر للقوام القوام</tei:seg>
+                        <tei:seg>وعادل القد الرشيق</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>حتى ملكت الروح وأروحاه</tei:seg>
+                        <tei:seg>لو يرجع اليوم ينظرِ</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">دور</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>قال المدلَّع عاشقي ما الحال</tei:seg>
+                        <tei:seg>جفني جرح منك الفؤَاد</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>طم من شجي مثلك سباه الحال</tei:seg>
+                        <tei:seg>حتى غدا خصم الرقاد</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>قلت أرحمو من في التصابي مال</tei:seg>
+                        <tei:seg>عن كل أبواب الرشاد</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>قال أن ترم مني الوصال وصفاه</tei:seg>
+                        <tei:seg>هات اليمين الأكبر</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">ثم طلبت منه أن يأتي باليمين من هذا الوزن فوقف فقصدت الحاج إسماعيل فوقف فطلبت من الستة فوقفوا فقال المرحوم شاهين باشا نحسبها لك واحدة ثم قال الشيخ هات غزلاً بمعنى بديع على قد:</tei:p>
+                <tei:p change="#d2e73">اهيف رشقني بقوام مثل المران والوجد عذبني بناره</tei:p>
+                <tei:p change="#d2e73">فقلت له أقول تحميلة وتقولون أخرى من جنسها فقال هات فقلت:</tei:p>
+                <tei:p change="#d2e73">يأهل الصبابا يا عشاق سلوا المشتاق فالعشق مالو غير أهلُه</tei:p>
+                <tei:p change="#d2e73">فوقف الجميع ولم يستطع واحد منهم الدخول معي في هذا المضيق فقلت ومشيت إلى آخر الأدوار الآتية:
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P991.xhtml"
+                   ed="shamela"
+                   n="n1-p993"/>
+                    أشكو إليكم أحزانيبل هجرانيمن أهيف صادني نبُله</tei:p>
+                <tei:p change="#d2e73">أهيف بنظره في خدهخدني عبدهوجت سقامي تشهد له</tei:p>
+                <tei:p change="#d2e73">وأدمعي نزل تجريتنظر صدريرأت فؤَادي بيرقص له</tei:p>
+                <tei:p change="#d2e73">قالت لو اتلفت عيونيقال سيبونيسيد الملاح يعرف شغله</tei:p>
+                <tei:p change="#d2e73">ما دمت إني في رقهياخد حقهوأن مال لعتقي من أصله</tei:p>
+                <tei:p change="#d2e73">أنا خديم ولاّ أكترالله أكبرالعشق ما ينكر فضله</tei:p>
+                <tei:p change="#d2e73">العشق ترياق الأرواحوياّ الأشباحوَنضا الذي طاب لي نهله</tei:p>
+                <tei:p change="#d2e73">ما يعرف العشق الأجلافياهْل الأنصافما للعذول يكثر عذله</tei:p>
+                <tei:p change="#d2e73">عاقل رأى مجنون يشربحتى يطربفراح شعوره مع عقله</tei:p>
+                <tei:p change="#d2e73">ومال لعذلي يتفرَّجبل يدّرّجللعشق لما حان قتله</tei:p>
+                <tei:p change="#d2e73">ظن الغرام قصعة فنهفوقها حتهمن لحم قد طاب لو أكله</tei:p>
+                <tei:p change="#d2e73">لما رآه سلب الألبابخاف الأسبابوراح يعضعض في نعله</tei:p>
+                <tei:p change="#d2e73">وصرت وحدي متهنيأفضل أغنيللحب أن شخشخ حجله</tei:p>
+                <tei:p change="#d2e73">أرى النجوم والنار تكويقلبي المشويوالوجد كتفني بحبله</tei:p>
+                <tei:p change="#d2e73">قد بعت روحي للفتانمن غير أثمانوبعت ملكي من أجله</tei:p>
+                <tei:p change="#d2e73">كيف الخلاص والقلب كسيروالصب أسيروالجفن يجرحني بنصله</tei:p>
+                <tei:p change="#d2e73">والشهد في ثغر المحبوبهوّا المطلوبلكن أخاف قرصة نحله</tei:p>
+                <tei:p change="#d2e73">خالو يلوح كالشمسيةفي الظهريهوالخد نايم في ظله</tei:p>
+                <tei:p change="#d2e73">عزمت وجدي يتعشّىجوا الأحشافجِه بخيله مع رجله</tei:p>
+                <tei:p change="#d2e73">والصدر وسع لو النادييا أسياديوالكبد قامت تطبخ له
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P992.xhtml"
+                   ed="shamela"
+                   n="n1-p994"/>
+                    والعين كبت خمرتهامن فرحتهاوالقلب قابلنا بطبلُه</tei:p>
+                <tei:p change="#d2e73">قعد وربّع في صدريوالنار تجريمثل الصواريخ من حلوُله</tei:p>
+                <tei:p change="#d2e73">لما رأى روحي وجديأتلف كبديبعث رساله مع رُسله</tei:p>
+                <tei:p change="#d2e73">يقول يا مسكين مالكبين حالك عسى يكون عندي حله</tei:p>
+                <tei:p change="#d2e73">فقلت يا سيد عبدكمن نار خدك حرق اللهيب جسمه كله</tei:p>
+                <tei:p change="#d2e73">أخذت حبيب قلبي النخوهبعد القسوهوجا يغازلني بدلّه</tei:p>
+                <tei:p change="#d2e73">خطر ولكن في قلبيبهجة لبيوجاد لمسكيغو بوصله</tei:p>
+                <tei:p change="#d2e73">من فرحتي هرولت أبكيمن غير ما شكيوالدمع من كترو بلّه</tei:p>
+                <tei:p change="#d2e73">حركت قلبو للرحمهمن دي الفحمهفجاد بياسمينو وفُلّه</tei:p>
+                <tei:p change="#d2e73">فقلت أحييت الفاني يا إنسانيالله يجازيك بفضله</tei:p>
+                <tei:p change="#d2e73">وكان ما يرجو العاشقغير الفاسقوالسر لا يحسُن نقله</tei:p>
+                <tei:p change="#d2e73">وإلى هنا صفق الباش والحاضرون ثم عدنا للزجل المعتاد بما يطول ذكره فإن الشيخ رمضان كتب من زجل هذا المجلس خمسة كراريس وكله محفوظ عندنا لم يضع منه شيء وقد استمرت هذه المناظرة ثلاث ساعات فرجل تكون بديهته هكذا لا يذم بمجلس كهذا بل يمدح فإنه قل أن يدخل معه قوّال في هذا المضيق البديهي ولو أن أصحاب المقطم يعلمون حقيقة هذا المجلس ما قبلوه من المكاتب على أنه ذم فإنه من أحسن ضروب المدح والفخر أما مسألة المنصورة فسنأتي عليها في عدد آخر فإنها لا تقل عن هذه بل تزيد لما فيها من بداهة الشعر الجيد في مجلس خاص بالشعراء وما دعانا لهذا البيان إلا لكون هذه الحالة محمدة عدت
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P993.xhtml"
+                   ed="shamela"
+                   n="n1-p995"/>
+                    مذمة. ولقد عدل المرحوم شاهين باشا عن ضرب الأدبية وأعطاهم خمسة جنيهات وقد شهد هذا المجلس عدد لا يحصى وناهيك بمجلس يعقد في الشارع في المولد الكبير وقد قلبنا فيه أوزان الزجل وتكلمنا في فنون الشعر الثمانية مع الإسهاب في القول وكنا إذا دخلنا في باب الزجل العادي يتكاثر عليّ جميع الأدباء بسرعة غريبة ومع ذلك فإني لم أقف معهم في شيء وكانت الشروط أن من تنحنح أو بلع ريقه أو سكت بعد فراغ صاحبه عد مغلوباً وقد تناقل الناس هذا المجلس وما قيل فيه حتى بلغ حد التواتر وحفظ بعض الشراء كثيراً من أحماله الأدبية والبديهة تدفع عنا اعتراض مكاتب عاجز عنها فإنها مزلق أقدام فحول الشعراء ومحل أحجام كثير من الأدباء.</tei:p>
+            </tei:div>
+         <tei:div
+                  change="#d2e64"
+                  subtype="article"
+                  type="item">
+                <head>تابع حفظ الصحة</head>
+                <tei:p change="#d2e73">للدكتور أحمد أفندي ذكي المصري</tei:p>
+                <tei:p change="#d2e73">وإنما الواجب فعله هو أنه متى شوهد انسداد إحدى الفتحات الخلفية يرسل الطفل إلى الطبيب ليجري فتحها خوفاً من امتصاص الخلط الذي يخرج منها كالبراز مثلاً في حال انسداد الشرج والبول في حال انسداد مجرى البول. وقد يولد الطفل مصاباً ببعض أمراض كالرمد الصديدي البلينوراجي والليكوري والزهري والدرن والسرطان والفتوق. أما الرمد الصديدي فيعرف بحصول احمرار الأجفان وانتفاخها ثم يحصل إفراز من مادة صديدية لو بحثت بالنظارة المعظمة لوجد فيها الميكروب (كائن حي مولد للمرض) المسمي اسنافيلوكوكيس أي ذات الرأُس ومتى استمر هذه الأعراض تصاب القرنية فتلتهب وتتقرح ويحصل فتق قرحي ثم ينتهي الأمر بفقد الأبصار أن لم يتدارك
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P994.xhtml"
+                   ed="shamela"
+                   n="n1-p996"/>
+                    بالمعالجة وفي هذا المرض يحصل ألم ناخس شديد للأطفال يجبرهم على الصياح الدائم والمشاهد أن هذا الرمد يقطع أدواره الثلاثة وهي دور الهجوم ودور الارتقاء ودور الانحطاط بكل سرعة بحيث لا يمكن تمييز أحدها عن الآخر فيجب على أهل هؤلاء الأطفال المبادرة بمعالجتهم ويكون ذلك باستعمال الغسيل المتكرر بالماء المرشح أو المضاف إليه قليل من عصارة الليمون ويمس باطن الأجفان بمحلول خفيف لعصارة الليمون والأحسن إرسال الطفل إلى طبيب ماهر يفعل له المس بمحلول نترات الفضة أو والغسيل المتكرر بمحلول حمض البوريك أو السليماني أو وأسباب هذا الرمد لم تعلم إلى الآن وبعضهم قال أنه يصيب الأطفال الآتين من أُمهات مصابات بسيلان نوعي ومع ذلك فقد شوهد هذا المرض في أطفال آتين من أمهات خاليات من هذا المرض ونسب إلى وساخة أيدي القابلات ولكن بعد اعتنائهن بتنظيف أيديهن لم تزل تصاب به الأطفال فنسب إلى الكؤل وما شاكله من المواد المهيجة التي تستعملها أهالي بعض البلاد لتنظيف الطفل وهذا أيضاً غير مقبول والجمهور يقول أنه مرض يأتي من العدوى ومتى وجد ميكروبه في العين أحدث الأعراض السابق ذكرها. وحيث أنه معد فيجب بعد الأطفال عن الطفل المصاب به وكذلك يبعد غيرهم من المتقدمين سناً ويعتني بالنظافة جيداً ويمنع الذباب من وصوله إلى عين الطفل المصاب فإنه يحمل برجليه القذى المحتوي على الأصل المعدي ويوصله إلى عين شخص آخر.</tei:p>
+                <tei:p change="#d2e73">أما الرمد البلينوراجي أي الآتي من السيلان النوعي فإنه يأتي للطفل حال ولادته إذا كانت أُمه مصابة بسيلان نوعي وأعراضه كأعراض الرمد
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P995.xhtml"
+                   ed="shamela"
+                   n="n1-p997"/>
+                    الصديدي ويحتوي على ميكروب يسمى جوتوكوكيس وهذا الرمد أكثر شدة وألماً من الرمد الصديدي ومواد إفرازه أقل ميوعة من الأول وإتلافه للعين أن أهمل يكون في زمن أقل من زمن الصديدي ومعالجته كمعالجته - أما الرمد الليكوري أي الآتي من السيلان الأبيض فإنه يصيب الطفل حال ولادته متى كانت أُمه مصابة بسيلان أبيض وأعراضه أخف من أعراض الصديدي والبلينوراجي والمعالجة واحدة.</tei:p>
+                <tei:p change="#d2e73">أما لزُهري الوراثي فإنه أما أن يصاب به الطفل في الرحم ويولد به وأما أن يصاب به بعد الولادة بأسابيع أو أشهر وقد لا يظهر إلا في سن البلوغ ويصاب الجنين به إذا كانت الأم مصابة به حال تكوُّن البيضة وإذا كان أبوه هو المصاب فيأتي للجنين حال تلقيح المنيّ للبيضة التي يتخلق منها لجنين أي أنه يكون في المنيّ نفسه وقد تصاب الأم بالزهري قبل الولادة ببعض أيام وتظهر عندها القرحة في مزلق الطفل فند نزول الجنين يحتك بالقرحة ولرقة جلده يدخل الفيروس الزهري في جسده فيصاب به وقد يتفق إصابة الأبوين معاً أو أحدهما بالزهري ولا يصاب به الجنين وذلك إذا كانت إصابة الوالدين قديمة جداً. وإذا ولد الجنين مصاباً به تظهر عليه هيئة حويصلات نفاطية خصوصاً في أخمص القدمين وراء حتى اليدين ثم تتفجر وتترك الجلد متعرياً وقد يصحب ذلك طفح زهري يمتد إلى أعضاء التناسل فيحدث تشققا في الشرج يحصل منه ألم للطفل وقت التغوط وقد تتولد لطخ مخاطية في الفم فيعسر إرضاع الطفل وضحكه وبكاؤُه وقد يحصل تقرحات متسعة في الجلد أو الأغشية المخاطية فتتآكل وتتآكل معها الأنسجة حتى تصل إلى العظم
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P996.xhtml"
+                   ed="shamela"
+                   n="n1-p998"/>
+                    ويعالج الزهري الوراثي بدلك الجسم بالمرهم الزئبقي بأن تؤخذ منه قطعة قدر القمحة ويدلك بها الفخذ الأيمن ابتداءً دلكاً جيداً وفي اليوم الثاني يدلك الفخذ الأيسر مثلاً وفي اليوم الثالث يدلك الزراع الأيمن وهكذا ثم يعطي هـ من الباطن المركبات الزئبقية كالزئبق الحلو أو السليماني أو ثاني يودور الزئبق أو ألخ ويغيّر على القروح بحسب ما يناسبها ويلزم استحمام الطفل الآتي من أبوين زهريين يومياً لأن النظافة تسهل التبخير الجلدي بإزالتها الأوساخ التي لو تراكمت لهيجت الجلد المستعد للتقرح أو التسلخ من أقل سبب. ويجب تجنب العادة القبيحة</tei:p>
+                <tei:p change="#d2e73">المستعملة في مصر وهي عدم غسل الطفل الآتي من أبوين زهريين إلا بعد مضي سنة فإنها من أضر العادات إذ لا يخفى أنه يعدم الغسيل تتراكم الأوساخ على الجلد فيمتنع التنفس الجلدي فيتراكم حمض الكربونيك فيتلف الدم فيحدث فساد في التغذية العمومية للأنسجة فيضعف الطفل ويصير عرضة لظهور أعراض الزهري الخبيث وبمخالطة الأوساخ للجلد يصاب الطفل بجميع الأمراض الجلدية أيضاً.</tei:p>
+            </tei:div>
+         <tei:div
+                  change="#d2e64"
+                  subtype="article"
+                  type="item">
+                <head>باب الأدبيات</head>
+                <tei:p change="#d2e73">نفتح هذا الباب بكتاب نضعه للمطارحة ترويحاً للنفوس وقد وضعنا له المقدمة الآتية ليكون مستقلاً عند الفراغ منه وهي</tei:p>
+                <tei:p change="#d2e73">بسم الله الرحمن الرحيم</tei:p>
+                <tei:p change="#d2e73">بعد حمد الله تعالى والصلاة والسلام على أشرف رسله سيدنا محمد وعلى
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P997.xhtml"
+                   ed="shamela"
+                   n="n1-p999"/>
+                    آله وصحبه فهذا كتاب أفقر العباد إلى مولاه الكريم. <persName>عبد الله النديم الإدريسي الحسني الأشعري</persName>. الشافعي الخلوتي الأسكندري. سميته نظم (ألف باب لمطارحة الألباّ). ورتبته على حروف أب ت ث ألخ ملتزماَ بدء كل بيت بحرف بابه آتيا بالقافية على بقية الحروف غير ملتزم بحراً من أبحر الشعر لما في ذلك من السآمة والملل ورمي المطارح بأنه يحفظ قصيدة واحدة ولم ألتزم التزام الارتقيات لما فيها من التكلف ولمنع دخولها في المطارحة سالكاً بالنظم مسلك الأمثال في غالبه وقد آتى في بعضه بمدح أو غزل أو هزل ترويحاً للنفس مذيلاً كل حرف من الحروف العشرة القليلة الاستعمال بعشرين بيتاً والحروف هي ث خ ذ ز ش ص ض ط ظ غ وبإتمام نظمه يكون مجموع ما فيه 1041 بيتاً وهي كفاية لمجالس متعددة خصوصاً إذا ضم إليها ما يحفظه المطارح من غيرها وقد أخبرني شقيقي السيد عبد الفتاح أفندي النديم أنه رأى كتاباً للمرحوم العلامة الفاضل عبد الله باشا فكري في هذا الموضوع فكدت انثني عن عزمي لولا أنه قال أن ذلك من منقوله لا من مقوله كهذا فلذلك عدت للعزيمة وأنشدت</tei:p>
+                <tei:p change="#d2e73">حرف الألف</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>الحمد الله البديع الأول</tei:seg>
+                        <tei:seg>من انشأ الأكوان طُرا كيف شا</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أوحى إلى خير الورى قرآنه</tei:seg>
+                        <tei:seg>يهدي به الأكفار والألبابا</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أنواره كالشمس تهدي مؤمنا</tei:seg>
+                        <tei:seg>كي لا يرى في زمرة الأموات</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>آياته الحق المبين المرتضى</tei:seg>
+                        <tei:seg>من هديه تنأى العقول عن العبث</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أضرب بها شكاً وظناً واتبع</tei:seg>
+                        <tei:seg>للحق أمراً ترتقي أعلى درج</tei:seg>
+                    </tei:l>
+                <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P998.xhtml"
+                   ed="shamela"
+                   n="n1-p1000"/>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أحسن إلى الاعداء تجذب قلبهم</tei:seg>
+                        <tei:seg>واصفح عن الزلات تعرف بالسماح</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أن رمت أن تدري الوجود وما به</tei:seg>
+                        <tei:seg>جبُه بحسن قراءة التاريخ</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أيام سعدك فرصة فاجعل لها</tei:seg>
+                        <tei:seg>شكر الإله وسيلة تتجدد</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>إن كنت تدعى سيداً في معشر</tei:seg>
+                        <tei:seg>كن للجميع من الخطوب معاذا</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>اسأل عن الأحساب قبل الإصطفا</tei:seg>
+                        <tei:seg>واستفت فعل المرء تظفر بالخبر</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أقبل على الملهوف بالوجه الذي</tei:seg>
+                        <tei:seg>ترضاه إن كنت اللهيف المعُوِزا</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>اصبر على صرف الزمان فإنه</tei:seg>
+                        <tei:seg>أمر يدور على جميع الناس</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أكرم ذوي الهيئات عند سقوطهم</tei:seg>
+                        <tei:seg>وأرفعهمُ عن خطة الأوباش</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أشرب كؤُس الصبر أن</tei:seg>
+                        <tei:seg>رمت النجاة من الغصص</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أترك جميع الناس أن</tei:seg>
+                        <tei:seg>كنت الذي يخشى المرض</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أيام دهرك كلها</tei:seg>
+                        <tei:seg>تأتي على هذا النمط</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أدبار يوم واحد</tei:seg>
+                        <tei:seg>يُنسى النعيم وكلّ حظ</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أسأك من والى عدوك لحظة</tei:seg>
+                        <tei:seg>وسرك من زار الصديق بلا وجع</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أجرت إذا كنت الدليل لخائف</tei:seg>
+                        <tei:seg>يريد مجيراً عاقه الخصم أو بلغ</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أجب لم تسُد بالعلم أو أصل عزة</tei:seg>
+                        <tei:seg>أو الجود أو عقل فأنت رقيق</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أُصول مجدك لا تُعليك مرتبة</tei:seg>
+                        <tei:seg>وكل فعلك بين الناس متروك</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>إذا كتبت فأوجز مظهرا غرضاً</tei:seg>
+                        <tei:seg>وأجعل كتابك رأساً ما له ذيل</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أذاقك الفضل من أولاك مكرمة</tei:seg>
+                        <tei:seg>فكن شكوراً تحرك هِزّة الكَرَم</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أجد جوابك في وقت الجدال تسُد</tei:seg>
+                        <tei:seg>فجوهر اللفظ للألباب عنوان</tei:seg>
+                    </tei:l>
+                <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P999.xhtml"
+                   ed="shamela"
+                   n="n1-p1001"/>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>الطاف الله لها مَدد</tei:seg>
+                        <tei:seg>يأتيك لتنجو من شُبه</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>أقبل عذر المغلوب ولا</tei:seg>
+                        <tei:seg>تبخل بالعفو تنل صفوا</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>ابدأ أهل الإحسان بما</tei:seg>
+                        <tei:seg>يرضون تنل منهم أملا</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>اختم بالخير مطارحة</tei:seg>
+                        <tei:seg>واردد منشورك للطيّ</tei:seg>
+                    </tei:l>
+                </lg>
+                <tei:p change="#d2e73">حرف الباء</tei:p>
+                <lg change="#d2e82">
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>باسم الإله تسهّل الأشياء</tei:seg>
+                        <tei:seg>وتنال بعد إبائها العلياء</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بعث النبي مؤيداً في شأنه</tei:seg>
+                        <tei:seg>فدعا إليه ونور الألبابا</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بادت به زمر الردى وتعززت</tei:seg>
+                        <tei:seg>فرق الهدى بالنصر والآيات</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>باعوا النفوس فعوضوها جنة</tei:seg>
+                        <tei:seg>مُدت لها الأعناق من كل الجثث</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بالله أن السابقين تدرعوا</tei:seg>
+                        <tei:seg>بالصبر حتى أعدموا كل الهمج</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بات العذول بوصل الحب في خبل</tei:seg>
+                        <tei:seg>يقلب الفكر حتى جاءه الصبح</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بارت تجارة من يمشي على دغل</tei:seg>
+                        <tei:seg>بين الرجال ولم يرجع بتوبيخ</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بدر التمام وقد حفته هالته</tei:seg>
+                        <tei:seg>أدنى ارتفاعاً من المغمور بالمجد</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بعر الجمال على تلٍ بمزبلة</tei:seg>
+                        <tei:seg>أعلى اعتباراً من الغالي لأستاذ</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بادل الأفكار مصقول النهي</tei:seg>
+                        <tei:seg>تلتقط من رأيه أغلى الدرر</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>باطل الأقوال يردى ربه</tei:seg>
+                        <tei:seg>بين أهل الحق مارَى أو عجز</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بارز الشجعان وأحذر خدعةً</tei:seg>
+                        <tei:seg>وأسهر الداحي إذا كنت الحرَس</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>كل علم جاَء في سن الصبا</tei:seg>
+                        <tei:seg>فوق لوح الفكر يا صاح انتقش</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بعدتَ وقلبي بين جنبي خافق</tei:seg>
+                        <tei:seg>فإن ثبت الهجران طار من القفص</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بُقول أراضي النز يكره أكلها</tei:seg>
+                        <tei:seg>فإن أُكلت حُم المكابر وانتفض</tei:seg>
+                    </tei:l>
+                <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1000.xhtml"
+                   ed="shamela"
+                   n="n1-p1002"/>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بغيضك من تلقى الصدور بذكره</tei:seg>
+                        <tei:seg>تضيق فحاذر أن تكلفها الشطط</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بلاء جميع الناس في خطأ الحجا</tei:seg>
+                        <tei:seg>وصبحة أرباب البلادة والغلظ</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>برّ الوصول وجانب قاطعاً أشراً</tei:seg>
+                        <tei:seg>وألزم نصوحاً له في النصح إبداع</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بعد العلو إذا زاحمت من سفلوا</tei:seg>
+                        <tei:seg>سلواك عبد وصناع وصوّاغ</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بين النفوس وبين الفضل مضطرَم</tei:seg>
+                        <tei:seg>لايصطليه من الطلاب إجلاف</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بسم الحبيب رسول للوصال فإن</tei:seg>
+                        <tei:seg>أو ما بلحظ فقد حياك أشفافا</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>باب المعالي ظاهر</tei:seg>
+                        <tei:seg>لكنه فوق الفلك</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بحر المعاني زاخر</tei:seg>
+                        <tei:seg>من خاضه يأبى الملل</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>يظن الأماني واسع</tei:seg>
+                        <tei:seg>ما شقه إلا الهمم</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بيع المحيا بالُّلهي</tei:seg>
+                        <tei:seg>موت تعجله المنن</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>باذل الأموال فضلاً</tei:seg>
+                        <tei:seg>لا تُبخّله بمهْ</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بادر المأمول تغنم</tei:seg>
+                        <tei:seg>قبل أن تعييك لو</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بدّل السُوآى بحُسنى</tei:seg>
+                        <tei:seg>تلقى كل الناس أهلاً</tei:seg>
+                    </tei:l>
+                    <tei:l change="#d2e82" type="bayt">
+                        <tei:seg>بعد برءٍ من غرام</tei:seg>
+                        <tei:seg>لا تقل سُعدى ومَى</tei:seg>
+                    </tei:l>
+                </lg>
+            </tei:div>
+         <tei:div
+                  change="#d2e64"
+                  subtype="article"
+                  type="item">
+                <head>منقبة</head>
+                <tei:p change="#d2e73">من محاسن أمير المؤمنين وخليفة الله في أرضه سيدنا ومولانا السلطان عبد الحميد أيده الله تعالى صدور أمره السامي بصرف تسعين ألف قرش وخمسمائة برسم ترميم مقام ابن بينت رسول الله صلى الله تعالى عليه وسلم سيدنا ومولانا الحسين رضي الله عنه بكربلأ عناية منه بهذا الضريح الشريف
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1001.xhtml"
+                   ed="shamela"
+                   n="n1-p1003"/>
+                    الذي هو محل تنزلات الرحمة فنقدم الشكر للحضرة السلطانية الجليلة والثناء الدائم على الذات الشاهانية المنتشر ظلها في على الممالك العثمانية المحروسة أيدها الله تعالى. كذلك علمنا من أخبار نابلس أن عطوف تلو حسين أفندي متصرفها شرع في ترميم مسجد سيدنا زكريا وهو مسجد كائن بسبسطية من أعمال نابلس كان في العهد السابق كنيسة للسامرة وأخذه يوسف صلاح الدين وصيره مسجداً إلى الآن وهو بني بناءً محكماً بالأحجار الضخمة ولكن بابه الشرقي تهدم وكذلك الباب الغربي آيل للسقوط وقد بسطنا الكلام عليه في رحلتنا الشامية فتجديد هذا المسجد يعد من محاسن عطوفة المتصرف وقبر سيدنا زكريا في مغارة ينزل له بدرج ويقال أن جسد سيدنا يحيى معه فقد اشتهر أن رأسه الشريف بجامع دمشق وذراعه ببيروت وبقية جسده بسبسطية ويوجد قبر بمقبرة اليهود بالقدس الشريف على صورة هرمية تقول له العامة طرطور فرعون والبعض يقول أنه قبر سيدنا زكريا عليه السلام والصحيح أن قبره بسبسطية وحيث أن همة عطوفة المتصرف تعلقت بتجديد هذا المسجد الذي بنيت دور سبسطيته من أحجاره فنرجوه أن يجدد مسجد سيدنا يعقوب الكائن أما قبر سيدنا يوسف بنابلس على ما اشتهر فإن هذا المسجد تهدم ودفنت عمده في التراب ولكن بقي منها ثلاثة ظاهرة وأثر محرابه يرى بالعين وبجواره بئر يعقوب التي وقف عليها المسيح عليه السلام واستقى من السامرية كما هو منصوص في الإنجيل وقد اشترى بعض أهل نابلس قطعة ارض بجار هذا المسجد وجعلها بستاناً ولكنه أدخل قطعة منه وما يريد إلا إعفاء أثره فنرجو من جرائد طرابلس وثمرات الفنون وبيروت أن تنبه على
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1002.xhtml"
+                   ed="shamela"
+                   n="n1-p1004"/>
+                    ذلك وتستنهض همة عطوفة المتصرف للمحافظة على هذا الأثر القديم فإن ذلك مما يهم الأمم الثلاث الإسلامية والإسرائيلية والمسيحية وهو مسجد صغير يكفي لإقامته عشرون ألف قرش وعسى أن تتحرك همة بعض رجال الخير في الآستانة للعرض عن ذلك لأعتاب مولانا الخليفة الأعظم فإننا على يقين من صدور أمره العالي بتجديده أن رفع أمره إلى مسامعه الكريمة حفظه الله تعالى.</tei:p>
+            </tei:div>
+         <tei:div
+                  change="#d2e64"
+                  subtype="article"
+                  type="item">
+                <head>من أحد السوريين</head>
+                <tei:p change="#d2e73">صورة ما ورد لا من أحد نابغي السوريين المسيحيين بمدينة بطرسبورج عندما أرسلت إليه جريدة الأستاذ بناء على طلبه قال بعد العنوان</tei:p>
+                <tei:p change="#d2e73">بعد الإطلاع على مضمون العدد 35 من مجلتكم تحققت أنكم لا تزالون على خطتكم الوطنية العربية التي بها وبنشرها بني كل ناطق بالضاد يقطع النظر عن اختلاف الأديان والأخلاق حتى تتقدم الوحدة العربية وتقف أمام صدمات الأعداء من جميع الأوجه. هذا ولما كنت ممن يوافقكم قلباً وقالباً على هذا المبدأ الوطني ولا يتوخى سواه بعثت بهذه الدراهم (سبع روبلات روسية ثمن الفرد منها 14 قرشاً) طلباً للاشتراك بمجلتكم الغراء التي لابد أنها ستصبح آجلا أو عاجلاً آلة فعالة لبث هذه المبادئ الوطنية العربية بين أفراد الأمة العربية التي لا ينقصها أمر سوى جمع شتاتها تحت راية هذه الوحدة فالأمل م وطنيتكم المعروفة والمشهود بها حتى لدى أعدائكم أن تبعثوا لنا عند استلام هذا التحرير ما صدر وما سيصدر من أعداد مجلتكم الغراء لحولها الأول ونحن نعدكم بترويج مجلتكم بين الأهل والأحباب من إسلام ونصارى وذلك بحسب الاستطاعة ثم إرسال ما سطعنا كتابته من المقالات
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1003.xhtml"
+                   ed="shamela"
+                   n="n1-p1005"/>
+                    العلمية وغيرها مما يتعلق بالأمة العربية وما يوافق ذوق أبناء الشرق ومشتركيكم الأدباء إلى أخر كتابه والإمضاء محفوظ.</tei:p>
+                <tei:p change="#d2e73">فهذا الكتاب يرد على من ينسبون الأستاذ إلى التعصب الديني أو إلى تفريق الكلمة الشرقية فأعداده شاهدة بأنه ما حام حول هذا المقصد وما اختزله الغير منه إنما فعل مثل ما فعل رجل رأى في كتاب لعدوه أنه يعتقد أن لا إله إلا الله فقال ورأيت في كتابه أنه يعتقد ألا إله والحقائق لا تستر إلا بقدر ما ينجلي الحق ويظهر ظهور الشمس للعيان ولو قال هذا الفاضل أننا ننادي بحفظ الوحدة الشرقية من عرب وعجم وترك وجركس وكرد وأرمن وغيرهم على اختلاف الدين لأصاب الغرض فإننا ننادي بها لا بالجامعة العربية وحدها.</tei:p>
+            </tei:div>
+         <tei:div
+                  change="#d2e64"
+                  subtype="article"
+                  type="item">
+                <head>لا حر في الدنيا بل الكل رقيق</head>
+                <tei:p change="#d2e73">وردت لنا رسالة بهذا العنوان من إنشاء الكاتب الماهر مصطفى أفندي أحمد أحد المقبولين في امتحان اللجنة المستديمة قال:</tei:p>
+                <tei:p change="#d2e73">ما سود المداد وجه القرطاس بكلمة انخدع بها الإنسان مثل كلمة حرية التي اعتبرناها كلمة حق بغير ترو وأخذنا نبني عليها بيوتاً أو هي من العنكبوت وقاد التصور الوهمي بني الإنسان فأهدروا دماءهم خف هذه الكلمة المشؤمة مع أنها لا وجود لها إلاّ في الأوهام وقد أساء الكتاب والعلماء الذين بنوا عليها أموراً تخيلية ودليلنا على عدم وجدودها أن الكواكب السيارة وسيارة السيارة والثوابت (أي ثبوتاً نسبا لا إنها ثابتة بالفعل) لا تتحرك بذاتها ولا تثبت بذاتها بل الذي يدفعها للحركة عامل قائم بذاته وهو الجاذبية المخلوقة
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1004.xhtml"
+                   ed="shamela"
+                   n="n1-p1006"/>
+                    لله تعالى وهذا أمر لا ريب فيه فإذا كان كذلك كانت هذه العوالم خاضعة لقوة لا تقدر على مقاومتها فهي منقادة لها بحكم القهر والغلبة فهي رقيقة لا تعرف الحرية ولا تقرب منها. ونرى السحاب لا يسير إلا بحكم الهواء عليه فيمشي معه إنيّ سار ولا يمكنه مخالفته فهو عبد للهواء يسير بسيره. وإذا تأملنا حالة الهواء الناتج من دوران الأرض نجده يسير سيراً مستقيماً ما لم تعارضه قوة ثابتة كالجبال والسدود الخلقية فيكون الهواء منقاداً لقوتين قوة دفعه التي بها يسير وقوة الجبال التي تحوله من مجراه إلى مجرى آخر فهو رق لهاتين القوتين. وهكذا بقية العوالم نجدها منفعلة لفاعل قاهر متسلط عليها بالقهر والتسخير. والإنسان وجد على ظهر هذه البسيطة وأخذ يناضل عن الحرية ويدعى البعض أنه حر مطلق التصرف ولو أمعن النظر لوجد نفسه عبداً مقيداً بسلاسل العبودية لا يستطيع فراراً من سلطاتها ليس بينه وبين الحرية وصلة ولا فرق في ذلك بين الغني والفقير والملك والمملوك والصغير والكبير فإن الجميع مستورون في العبودية وهكذا الطيور والحشرات وجميع الحيوان والنبات. فإن قيل إننا لا نجد من الاستعباد شيئاً بل نحن أحرار قلنا أنتم مقيدون بقانون الآداب وعبيد لسلطان العلم أن كنتم علماء وأرقأ للمنكران أن كنتم جهلاء والكل عبد للجوع والعطش والحر والبرد والنوم والسهر والحب والبغضا والحزن والفرح والصحة والمرض وغير ذلك مما يطرأ على الإنسان فأولى بكم أن تنبذوا هذه الأوهام وتتحققوا أن لا حرية في الوجود فما فيه غير عبيد كلما تخلصوا من قيد ارتبطوا بقيد آخر وأن كان هناك من ذاق طعم الحرية خالياً من الطوارئ والعوارض فليأتنا بإنبائه إن كان
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1005.xhtml"
+                   ed="shamela"
+                   n="n1-p1007"/>
+                    من الصادقين.</tei:p>
+                <tei:p change="#d2e73">(الأستاذ) لم ينظر الكتاب للحرية من هذه الحيثية وإنما هم ينظرون إليها من حيث التصرفات الشخصية فإذا وجدوا أمة تبيح تمتع كل إنسان بماله وتصرفه في أقواله وأفعاله التي لا تمس القانون قالوا أنها أمة حرة تحب الحرية وأن رأوا أمة مستبدة تحب الانفراد بالرأي ولا تبالي بالظلم في جانب غرضها الذاتي قالوا أنها أمة ظالمة محبة الاسترقاق فلا تمكن أحداً من التصرف في أمواله وأقواله وأفعاله إلا إذا كان في ذلك فائدة لها وهذا الذي جرت فيه أقلام العلماء في تعريف الحرية الإنسانية وعلى هذا فالحرية توجد في أمة باعتبار قانونها الحر وتعدم في أخرى باعتبار استبدادها والكلام في هذا الباب كثير سبقنا لتحريره جمع من الفضلاء أما ما ذكرتموه من خضوع بعض العوالم إلى البعض الآخر فهذا أمر يتوقف النظام عليه فلا تصلح الناس فوضى ولا الطبائع مسترسلة بل لابد من قواسر تقف بها المنفعلات عند حدودها وحوافظ تربط العوالم ربط وقاية وانتظام وفعل الله تعالى منزه عن العبث فما من فاعل ومنفعل إلا ووجوده لحكمة تارة نعرفها وتارة نجهلها لغموضها عن إفهامنا فراجعوا أنفسكم في ارتباط السفلى بالعلوي وتوقف وجود هذا على سبق وجود ذاك تجدوا أن الحرية المرادة لكم في العوالم غير ممكنة لوقوع الكون في التشويش والتعاكس إذا انعدمت الروابط وكان كل شيء فاعلاً بذاته غير منفعل ولا متأثر بغيره فلابد من الارتباط والانفعال بالجذب والتأثر ذلك تقدير العزيز العليم.
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1006.xhtml"
+                   ed="shamela"
+                   n="n1-p1008"/>
+            </tei:p>
+            </tei:div>
+         <tei:div
+                  change="#d2e64"
+                  subtype="article"
+                  type="item">
+                <head>سؤال</head>
+                <tei:p change="#d2e73">هل يتيسر للأستاذ وضع جدول يتضمن أسماء الخلفاء ومددهم وأسنانهم ووفاتهم من سيدنا أبي بكر الصديق رضي الله تعالى عنه إلى آخر خيفة عباسي كان يمصر فإن أمكن ذلك فليتفضل بنشره وله الفضل محمود محمد بإسكندرية</tei:p>
+                <tei:p change="#d2e73">الجواب</tei:p>
+                <tei:p change="#d2e73">نعم أن ذلك متيسر على ما حرره المؤرخون فقد اعتنوا بشأن الخلافة والقائمين بها نم العرب إلى أن أفرغت إلى العائلة العثمانية التركية القائمة بأمر الأمة الآن ومن تحريرهم أخذ الجدول الآتي وفيه الجواب بأحسن بيان.</tei:p>
+                <tei:p change="#d2e73">مدة الولاية</tei:p>
+                <tei:p change="#d2e73">أيامشهورأعوامسنة الولايةسنة الوفاةالسناسم الشهرأسماء الخلفاء</tei:p>
+                <tei:p change="#d2e73">00 3 2 11 13 63 22 جمادى الأخرةأبو بكر الصديق رضي الله عنه أول الخلفاء قيل مسموم</tei:p>
+                <tei:p change="#d2e73">5 6 10 13 23 63 27 ذي الحجةعمر بن الخطاب رضي الله عنه شهيد</tei:p>
+                <tei:p change="#d2e73">22 11 11 23 35 80 15 ذي الحجةعثمان بن عفان رضي الله عنه شهيد</tei:p>
+                <tei:p change="#d2e73">00 9 4 35 40 63 رمضانعلي بن أبي طالب رضي الله عنه شهيد</tei:p>
+                <tei:p change="#d2e73">27 5 00 40 50 47الحسن بن علي رضي الله عنه مسموم بعد تنازله
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1007.xhtml"
+                   ed="shamela"
+                   n="n1-p1009"/>
+                    مدة الولاية</tei:p>
+                <tei:p change="#d2e73">أيامشهورأعوامسنة الولايةسنة الوفاةالسناسم الشهرأسماء الخلفاء</tei:p>
+                <tei:p change="#d2e73">00 03 19 41 60 75 غرة رجبمعاوية بن أبي سفيان</tei:p>
+                <tei:p change="#d2e73">00 06 03 60 64 35 ربيع الأوليزيد بن معاوية</tei:p>
+                <tei:p change="#d2e73">10 01 00 64 64 23معاوية بن يزيد خلع نفسه</tei:p>
+                <tei:p change="#d2e73">00 10 00 64 65 63 شهر رمضانمروان بن الحكم قتلته زوجته</tei:p>
+                <tei:p change="#d2e73">00 00 21 65 68 63 15 شوالعبد الملك بن مروان</tei:p>
+                <tei:p change="#d2e73">22 00 09 64 73 73عبد الله بن الزبير في وسط مدة عبد الملك</tei:p>
+                <tei:p change="#d2e73">00 07 09 86 96 42 15 جمادى الأخرةالوليد بن عبد الملك</tei:p>
+                <tei:p change="#d2e73">05 05 02 96 99 39 20 صفرسليمان بن عبد الملك</tei:p>
+                <tei:p change="#d2e73">00 05 02 99 101 40 رجبعمر بن عبد العزيز</tei:p>
+                <tei:p change="#d2e73">00 01 04 101 105 40 25 شعبانيزيد بن عبد الملك
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1008.xhtml"
+                   ed="shamela"
+                   n="n1-p1010"/>
+                    مدة الولادة</tei:p>
+                <tei:p change="#d2e73">أيامشهورأعوامسنة الولايةسنة الوفاةالسناسم الشهرأسماء الخلفاء</tei:p>
+                <tei:p change="#d2e73">21 09 19 105 125 55 6 ربيع الآخرهشام بن عبد الملك</tei:p>
+                <tei:p change="#d2e73">22 02 01 025 126 42 28 جمادى الأخرةالوليد بن يزيد ابن عبد الملك قتيل</tei:p>
+                <tei:p change="#d2e73">12 05 00 126 126 42 ذي الحجةيزيد بن الوليد بن عبد الملك</tei:p>
+                <tei:p change="#d2e73">10 02 00 126 127 00إبراهيم بن الوليد بن عبد الملك خلع</tei:p>
+                <tei:p change="#d2e73">10 02 05 127 132 56 27 ذي الحجةمروان بن محمد قتل</tei:p>
+                <tei:p change="#d2e73">00 08 04 132 136 33 13 ذي الحجةعبد الله السفاح أول خلفاء بني العباس من مدته ثمانية شهور كان يقتل فيها مروان</tei:p>
+                <tei:p change="#d2e73">06 11 21 136 158 63 6 ذي الحجةأخوهُ أبو جعفر المنصور أبن محمد بن علي بن عبد الله بن العباس بن عبد المطلب</tei:p>
+                <tei:p change="#d2e73">00 01 10 158 168 43 22 محرممحمد المهدي ابن المنصور
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1009.xhtml"
+                   ed="shamela"
+                   n="n1-p1011"/>
+                    مدة الولادة</tei:p>
+                <tei:p change="#d2e73">أيامشهورأعوامسنة الولايةسنة الوفاةالسناسم الشهرأسماء الخلفاء</tei:p>
+                <tei:p change="#d2e73">00 03 01 168 170 026 15 ربيع الأولموسى الهادي ابن المهدي قتله الجواري</tei:p>
+                <tei:p change="#d2e73">18 02 23 170 193 047 3 جمادى الأولىهارون الرشيد ابن المهدي</tei:p>
+                <tei:p change="#d2e73">05 08 04 193 198 028 24 محرممحمد الأمين ابن هارون قتل</tei:p>
+                <tei:p change="#d2e73">23 05 20 198 218 049 18 رجبعبد الله المأمون ابن هارون</tei:p>
+                <tei:p change="#d2e73">02 08 08 218 226 047 18 ربيع الأولالمعتصم بالله ابن هارون</tei:p>
+                <tei:p change="#d2e73">05 09 05 226 232 032 24 ذي الحجهالواثق بالله هارون ابن المعتصم</tei:p>
+                <tei:p change="#d2e73">03 10 14 232 247 040 4 شوالالمتوكل على الله جعفر ابن المعتصم قتله ابنة بواسطة خدمه</tei:p>
+                <tei:p change="#d2e73">02 06 00 247 248 025 25 ربيع الآخرأبو جعفر المنتصر ابن المتوكل بن المعتصم</tei:p>
+                <tei:p change="#d2e73">00 09 02 248 252 031 رمضانأحمد المستعين ابن محمد ابن المعتصم قتل بعد خلعه وعودته فصافي مدته ما ذكر
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1010.xhtml"
+                   ed="shamela"
+                   n="n1-p1012"/>
+                    مدة الولاية</tei:p>
+                <tei:p change="#d2e73">أيامشهورأعوام سنة الولايةسنة الوفاة السناسم الشهرأسماء الخلفاء</tei:p>
+                <tei:p change="#d2e73">23 06 04 252 255 024 2 شعبانمحمد المعتز ابن المتوكل خلع وقتل بما في مدته أيام وجوده في عهد المستعين</tei:p>
+                <tei:p change="#d2e73">15 11 00 255 256 038 18 رجبمحمد المهتدي ابن الواثق بالله قتل بعد تقطيع أطرافه</tei:p>
+                <tei:p change="#d2e73">00 06 23 256 279 050 19 رجبالمعتمد على الله أحمد ابن المتوكل</tei:p>
+                <tei:p change="#d2e73">13 09 08 279 289 047 22 ربيع الآخرأبو العباس المعتضد بالله أحمد ابن الموفق ابن المتوكل</tei:p>
+                <tei:p change="#d2e73">19 06 06 289 295 033 ذي القعدة أبو محمد المكتفي بالله على ابن المعتضد</tei:p>
+                <tei:p change="#d2e73">00 00 00 295 000 000أبو الفضل جعفر المتقدر ابن المعتضد ثم خلع</tei:p>
+                <tei:p change="#d2e73">01 00 00 296 296 050 20 ربيع الأول المنتصف بالله عبد الله ابن المعتز ابن المتوكل قتل ليومه</tei:p>
+                <tei:p change="#d2e73">00 00 00 296 317 000عود المقتدر بعد قتل ابن المعتز ثم خلع مرة ثانية</tei:p>
+                <tei:p change="#d2e73">02 00 00 296 296 000القاهر بالله محمد بن المعتضد خلع</tei:p>
+                <tei:p change="#d2e73">16 11 24 296 320 038 27 شوالعود المقتدر ثم قتل
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1011.xhtml"
+                   ed="shamela"
+                   n="n1-p1013"/>
+                    مدة الولاية</tei:p>
+                <tei:p change="#d2e73">أيامشهورأعوامسنة الولايةسنة الوفاةالسناسم الشهرأسماء الخلفاء</tei:p>
+                <tei:p change="#d2e73">08 06 01 320 322 00القاهر بالله محمد ابن المعتضد خلع وسملت عيناه</tei:p>
+                <tei:p change="#d2e73">10 10 06 322 329 32 15 ربيع الأولأبو العباس الراضي بالله أحمد ابن المقتدر بالله</tei:p>
+                <tei:p change="#d2e73">18 05 03 329 333 00 صفرإبراهيم المتقي لله ابن المقتدر خلع وسملت عيناه</tei:p>
+                <tei:p change="#d2e73">00 04 01 333 334 00 22 جمادى الآخرةأبو القاسم المستكفي بالله عبد الله ابن المكتفي بالله ابن المعتضد خلع وسملت عيناه</tei:p>
+                <tei:p change="#d2e73">00 05 29 334 363 00 15 ذي القعدة أبو القاسم المطيع لله الفضل ابن المقتدر</tei:p>
+                <tei:p change="#d2e73">06 08 17 363 381 76أبو الفضل عبد الكريم الطائع لله ابن المطيع لله خلع ومات بعد خلعه بمدة</tei:p>
+                <tei:p change="#d2e73">20 03 41 381 422 86 ذي الحجة أبو العباس القادر بالله أحمد ابن اسحق ابن المقتدر</tei:p>
+                <tei:p change="#d2e73">00 08 44 422 467 76 13 شعبانالقائم بأمر الله أبو جعفر عبد الله ابن القادر بالله</tei:p>
+                <tei:p change="#d2e73">28 07 19 467 487 38 15 محرمالمتقدي بأمر الله عبد الله بن محمد ابن القائم بأمر الله
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1012.xhtml"
+                   ed="shamela"
+                   n="n1-p1014"/>
+                    مدة الولاية</tei:p>
+                <tei:p change="#d2e73">أيامشهورأعوامسنة الولاية سنة الوفاةالسناسم الشهرأسماء الخلفاء</tei:p>
+                <tei:p change="#d2e73">11 03 24 487 512 41 16 ربيع الآخرأحمد المستظهر بالله ابن المقتدي بأمر الله</tei:p>
+                <tei:p change="#d2e73">20 06 17 512 529 43 17 ذي القعدة المسترشد بالله الفضل بن المستظهر بالله قتل</tei:p>
+                <tei:p change="#d2e73">18 09 02 529 532 47 25 رمضانأبو جعفر الراشد بالله ابن المسترشد بالله خلع وقتل</tei:p>
+                <tei:p change="#d2e73">16 03 24 532 555 67 2 ربيع الأولمحمد المقتفي بأمر الله ابن المستظهر</tei:p>
+                <tei:p change="#d2e73">16 00 11 555 566 56 9 ربيع الآخرالمستنجد بالله يوسف بن المقتفي بأمر الله</tei:p>
+                <tei:p change="#d2e73">00 07 09 566 575 39 2 القعدةأبو محمد الحسن المستضيء بأمر الله ابن المستنجد بالله</tei:p>
+                <tei:p change="#d2e73">28 10 46 575 622 70 غاية رمضانالناصر لدين الله أحمد بن المستضيء بالله</tei:p>
+                <tei:p change="#d2e73">14 09 00 622 623 00 14 رجبالظاهر بأمر الله محمد بن الناصر لدين الله</tei:p>
+                <tei:p change="#d2e73">03 11 16 623 640 51 10 جمادي الثانيأبو جعفر المنصور المستنصر بالله ابن الظاهر بأمر الله</tei:p>
+                <tei:p change="#d2e73">10 06 15 640 656 00 20 محرمالمستعصم بالله عبد الله بن المستنصر بالله قتله هولاكو التتاري وهو آخر بني العباس ببغداد
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1013.xhtml"
+                   ed="shamela"
+                   n="n1-p1015"/>
+                    مدة الولاية</tei:p>
+                <tei:p change="#d2e73">أيام شهورأعوامسنة الولايةسنة الوفاةالسناسم الشهرأسماء الخلفاء</tei:p>
+                <tei:p change="#d2e73">العباسيون بمصر سقط ستة أشهر مدة الهرج</tei:p>
+                <tei:p change="#d2e73">07659 660 أولهم أحمد المستنصر بالله ابن الظاهر ابن الناصر بايعه الظاهر بيبرس في 13 رجب سنة 659</tei:p>
+                <tei:p change="#d2e73">04 40 660 7018 جمادى الأولىالحاكم بأمر الله أحمد بن الحسن بن أبي بكر بن الحسن أبي علي بن جعفر الراشد بالله الخ</tei:p>
+                <tei:p change="#d2e73">01 39 701 740شعبانالمستكفي بالله سليمان ابن الحاكم المتقدم نفي إلى قبرص وبها مات</tei:p>
+                <tei:p change="#d2e73">05 01 740 742 الواثق بالله إبراهيم بن محمد بن الحاكم بأمر الله خلع</tei:p>
+                <tei:p change="#d2e73">07 11 742 753رجب الحاكم بأمر الله أحمد بن المستكفي بن الحاكم الأول تولى وخلع ثم عاد</tei:p>
+                <tei:p change="#d2e73">01 10 753 763 المعتضد بالله أبو بكر بن المستكفي بالله</tei:p>
+                <tei:p change="#d2e73">763 785خلعالمتوكل على الله محمد بن المعتضد بن المستكفي وسنذكر مدته بعد عودته
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1014.xhtml"
+                   ed="shamela"
+                   n="n1-p1016"/>
+                    مدة الولاية</tei:p>
+                <tei:p change="#d2e73">أيامشهورأعوامسنة الولايةسنة الوفاةالسناسم الشهر أسماء الخلفاء</tei:p>
+                <tei:p change="#d2e73">04 03 785 788خلع 28 رجبالواثق بالله ابن إبراهيم ابن ابن محمد المستمسك بالله ابن الحاكم</tei:p>
+                <tei:p change="#d2e73">01 03 788 791 المعتصم بالله زكريا بن إبراهيم المتقدم</tei:p>
+                <tei:p change="#d2e73">02 45 791 808 عودة المتوكل بن المعتضد ومدته في الخلافتين</tei:p>
+                <tei:p change="#d2e73">04 07 808 815 المستعين بالله العباس ابن المتوكل خلع وأعيد</tei:p>
+                <tei:p change="#d2e73">30 815 845 المعتضد بالله داوود بن المتوكل</tei:p>
+                <tei:p change="#d2e73">09 845 854 المستكفي بالله سليمان بن المتوكل</tei:p>
+                <tei:p change="#d2e73">11 04 854 859 القائم بأمر الله حمزة ب المتوكل خلع</tei:p>
+                <tei:p change="#d2e73">25 859 884 المستنجد بالله يوسف بن المتوكل</tei:p>
+                <tei:p change="#d2e73">03 19 884 903 عبد العزيز المتوكل على الله بن يعقوب ابن المتوكل الأول</tei:p>
+                <tei:p change="#d2e73">903المستمسك بالله يعقوب بن عبد العزيز وهو أخرهم ومدته مجهولة
+                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1015.xhtml"
+                   ed="shamela"
+                   n="n1-p1017"/>
+            </tei:p>
+            </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>
