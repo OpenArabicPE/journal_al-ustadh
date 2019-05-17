@@ -50,7 +50,7 @@
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
+        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
             <change change="d2e82" when="2019-05-17" who="#pers_TG" xml:lang="en">Converted the mark-up of 
@@ -83,8 +83,8 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P2.xhtml" ed="shamela" n="n1-p1"/>
       <tei:body>
          <tei:div change="#d2e64" subtype="article" type="item">
-                <head>العدد 1</head>- بتاريخ: 
-                <date when="1892-08-24">1892-08-24</date>
+                <head>العدد  <tei:num type="auto-markup" change="#d2e179" value="1" xml:lang="ar">١</tei:num> </head>- بتاريخ: 
+                <date when="1892-08-24"> <tei:num type="auto-markup" change="#d2e179" value="1892" xml:lang="ar">١٨٩٢</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="8" xml:lang="ar">٨</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="24" xml:lang="ar">٢٤</tei:num> </date>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P3.xhtml" ed="shamela" n="n1-p2"/>
          </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
@@ -127,8 +127,8 @@
                         <tei:seg>توفيق في عز النعيم السرمدي</tei:seg>
                     </tei:l>
                 </lg>
-                <tei:p change="#d2e73">596 90 77 201 345</tei:p>
-                <tei:p change="#d2e73">سنة 1309</tei:p>
+                <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e179" value="596" xml:lang="ar">٥٩٦</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="90" xml:lang="ar">٩٠</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="77" xml:lang="ar">٧٧</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="201" xml:lang="ar">٢٠١</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="345" xml:lang="ar">٣٤٥</tei:num> </tei:p>
+                <tei:p change="#d2e73">سنة  <tei:num type="auto-markup" change="#d2e179" value="1309" xml:lang="ar">١٣٠٩</tei:num> </tei:p>
                 <tei:p change="#d2e73">وقد تكفل بها وما معها من تاريخ حياته الطيبة كتاب النحلة في الرحلة فإني رثيته لتفضله</tei:p>
                 <tei:p change="#d2e73">علي وإحسانه لا ليقال أجاد فيما قال ولا ليكون الرثاء وسيلة أبتغي بها مقصداً فلذا لم أرسلها وأنا في الشام لتنشر مع المراثي التي دونت فرحم الله تعالى روحاً زكية وذاتاً نقية وجعل مضجعه المنير روضة من رياض الجنة ممطوراً بسحائب الرحمة والرضوان.</tei:p>
                 <tei:p change="#d2e73">وما زحزح الهم عن الفؤاد ومسح دموع الحزن بمنديل السرور إلا ارتقاء صدر الصدور وعين أعيان الأمراء وخلاصة العائلة المحمدية وبدر سماء بيت الإمارة أفندينا الخديوي المفخم ذي الفخامة والجلالة مولانا عباس باشا حلمي الثاني أيده الله تعالى فتسلت النفس بأشرف خلف لخير سلف وانطلق لسان التهاني منشداً
@@ -150,8 +150,8 @@
                         <tei:seg>صدر الصفا عباس حلمي الثاني</tei:seg>
                     </tei:l>
                 </lg>
-                <tei:p change="#d2e73">294 202 133 88 592</tei:p>
-                <tei:p change="#d2e73">سنة 1309</tei:p>
+                <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e179" value="294" xml:lang="ar">٢٩٤</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="202" xml:lang="ar">٢٠٢</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="133" xml:lang="ar">١٣٣</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="88" xml:lang="ar">٨٨</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="592" xml:lang="ar">٥٩٢</tei:num> </tei:p>
+                <tei:p change="#d2e73">سنة  <tei:num type="auto-markup" change="#d2e179" value="1309" xml:lang="ar">١٣٠٩</tei:num> </tei:p>
                 <tei:p change="#d2e73">وما فرغ اللسان من الإنشاد حتى جاءني خبر عفوه الكريم عني وصدور أمره العالي بعودتي إلى وطني تفضلاً وإحساناً فاعتقل اللسان ولم يستطع النطق لعظم النعمة وخروجها عن حد ما يشكر فإني لو جمعت اللغات ونظمتها في سلسلة قصائد لا نهاية لها لكنت مقصراً في أداء الواجب لمرحوم أطلق لي قيد حياتي ومحفوظ خلصني من أسر الغربة ومتعني برؤية وطن أهله مبعث سروري ومرجع أنسي فله الشكر ما حييت وإن أمت سمع الثناء عليه من رنين صوت عظامي. كل هذا والثناء على ذات العصمة والمقام الأسمى ذات الدولة الوالدة الفخيمة مرتبط بكل فاصلة من فواصل الشكر والحمد فمدح هذا البيت الكريم حق واجب على هذا المخلص في دعائه وأهل بيته ما دام اللسان ينطق بما ينسب للمخلص</tei:p>
                 <byline change="#d2e150">
                <persName>عبد الله النديم</persName>

@@ -50,7 +50,7 @@
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
+        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
             <change change="d2e82" when="2019-05-17" who="#pers_TG" xml:lang="en">Converted the mark-up of 
@@ -83,9 +83,9 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P50.xhtml" ed="shamela" n="n1-p49"/>
       <tei:body>
          <tei:div change="#d2e64" subtype="article" type="item">
-                <head>العدد 3</head>
+                <head>العدد  <tei:num type="auto-markup" change="#d2e179" value="3" xml:lang="ar">٣</tei:num> </head>
                 <dateline>- بتاريخ: 
-                    <date when="1892-09-06">1892-09-06</date>
+                    <date when="1892-09-06"> <tei:num type="auto-markup" change="#d2e179" value="1892" xml:lang="ar">١٨٩٢</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="9" xml:lang="ar">٩</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="6" xml:lang="ar">٦</tei:num> </date>
             </dateline>
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
@@ -277,17 +277,17 @@
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
                 <head>شرح قانون العقوبات</head>
-                <tei:p change="#d2e73">لحضرة المحقق الفاضل والقانون البارع الكاتب المنشيء المجيد أمين أفندي البستاني وهو جزآن عظيمان يبلغ الجزءُ الواحد فوق الستمائة صحيفة وقد شرع في طبع الجزء الأول منه وينتهي طبعه قريباً وهو يطبع في مطبعة المحروسة بحروف اسلامبولية طبعاً نظيفاً معتنى به كما هو جارٍ في الكتب التي تطبع في هذه المطبعة وبدل الاشتراك فيه 25 قرشاً صاغاً وثمنه بعد الطبع 35 قرشاً صاغاً أيضاً فمن أراد الاشتراك في هذا الكتاب فليخابر إدارة الأستاذ وهي تخابر مؤلفه نيابة عن المشتركين. وهو شرح كبير وافٍ بالمقصود يحتاجه كل من لهُ
+                <tei:p change="#d2e73">لحضرة المحقق الفاضل والقانون البارع الكاتب المنشيء المجيد أمين أفندي البستاني وهو جزآن عظيمان يبلغ الجزءُ الواحد فوق الستمائة صحيفة وقد شرع في طبع الجزء الأول منه وينتهي طبعه قريباً وهو يطبع في مطبعة المحروسة بحروف اسلامبولية طبعاً نظيفاً معتنى به كما هو جارٍ في الكتب التي تطبع في هذه المطبعة وبدل الاشتراك فيه  <tei:num type="auto-markup" change="#d2e179" value="25" xml:lang="ar">٢٥</tei:num>  قرشاً صاغاً وثمنه بعد الطبع  <tei:num type="auto-markup" change="#d2e179" value="35" xml:lang="ar">٣٥</tei:num>  قرشاً صاغاً أيضاً فمن أراد الاشتراك في هذا الكتاب فليخابر إدارة الأستاذ وهي تخابر مؤلفه نيابة عن المشتركين. وهو شرح كبير وافٍ بالمقصود يحتاجه كل من لهُ
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P73.xhtml" ed="shamela" n="n1-p72"/>
                     تعلق بالقضايا والمرافعات بل كل من يلزمه الوقوف على القوانين المصرية وشروحها لما فيه من كبير الفائدة.</tei:p>
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
                 <head>إصلاح</head>
-                <byline change="#d2e150">وقع غلط طبع في صحيفة 24 من</byline>
+                <byline change="#d2e150">وقع غلط طبع في صحيفة  <tei:num type="auto-markup" change="#d2e179" value="24" xml:lang="ar">٢٤</tei:num>  من</byline>
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
                 <head>العدد </head>
-                <tei:p change="#d2e73">الأول في السطر الثامن عشر منها. بما يروه. والصواب. بما يرونه. وفي السطر الثاني عشر من الصحيفة الثالثة من كان ويكون. وما تعلمون. ونص الآية. وما تعلمون. وفي صحيفة 17 سطر 6 من كان ويكون في هذا العدد. من الخصائص وإلغائها وهي وإلفائها. وفي صحيفة 18 سطر 10. ثم لا أره وهي لا أراه. وفي صحيفة 19 سطر 5. لا الوالدان وهي الولدان. وفي هذه الصحيفة سطر 9. والكل يجهله وهي يجلُّه. وفيها أيضاً في سطر 10. وقد قدر رزق وهي وقد رزق بحذف قدر وفي صحيفة 22 سطر 6. كل فريق فجعله وهي فجّاً جعله. وفي صحيفة 22 سطر 18. والأمن ناشرٌ وهي ناشراً. فنرجو المشتركين إصلاح هذا الخطأ بالقلم فقد طبعت هذه الملزمة الأخيرة قبل مراجعة تصحيحها.</tei:p>
+                <tei:p change="#d2e73">الأول في السطر الثامن عشر منها. بما يروه. والصواب. بما يرونه. وفي السطر الثاني عشر من الصحيفة الثالثة من كان ويكون. وما تعلمون. ونص الآية. وما تعلمون. وفي صحيفة  <tei:num type="auto-markup" change="#d2e179" value="17" xml:lang="ar">١٧</tei:num>  سطر  <tei:num type="auto-markup" change="#d2e179" value="6" xml:lang="ar">٦</tei:num>  من كان ويكون في هذا العدد. من الخصائص وإلغائها وهي وإلفائها. وفي صحيفة  <tei:num type="auto-markup" change="#d2e179" value="18" xml:lang="ar">١٨</tei:num>  سطر  <tei:num type="auto-markup" change="#d2e179" value="10" xml:lang="ar">١٠</tei:num> . ثم لا أره وهي لا أراه. وفي صحيفة  <tei:num type="auto-markup" change="#d2e179" value="19" xml:lang="ar">١٩</tei:num>  سطر  <tei:num type="auto-markup" change="#d2e179" value="5" xml:lang="ar">٥</tei:num> . لا الوالدان وهي الولدان. وفي هذه الصحيفة سطر  <tei:num type="auto-markup" change="#d2e179" value="9" xml:lang="ar">٩</tei:num> . والكل يجهله وهي يجلُّه. وفيها أيضاً في سطر  <tei:num type="auto-markup" change="#d2e179" value="10" xml:lang="ar">١٠</tei:num> . وقد قدر رزق وهي وقد رزق بحذف قدر وفي صحيفة  <tei:num type="auto-markup" change="#d2e179" value="22" xml:lang="ar">٢٢</tei:num>  سطر  <tei:num type="auto-markup" change="#d2e179" value="6" xml:lang="ar">٦</tei:num> . كل فريق فجعله وهي فجّاً جعله. وفي صحيفة  <tei:num type="auto-markup" change="#d2e179" value="22" xml:lang="ar">٢٢</tei:num>  سطر  <tei:num type="auto-markup" change="#d2e179" value="18" xml:lang="ar">١٨</tei:num> . والأمن ناشرٌ وهي ناشراً. فنرجو المشتركين إصلاح هذا الخطأ بالقلم فقد طبعت هذه الملزمة الأخيرة قبل مراجعة تصحيحها.</tei:p>
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
                 <head>حسن عناية</head>

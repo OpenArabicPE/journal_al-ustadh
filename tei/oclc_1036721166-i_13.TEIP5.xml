@@ -50,7 +50,7 @@
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
+        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
             <change change="d2e82" when="2019-05-17" who="#pers_TG" xml:lang="en">Converted the mark-up of 
@@ -83,9 +83,9 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P290.xhtml" ed="shamela" n="n1-p289"/>
       <tei:body>
          <tei:div change="#d2e64" subtype="article" type="item">
-                <head>العدد 13</head>
+                <head>العدد  <tei:num type="auto-markup" change="#d2e179" value="13" xml:lang="ar">١٣</tei:num> </head>
                 <dateline>- بتاريخ: 
-                    <date when="1892-11-15">1892-11-15</date>
+                    <date when="1892-11-15"> <tei:num type="auto-markup" change="#d2e179" value="1892" xml:lang="ar">١٨٩٢</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="11" xml:lang="ar">١١</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="15" xml:lang="ar">١٥</tei:num> </date>
             </dateline>
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
@@ -279,88 +279,88 @@
                 <lg change="#d2e82">
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>ع. عم السرور وآيات الثنا تليت</tei:seg>
-                        <tei:seg>2بمجلس فيه مرآة الهنا جُلبت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="2" xml:lang="ar">٢</tei:num> بمجلس فيه مرآة الهنا جُلبت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>ش. شبرى بها شيَّد الاقبال من طرب</tei:seg>
-                        <tei:seg>4دار لتفريح أخوان الصفا بُنيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="4" xml:lang="ar">٤</tei:num> دار لتفريح أخوان الصفا بُنيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>ي. يا حسن دار اديرت في حدائقها</tei:seg>
-                        <tei:seg>200راحُ ابتهاج بكاسات الوفا سقيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="200" xml:lang="ar">٢٠٠</tei:num> راحُ ابتهاج بكاسات الوفا سقيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>ا. أحيت محاسن أيام لنا سلفت</tei:seg>
-                        <tei:seg>400تاهت باحيائها من ما فنيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="400" xml:lang="ar">٤٠٠</tei:num> تاهت باحيائها من ما فنيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>ف. فريد باشا استنار الدهر منك وقد</tei:seg>
-                        <tei:seg>3جددت بهجة أفراح به نسيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="3" xml:lang="ar">٣</tei:num> جددت بهجة أفراح به نسيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>ر. رنحَّت اعطاف آمال وسِرَت بها</tei:seg>
-                        <tei:seg>30لخير مغنّى به النعماءُ قد غنيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="30" xml:lang="ar">٣٠</tei:num> لخير مغنّى به النعماءُ قد غنيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>ي. يا بعجة القطر اذ قطر الندى مرحاً</tei:seg>
-                        <tei:seg>400تجلى كشمس بأنوار البها كسيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="400" xml:lang="ar">٤٠٠</tei:num> تجلى كشمس بأنوار البها كسيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>د. دام الحبور لإبراهيم اذ نظمت</tei:seg>
-                        <tei:seg>30له بعلياك آمال قد انتقيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="30" xml:lang="ar">٣٠</tei:num> له بعلياك آمال قد انتقيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>ل. لله انت فقد أوسعته منناً</tei:seg>
-                        <tei:seg>5هان النضار لديها عندما حبيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="5" xml:lang="ar">٥</tei:num> هان النضار لديها عندما حبيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>م. من مثله حاز أوصاف الرضا غدا</tei:seg>
-                        <tei:seg>300شريف نفس بغير المجد ما رضيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="300" xml:lang="ar">٣٠٠</tei:num> شريف نفس بغير المجد ما رضيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>ن. نبيل قدر جليل في شبيبته</tei:seg>
-                        <tei:seg>40مهذب الطبع يرعي ذمة رعيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="40" xml:lang="ar">٤٠</tei:num> مهذب الطبع يرعي ذمة رعيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>هـ. هذا الفخار ومن يشبه اباه فقد</tei:seg>
-                        <tei:seg>60ساد الزمانُ به ان أزمة قويت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="60" xml:lang="ar">٦٠</tei:num> ساد الزمانُ به ان أزمة قويت</tei:seg>
                     </tei:l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P309.xhtml" ed="shamela" n="n1-p308"/>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>ن. نرى محاسنه في الناس ظاهرة</tei:seg>
-                        <tei:seg>2بينا نرى مثلها في غيرها خفيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="2" xml:lang="ar">٢</tei:num> بينا نرى مثلها في غيرها خفيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
-                        <tei:seg>1. ابان مخبره عن طيب عنصره</tei:seg>
-                        <tei:seg>2بادي البديهة في الأنباء اذ رويت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="1" xml:lang="ar">١</tei:num> . ابان مخبره عن طيب عنصره</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="2" xml:lang="ar">٢</tei:num> بادي البديهة في الأنباء اذ رويت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>م. مولاي يا احمد الأمجاد قاطبة</tei:seg>
-                        <tei:seg>5هنئت والنجل ما أوصافكم حكيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="5" xml:lang="ar">٥</tei:num> هنئت والنجل ما أوصافكم حكيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>و. وعشت حتى ترى أبناء عِزَّته</tei:seg>
-                        <tei:seg>3جدود أبنائهم في عزة بقيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="3" xml:lang="ar">٣</tei:num> جدود أبنائهم في عزة بقيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>ر. راقين أوج المعالي في سما شرفٍ</tei:seg>
-                        <tei:seg>400تعنو لكم كل حال بالندى عنيت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="400" xml:lang="ar">٤٠٠</tei:num> تعنو لكم كل حال بالندى عنيت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>خ. خل السوي يا سمير الروح ممتدحاً</tei:seg>
-                        <tei:seg>5هذا الفريد ونجليه ومن هُديت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="5" xml:lang="ar">٥</tei:num> هذا الفريد ونجليه ومن هُديت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>هـ. هنئتموا آل بيت في الفخار لكم</tei:seg>
-                        <tei:seg>1أَسمى صفات لغابات الثنا عزبت</tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="1" xml:lang="ar">١</tei:num> أَسمى صفات لغابات الثنا عزبت</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>و. وها كمواما ضعيف الفكر ارخه</tei:seg>
                         <tei:seg>شمس لنجل فريد بالحلى زهيت</tei:seg>
                     </tei:l>
                 </lg>
-                <tei:p change="#d2e73">سنة 92 400 113 294. 81 422</tei:p>
-                <byline change="#d2e150">سنة 131</byline>
+                <tei:p change="#d2e73">سنة  <tei:num type="auto-markup" change="#d2e179" value="92" xml:lang="ar">٩٢</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="400" xml:lang="ar">٤٠٠</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="113" xml:lang="ar">١١٣</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="294" xml:lang="ar">٢٩٤</tei:num> .  <tei:num type="auto-markup" change="#d2e179" value="81" xml:lang="ar">٨١</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="422" xml:lang="ar">٤٢٢</tei:num> </tei:p>
+                <byline change="#d2e150">سنة  <tei:num type="auto-markup" change="#d2e179" value="131" xml:lang="ar">١٣١</tei:num> </byline>
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
                 <head>
@@ -456,9 +456,9 @@
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
                 <head>رثاء وعزاء</head>
-                <tei:p change="#d2e73">زرئ الفضل والعلم والأدب بوفاة العالم العلامة الحسيب النسيب السيد سعيد افندي الدجاني الحسيني اليافي كما علمنا من كتاب أفضل الفضلاء ابن عمه ذي الفضيلة السيد علي افندي أبي المواهب الحسيني مفتي افندي يافا حالاً. توفي رحمه الله تعالى يوم الأحد 9ربيع الثاني سنة 1310ودفن يوم الاثنين
+                <tei:p change="#d2e73">زرئ الفضل والعلم والأدب بوفاة العالم العلامة الحسيب النسيب السيد سعيد افندي الدجاني الحسيني اليافي كما علمنا من كتاب أفضل الفضلاء ابن عمه ذي الفضيلة السيد علي افندي أبي المواهب الحسيني مفتي افندي يافا حالاً. توفي رحمه الله تعالى يوم الأحد  <tei:num type="auto-markup" change="#d2e179" value="9" xml:lang="ar">٩</tei:num> ربيع الثاني سنة  <tei:num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</tei:num> ودفن يوم الاثنين
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P313.xhtml" ed="shamela" n="n1-p312"/>
-                    باحتفال شهده جميع أهالي يافا على اختلاف أجناسهم وأديانهم وصلي عليه في المسجد الجامع ثم تليت قصائد الرثاء من كثير من لشعراء وشيعت جنازته إلى القرافة حيث دفن بمقبرة أسلافه وآله الكرام وقد صحبته أيام أقامتي في يافا فرايت سيدا ملئ فضلاً وعلماً وكمالاً أخبرني أنه ولد سنة 1256 وتربي في بيت والده بيافا ثم ظاخذ فقه الحنفية والحديث والمصطلح والطريقة الخلوتية عن شيخة العارف بالله تعالى المرحوم السيد حسين أفندي الدجاني الحسيني نفتي يافا سابقاً وأخذ النحو والصرف وجميع العلوم العقلية والآلية عن عمه المرحوم السيد علي سليم الدجاني ثم اشتغل بالتدريس في مسجد يافا باقي حياته الطيبة وانقطع عن الدنيا إلى العلم في ثراء ومهابة وله ديوان شعر جمعه حال حياته ومجموعة انشاء ورسالة فيما صح من أحاديث الاسراء والمعراج وكان متمسكاً بالسنة الشريفة محبباً للناس لا يضار أحداً ويكاد أن لا يخرج من بيته إلا للمسجد أو زيارة صديق ولا يتكلم إلا إذا سئل فإن تكلم اوجز ما رؤى في مجلس لهو قط ولا سخر بمجلسه وبالجملة فإنهُ كان شمس البيت الدجاني وأفضل رجاله وأعزهم نفساً لا يضارعه في علمه إلا العلامة فاضل يافا على الإطلاق السيد علي أفندي أبو المواهب مفتيها الحالي فنعزي البيت الدجاني خصوصاً وأهل يافا عموماً في سيد قضى عمره في خدمة العلم ووطنه ومساعدة ذوي الحاجات على اختلاف الجنس والدين وقد عاش سعيداً كما مات وسار فاحزن عليه الآل وابكى صديقه. المعزي</tei:p>
+                    باحتفال شهده جميع أهالي يافا على اختلاف أجناسهم وأديانهم وصلي عليه في المسجد الجامع ثم تليت قصائد الرثاء من كثير من لشعراء وشيعت جنازته إلى القرافة حيث دفن بمقبرة أسلافه وآله الكرام وقد صحبته أيام أقامتي في يافا فرايت سيدا ملئ فضلاً وعلماً وكمالاً أخبرني أنه ولد سنة  <tei:num type="auto-markup" change="#d2e179" value="1256" xml:lang="ar">١٢٥٦</tei:num>  وتربي في بيت والده بيافا ثم ظاخذ فقه الحنفية والحديث والمصطلح والطريقة الخلوتية عن شيخة العارف بالله تعالى المرحوم السيد حسين أفندي الدجاني الحسيني نفتي يافا سابقاً وأخذ النحو والصرف وجميع العلوم العقلية والآلية عن عمه المرحوم السيد علي سليم الدجاني ثم اشتغل بالتدريس في مسجد يافا باقي حياته الطيبة وانقطع عن الدنيا إلى العلم في ثراء ومهابة وله ديوان شعر جمعه حال حياته ومجموعة انشاء ورسالة فيما صح من أحاديث الاسراء والمعراج وكان متمسكاً بالسنة الشريفة محبباً للناس لا يضار أحداً ويكاد أن لا يخرج من بيته إلا للمسجد أو زيارة صديق ولا يتكلم إلا إذا سئل فإن تكلم اوجز ما رؤى في مجلس لهو قط ولا سخر بمجلسه وبالجملة فإنهُ كان شمس البيت الدجاني وأفضل رجاله وأعزهم نفساً لا يضارعه في علمه إلا العلامة فاضل يافا على الإطلاق السيد علي أفندي أبو المواهب مفتيها الحالي فنعزي البيت الدجاني خصوصاً وأهل يافا عموماً في سيد قضى عمره في خدمة العلم ووطنه ومساعدة ذوي الحاجات على اختلاف الجنس والدين وقد عاش سعيداً كما مات وسار فاحزن عليه الآل وابكى صديقه. المعزي</tei:p>
                 <byline change="#d2e150">
                <persName>عبد الله النديم</persName>
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P314.xhtml" ed="shamela" n="n1-p313"/>

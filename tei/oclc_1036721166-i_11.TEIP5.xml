@@ -50,7 +50,7 @@
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
+        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
             <change change="d2e82" when="2019-05-17" who="#pers_TG" xml:lang="en">Converted the mark-up of 
@@ -83,9 +83,9 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P242.xhtml" ed="shamela" n="n1-p241"/>
       <tei:body>
          <tei:div change="#d2e64" subtype="article" type="item">
-                <head>العدد 11</head>
+                <head>العدد  <tei:num type="auto-markup" change="#d2e179" value="11" xml:lang="ar">١١</tei:num> </head>
                 <dateline>- بتاريخ: 
-                    <date when="1892-11-01">1892-11-01</date>
+                    <date when="1892-11-01"> <tei:num type="auto-markup" change="#d2e179" value="1892" xml:lang="ar">١٨٩٢</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="11" xml:lang="ar">١١</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="1" xml:lang="ar">١</tei:num> </date>
             </dateline>
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
@@ -328,7 +328,7 @@
          <tei:div change="#d2e64" subtype="article" type="item">
                 <head>باب الأدبيات</head>
                 <tei:p change="#d2e73">إفراح الأرواح</tei:p>
-                <tei:p change="#d2e73">هي أفراح صاحب السعادة والمجد الهمام الكامل أحمد فريد باشا ناظر الدائرة السنية أعدها ساعدته العناية لتأهيل نجله الكريم إبراهيم بك في ظل الحضرة الخديوية الفخيمة وجعلها 15 ليلة كلها مجامع آداب ومحافل أنس وطرب يزينها اجتماع الذوات الفخام والعلماء الأعلام والوجهاء والأعيان والأدباء والنبهاء وناهيك بليال تتداولها تخوت الآلات الموجودة بمصر على اختلاف أصحابها وفي سماء كل تخت تشرق أنوار قمري الموسيقي اللذين أعادا ذكر معبد واسحق وجددا من هذا الفن ما حسن في الإسماع وبعث في الأرواح طرباً وانتعاشاً الوحيد عبده أفندي الحمولي والفريد الشيخ يوسف خفاجة وقد أرخ هذه الأفراح الفاضل الكامل العلامة الشيخ سليمان العبد فقال:</tei:p>
+                <tei:p change="#d2e73">هي أفراح صاحب السعادة والمجد الهمام الكامل أحمد فريد باشا ناظر الدائرة السنية أعدها ساعدته العناية لتأهيل نجله الكريم إبراهيم بك في ظل الحضرة الخديوية الفخيمة وجعلها  <tei:num type="auto-markup" change="#d2e179" value="15" xml:lang="ar">١٥</tei:num>  ليلة كلها مجامع آداب ومحافل أنس وطرب يزينها اجتماع الذوات الفخام والعلماء الأعلام والوجهاء والأعيان والأدباء والنبهاء وناهيك بليال تتداولها تخوت الآلات الموجودة بمصر على اختلاف أصحابها وفي سماء كل تخت تشرق أنوار قمري الموسيقي اللذين أعادا ذكر معبد واسحق وجددا من هذا الفن ما حسن في الإسماع وبعث في الأرواح طرباً وانتعاشاً الوحيد عبده أفندي الحمولي والفريد الشيخ يوسف خفاجة وقد أرخ هذه الأفراح الفاضل الكامل العلامة الشيخ سليمان العبد فقال:</tei:p>
                 <lg change="#d2e82">
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>بنادي السعد أفراح وعرس</tei:seg>
@@ -364,8 +364,8 @@
                         <tei:seg>تزف لسعد إبراهيم شمس</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
-                        <tei:seg>سنة 1310</tei:seg>
-                        <tei:seg>487 154 259 400</tei:seg>
+                        <tei:seg>سنة  <tei:num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</tei:num> </tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="487" xml:lang="ar">٤٨٧</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="154" xml:lang="ar">١٥٤</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="259" xml:lang="ar">٢٥٩</tei:num>   <tei:num type="auto-markup" change="#d2e179" value="400" xml:lang="ar">٤٠٠</tei:num> </tei:seg>
                     </tei:l>
                 </lg>
                 <tei:p change="#d2e73">وردت لنا قصيدة غراء من نظم الفاضل الشيخ محمد علي العوامري خطيب مسجد الموازيني باسكندرية يرد بها على من يعترض الأستاذ ويفتري عليه ما ليس من مشربه لخصنا منها قوله:</tei:p>
@@ -399,13 +399,13 @@
                         <tei:seg>بجد جاء أستاذ النديم</tei:seg>
                     </tei:l>
                     <tei:l change="#d2e82" type="bayt">
-                        <tei:seg>سنة 0310</tei:seg>
-                        <tei:seg>941162135</tei:seg>
+                        <tei:seg>سنة  <tei:num type="auto-markup" change="#d2e179" value="310" xml:lang="ar">٣١٠</tei:num> </tei:seg>
+                        <tei:seg> <tei:num type="auto-markup" change="#d2e179" value="9.41162135E8" xml:lang="ar">٩.٤١١٦٢١٣٥E٨</tei:num> </tei:seg>
                     </tei:l>
                 </lg>
                 <tei:p change="#d2e73">ومن نظم الفاضل الكامل الشيخ عبد العزيز العوامري الإسكندري لله أستاذ علم * حوى مآثر شهم * أنار في الشرق فضلاً * كأنه بدر تم * فيه بديع المعاني * يلهيك عن بنت كرم * فيه حميد المزايا * يبثها خبر قرم * أبدى النديم فصولاً * تدعو لحظة حزم * بحكمة واختبار * له ونبر فهم أبدى صحيفة فضل * عن الفضائل تحمى * هدى بها كل غير * أعماه خاطروهم لفتح أعين عمي * جاءت وآذان صم * وصقل عقل وفكر * بدر نثر ونظم
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P257.xhtml" ed="shamela" n="n1-p256"/>
-                    فاسلك به نهج حمد * وذدده عن نهج لوم * وانح العلاء وارخ * أستاذ آداب علم. سنة 1310</tei:p>
+                    فاسلك به نهج حمد * وذدده عن نهج لوم * وانح العلاء وارخ * أستاذ آداب علم. سنة  <tei:num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</tei:num> </tei:p>
                 <tei:p change="#d2e73">وللسيد الماجد الآخذ من المعارف بالحظ الأوفر الشيخ عبد الرحيم افندي القصبي نزيل اسكندرية الآن وأحد معلمي العلوم العربية فيها:</tei:p>
                 <lg change="#d2e82">
                     <tei:l change="#d2e82" type="bayt">
@@ -534,7 +534,7 @@
                 <head>رثاء</head>
                 <tei:p change="#d2e73">قدمنا في العدد الماضي خبر وفاة المرحوم الشيخ أحمد أبي الفرج الدمنهوري ووعدنا بذكر شيء من ترجمته فنقول ولد رحمه الله تعالى ببندر دمنهور وتربى على نفقة والده وحفظ القرآن حتى إذا يفع وظهرت عليه علامات النجابة والذكاء طلب العلم بدمنهور ثم رحل إلى الأزهر الشريف وأخذ عن أشياخه حتى صار من رجال الفضل ثم عاد إلى بلده وقد ملئ أدباً وفضلاً فاستطاب الناس حديثه وشعره ونثره ودعوه إلى مجالسهم فعلا ذكره وانتشر بين الأمراء وسادات مصر فقر بوه اليهم واتخذوه نديماً وسمير الحسن محاضرته ولطف تعبيره ومزجه
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P261.xhtml" ed="shamela" n="n1-p260"/>
-                    الهزل بالجد ترويحاً للنفوس وكان خصيصاً بالمرحوم شاهين باشا فكان يبره ويقربه منه في كل مجلس وقد قضى عمره في عز القناعة وشرف الزهد فيما في أيدي الناس لا يقبل إلا الهدايا من الأمراء وأعيان البلاد الذين لهم به تعلق وكان قوالاً له شعر نقي رقيق ونثر بليغ يستظرفه كل من عاشره ويستخفه كل من جالسه ما دخل مجلساً إلا دخله الأنس والسرور توفي رحمه الله ثاني ليلة من ربيع الثاني سنة 1310 بعد صلاته العشاء وآخر كلامه إنا لله وإنا إليه راجعون فاحتفل أهل دمنهور بجنازته وشهدها العلماء والحكام والأعيان وأفراد الناس ذكوراً وإناثاً حتى زاد المشاة أمامه عن ستة آلاف نسمة وقد رثاه صديقه الفاضل الماجد الشيخ حميدة سالم الدمنهوري بقصيدة 44 بيتاً اختصرناها لضيق الجريدة فمنها:</tei:p>
+                    الهزل بالجد ترويحاً للنفوس وكان خصيصاً بالمرحوم شاهين باشا فكان يبره ويقربه منه في كل مجلس وقد قضى عمره في عز القناعة وشرف الزهد فيما في أيدي الناس لا يقبل إلا الهدايا من الأمراء وأعيان البلاد الذين لهم به تعلق وكان قوالاً له شعر نقي رقيق ونثر بليغ يستظرفه كل من عاشره ويستخفه كل من جالسه ما دخل مجلساً إلا دخله الأنس والسرور توفي رحمه الله ثاني ليلة من ربيع الثاني سنة  <tei:num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</tei:num>  بعد صلاته العشاء وآخر كلامه إنا لله وإنا إليه راجعون فاحتفل أهل دمنهور بجنازته وشهدها العلماء والحكام والأعيان وأفراد الناس ذكوراً وإناثاً حتى زاد المشاة أمامه عن ستة آلاف نسمة وقد رثاه صديقه الفاضل الماجد الشيخ حميدة سالم الدمنهوري بقصيدة  <tei:num type="auto-markup" change="#d2e179" value="44" xml:lang="ar">٤٤</tei:num>  بيتاً اختصرناها لضيق الجريدة فمنها:</tei:p>
                 <lg change="#d2e82">
                     <tei:l change="#d2e82" type="bayt">
                         <tei:seg>هو الموت كم يسطو وبالحركم يعدو</tei:seg>
@@ -638,7 +638,7 @@
                         <tei:seg>ومنه الرضا طول الدوام له يبدو</tei:seg>
                     </tei:l>
                 </lg>
-                <tei:p change="#d2e73">بيد المقبول والابتهاج استلمنا الجزئين الأول والثاني من كتاب مختصر تاريخ الأمم الشرقية القديم تأليف الفاضل الكامل الأستاذ حسين أفندي ذكي مدرس اللغة الفرنساوية في المدارس الإميرية فالجزء الأول 44 صحيفة يشتمل على ملخص تاريخ مصر والثاني 30 صحيفة يشتمل على
+                <tei:p change="#d2e73">بيد المقبول والابتهاج استلمنا الجزئين الأول والثاني من كتاب مختصر تاريخ الأمم الشرقية القديم تأليف الفاضل الكامل الأستاذ حسين أفندي ذكي مدرس اللغة الفرنساوية في المدارس الإميرية فالجزء الأول  <tei:num type="auto-markup" change="#d2e179" value="44" xml:lang="ar">٤٤</tei:num>  صحيفة يشتمل على ملخص تاريخ مصر والثاني  <tei:num type="auto-markup" change="#d2e179" value="30" xml:lang="ar">٣٠</tei:num>  صحيفة يشتمل على
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P263.xhtml" ed="shamela" n="n1-p262"/>
                     ملخص تاريخ بلاد العراق وبابل تحري فيه الفاضل مظان الصحة ومراجع التحقيق من كتب المؤرخين المتقدمين والمتأخرين ولخص ذلك تلخيصاً لم يترك من الفائدة المقصودة شيئاً وسيطبع بقية الأجزاء على التتابع ولم نجد فيه أو معه </tei:p>
             </tei:div>

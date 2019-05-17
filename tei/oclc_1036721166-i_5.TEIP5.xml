@@ -50,7 +50,7 @@
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
+        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
             <change change="d2e82" when="2019-05-17" who="#pers_TG" xml:lang="en">Converted the mark-up of 
@@ -83,9 +83,9 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P98.xhtml" ed="shamela" n="n1-p97"/>
       <tei:body>
          <tei:div change="#d2e64" subtype="article" type="item">
-                <head>العدد 5</head>
+                <head>العدد  <tei:num type="auto-markup" change="#d2e179" value="5" xml:lang="ar">٥</tei:num> </head>
                 <dateline>- بتاريخ: 
-                    <date when="1892-09-20">1892-09-20</date>
+                    <date when="1892-09-20"> <tei:num type="auto-markup" change="#d2e179" value="1892" xml:lang="ar">١٨٩٢</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="9" xml:lang="ar">٩</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="20" xml:lang="ar">٢٠</tei:num> </date>
             </dateline>
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
@@ -205,10 +205,10 @@
                 <head>احتفال</head>
                 <tei:p change="#d2e73">أمس احتفل بساحة بيت سماحتلو حضرة السيد توفيق أفندي البكري للإعلان بمولد سيد الكائنات سيدنا محمد صلى الله عليه وسلم احتفالاً عظيماً حضره مشايخ الطرق وكثير من العلماء والأمراء والأعيان وبعد تناول الطعام كالعادة السنوية خرج الناس شاكرين داعين لهذا السيد بدوام الإقبال والأفراح.</tei:p>
                 <tei:p change="#d2e73">تصحيح</tei:p>
-                <tei:p change="#d2e73">وقع في سطر 9 صحيفة 101 جمع الملاءة على ملآءت وهو خطاء والصواب ملاءٌ وفي صحيفة 35 سطر 5 من كان ويكون في</tei:p>
+                <tei:p change="#d2e73">وقع في سطر  <tei:num type="auto-markup" change="#d2e179" value="9" xml:lang="ar">٩</tei:num>  صحيفة  <tei:num type="auto-markup" change="#d2e179" value="101" xml:lang="ar">١٠١</tei:num>  جمع الملاءة على ملآءت وهو خطاء والصواب ملاءٌ وفي صحيفة  <tei:num type="auto-markup" change="#d2e179" value="35" xml:lang="ar">٣٥</tei:num>  سطر  <tei:num type="auto-markup" change="#d2e179" value="5" xml:lang="ar">٥</tei:num>  من كان ويكون في</tei:p>
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
-                <head>العدد </head>الرابع ويلقمون المؤن وهي المؤف. وفي صحيفة 29 سطر 15 لا يقاوم أفراد وهي أفراداً. وفي صحيفة 30 سطر 11 منهم ما جا ومنهم ما جآء وهي من في الموضعين فليصلح ذلك القراء بالقلم.
+                <head>العدد </head>الرابع ويلقمون المؤن وهي المؤف. وفي صحيفة  <tei:num type="auto-markup" change="#d2e179" value="29" xml:lang="ar">٢٩</tei:num>  سطر  <tei:num type="auto-markup" change="#d2e179" value="15" xml:lang="ar">١٥</tei:num>  لا يقاوم أفراد وهي أفراداً. وفي صحيفة  <tei:num type="auto-markup" change="#d2e179" value="30" xml:lang="ar">٣٠</tei:num>  سطر  <tei:num type="auto-markup" change="#d2e179" value="11" xml:lang="ar">١١</tei:num>  منهم ما جا ومنهم ما جآء وهي من في الموضعين فليصلح ذلك القراء بالقلم.
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P122.xhtml" ed="shamela" n="n1-p121"/>
          </tei:div>
       </tei:body>

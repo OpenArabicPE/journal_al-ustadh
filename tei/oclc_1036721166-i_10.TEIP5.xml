@@ -50,7 +50,7 @@
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
+        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
             <change change="d2e82" when="2019-05-17" who="#pers_TG" xml:lang="en">Converted the mark-up of 
@@ -83,9 +83,9 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P218.xhtml" ed="shamela" n="n1-p217"/>
       <tei:body>
          <tei:div change="#d2e64" subtype="article" type="item">
-                <head>العدد 10</head>
+                <head>العدد  <tei:num type="auto-markup" change="#d2e179" value="10" xml:lang="ar">١٠</tei:num> </head>
                 <dateline>- بتاريخ: 
-                    <date when="1892-10-25">1892-10-25</date>
+                    <date when="1892-10-25"> <tei:num type="auto-markup" change="#d2e179" value="1892" xml:lang="ar">١٨٩٢</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="10" xml:lang="ar">١٠</tei:num> - <tei:num type="auto-markup" change="#d2e179" value="25" xml:lang="ar">٢٥</tei:num> </date>
             </dateline>
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
@@ -122,7 +122,7 @@
                 <tei:p change="#d2e73">هذه طبقة الفضل في العالم فان رجالها أهل الابتداع والاختراع وتهذيب النفوس وتعليم الجهلة وصناعة الضروريات. منهم الطبيب والكيماوي والمهندس والفلكي والميخانيكي والنباتي والمعدني والحيواني والبحري والبري من رجال الحرب والجغرفي وغيره وكل واحد منهم منكب على عمله مجتهد في مقدم فنه بشرح غوامضه وتبيين فوائده ونشر فرائده فهم في
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P226.xhtml" ed="shamela" n="n1-p225"/>
                     سباق دائم ولا وجهة لهم إلا وقاية ممالكهم وإعلاء شأنها وتقدم معارفها وصنائعها</tei:p>
-                <tei:p change="#d2e73">وتعظيم ثروتها وتعضيد قوتها. يختلفون في المواضيع العلمية فيما بينهم ويتفقون في المجامع السياسية وخدمة الأمة خدمة جد وإخلاص لا تقعد هممهم عن جوب الأقطار البعيدة ومفارقة الأهل والأوطان لفائدة يفيدونها ممالكهم وشاردة يضمونها لعلومهم ومجد يكتسبونه بين أممهم وذكر خالد يحفظه لهم التاريخ فهم السلم الذي ترتقي عليه الأمم إلى درجات الكمال والمعراج الذي تصعد عليه الملوك إلى سماء الأبهة والجلال والعضد الذي تقوى به الممالك على الدفاع والوقاية من عوارض الضعف والتلاشي ولا حديث لهم إلا في فنونهم كلما قعد أحدهم في مجلس ذكر فضل علمه وفوائده وعدد الحوادث والوقائع والمشاهدات التي نشأت به وطرأت عليه وشوق السامعين إلى الاشتغال به والتعويل عليه ليثيرهم المتقاعدين عن المعارف وينبه الغافلين عن أسباب الفضائل ومظاهر المجد وناهيك بطبقة بلغ عدد المعلمين منها في أمريكا نحو ثلثمائة ألف معلم يتعلم منهم نحو 6000000 من التلامذة وقد نبغ على أيديهم نحو 130000 طبيب و16000 مؤلف و5000 محرر للجرائد ومن لا نحصيهم من ذوي الفضل في الفنون الكثيرة المتداولة فيما بينهم. البقية تأتي</tei:p>
+                <tei:p change="#d2e73">وتعظيم ثروتها وتعضيد قوتها. يختلفون في المواضيع العلمية فيما بينهم ويتفقون في المجامع السياسية وخدمة الأمة خدمة جد وإخلاص لا تقعد هممهم عن جوب الأقطار البعيدة ومفارقة الأهل والأوطان لفائدة يفيدونها ممالكهم وشاردة يضمونها لعلومهم ومجد يكتسبونه بين أممهم وذكر خالد يحفظه لهم التاريخ فهم السلم الذي ترتقي عليه الأمم إلى درجات الكمال والمعراج الذي تصعد عليه الملوك إلى سماء الأبهة والجلال والعضد الذي تقوى به الممالك على الدفاع والوقاية من عوارض الضعف والتلاشي ولا حديث لهم إلا في فنونهم كلما قعد أحدهم في مجلس ذكر فضل علمه وفوائده وعدد الحوادث والوقائع والمشاهدات التي نشأت به وطرأت عليه وشوق السامعين إلى الاشتغال به والتعويل عليه ليثيرهم المتقاعدين عن المعارف وينبه الغافلين عن أسباب الفضائل ومظاهر المجد وناهيك بطبقة بلغ عدد المعلمين منها في أمريكا نحو ثلثمائة ألف معلم يتعلم منهم نحو  <tei:num type="auto-markup" change="#d2e179" value="6.0E6" xml:lang="ar">٦.٠E٦</tei:num>  من التلامذة وقد نبغ على أيديهم نحو  <tei:num type="auto-markup" change="#d2e179" value="130000" xml:lang="ar">١٣٠٠٠٠</tei:num>  طبيب و <tei:num type="auto-markup" change="#d2e179" value="16000" xml:lang="ar">١٦٠٠٠</tei:num>  مؤلف و <tei:num type="auto-markup" change="#d2e179" value="5000" xml:lang="ar">٥٠٠٠</tei:num>  محرر للجرائد ومن لا نحصيهم من ذوي الفضل في الفنون الكثيرة المتداولة فيما بينهم. البقية تأتي</tei:p>
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
                 <head>عقد اتفاق</head>
