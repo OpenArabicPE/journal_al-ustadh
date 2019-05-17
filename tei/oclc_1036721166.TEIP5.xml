@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.pnp-software.com/XSLTdoc">
-    <teiHeader>
+<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>مجلة الأستاذ</title>
+                <title xml:lang="ar">مجلة الأستاذ</title>
                 <title type="sub">TEI edition</title>
-                <author>عبد الله النديم</author>
+                <editor xml:lang="ar">
+                    <persName>عبد الله النديم</persName>
+                </editor>
                 <tei:respStmt xml:lang="en">
                     <tei:resp>TEI edition</tei:resp>
                     <tei:persName xml:id="pers_TG">
@@ -74,7 +77,7 @@
             <change when="2019-05-17" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:lang="ar">
         <body>
             <tei:div change="#d2e64" subtype="article" type="item">
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P1.xhtml" ed="shamela" n=""/>
