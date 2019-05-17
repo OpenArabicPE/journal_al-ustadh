@@ -18,13 +18,33 @@
                 <p>Unpulished TEI edition</p>
             </publicationStmt>
             <sourceDesc>
-                <p>
-                    <dc:title xmlns="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/">مجلة الأستاذ</dc:title>
-                    <dc:creator opf:role="aut" xmlns="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/">عبد الله النديم</dc:creator>
-                    <dc:publisher xmlns="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/">http://shamela.ws</dc:publisher>
-                    <dc:language xmlns="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/">ar</dc:language>
-                    <dc:identifier id="BookID" opf:scheme="UUID" xmlns="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/">urn:uuid:5a3799a161680794255fddc2c2446705</dc:identifier>
-                </p>
+                <biblStruct xml:lang="ar">
+                        <monogr xml:lang="ar">
+                            <title level="j" xml:lang="ar">الأستاذ</title>
+                            <title level="j" xml:lang="ar-Latn-x-ijmes">al-Ustādh</title>
+                            <idno type="jid" xml:lang="ar">106</idno>
+                            <idno type="OCLC">1036721166</idno>
+                            <textLang mainLang="ar"/>
+                            <editor xml:lang="ar">
+                                <persName ref="oape:pers:2807 viaf:72750911" xml:lang="ar">
+                                    <forename xml:lang="ar">عبد الله</forename>
+                                    <surname xml:lang="ar">النديم</surname>
+                                    <addName type="nisbah" xml:lang="ar">الإدريسي</addName>
+                                </persName>
+                            </editor>
+                            <imprint xml:lang="ar">
+                                <publisher/>
+                                <pubPlace xml:lang="ar">
+                                    <placeName xml:lang="ar" ref="geon:360630">القاهرة</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes" ref="geon:360630">al-Qāhira</placeName>
+                                    <placeName xml:lang="en" ref="geon:360630">Cairo</placeName>
+                                </pubPlace>
+                                <!-- this is seems to be the first issue -->
+                                <date when="1892-08-24" xml:lang="ar">24 أغسطس 1892</date>
+                            </imprint>
+                            <!-- <biblScope unit="issue" xml:lang="ar">العدد رقم 1</biblScope> -->
+                        </monogr>
+                    </biblStruct>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
