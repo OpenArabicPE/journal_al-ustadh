@@ -50,7 +50,7 @@
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><tei:change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
+        <revisionDesc><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-18" who="#pers_TG" xml:id="d3e187" xml:lang="en">Marked up dates by automatically wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en">Automatically marked up references to periodicals with <tei:tag>title level="j"</tei:tag>.</tei:change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en">tei:p</tei:gi>s.</change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi>p</tei:gi>s inside <tei:gi>div</tei:gi>s as bylines (<tei:gi>byline</tei:gi>) if they did not exceed a string length of 60.</change>
             <change change="d2e82" when="2019-05-17" who="#pers_TG" xml:lang="en">Converted the mark-up of 
@@ -307,7 +307,7 @@
                         <tei:seg>سيصلح أهل القطر حزم خديوينا</tei:seg>
                     </tei:l>
                 </lg>
-                <tei:p change="#d2e73">سنة  <tei:num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="198" xml:lang="ar">١٩٨</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="36" xml:lang="ar">٣٦</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="340" xml:lang="ar">٣٤٠</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="55" xml:lang="ar">٥٥</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="681" xml:lang="ar">٦٨١</tei:num> .</tei:p>
+                <tei:p change="#d2e73">سنة  <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187"><tei:num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</tei:num></tei:date>  ـ  <tei:num type="auto-markup" change="#d2e179" value="198" xml:lang="ar">١٩٨</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="36" xml:lang="ar">٣٦</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="340" xml:lang="ar">٣٤٠</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="55" xml:lang="ar">٥٥</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="681" xml:lang="ar">٦٨١</tei:num> .</tei:p>
                 <tei:p change="#d2e73">وله قصيدة أخرى يمدح بها دولة رياض باشا اكتفينا بذكرها عن نشرها اختصاراً.</tei:p>
                 <tei:p change="#d2e73">ومن القصائد قصيدة الفاضل حامد أفندي ياور التي يقول منها</tei:p>
                 <lg change="#d2e82">
@@ -337,7 +337,7 @@
                 </lg>
                 <tei:p change="#d2e73">ارخته واحد مصر مصطفى باشا رياض</tei:p>
                 <tei:p change="#d2e73"> <tei:num type="auto-markup" change="#d2e179" value="19" xml:lang="ar">١٩</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="330" xml:lang="ar">٣٣٠</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="229" xml:lang="ar">٢٢٩</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="304" xml:lang="ar">٣٠٤</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="1011" xml:lang="ar">١٠١١</tei:num> </tei:p>
-                <tei:p change="#d2e73">سنة  <tei:num type="auto-markup" change="#d2e179" value="1893" xml:lang="ar">١٨٩٣</tei:num> </tei:p>
+                <tei:p change="#d2e73">سنة  <tei:date when="1893" change="#d3e187"><tei:num type="auto-markup" change="#d2e179" value="1893" xml:lang="ar">١٨٩٣</tei:num></tei:date> </tei:p>
                 <tei:p change="#d2e73">ولحضرة الفاضل محمود أفندي حسني معاون محافظة مصر</tei:p>
                 <lg change="#d2e82">
                     <tei:l change="#d2e82" type="bayt">
@@ -349,7 +349,7 @@
                         <tei:seg>لها الهناء رياض لاح بالعدل</tei:seg>
                     </tei:l>
                 </lg>
-                <tei:p change="#d2e73">سنة  <tei:num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="36" xml:lang="ar">٣٦</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="87" xml:lang="ar">٨٧</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="1011" xml:lang="ar">١٠١١</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="39" xml:lang="ar">٣٩</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="137" xml:lang="ar">١٣٧</tei:num> .</tei:p>
+                <tei:p change="#d2e73">سنة  <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187"><tei:num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</tei:num></tei:date>  ـ  <tei:num type="auto-markup" change="#d2e179" value="36" xml:lang="ar">٣٦</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="87" xml:lang="ar">٨٧</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="1011" xml:lang="ar">١٠١١</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="39" xml:lang="ar">٣٩</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="137" xml:lang="ar">١٣٧</tei:num> .</tei:p>
                 <tei:p change="#d2e73">ولحضرة الفاضل السيد حسن محمد الفاكهاني قصيدة طويلة مطلعها وتاريخها</tei:p>
                 <lg change="#d2e82">
                     <tei:l change="#d2e82" type="bayt">
@@ -439,7 +439,7 @@
             </tei:div>
          <tei:div change="#d2e64" subtype="article" type="item">
                 <head>غبطة بطريرك الإقباط</head>
-                <tei:p change="#d2e73">قدمنا في أعدادنا الماضية أن المصريين يسوءهم ما يسوء الطائفة القبطية وأنهم متكدرون من الخلاف الحاصل بين حزبي البطريرك والإدارة ورجونا التوفيق بين المصلحتين وإعادة هذا الرئيس المحترم لأبنائه الذين أنهكهم الحزن على بعده عنهم وقد تحقق الرجاء وعاد إلى مصر يوم السبت  <tei:num type="auto-markup" change="#d2e179" value="28" xml:lang="ar">٢٨</tei:num>  طوبة سنة  <tei:num type="auto-markup" change="#d2e179" value="1609" xml:lang="ar">١٦٠٩</tei:num>  فتلقته الطائفة تلقي الفرح والسرور واستقبله على المحطة الجموع الكثيرة فركب وعلى يساره سعادة محافظ مصر ومر
+                <tei:p change="#d2e73">قدمنا في أعدادنا الماضية أن المصريين يسوءهم ما يسوء الطائفة القبطية وأنهم متكدرون من الخلاف الحاصل بين حزبي البطريرك والإدارة ورجونا التوفيق بين المصلحتين وإعادة هذا الرئيس المحترم لأبنائه الذين أنهكهم الحزن على بعده عنهم وقد تحقق الرجاء وعاد إلى مصر يوم السبت  <tei:num type="auto-markup" change="#d2e179" value="28" xml:lang="ar">٢٨</tei:num>  طوبة سنة    فتلقته الطائفة تلقي الفرح والسرور واستقبله على المحطة الجموع الكثيرة فركب وعلى يساره سعادة محافظ مصر ومر
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P598.xhtml" ed="shamela" n="n1-p599"/>
                     يخترق جموعاً مترامية عرى عربيته تبركاً وتبريكاً والنساء يصحن من البيوت بألفاظ الفرح وزغاريد السرور فكان هذا اليوم من أعظم أعياد الطائفة ولم ير تجمعهم على شيء كتجمعهم حول أبيهم البر الروؤف بهم وكان هذا عملاً مبروراً من أعمال الوزارة الرياضية متوجاً بشفقة الحضرة الخديوية التي تعلقت إرادتها السنية بإدخال هذا السرور على طائفة انطلقت ألسنتها بالدعاء لحضرته الفخيمة فنهنىء أخوان الوطنية بما نالوه من الأنس بغذاء أرواحهم ونرجو عودة الألفة بين الحزبين كما كانا عليه أباؤهم الأولون.</tei:p>
             </tei:div>
@@ -470,7 +470,7 @@
                         <tei:seg>لم يخب مصباح تاج للبقاء سرى</tei:seg>
                     </tei:l>
                 </lg>
-                <tei:p change="#d2e73">سنة  <tei:num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="682" xml:lang="ar">٦٨٢</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="141" xml:lang="ar">١٤١</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="54" xml:lang="ar">٥٤</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="163" xml:lang="ar">١٦٣</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="270" xml:lang="ar">٢٧٠</tei:num> .</tei:p>
+                <tei:p change="#d2e73">سنة  <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187"><tei:num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</tei:num></tei:date>  ـ  <tei:num type="auto-markup" change="#d2e179" value="682" xml:lang="ar">٦٨٢</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="141" xml:lang="ar">١٤١</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="54" xml:lang="ar">٥٤</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="163" xml:lang="ar">١٦٣</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179" value="270" xml:lang="ar">٢٧٠</tei:num> .</tei:p>
                 <tei:p change="#d2e73">ومنها قصيدة العلامة الفاضل الشيخ سعيد علي الموجي أحد علماء الأزهر التي نظمها على لسان أستاذنا الأكبر وشيخنا الأطهر الأستاذ السيد شحاتة القصبي حفظه الله تعالى قال أعزه الله.</tei:p>
                 <lg change="#d2e82">
                     <tei:l change="#d2e82" type="bayt">
