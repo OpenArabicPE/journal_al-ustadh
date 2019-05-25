@@ -1,0 +1,15 @@
+# ignore image files
+images/
+.jpg
+.jpeg
+*.tif
+*.tiff
+
+.DS_Store
+_site/
+_output/
+metadata/issues/
+
+# temporary files #
+~$*
+.R*
