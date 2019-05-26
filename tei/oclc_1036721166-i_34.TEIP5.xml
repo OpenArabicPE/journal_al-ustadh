@@ -46,7 +46,7 @@
                                 <tei:date calendar="#cal_gregorian" xml:lang="ar" when="1893-04-11">١١ نيسان سنة ١٨٩٣</tei:date>
                             </imprint>
                             <!-- <biblScope unit="issue" xml:lang="ar">العدد رقم 1</biblScope> -->
-                        <biblScope unit="volume" from="" to=""/><biblScope unit="issue" from="34" to="34">34</biblScope><biblScope unit="page" from="777" to="808" change="#d2e220">777-808</biblScope></monogr>
+                        <biblScope unit="volume" from="1" to="1"/><biblScope unit="issue" from="34" to="34">34</biblScope><biblScope unit="page" from="777" to="808" change="#d2e220">777-808</biblScope></monogr>
                     </biblStruct>
             </sourceDesc>
         </fileDesc>

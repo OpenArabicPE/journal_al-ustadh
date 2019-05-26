@@ -46,7 +46,7 @@
                                 <tei:date calendar="#cal_gregorian" xml:lang="ar" when="1892-11-22">٢٢ تسرين الثاني سنة ١٨٩٢</tei:date>
                             </imprint>
                             <!-- <biblScope unit="issue" xml:lang="ar">العدد رقم 1</biblScope> -->
-                        <biblScope unit="volume" from="" to=""/><biblScope unit="issue" from="14" to="14">14</biblScope><biblScope unit="page" from="313" to="336" change="#d2e196">313-336</biblScope></monogr>
+                        <biblScope unit="volume" from="1" to="1"/><biblScope unit="issue" from="14" to="14">14</biblScope><biblScope unit="page" from="313" to="336" change="#d2e196">313-336</biblScope></monogr>
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
