@@ -42,7 +42,7 @@
                                     <placeName xml:lang="en" ref="geon:360630" change="#d2e232" xml:id="placeName_3.d2e94">Cairo</placeName>
                                 </pubPlace>
                                 <!-- this is seems to be the first issue -->
-                                <tei:date calendar="#cal_gregorian" xml:lang="ar" when="1893-08-10" change="#d2e232" xml:id="date_1.d2e100">١٠ آب سنة ١٨٩٣</tei:date>
+                                <tei:date calendar="#cal_gregorian" xml:lang="ar" when="1893-06-13" change="#d2e232" xml:id="date_1.d2e100">١٣ حزيران سنة ١٨٩٣</tei:date>
                             </imprint>
                             <!-- <biblScope unit="issue" xml:lang="ar">العدد رقم 1</biblScope> -->
                         <biblScope unit="volume" from="1" to="1" change="#d2e232" xml:id="biblScope_1.d2e106"/><biblScope unit="issue" from="42" to="42" change="#d2e232" xml:id="biblScope_2.d2e107">42</biblScope><biblScope unit="page" from="1017" to="1031" change="#d2e220 #d2e232" xml:id="biblScope_3.d2e109">1017-1031</biblScope></monogr>
