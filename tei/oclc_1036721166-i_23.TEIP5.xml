@@ -8,13 +8,13 @@
                   <persName change="#d2e232" xml:id="persName_1.d2e19">عبد الله النديم</persName>
                </persName>
                 </editor>
-                <tei:respStmt xml:lang="en" change="#d2e232" xml:id="respStmt_1.d2e24">
-                    <tei:resp change="#d2e232" xml:id="resp_1.d2e26">TEI edition</tei:resp>
-                    <tei:persName xml:id="pers_TG">
-                        <tei:forename change="#d2e232" xml:id="forename_1.d2e31">Till</tei:forename>
-                        <tei:surname change="#d2e232" xml:id="surname_1.d2e34">Grallert</tei:surname>
-                    </tei:persName>
-                </tei:respStmt>
+                <respStmt xml:lang="en" change="#d2e232" xml:id="respStmt_1.d2e24">
+                    <resp change="#d2e232" xml:id="resp_1.d2e26">TEI edition</resp>
+                    <persName xml:id="pers_TG">
+                        <forename change="#d2e232" xml:id="forename_1.d2e31">Till</forename>
+                        <surname change="#d2e232" xml:id="surname_1.d2e34">Grallert</surname>
+                    </persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt change="#d2e232" xml:id="publicationStmt_1.d2e40">
                 <p change="#d2e232" xml:id="p_1.d2e42">Unpulished TEI edition</p>
@@ -42,16 +42,16 @@
                                     <placeName xml:lang="en" ref="geon:360630" change="#d2e232" xml:id="placeName_3.d2e94">Cairo</placeName>
                                 </pubPlace>
                                 <!-- this is seems to be the first issue -->
-                                <tei:date calendar="#cal_gregorian" xml:lang="ar" when="1893-01-24" change="#d2e232" xml:id="date_1.d2e100">٢٤ كانون الثاني سنة ١٨٩٣</tei:date>
+                                <date calendar="#cal_gregorian" xml:lang="ar" when="1893-01-24" change="#d2e232" xml:id="date_1.d2e100">٢٤ كانون الثاني سنة ١٨٩٣</date>
                             </imprint>
                             <!-- <biblScope unit="issue" xml:lang="ar">العدد رقم 1</biblScope> -->
                         <biblScope unit="volume" from="1" to="1" change="#d2e232" xml:id="biblScope_1.d2e106"/><biblScope unit="issue" from="23" to="23" change="#d2e232" xml:id="biblScope_2.d2e107">23</biblScope><biblScope unit="page" from="539" to="554" change="#d2e220 #d2e232" xml:id="biblScope_3.d2e109">539-554</biblScope></monogr>
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change xmlns="" when="2019-05-27" who="#pers_TG" xml:id="d4e243" xml:lang="en">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e232" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2019-05-26" who="#pers_TG" xml:id="d2e227">Linked all <tei:tag change="#d2e232" xml:id="tag_1.d2e118">pb ed="print"</tei:tag> to the corresponding facsimile</tei:change><tei:change when="2019-05-26" who="#pers_TG" xml:id="d2e223">Added <tei:gi change="#d2e232" xml:id="gi_1.d2e123">graphic</tei:gi> for 16 pages with references to digital images.</tei:change><change when="2019-05-26" who="#pers_TG" xml:id="d2e220">Page numbers to bibliographic description of the source based on the file's content.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e218">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-05-26" who="#pers_TG" xml:id="d3e212">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-18" who="#pers_TG" xml:id="d3e187" xml:lang="en">Marked up dates by automatically wrapping all <tei:list change="#d2e232" xml:id="list_1.d2e134"><tei:item change="#d2e232" xml:id="item_1.d2e135">occurrences of "سنة" and "عام" followed by a <tei:gi change="#d2e232" xml:id="gi_1.d2e137">num</tei:gi> node </tei:item><tei:item change="#d2e232" xml:id="item_1.d2e140"><tei:gi change="#d2e232" xml:id="gi_1.d2e141">num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item change="#d2e232" xml:id="item_1.d2e144">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi change="#d2e232" xml:id="gi_1.d2e147">date</tei:gi> with the appropriate <tei:att change="#d2e232" xml:id="att_1.d2e150">calendar</tei:att> and <tei:att change="#d2e232" xml:id="att_1.d2e153">datingMethod</tei:att> attributes</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <tei:gi change="#d2e232" xml:id="gi_1.d2e158">num</tei:gi> with <tei:att change="#d2e232" xml:id="att_1.d2e161">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en" change="#d2e232" xml:id="change_4.d2e164">Automatically marked up references to periodicals with <tei:tag change="#d2e232" xml:id="tag_1.d2e166">title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e232" xml:id="gi_1.d2e172">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e232" xml:id="gi_1.d2e175">tei:p</tei:gi>s.</change>
-         <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi change="#d2e232" xml:id="gi_1.d2e182">p</tei:gi>s inside <tei:gi change="#d2e232" xml:id="gi_1.d2e185">div</tei:gi>s as bylines (<tei:gi change="#d2e232" xml:id="gi_1.d2e188">byline</tei:gi>) if they did not exceed a string length of 60.</change>
+        <revisionDesc><change xmlns="" when="2019-05-27" who="#pers_TG" xml:id="d4e243" xml:lang="en">Added links to local facsimile files for each <gi>surface</gi> element.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e232" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e227">Linked all <tag change="#d2e232" xml:id="tag_1.d2e118">pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e223">Added <gi change="#d2e232" xml:id="gi_1.d2e123">graphic</gi> for 16 pages with references to digital images.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e220">Page numbers to bibliographic description of the source based on the file's content.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e218">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-05-26" who="#pers_TG" xml:id="d3e212">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-18" who="#pers_TG" xml:id="d3e187" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e232" xml:id="list_1.d2e134"><item change="#d2e232" xml:id="item_1.d2e135">occurrences of "سنة" and "عام" followed by a <gi change="#d2e232" xml:id="gi_1.d2e137">num</gi> node </item><item change="#d2e232" xml:id="item_1.d2e140"><gi change="#d2e232" xml:id="gi_1.d2e141">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e232" xml:id="item_1.d2e144">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e232" xml:id="gi_1.d2e147">date</gi> with the appropriate <att change="#d2e232" xml:id="att_1.d2e150">calendar</att> and <att change="#d2e232" xml:id="att_1.d2e153">datingMethod</att> attributes</change><change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <gi change="#d2e232" xml:id="gi_1.d2e158">num</gi> with <att change="#d2e232" xml:id="att_1.d2e161">value</att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</change><change when="2019-05-18" who="#pers_TG" xml:lang="en" change="#d2e232" xml:id="change_4.d2e164">Automatically marked up references to periodicals with <tag change="#d2e232" xml:id="tag_1.d2e166">title level="j"</tag>.</change>
+         <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e232" xml:id="gi_1.d2e172">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e232" xml:id="gi_1.d2e175">tei:p</gi>s.</change>
+         <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <gi change="#d2e232" xml:id="gi_1.d2e182">p</gi>s inside <gi change="#d2e232" xml:id="gi_1.d2e185">div</gi>s as bylines (<gi change="#d2e232" xml:id="gi_1.d2e188">byline</gi>) if they did not exceed a string length of 60.</change>
             <change change="d2e82 #d2e232" when="2019-05-17" who="#pers_TG" xml:lang="en" xml:id="change_6.d2e192">Converted the mark-up of 
                 <foreign xml:lang="ar-Latn-x-ijmes" change="#d2e232" xml:id="foreign_1.d2e194">qaṣīda</foreign>
                 s from 
@@ -66,251 +66,251 @@
                 <gi change="#d2e232" xml:id="gi_4.d2e210">seg</gi>
                 nodes.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of 
-                <tei:gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e216">tei:lb</tei:gi>
+                <gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e216">tei:lb</gi>
                 into 
-                <tei:gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e219">xml:p</tei:gi>
+                <gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e219">xml:p</gi>
                 s.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of 
-                <tei:gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e225">tei:head</tei:gi>
+                <gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e225">tei:head</gi>
                 into 
-                <tei:gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e228">xml:div</tei:gi>
+                <gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e228">xml:div</gi>
                 s.</change>
             <change when="2019-05-17" who="#pers_TG" xml:lang="en" change="#d2e232" xml:id="change_9.d2e232">Created this TEI P5 file by automatic conversion from ePub.</change>
         </revisionDesc>
-    </teiHeader><tei:facsimile xml:id="facs"><tei:surface xml:id="facs_539"><tei:graphic xml:id="facs_539-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/539.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_539-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_539.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_540"><tei:graphic xml:id="facs_540-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/540.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_540-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_540.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_541"><tei:graphic xml:id="facs_541-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/541.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_541-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_541.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_542"><tei:graphic xml:id="facs_542-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/542.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_542-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_542.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_543"><tei:graphic xml:id="facs_543-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/543.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_543-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_543.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_544"><tei:graphic xml:id="facs_544-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/544.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_544-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_544.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_545"><tei:graphic xml:id="facs_545-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/545.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_545-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_545.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_546"><tei:graphic xml:id="facs_546-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/546.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_546-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_546.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_547"><tei:graphic xml:id="facs_547-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/547.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_547-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_547.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_548"><tei:graphic xml:id="facs_548-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/548.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_548-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_548.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_549"><tei:graphic xml:id="facs_549-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/549.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_549-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_549.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_550"><tei:graphic xml:id="facs_550-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/550.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_550-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_550.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_551"><tei:graphic xml:id="facs_551-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/551.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_551-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_551.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_552"><tei:graphic xml:id="facs_552-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/552.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_552-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_552.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_553"><tei:graphic xml:id="facs_553-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/553.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_553-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_553.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_554"><tei:graphic xml:id="facs_554-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/554.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_554-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_554.jpg" mimeType="image/jpeg"/></tei:surface></tei:facsimile><tei:text xml:lang="ar" change="#d2e232" xml:id="text_1.d2e270">
+    </teiHeader><facsimile xml:id="facs"><surface xml:id="facs_539"><graphic xml:id="facs_539-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/539.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_539-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_539.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_540"><graphic xml:id="facs_540-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/540.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_540-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_540.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_541"><graphic xml:id="facs_541-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/541.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_541-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_541.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_542"><graphic xml:id="facs_542-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/542.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_542-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_542.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_543"><graphic xml:id="facs_543-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/543.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_543-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_543.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_544"><graphic xml:id="facs_544-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/544.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_544-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_544.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_545"><graphic xml:id="facs_545-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/545.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_545-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_545.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_546"><graphic xml:id="facs_546-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/546.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_546-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_546.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_547"><graphic xml:id="facs_547-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/547.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_547-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_547.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_548"><graphic xml:id="facs_548-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/548.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_548-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_548.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_549"><graphic xml:id="facs_549-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/549.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_549-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_549.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_550"><graphic xml:id="facs_550-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/550.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_550-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_550.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_551"><graphic xml:id="facs_551-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/551.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_551-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_551.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_552"><graphic xml:id="facs_552-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/552.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_552-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_552.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_553"><graphic xml:id="facs_553-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/553.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_553-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_553.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_554"><graphic xml:id="facs_554-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_23/554.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_554-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_23-img_554.jpg" mimeType="image/jpeg"/></surface></facsimile><text xml:lang="ar" change="#d2e232" xml:id="text_1.d2e270">
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P538.xhtml" ed="shamela" n="n1-p539" change="#d2e232" xml:id="pb_1.d2e272"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="539" facs="#facs_539" xml:id="pb_2.d2e273"/>
-      <tei:body change="#d2e232" xml:id="body_1.d2e275">
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e277">
-                <head change="#d2e232" xml:id="head_1.d2e279">العدد  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="23" xml:lang="ar" xml:id="num_1.d2e281">٢٣</tei:num> </head>
+      <body change="#d2e232" xml:id="body_1.d2e275">
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e277">
+                <head change="#d2e232" xml:id="head_1.d2e279">العدد  <num type="auto-markup" change="#d2e179 #d2e232" value="23" xml:lang="ar" xml:id="num_1.d2e281">٢٣</num> </head>
                 <dateline change="#d2e232" xml:id="dateline_1.d2e285">- بتاريخ: 
-                    <date when="1893-01-24" change="#d2e232" xml:id="date_1.d2e287"> <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1893" xml:lang="ar" xml:id="num_1.d2e289">١٨٩٣</tei:num> - <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e292">١</tei:num> - <tei:num type="auto-markup" change="#d2e179 #d2e232" value="24" xml:lang="ar" xml:id="num_1.d2e295">٢٤</tei:num> </date>
+                    <date when="1893-01-24" change="#d2e232" xml:id="date_1.d2e287"> <num type="auto-markup" change="#d2e179 #d2e232" value="1893" xml:lang="ar" xml:id="num_1.d2e289">١٨٩٣</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e292">١</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="24" xml:lang="ar" xml:id="num_1.d2e295">٢٤</num> </date>
             </dateline>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e301">
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e301">
                 <head change="#d2e232" xml:id="head_2.d2e303">الحقوق المقدسة</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e306">الحقوق الملكية تنقسم قسمين خاصة وعامة فالخاصة هي الحقوق الواجبة للراعي بحسب مركزه واستحقاقه والواجبة له على رعيته. والواجبة له بحسب المركز والاستحقاق هي التي استحقها بطريق الفتح والاستقلال بذاته أقره الغير عليها أم لا بطريق الوراثة عن مؤسس مستقل منفرد بالسلطة أو عن مؤسس ممتاز تابع لمقرر له مؤيد لمركزه ومن هذا الأخير حقوق الحضرة الخديوية الفخيمة فإنها ثابتة له من طريق الوراثة عن أبيه وجده وجد جده مؤيدة بالفرمانات الشاهانية المميزة لحكومته باستقلاله بإدارة أحكامها من سائر وجوه الإدارة والحكم وقد كفلت الفرامين رعاية هذه الحقوق وتقديسها ونصت على استحقاق القائم من هذه العائلة الشريفة لتولي الإمارة المصرية وتخويله حق العزل والتنصيب والعفو والعقوبة ومبادلة المخابرات مع دول أوروبا في العزائم والرخص التي منحتها له تلك الفرامين. وما زالت هذه
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e306">الحقوق الملكية تنقسم قسمين خاصة وعامة فالخاصة هي الحقوق الواجبة للراعي بحسب مركزه واستحقاقه والواجبة له على رعيته. والواجبة له بحسب المركز والاستحقاق هي التي استحقها بطريق الفتح والاستقلال بذاته أقره الغير عليها أم لا بطريق الوراثة عن مؤسس مستقل منفرد بالسلطة أو عن مؤسس ممتاز تابع لمقرر له مؤيد لمركزه ومن هذا الأخير حقوق الحضرة الخديوية الفخيمة فإنها ثابتة له من طريق الوراثة عن أبيه وجده وجد جده مؤيدة بالفرمانات الشاهانية المميزة لحكومته باستقلاله بإدارة أحكامها من سائر وجوه الإدارة والحكم وقد كفلت الفرامين رعاية هذه الحقوق وتقديسها ونصت على استحقاق القائم من هذه العائلة الشريفة لتولي الإمارة المصرية وتخويله حق العزل والتنصيب والعفو والعقوبة ومبادلة المخابرات مع دول أوروبا في العزائم والرخص التي منحتها له تلك الفرامين. وما زالت هذه
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P539.xhtml" ed="shamela" n="n1-p540" change="#d2e232" xml:id="pb_3.d2e308"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="540" facs="#facs_540" xml:id="pb_4.d2e309"/>
-                    الحقوق مقدسة اجمع دول أوربا على احترامها وكف يد كل متعرض لمسها بما لا حق له فيه حتى جاء الخديوي أفندينا عباس باشا حلمي وأرسل له سيدنا أمير المؤمنين الخليفة القائم بأمر المسلمين مولانا السلطان عبد الحميد خان أيده الله تعالى بنصره فرمان الخديوية العالي وأثبت له حقوقه التي كانت لأبيه وأجداده ولم يبخسهُ منها شيئاً حفظاً للعهد القديم المحاط باتفاق الدول على استمراره وتنفيذه فوجب على المصريين قاطبة الخضوع للمقام الخديوي والاعتراف بسيادته وسلطته عليهم بأمر أمير المؤمنين الذي رضيه لنا أميراً وسلمه أرواحنا وائتمنه على حياتنا وأعراضنا وأموالنا وأنابه عنه في مخابرات الدول وحفظ المعاهدات وإجراء النظام بحسب ما يدعو إليه الزمان والمكان وبهذا التحتم السلطاني صرنا نرى معاشر المسلمين طاعته فرضاً علينا ومخالفته عصياناً يغضب الله تعالى ورسوله ونرى أن إلحاق غيره به في السيادة أو السلطة أو الإدارة مخالفة لأمير المؤمنين الذي قصر الإمارة عليه وأوجب علينا الطاعة له خاصة ما نرى أن مستحل تشريك الغير معه في الأحكام نبذّا للفرمان السلطاني يكفر ويمرق من الدين الإسلامي باستحلاله أمراً حرّمه أمير المؤمنين وأجمع المسلمون على الأخذ به. فتوحيد الطاعة للخديوي نائب أمير المؤمنين هو لازم البيعة التي صارت في عنقنا بحيث لا يجوز لمسلم أو ذمي أن يعارض أمر الخليفة الأعظم بزيادة فيه أو نقص. وقد طبق الجناب الخديوي ما فوضه إليه السلطان من السلطة وما أوجبته عهود الوراثة من</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e312">الحقوق وما له على الرعية من حقوق الطاعة على ما يراه فوجد كثرة الأيدي العاملة معه ومخالفة بعض أمرائه لنصوص الفرمان واستخفافه بالأوامر الشاهانية فساءه
+                    الحقوق مقدسة اجمع دول أوربا على احترامها وكف يد كل متعرض لمسها بما لا حق له فيه حتى جاء الخديوي أفندينا عباس باشا حلمي وأرسل له سيدنا أمير المؤمنين الخليفة القائم بأمر المسلمين مولانا السلطان عبد الحميد خان أيده الله تعالى بنصره فرمان الخديوية العالي وأثبت له حقوقه التي كانت لأبيه وأجداده ولم يبخسهُ منها شيئاً حفظاً للعهد القديم المحاط باتفاق الدول على استمراره وتنفيذه فوجب على المصريين قاطبة الخضوع للمقام الخديوي والاعتراف بسيادته وسلطته عليهم بأمر أمير المؤمنين الذي رضيه لنا أميراً وسلمه أرواحنا وائتمنه على حياتنا وأعراضنا وأموالنا وأنابه عنه في مخابرات الدول وحفظ المعاهدات وإجراء النظام بحسب ما يدعو إليه الزمان والمكان وبهذا التحتم السلطاني صرنا نرى معاشر المسلمين طاعته فرضاً علينا ومخالفته عصياناً يغضب الله تعالى ورسوله ونرى أن إلحاق غيره به في السيادة أو السلطة أو الإدارة مخالفة لأمير المؤمنين الذي قصر الإمارة عليه وأوجب علينا الطاعة له خاصة ما نرى أن مستحل تشريك الغير معه في الأحكام نبذّا للفرمان السلطاني يكفر ويمرق من الدين الإسلامي باستحلاله أمراً حرّمه أمير المؤمنين وأجمع المسلمون على الأخذ به. فتوحيد الطاعة للخديوي نائب أمير المؤمنين هو لازم البيعة التي صارت في عنقنا بحيث لا يجوز لمسلم أو ذمي أن يعارض أمر الخليفة الأعظم بزيادة فيه أو نقص. وقد طبق الجناب الخديوي ما فوضه إليه السلطان من السلطة وما أوجبته عهود الوراثة من</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e312">الحقوق وما له على الرعية من حقوق الطاعة على ما يراه فوجد كثرة الأيدي العاملة معه ومخالفة بعض أمرائه لنصوص الفرمان واستخفافه بالأوامر الشاهانية فساءه
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P540.xhtml" ed="shamela" n="n1-p541" change="#d2e232" xml:id="pb_5.d2e314"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="541" facs="#facs_541" xml:id="pb_6.d2e315"/>
                     ذلك وأخذ يبحث فيما يوصله لحقوقه المقدسة سنة يفكر في الوسائل وينتظر الفرص حتى مرض صاحب العطوفة مصطفى فهمي باشا رئيس النظار المصريين فكلفه الاستعفاء بعد شكره على ما له من سوابق الخدمة فمال لمشاورة وكيل انكلترة بمصر وما كان ينبغي أن يوقف أمر سيده وأمير البلاد الشرعي على مشورة أجنبي لا تعلق له بما هو من خصائص الحضرة الخديوية ولهاذ أقاله الجناب الخديوي مصحباً أمر الإقالة بشكره على أعماله السابقة ثم قدمت له أسماء رجال مصريين بمعرفة وكيل انكلترة لينتخب منهم رئيساً للنظار فرأى أيده الله أن هذا التداخل سلب لحقوقه وتقييد لإطلاقه الذي قدسه الفرمان المؤيد باتفاق الدول عليه التي منها دولة بريطانيا فرفض ذلك واستقل بالانتخاب عملاً بحقه الشرعي واختار صاحب العطوفة والفضيلة حسين فخري باشا لرئاسة النظار وكلفه بتشكيل وزارة فعورض في ذلك وكثرة المخابرة بينه وبين وكيل انكلترة وخارجيتها ولم تر انكلترة بدّا من تسليم حقوقه إليه وعدم معارضته في أمر تساعده الدول على القيام به فأظهرت عداوتها الشخصية لعطوفة فخري باشا الذي ارتفع قدره بين قومه وظهر فضله بتألم دولة بريطانيا العظمى من قبضه على زمام الأحكام المصرية ولكون انكلترة لها مصالح بمصر كبقية الدول وبمنافرتها له لا يمكن التوفيق فيما يختص بها بينها وبين الحكومة المصرية قدم استعفاءه لسيده الخديوي الأفخم تقديماً لمصلحة وطنه على خصائصه الذاتية فقبله الجناب الخديوي ليدفع العلل التي توجب الخلل وفوض أمر الوزارة إلى صاحب الدولة والأبهة مصطفى رياض باشا فقبلها من أمير وقف يطالب بحقوقه بذاته الشريفة والقوة بيد من يعارضه
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P541.xhtml" ed="shamela" n="n1-p542" change="#d2e232" xml:id="pb_7.d2e317"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="542" facs="#facs_542" xml:id="pb_8.d2e318"/>
-                    والإدارات محشوة بمن ينافره وهذه شجاعة ما اتفقت لغيره وثبات ما حكى عن ملك محاط بجنوده نائم بين حصونه وبهذا انحسم النزاع الحاصل في شأن الوزارة وتم مراد الخديوي ونفذت إرادته في كل ما أراده مستقلاً بفكره رافضاً لكل تداخل أجنبي كما هو مقام إمارته المحفوظ حقه فيه بتقليد سلطانه الأكبر مولانا أمير المؤمنين أيده الله تعالى. ولقد سرى خبر ثباته واسترجاع حقه المسلوب بنفسه في جميع الديار المصرية في أقرب وقت فهرع الناس إلى سراي عابدين العامرة يهنئون فخامته ويقدمون خالص عبوديتهم</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e321">وإخلاصهم لسيادته وهو يخطب فيهم وفداً بعد وفد بم أجراه وما لاقاه وما هو عازم عليه من عدم التنازل عن حق من حقوقه كيفما تقلبت الأحوال والناس في دهشة من همة هذا الأمير وحزمه وثبات عزيمته وحسن تصرفه في معضل ما سبقه سابق لحل مثله والمحافظة على الحقوق فيه ثم جاءت التلغرافات تتري مهنئة ومظهرة للانقياد والخضوع مستحسنة كل ما أجراه من تصرفاته الحقة. ولا يسمع دولة بريطانيا العظمى ألا الاعتراف بتقديس تلك الحقوق فإنها لم تدخل مصر فاتحة ولا مستعمرة ولا مشترية لها وإنما دخلتها باسم تأييد خديويها المضمونة حقوقه بالفرمان السلطاني وأقرت أمام دولة أوروبا أنها تحترم الفرمانات السلطانية والسيادة العثمانية ولا تتعرض لمس حق من الحقوق الخديوية فلا عجب إذا رأيناها أقرت مولانا الخديوي على أعماله ولم تتعرض لسلب حقوقه وقد تألمت الدول من ميل الوكيل البريطاني لمشاركة الخديوي في الرأي بادىء الأمر وعدت ذلك مساٌ للحقوق ونقضاً للعهود وهذا هو البرهان القوي على أن ما فعله الخديوي حق لا باطل فيه وأن تعرض الغير
+                    والإدارات محشوة بمن ينافره وهذه شجاعة ما اتفقت لغيره وثبات ما حكى عن ملك محاط بجنوده نائم بين حصونه وبهذا انحسم النزاع الحاصل في شأن الوزارة وتم مراد الخديوي ونفذت إرادته في كل ما أراده مستقلاً بفكره رافضاً لكل تداخل أجنبي كما هو مقام إمارته المحفوظ حقه فيه بتقليد سلطانه الأكبر مولانا أمير المؤمنين أيده الله تعالى. ولقد سرى خبر ثباته واسترجاع حقه المسلوب بنفسه في جميع الديار المصرية في أقرب وقت فهرع الناس إلى سراي عابدين العامرة يهنئون فخامته ويقدمون خالص عبوديتهم</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e321">وإخلاصهم لسيادته وهو يخطب فيهم وفداً بعد وفد بم أجراه وما لاقاه وما هو عازم عليه من عدم التنازل عن حق من حقوقه كيفما تقلبت الأحوال والناس في دهشة من همة هذا الأمير وحزمه وثبات عزيمته وحسن تصرفه في معضل ما سبقه سابق لحل مثله والمحافظة على الحقوق فيه ثم جاءت التلغرافات تتري مهنئة ومظهرة للانقياد والخضوع مستحسنة كل ما أجراه من تصرفاته الحقة. ولا يسمع دولة بريطانيا العظمى ألا الاعتراف بتقديس تلك الحقوق فإنها لم تدخل مصر فاتحة ولا مستعمرة ولا مشترية لها وإنما دخلتها باسم تأييد خديويها المضمونة حقوقه بالفرمان السلطاني وأقرت أمام دولة أوروبا أنها تحترم الفرمانات السلطانية والسيادة العثمانية ولا تتعرض لمس حق من الحقوق الخديوية فلا عجب إذا رأيناها أقرت مولانا الخديوي على أعماله ولم تتعرض لسلب حقوقه وقد تألمت الدول من ميل الوكيل البريطاني لمشاركة الخديوي في الرأي بادىء الأمر وعدت ذلك مساٌ للحقوق ونقضاً للعهود وهذا هو البرهان القوي على أن ما فعله الخديوي حق لا باطل فيه وأن تعرض الغير
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P542.xhtml" ed="shamela" n="n1-p543" change="#d2e232" xml:id="pb_9.d2e323"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="543" facs="#facs_543" xml:id="pb_10.d2e324"/>
-                    سلب لتلك الحقوق بلا مسوغ. والآن تنتظر الأمة ما يحدث من انكلترا بعد ذلك فإن تركت الوزارة المصرية تدير أعمالها بحسب مقتضيات الأحوال المصرية وعلى ما يناسب أخلاق الأمة وعوائدها ومساعدتها على ذلك تحقق الكل صدق دعواها أنها دخلت مصر للإصلاح لا للاغتصاب والتغلب وأن أحدثت عراقيل وعقبات في طريق الأعمال المصرية نفر كل مصري وعلم أنها تريد استعباده واستخدامه في مصلحتها الذاتية وبهذا تفقد الثقة من باقي المصريين وتوجب تداخل غيرها من الدول في شأن كان لها فيه اليد الطولى والأمل في حزم مولانا الخديوي وحسن تبصر دولة رياض باشا أن تجري الأمور على السداد وتبقى المحبة متبادلة بيننا وبين رجال الانكليز الذين يسوءهم سماع صوت دولة أخرى في مصر ويسرهم ائتلافهم بالمصريين. ولا ننسى ما لحضرة اللورد كرومر من الحسنات في هذا الشأن فإنه اشتد في الأمر وصعبه وحتم على دولته تنفيذ آرائه فكرّر المخابرة في ذلك واستشاط غضباً وفعل ما لم يفعله وكيل قبله ولكنه لما رأى ثبات الخديوي الأفخم وشدّة محافظته على حقوقه ورفضه كل تداخل أجنبي في شأن بلاده تساهل وتنازل عن تلك الحدة وأقر النظارة الرياضية وهذا مما لا ننساه لحضرته ولا نقصر في شكره عليه ولقد بهره تجمع الأمة حول أميرها وامتلاء الديار فرحاً وسروراً بمحافظة</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e327">الخديوي على حقوقه واستقلاله بتعيين من يراهم أهلاً لأعمال بلاده ورفضه التعهد باستشارة انكلترة في شؤنه وعلم أن قلعة جيش الاحتلال بمصر ربي المصريين ونبههم على ماكانوا عنه غافلين فانبعث فيهم روح الوطنية على اختلاف أديانهم وأجناسهم ولاذوا بأميرهم شاكرين انكلترة على ما قدمته إليهم من دروس التهذيب
+                    سلب لتلك الحقوق بلا مسوغ. والآن تنتظر الأمة ما يحدث من انكلترا بعد ذلك فإن تركت الوزارة المصرية تدير أعمالها بحسب مقتضيات الأحوال المصرية وعلى ما يناسب أخلاق الأمة وعوائدها ومساعدتها على ذلك تحقق الكل صدق دعواها أنها دخلت مصر للإصلاح لا للاغتصاب والتغلب وأن أحدثت عراقيل وعقبات في طريق الأعمال المصرية نفر كل مصري وعلم أنها تريد استعباده واستخدامه في مصلحتها الذاتية وبهذا تفقد الثقة من باقي المصريين وتوجب تداخل غيرها من الدول في شأن كان لها فيه اليد الطولى والأمل في حزم مولانا الخديوي وحسن تبصر دولة رياض باشا أن تجري الأمور على السداد وتبقى المحبة متبادلة بيننا وبين رجال الانكليز الذين يسوءهم سماع صوت دولة أخرى في مصر ويسرهم ائتلافهم بالمصريين. ولا ننسى ما لحضرة اللورد كرومر من الحسنات في هذا الشأن فإنه اشتد في الأمر وصعبه وحتم على دولته تنفيذ آرائه فكرّر المخابرة في ذلك واستشاط غضباً وفعل ما لم يفعله وكيل قبله ولكنه لما رأى ثبات الخديوي الأفخم وشدّة محافظته على حقوقه ورفضه كل تداخل أجنبي في شأن بلاده تساهل وتنازل عن تلك الحدة وأقر النظارة الرياضية وهذا مما لا ننساه لحضرته ولا نقصر في شكره عليه ولقد بهره تجمع الأمة حول أميرها وامتلاء الديار فرحاً وسروراً بمحافظة</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e327">الخديوي على حقوقه واستقلاله بتعيين من يراهم أهلاً لأعمال بلاده ورفضه التعهد باستشارة انكلترة في شؤنه وعلم أن قلعة جيش الاحتلال بمصر ربي المصريين ونبههم على ماكانوا عنه غافلين فانبعث فيهم روح الوطنية على اختلاف أديانهم وأجناسهم ولاذوا بأميرهم شاكرين انكلترة على ما قدمته إليهم من دروس التهذيب
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P543.xhtml" ed="shamela" n="n1-p544" change="#d2e232" xml:id="pb_11.d2e329"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="544" facs="#facs_544" xml:id="pb_12.d2e330"/>
                     والتأديب حتى ترشحوا للنداء بالعصبية المصرية وتأهلوا للقيام بأعمال بلادهم ولله در هذا الأمير الذي قاوم بمفرده كل قوة تدفعه عن حقه ولكن تقديس حقوقه الشاهانية كف أيدي العدوان عنه لكونه لم يأت شيئاً فرياً ولا ارتكب أمراً إدّا ولا زاد عن قوله قرن حياتي بالمحافظة على حقوقي وأنها لأكبر كلمة حماسة سمعت من أمير مصري. وفي هذه النقطة يجب علينا معاشر المصريين أن نلزم الهدوء والسكون في حركتنا وأن نكف عن القيل والقال فربما عثرت الألسنة بما لا نحب أن نسمع من أفواهنا وأن يشتغل كل منا بعمله الخاص أن كان إدارة أو تجارة أو زراعة أو صناعة فإن أوروبا تتربص بنا الدوائر وأقرب الإنذارات إلينا منشور اللورد غرانفيل الذي قال فيه إذا آل أمر مصر إلى الفوضى تداخلت انكلترة وفرنسا بالقوة ومع وجود المرحوم الخديوي السابق في مركزه آمناً سائداً نافذ الأمر لعبت اليد الأجنبية بنا وأثارت الخواطر وكدرت جو السياسة فهاجر نزلاء بلادنا بإيهام أعوان مثيري الخواطر والفتن وتم من التداخل والحرب والاحتلال ما تم. وحالتنا اليوم غير حالتنا بالأمس فإننا بين يدي أمير لا يختلف في الانقياد إليه اثنان وكلٌّ معتصم بالتعويل عليه والانتماء إليه وليس بأيدينا غير عصيٍ نشتريها بقرش وقرشين وجيش الاحتلال في قلاعنا وحصوننا ورؤساء الجند المصري من الأجانب ومياهنا خالية من أساطيل تحميها ولا حاجة تدعونا للتظاهر العدواني بل لا موجب لشيء تتحرك له النفوس لكون حقوقنا مكفولة فلم يبق إلا أن نتخلى عن كل هرج ومرج ونوجه آمالنا إلى عناية أميرنا وهمة وزيرنا ولا نكثر من تأويل العبارات والتهويل في التعبير بما يهيج النفوس ويوغر الصدور لرجوع شأننا في كل ما يختص بنا وبأميرنا إلى
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P544.xhtml" ed="shamela" n="n1-p545" change="#d2e232" xml:id="pb_13.d2e332"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="545" facs="#facs_545" xml:id="pb_14.d2e333"/>
-                    سيدنا ومولانا أمير المؤمنين والدول العظام المؤيدة للامتيازات المصرية المحافظة على المعاهدات بحقوق الحضرة الخديوية الكريمة ومن رجع أمرهم إلى هذه الدول الكبيرة حقيقون بأن يعيشوا في ظل أميرهم آمنين على حقوقهم رابطين قلوبهم على محبته بعيدين عن كل من يمس حقاً من حقوقه أو يستخدمهم في غير</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e337">مصلحته معاذ الله تعالى لائذين به لياذ الرضيع بصدر أمه مؤيدين وزارتهم بحسن معاملتهم وسيرهم بالحكمة مع الوطني والمستوطن فاعقدوا على محاسن الأخلاق الخناصر واقروا عواقب الطيش فأنها وخيمة والله يعصم فعلنا من الخطاء بفضله.</tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e341">
+                    سيدنا ومولانا أمير المؤمنين والدول العظام المؤيدة للامتيازات المصرية المحافظة على المعاهدات بحقوق الحضرة الخديوية الكريمة ومن رجع أمرهم إلى هذه الدول الكبيرة حقيقون بأن يعيشوا في ظل أميرهم آمنين على حقوقهم رابطين قلوبهم على محبته بعيدين عن كل من يمس حقاً من حقوقه أو يستخدمهم في غير</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e337">مصلحته معاذ الله تعالى لائذين به لياذ الرضيع بصدر أمه مؤيدين وزارتهم بحسن معاملتهم وسيرهم بالحكمة مع الوطني والمستوطن فاعقدوا على محاسن الأخلاق الخناصر واقروا عواقب الطيش فأنها وخيمة والله يعصم فعلنا من الخطاء بفضله.</p>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e341">
                 <head change="#d2e232" xml:id="head_3.d2e343">نصيحة مخلص في خدمة وطنه وأخوانه</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e346">يعلم كل مصري غيور على وطنه أن ما وصلنا إليه بهمة وعناية أفندينا عباس باشا الخديوي الأفخم غاية ما كانت تتصوّر لذي فكر ونعمة لا تقابل إلا بالحمد والشكر. والعاقل إذا وصل الغاية المقصودة له وحصل المبادىء الموصلة إلى الغاية لزمه أن تهدأ أفكاره وتسكن حركاته وأن يأخذ الأمر بالرفق والتأني ويبعد عن الطيش والحدّة والتهوّر لتكون الهمة المبذولة له لا عليه يعني أنه إذا فعل ما يحمد عليه وصل الغاية بسلام وأن تهور وتشوشت أفكاره بالحدة والتغيط انقلب سعيه عليه بالحجة التي يقيمها عليه خصمه من أقواله وأفعاله. ونحن نعلم جمعياً أن بلادنا استوطن بها معظم أجناس العالم ولم يأخذوا منا شبر أرض بحرب ولا دخلوا علينا بقوّة وإنما كان دخولهم بمعاهدات دولية بين حكومتنا السنية ودولهم فصاروا مثلنا في تمتعهم بالراحة والأمن
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e346">يعلم كل مصري غيور على وطنه أن ما وصلنا إليه بهمة وعناية أفندينا عباس باشا الخديوي الأفخم غاية ما كانت تتصوّر لذي فكر ونعمة لا تقابل إلا بالحمد والشكر. والعاقل إذا وصل الغاية المقصودة له وحصل المبادىء الموصلة إلى الغاية لزمه أن تهدأ أفكاره وتسكن حركاته وأن يأخذ الأمر بالرفق والتأني ويبعد عن الطيش والحدّة والتهوّر لتكون الهمة المبذولة له لا عليه يعني أنه إذا فعل ما يحمد عليه وصل الغاية بسلام وأن تهور وتشوشت أفكاره بالحدة والتغيط انقلب سعيه عليه بالحجة التي يقيمها عليه خصمه من أقواله وأفعاله. ونحن نعلم جمعياً أن بلادنا استوطن بها معظم أجناس العالم ولم يأخذوا منا شبر أرض بحرب ولا دخلوا علينا بقوّة وإنما كان دخولهم بمعاهدات دولية بين حكومتنا السنية ودولهم فصاروا مثلنا في تمتعهم بالراحة والأمن
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P545.xhtml" ed="shamela" n="n1-p546" change="#d2e232" xml:id="pb_15.d2e348"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="546" facs="#facs_546" xml:id="pb_16.d2e349"/>
-                    وحرية الأعمال. والتعرّض لهم بشيء ضار تعرّض لنفس الحكومة ومعاكسة لأعمالها. ونحن وأن كنا أبعد الناس عن الحركات العدوانية ولكن من لا يرضيه سكوننا ربما بث فينا أهل فتن أو أغرى بعض الحمقا على فعل ما لا يحمد تهييجاً للأفكار وتذرعاً للفتنة فأقدم خالص النصيحة لأخواني المصريين على اختلاف أديانهم أن يقرؤا العواقب ويبعدوا عن كل ما يكدّر الراحة وأن يعاملوا الأوروبيين المعاملة الحسنة ويسلكوا معهم طريق الأدب واللطف اللذين تعودوا عليهما وأن يكفوا عن العبارات المؤثرة في النفوس والطعن في أي دولة من الدول حتى دولة بريطانيا العظمى التي هي مرجع الاختلاف فإننا يلزمنا معاملة أفرادها معاملة الرفق واللين والإغضاء عن كل شيء تقدم فإننا الآن أحوج الناس لملاينة الأجانب والمساهلة معهم في كل ما يتعلق بالمعاملات. وكلنا يعلم أن عواقب الحركة السابقة في سنة  <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="0082" change="#d3e187 #d2e232" xml:id="date_2.d2e351"><tei:num type="auto-markup" change="#d2e179 #d2e232" value="82" xml:lang="ar" xml:id="num_1.d2e352">٨٢</tei:num></tei:date>  كانت وخيمة على البلاد وانتهت بما لا يحمده المصريون فكأنها إنذار أبدي يخوفنا كل وقت من سوء عاقبة الهيجان واشتعال الأفكار فليكن ذلك بين عين كل مصي تدفعه الأراجيف والمختلقات إلى التهور والحدة في الكلام خصوصاً ونحن نعلم أن بعض من تسموا بأسمائنا وظهروا بالتدين بديننا يتخللون المجالس والقهاوي والمحافل مهيجين ومقبحين لأعمال انكلترا وما يسعون إلا في إثارة الخواطر وخدمة الدولة التي تستعملهم آلة لحجة تلتمسها وبرهان تقيمه أمام أوروبا وليست الفتنة السابقة ما يروى من الأخبار البعيدة العهد عنا بل كلنا حضرها وشاهدها وعلم ما جرى من كل طرف من الأطراف التي كانت عاملة فيها.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e356">وحيث أننا جمعياً نثق كل
+                    وحرية الأعمال. والتعرّض لهم بشيء ضار تعرّض لنفس الحكومة ومعاكسة لأعمالها. ونحن وأن كنا أبعد الناس عن الحركات العدوانية ولكن من لا يرضيه سكوننا ربما بث فينا أهل فتن أو أغرى بعض الحمقا على فعل ما لا يحمد تهييجاً للأفكار وتذرعاً للفتنة فأقدم خالص النصيحة لأخواني المصريين على اختلاف أديانهم أن يقرؤا العواقب ويبعدوا عن كل ما يكدّر الراحة وأن يعاملوا الأوروبيين المعاملة الحسنة ويسلكوا معهم طريق الأدب واللطف اللذين تعودوا عليهما وأن يكفوا عن العبارات المؤثرة في النفوس والطعن في أي دولة من الدول حتى دولة بريطانيا العظمى التي هي مرجع الاختلاف فإننا يلزمنا معاملة أفرادها معاملة الرفق واللين والإغضاء عن كل شيء تقدم فإننا الآن أحوج الناس لملاينة الأجانب والمساهلة معهم في كل ما يتعلق بالمعاملات. وكلنا يعلم أن عواقب الحركة السابقة في سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="0082" change="#d3e187 #d2e232" xml:id="date_2.d2e351"><num type="auto-markup" change="#d2e179 #d2e232" value="82" xml:lang="ar" xml:id="num_1.d2e352">٨٢</num></date>  كانت وخيمة على البلاد وانتهت بما لا يحمده المصريون فكأنها إنذار أبدي يخوفنا كل وقت من سوء عاقبة الهيجان واشتعال الأفكار فليكن ذلك بين عين كل مصي تدفعه الأراجيف والمختلقات إلى التهور والحدة في الكلام خصوصاً ونحن نعلم أن بعض من تسموا بأسمائنا وظهروا بالتدين بديننا يتخللون المجالس والقهاوي والمحافل مهيجين ومقبحين لأعمال انكلترا وما يسعون إلا في إثارة الخواطر وخدمة الدولة التي تستعملهم آلة لحجة تلتمسها وبرهان تقيمه أمام أوروبا وليست الفتنة السابقة ما يروى من الأخبار البعيدة العهد عنا بل كلنا حضرها وشاهدها وعلم ما جرى من كل طرف من الأطراف التي كانت عاملة فيها.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e356">وحيث أننا جمعياً نثق كل
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P546.xhtml" ed="shamela" n="n1-p547" change="#d2e232" xml:id="pb_17.d2e358"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="547" facs="#facs_547" xml:id="pb_18.d2e359"/>
-                    الوثوق بالحضرة الخديوية الفخيمة والحضرة الرياضية نترك لهما الأعمال السياسية والتصرف في حوادثنا وإدارتنا الداخلية والخارجية بما هو باعث ثقتنا بهما وما علينا إلا ربط القلوب على التعلق بمحبة الذات الخديوية وصدق النية في خدمة الحكومة والبلاد بالانقياد إلى الأوامر والبعد عن كل فتنة وهيجان وتهور والإخلاص في معاملة الأجانب بما يدخل عليهم السرور منا في كل وقت ولا يدعكم مخالفة دين البعض للتعصب عليه فقد قضينا ثلاثة عشر قرناً ونحن نعاشر أصحاب الأديان المختلفة معاشرة الأحباب وهي طريقة الأمن والسلام فألزموها تفلحوا ولا تنسوا مشاركة الأوربيين لنا في الفرح والسرور وتظاهرهم أمام الحضرة الخديوية بالثناء على همته والنداء باسمه يعيش عباس باشا وهذه صفات تلزمنا وتوجب علينا حسن المعاملة والاختلاط بهم في المجالس متبادلين الزيارات وعبارات المسامرة والملاطفة وبهذه المعاملة يظهر لنا الفرق بين التمسك مع محافظته على أصول دينه وفروعه فإذا انتهى من مسامرة المغاير ذهب إلى معبده. والمتعصب يحمل الغير على الأخذ بدينه ويلتزم الطعن في دين الغير فيهيج النفوس ويحركها للعدوان وهذه طريقة ما سلكها المصريون خصوصاً ولا المسلمون عموماً من عهد ظهور الدين الإسلامي إلى الآن.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e362">فأولى بنا أن نلتزم ما التزمه السلف الصالح من المحافظة على الحقوق الوطنية والاستيطانية ونظر المستقبل بمنظار يرينا الحقائق من شباك الهدو والسكون وأننا نرى بعض الأعداء يطرح أوراقاً فيها كلمات ساقطة والبعض يدخل المجالس باسم مصري يسب انكلترا ويذم أعمالها ويحرك النفوس ضدها أو
+                    الوثوق بالحضرة الخديوية الفخيمة والحضرة الرياضية نترك لهما الأعمال السياسية والتصرف في حوادثنا وإدارتنا الداخلية والخارجية بما هو باعث ثقتنا بهما وما علينا إلا ربط القلوب على التعلق بمحبة الذات الخديوية وصدق النية في خدمة الحكومة والبلاد بالانقياد إلى الأوامر والبعد عن كل فتنة وهيجان وتهور والإخلاص في معاملة الأجانب بما يدخل عليهم السرور منا في كل وقت ولا يدعكم مخالفة دين البعض للتعصب عليه فقد قضينا ثلاثة عشر قرناً ونحن نعاشر أصحاب الأديان المختلفة معاشرة الأحباب وهي طريقة الأمن والسلام فألزموها تفلحوا ولا تنسوا مشاركة الأوربيين لنا في الفرح والسرور وتظاهرهم أمام الحضرة الخديوية بالثناء على همته والنداء باسمه يعيش عباس باشا وهذه صفات تلزمنا وتوجب علينا حسن المعاملة والاختلاط بهم في المجالس متبادلين الزيارات وعبارات المسامرة والملاطفة وبهذه المعاملة يظهر لنا الفرق بين التمسك مع محافظته على أصول دينه وفروعه فإذا انتهى من مسامرة المغاير ذهب إلى معبده. والمتعصب يحمل الغير على الأخذ بدينه ويلتزم الطعن في دين الغير فيهيج النفوس ويحركها للعدوان وهذه طريقة ما سلكها المصريون خصوصاً ولا المسلمون عموماً من عهد ظهور الدين الإسلامي إلى الآن.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e362">فأولى بنا أن نلتزم ما التزمه السلف الصالح من المحافظة على الحقوق الوطنية والاستيطانية ونظر المستقبل بمنظار يرينا الحقائق من شباك الهدو والسكون وأننا نرى بعض الأعداء يطرح أوراقاً فيها كلمات ساقطة والبعض يدخل المجالس باسم مصري يسب انكلترا ويذم أعمالها ويحرك النفوس ضدها أو
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P547.xhtml" ed="shamela" n="n1-p548" change="#d2e232" xml:id="pb_19.d2e364"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="548" facs="#facs_548" xml:id="pb_20.d2e365"/>
-                    ضد أوروبا والشيطان أفضل من هذا فإنه يوسوس ولا يسمع له صوت وهذا له صوت مؤثر في الضعفاء ففرقوا بين العدو والحبيب بما تسمعونه وإياكم والاغترار بكل مسموع أو مكتوب فالفتنة نائمة ولعن الله من أثارها فاسمعوا واجيبوا نداء مخلص في خدمة وطنه وأخوانه.</tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e369">
+                    ضد أوروبا والشيطان أفضل من هذا فإنه يوسوس ولا يسمع له صوت وهذا له صوت مؤثر في الضعفاء ففرقوا بين العدو والحبيب بما تسمعونه وإياكم والاغترار بكل مسموع أو مكتوب فالفتنة نائمة ولعن الله من أثارها فاسمعوا واجيبوا نداء مخلص في خدمة وطنه وأخوانه.</p>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e369">
                 <head change="#d2e232" xml:id="head_4.d2e371">عناية سلطانية</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e374">امتلأت الديار المصرية فرحاً وسروراً بما ذاع بينهم من توجيه عناية سيدنا ومولانا أمير المؤمنين أيده الله تعالى إلى سيدنا وأميرنا الخديوي المفخم النائب السلطاني بتأييد مبادئه الحرة والمحافظة على حقوقه الممنوحة له بالفرمان الشاهاني إذا أمر سفير جلالته بلتدن أن يعلن حكومة انكلترا بأن ما جرياتها وتداخلها في حقوق مولانا الخديوي ومس حقوقه الفرمانية أو شخص حضرته يعتبره السلطان كأنه ضد فخامة جلالته بل ضد السلطنة الإسلامية العثمانية وأن السفير عندما بلغ انكلترا ذلك أعلنته أنها تحافظ كل المحافظة على الحقوق السلطانية والامتيازات الخديوية بمصر. ومن هذا يعلم كل عاقل أن ما إجراه الجناب الخديوي الأفخم لم يكن إلا محافظة على حقوق مكفولة برعاية السلطان الأعظم ووقاية اتفاق الدول العظام وأن ما كان يفعل ما إمارته قبل ذلك كان مخالفة للفرمانات والمعاهدات الدولية فلا تقره وترضاه دولة من الدول ولا نفس انكلترا التي أعلنت شدة محافظتها على حقوق سلطاننا وأميرنا ولكنا لا نؤاخذ رجالها بما اختاروه لأنفسهم من الأثرة بالرأي والعمل فقد قدمنا أن دول التداخل تجرب نفسها أمام الأمة المتداخل في شأنها فإن أغفلت نفذت وأن عورضت
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e374">امتلأت الديار المصرية فرحاً وسروراً بما ذاع بينهم من توجيه عناية سيدنا ومولانا أمير المؤمنين أيده الله تعالى إلى سيدنا وأميرنا الخديوي المفخم النائب السلطاني بتأييد مبادئه الحرة والمحافظة على حقوقه الممنوحة له بالفرمان الشاهاني إذا أمر سفير جلالته بلتدن أن يعلن حكومة انكلترا بأن ما جرياتها وتداخلها في حقوق مولانا الخديوي ومس حقوقه الفرمانية أو شخص حضرته يعتبره السلطان كأنه ضد فخامة جلالته بل ضد السلطنة الإسلامية العثمانية وأن السفير عندما بلغ انكلترا ذلك أعلنته أنها تحافظ كل المحافظة على الحقوق السلطانية والامتيازات الخديوية بمصر. ومن هذا يعلم كل عاقل أن ما إجراه الجناب الخديوي الأفخم لم يكن إلا محافظة على حقوق مكفولة برعاية السلطان الأعظم ووقاية اتفاق الدول العظام وأن ما كان يفعل ما إمارته قبل ذلك كان مخالفة للفرمانات والمعاهدات الدولية فلا تقره وترضاه دولة من الدول ولا نفس انكلترا التي أعلنت شدة محافظتها على حقوق سلطاننا وأميرنا ولكنا لا نؤاخذ رجالها بما اختاروه لأنفسهم من الأثرة بالرأي والعمل فقد قدمنا أن دول التداخل تجرب نفسها أمام الأمة المتداخل في شأنها فإن أغفلت نفذت وأن عورضت
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P548.xhtml" ed="shamela" n="n1-p549" change="#d2e232" xml:id="pb_21.d2e376"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="549" facs="#facs_549" xml:id="pb_22.d2e377"/>
-                    اعتذرت وهؤلاء كانوا يفعلون بلا معارضة فما عورضوا بصاحب الحق الشرعي لم يكن لهم أدنى حجة على اختصاصهم بشيء من الأعمال وأقروا أن المستخدم عامل من عمال الخديوي إن شاء أقره على عمله وإن شاء استبدله بغيره بحسب ما يقتضيه النظام فنحن معاشر المصريين رجالاً وإناثاً صغاراً وكباراً نرفع أكف الضراعة إلى الله تعالى أن يحفظ حامي حوزة المسلمين ومالك أزمة المؤمنين مولانا السلطان عبد الحميد خان وأن يؤيد كلمته ويقوّي شوكته وينشر ظله على كل أرض يسكنها مسلم وأن يبارك لنا في عمر مولانا العباس ويقوّي عزائمه ويجعله ملجئاً دائماً وحصناً منيعاً لكل خاضع لأمرة العالي وأن يعين دولة وزيرنا الأول على قطع عقبات التخاذل والتوفيق بين مصالحنا ومصالح الدول المتحابة معنا لوقوف كل من الوطني والمستوطن عند حده وتمتع المجموع بثمرات الإصلاح ونتائج الاتحاد. والحق تعالى يكلل أعماله بالنجاح ويحفظنا من فتن الكارهين للإصلاح الذين شأنهم نسبة الهمجية والخشونة إلى المصريين بعمالهم المصطنعين ولنا في أخواننا عظمي الثقة بأنهم يلاحظون عناية الخليفة الأعظم وتوجهات الخديوي الأفخم وينصرفون عن أهل الفتن من أجي جنس كانوا حتى لو</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e380">وجدوا في أستاذنا شيئاً يميل بهم إلى الفتنة أو يدعوهم لسلب حق أجنبي أو وطني فليضربوا به الحائط أهانة وتنكيلاً. والله تعالى يديم لنا تبادل محبتنا مع نزلائنا محاطين بسور الأمن والسلام.
+                    اعتذرت وهؤلاء كانوا يفعلون بلا معارضة فما عورضوا بصاحب الحق الشرعي لم يكن لهم أدنى حجة على اختصاصهم بشيء من الأعمال وأقروا أن المستخدم عامل من عمال الخديوي إن شاء أقره على عمله وإن شاء استبدله بغيره بحسب ما يقتضيه النظام فنحن معاشر المصريين رجالاً وإناثاً صغاراً وكباراً نرفع أكف الضراعة إلى الله تعالى أن يحفظ حامي حوزة المسلمين ومالك أزمة المؤمنين مولانا السلطان عبد الحميد خان وأن يؤيد كلمته ويقوّي شوكته وينشر ظله على كل أرض يسكنها مسلم وأن يبارك لنا في عمر مولانا العباس ويقوّي عزائمه ويجعله ملجئاً دائماً وحصناً منيعاً لكل خاضع لأمرة العالي وأن يعين دولة وزيرنا الأول على قطع عقبات التخاذل والتوفيق بين مصالحنا ومصالح الدول المتحابة معنا لوقوف كل من الوطني والمستوطن عند حده وتمتع المجموع بثمرات الإصلاح ونتائج الاتحاد. والحق تعالى يكلل أعماله بالنجاح ويحفظنا من فتن الكارهين للإصلاح الذين شأنهم نسبة الهمجية والخشونة إلى المصريين بعمالهم المصطنعين ولنا في أخواننا عظمي الثقة بأنهم يلاحظون عناية الخليفة الأعظم وتوجهات الخديوي الأفخم وينصرفون عن أهل الفتن من أجي جنس كانوا حتى لو</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e380">وجدوا في أستاذنا شيئاً يميل بهم إلى الفتنة أو يدعوهم لسلب حق أجنبي أو وطني فليضربوا به الحائط أهانة وتنكيلاً. والله تعالى يديم لنا تبادل محبتنا مع نزلائنا محاطين بسور الأمن والسلام.
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P549.xhtml" ed="shamela" n="n1-p550" change="#d2e232" xml:id="pb_23.d2e382"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="550" facs="#facs_550" xml:id="pb_24.d2e383"/>
-            </tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e387">
+            </p>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e387">
                 <head change="#d2e232" xml:id="head_5.d2e389">قصيدة مديح في الخديوي</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e392">شكر النعم ومدح الهمم المحضرة الفخيمة الخديوية والعواطف العباسية أفندينا عباس مصر الثاني بلغه الله جميع الأماني.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e395">بقلم العلامة الفاضل الشيخ سليمان العبد أحد مدرسي الأزهر الشريف</tei:p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e392">شكر النعم ومدح الهمم المحضرة الفخيمة الخديوية والعواطف العباسية أفندينا عباس مصر الثاني بلغه الله جميع الأماني.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e395">بقلم العلامة الفاضل الشيخ سليمان العبد أحد مدرسي الأزهر الشريف</p>
                 <lg change="#d2e82 #d2e232" xml:id="lg_1.d2e398">
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e400">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e402">اصعد بعزمك فوق هام الفرقد</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e405">وأحلّ مصرك في المقام الأصعد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e409">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e411">فالنصر يقفو منك خير مقوم</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e414">عوج الأمور بحسن رأي أرشد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e418">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e420">لله موقفك الذي بهر الورى</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e423">بسكينة وعزيمة لم تجحد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e427">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e429">أيدت فيه حقوق ملكك بعد أن</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e432">عبثت بها أيدي الزمان الأنكد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e436">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e438">ونشرت من رمس الخمول أمانيا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e441">لولاك لم تنش ولم تتجدد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e446">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e448">وقفت سيوف الهند وهي كليلة</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e451">وحسام رأيك باتر لم يغمد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e455">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e457">والناس بين مكبر ومهلل</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e460">مما رأى ومعظم وممجد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e464">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e466">يتفاخرون بعزمة المولى التي</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e469">تستسهل الصعب القصي المقصد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e473">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e475">ويرون في تأييد حقك ظافراً</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e478">عنوان ما يمضي ثباتك في غد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e482">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e484">قل للزمان وقل لأهليه اكتبوا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e487">تلك الفعال وقل لأوربا اشهدي</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e491">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e493">كشف اليقين من الأمور حجابها</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e496">بعد الشكوك وضاء نهج المقتدي</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e501">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e503">فاسلم لمصر فأنت بدر سمائها</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e506">لهداية الساري ورشد المهتدي</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e510">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e512">واجعل بلادك جنة محفوفة</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e515">لا بالمكاره بل بمحض السودد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e519">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e521">وانهض بعون الله في درج العلا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e524">وابن المآثر في حماك وشيد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e528">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e530">فالله كاليء سدة وردت بها</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e533">آمال هذا الملك أعذب مورد</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e537">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e539">والدهر خادمك الأمن مؤرخ</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e542">نصر الخديوي دائم فليسعد</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e400">
+                        <seg change="#d2e232" xml:id="seg_1.d2e402">اصعد بعزمك فوق هام الفرقد</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e405">وأحلّ مصرك في المقام الأصعد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e409">
+                        <seg change="#d2e232" xml:id="seg_1.d2e411">فالنصر يقفو منك خير مقوم</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e414">عوج الأمور بحسن رأي أرشد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e418">
+                        <seg change="#d2e232" xml:id="seg_1.d2e420">لله موقفك الذي بهر الورى</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e423">بسكينة وعزيمة لم تجحد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e427">
+                        <seg change="#d2e232" xml:id="seg_1.d2e429">أيدت فيه حقوق ملكك بعد أن</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e432">عبثت بها أيدي الزمان الأنكد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e436">
+                        <seg change="#d2e232" xml:id="seg_1.d2e438">ونشرت من رمس الخمول أمانيا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e441">لولاك لم تنش ولم تتجدد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e446">
+                        <seg change="#d2e232" xml:id="seg_1.d2e448">وقفت سيوف الهند وهي كليلة</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e451">وحسام رأيك باتر لم يغمد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e455">
+                        <seg change="#d2e232" xml:id="seg_1.d2e457">والناس بين مكبر ومهلل</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e460">مما رأى ومعظم وممجد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e464">
+                        <seg change="#d2e232" xml:id="seg_1.d2e466">يتفاخرون بعزمة المولى التي</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e469">تستسهل الصعب القصي المقصد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e473">
+                        <seg change="#d2e232" xml:id="seg_1.d2e475">ويرون في تأييد حقك ظافراً</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e478">عنوان ما يمضي ثباتك في غد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e482">
+                        <seg change="#d2e232" xml:id="seg_1.d2e484">قل للزمان وقل لأهليه اكتبوا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e487">تلك الفعال وقل لأوربا اشهدي</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e491">
+                        <seg change="#d2e232" xml:id="seg_1.d2e493">كشف اليقين من الأمور حجابها</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e496">بعد الشكوك وضاء نهج المقتدي</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e501">
+                        <seg change="#d2e232" xml:id="seg_1.d2e503">فاسلم لمصر فأنت بدر سمائها</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e506">لهداية الساري ورشد المهتدي</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e510">
+                        <seg change="#d2e232" xml:id="seg_1.d2e512">واجعل بلادك جنة محفوفة</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e515">لا بالمكاره بل بمحض السودد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e519">
+                        <seg change="#d2e232" xml:id="seg_1.d2e521">وانهض بعون الله في درج العلا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e524">وابن المآثر في حماك وشيد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e528">
+                        <seg change="#d2e232" xml:id="seg_1.d2e530">فالله كاليء سدة وردت بها</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e533">آمال هذا الملك أعذب مورد</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e537">
+                        <seg change="#d2e232" xml:id="seg_1.d2e539">والدهر خادمك الأمن مؤرخ</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e542">نصر الخديوي دائم فليسعد</seg>
+                    </l>
                 </lg>
-                <byline change="#d2e150 #d2e232" xml:id="byline_1.d2e547">سنة  <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e549"><tei:num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e550">١٣١٠</tei:num></tei:date> 
+                <byline change="#d2e150 #d2e232" xml:id="byline_1.d2e547">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e549"><num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e550">١٣١٠</num></date> 
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P550.xhtml" ed="shamela" n="n1-p551" change="#d2e232" xml:id="pb_25.d2e553"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="551" facs="#facs_551" xml:id="pb_26.d2e554"/>
             </byline>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e559">
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e559">
                 <head change="#d2e232" xml:id="head_6.d2e561">تاريخ البشري البهية بعود الوزارة الرياضية</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e564">من إنشاء الفاضل الماجد والشاعر المطبوع الأديب سليمان أفندي عياد من مستخدمي الداخلية الجليلة قال أيده الله تعالى:</tei:p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e564">من إنشاء الفاضل الماجد والشاعر المطبوع الأديب سليمان أفندي عياد من مستخدمي الداخلية الجليلة قال أيده الله تعالى:</p>
                 <lg change="#d2e82 #d2e232" xml:id="lg_2.d2e567">
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e569">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e571">برياض حلا بهاء الوزاره</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e574">فانثنت بهجة وماست نضاره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e578">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e580">وإليها فخامة القدر عادت</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e583">وعليها ألقى الوقار شعاره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e587">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e589">عاودتها روح النشاط فقامت</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e592">تتشكى حال الخمول وعاره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e596">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e598">فهنيئاً يا أهل مصر هنيئاً</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e601">بالوزير الذي علمتم فخاره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e605">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e607">بالوزير الحر الغيور عليكم</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e610">من حمدتم أحواله واختباره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e615">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e617">من شهدتم آثاره من قديم</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e620">وعرفتم نفوذه واقتداره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e624">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e626">هو ذا الشهم الذي صيته قد</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e629">ملأ الأرض خبرةً ومصاره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e633">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e635">رجل القطر والمدافع عنه</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e638">والمفادي له المحب اعتباره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e642">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e644">من رعى أمره فشاد علاه</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e647">وبنى مجده وأعلى مناره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e651">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e653">يا وزير البلاد عودك عيد</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e656">نتلقاه بالهنا والبشاره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e660">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e662">أي عيد فالأمر أجلى ابتهاجاً</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e665">وشمول السرور أعظم شاره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e670">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e672">أي عيد فكل روح عليها</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e675">قد أدار الصفو الحقيقي عقاره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e679">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e681">فليعش ملك مصر عباس باشا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e684">صائب الرأي فيك لا باستشاره</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e569">
+                        <seg change="#d2e232" xml:id="seg_1.d2e571">برياض حلا بهاء الوزاره</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e574">فانثنت بهجة وماست نضاره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e578">
+                        <seg change="#d2e232" xml:id="seg_1.d2e580">وإليها فخامة القدر عادت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e583">وعليها ألقى الوقار شعاره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e587">
+                        <seg change="#d2e232" xml:id="seg_1.d2e589">عاودتها روح النشاط فقامت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e592">تتشكى حال الخمول وعاره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e596">
+                        <seg change="#d2e232" xml:id="seg_1.d2e598">فهنيئاً يا أهل مصر هنيئاً</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e601">بالوزير الذي علمتم فخاره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e605">
+                        <seg change="#d2e232" xml:id="seg_1.d2e607">بالوزير الحر الغيور عليكم</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e610">من حمدتم أحواله واختباره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e615">
+                        <seg change="#d2e232" xml:id="seg_1.d2e617">من شهدتم آثاره من قديم</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e620">وعرفتم نفوذه واقتداره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e624">
+                        <seg change="#d2e232" xml:id="seg_1.d2e626">هو ذا الشهم الذي صيته قد</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e629">ملأ الأرض خبرةً ومصاره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e633">
+                        <seg change="#d2e232" xml:id="seg_1.d2e635">رجل القطر والمدافع عنه</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e638">والمفادي له المحب اعتباره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e642">
+                        <seg change="#d2e232" xml:id="seg_1.d2e644">من رعى أمره فشاد علاه</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e647">وبنى مجده وأعلى مناره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e651">
+                        <seg change="#d2e232" xml:id="seg_1.d2e653">يا وزير البلاد عودك عيد</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e656">نتلقاه بالهنا والبشاره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e660">
+                        <seg change="#d2e232" xml:id="seg_1.d2e662">أي عيد فالأمر أجلى ابتهاجاً</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e665">وشمول السرور أعظم شاره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e670">
+                        <seg change="#d2e232" xml:id="seg_1.d2e672">أي عيد فكل روح عليها</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e675">قد أدار الصفو الحقيقي عقاره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e679">
+                        <seg change="#d2e232" xml:id="seg_1.d2e681">فليعش ملك مصر عباس باشا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e684">صائب الرأي فيك لا باستشاره</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e689">فله الشكر دائماً خلد الله لنا ملكه وقوى انتصاره</tei:p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e689">فله الشكر دائماً خلد الله لنا ملكه وقوى انتصاره</p>
                 <lg change="#d2e82 #d2e232" xml:id="lg_3.d2e692">
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e694">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e696">فاعتصم يا وزير منه ببأس</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e699">لا يفل الزمان قطّ غراره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e703">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e705">وكما شئت أصدع بأمرك وأجبر</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e708">وطناً يشتكي إليك انكساره</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e694">
+                        <seg change="#d2e232" xml:id="seg_1.d2e696">فاعتصم يا وزير منه ببأس</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e699">لا يفل الزمان قطّ غراره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e703">
+                        <seg change="#d2e232" xml:id="seg_1.d2e705">وكما شئت أصدع بأمرك وأجبر</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e708">وطناً يشتكي إليك انكساره</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e714">قرن الله بالسعادة أيامك فيه حتى تقيم أزوراره
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e714">قرن الله بالسعادة أيامك فيه حتى تقيم أزوراره
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P551.xhtml" ed="shamela" n="n1-p552" change="#d2e232" xml:id="pb_27.d2e716"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="552" facs="#facs_552" xml:id="pb_28.d2e717"/>
-                    فلأنت الذي تعلقت الآمال فيه وعودت أنظاره</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e720">ولانت الطبيب للقطر ممامسه من نقيصة أو حقاره</tei:p>
+                    فلأنت الذي تعلقت الآمال فيه وعودت أنظاره</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e720">ولانت الطبيب للقطر ممامسه من نقيصة أو حقاره</p>
                 <lg change="#d2e82 #d2e232" xml:id="lg_4.d2e723">
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e725">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e727">يالها منة رجوعك فينا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e730">بعد ما احكم القنوط حصاره</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e725">
+                        <seg change="#d2e232" xml:id="seg_1.d2e727">يالها منة رجوعك فينا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e730">بعد ما احكم القنوط حصاره</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e735">فلنعم الأمام عدت إلى المحراب يا معدن الهدى والطهارة</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e738">بارك الله في وزارتك الزهراء يا در تاج كل صدارة</tei:p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e735">فلنعم الأمام عدت إلى المحراب يا معدن الهدى والطهارة</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e738">بارك الله في وزارتك الزهراء يا در تاج كل صدارة</p>
                 <lg change="#d2e82 #d2e232" xml:id="lg_5.d2e741">
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e743">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e745">فإذن لأمراء أن قلت أرخ</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e748">برياض حلا بهاء الوزارة</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e743">
+                        <seg change="#d2e232" xml:id="seg_1.d2e745">فإذن لأمراء أن قلت أرخ</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e748">برياض حلا بهاء الوزارة</seg>
+                    </l>
                 </lg>
-                <byline change="#d2e150 #d2e232" xml:id="byline_2.d2e754">سنة  <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e756"><tei:num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e757">١٣١٠</tei:num></tei:date>  ـ  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1013" xml:lang="ar" xml:id="num_1.d2e760">١٠١٣</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="39" xml:lang="ar" xml:id="num_1.d2e763">٣٩</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="8" xml:lang="ar" xml:id="num_1.d2e766">٨</tei:num>  ـ  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="250" xml:lang="ar" xml:id="num_1.d2e769">٢٥٠</tei:num> </byline>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e774">
+                <byline change="#d2e150 #d2e232" xml:id="byline_2.d2e754">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e756"><num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e757">١٣١٠</num></date>  ـ  <num type="auto-markup" change="#d2e179 #d2e232" value="1013" xml:lang="ar" xml:id="num_1.d2e760">١٠١٣</num>  ـ  <num type="auto-markup" change="#d2e179 #d2e232" value="39" xml:lang="ar" xml:id="num_1.d2e763">٣٩</num>  ـ  <num type="auto-markup" change="#d2e179 #d2e232" value="8" xml:lang="ar" xml:id="num_1.d2e766">٨</num>  ـ  <num type="auto-markup" change="#d2e179 #d2e232" value="250" xml:lang="ar" xml:id="num_1.d2e769">٢٥٠</num> </byline>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e774">
                 <head change="#d2e232" xml:id="head_7.d2e776">جمعية العروة الوثقى</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e779">تقدم لنا ذكر شيء من تاريخ هذه الجمعية وفضائل أعضائها الكرام والآن نقول أن مدرستها التي كانت بجوار بورصة التجار بيمنا البصل ضاقت بالتلامذة لكثرتهم فيها فاضطر حضرات الأعضاء للبحث عن محل يسع التلامذة الحاضرين ومن يزيد عليهم ووجدوا مكاناً فسيحاً في ملك اسماعيل أفندي شعث أمام مسجده بأول شارع كوم الشقافة البّراني ونقلوا إليه التلامذة فنثني على همة الأعضاء الكرام وقيامهم بهذه الخدمة الجليلة مع كون عددهم لا يزيد عن تسعة عشر رجلاً ولله در رئيسهم الفاضل محمد أفندي طاهر ومدير المدرسة الماهر اللوذعي عبد القادر أفندي سري فغن كلا منهما قائم بما فوض إليه أحسن قيام وقد قبلوا في جمعيتهم المجللة بحسن العمل حضرة الفاضل الكامل أحمد بك صبري الباشمهندس بالسكة الحديدية والدمتور محمد أفندي رأفت حكيم القسم الرابع بإسكندرية وانتهى</tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e783">
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e779">تقدم لنا ذكر شيء من تاريخ هذه الجمعية وفضائل أعضائها الكرام والآن نقول أن مدرستها التي كانت بجوار بورصة التجار بيمنا البصل ضاقت بالتلامذة لكثرتهم فيها فاضطر حضرات الأعضاء للبحث عن محل يسع التلامذة الحاضرين ومن يزيد عليهم ووجدوا مكاناً فسيحاً في ملك اسماعيل أفندي شعث أمام مسجده بأول شارع كوم الشقافة البّراني ونقلوا إليه التلامذة فنثني على همة الأعضاء الكرام وقيامهم بهذه الخدمة الجليلة مع كون عددهم لا يزيد عن تسعة عشر رجلاً ولله در رئيسهم الفاضل محمد أفندي طاهر ومدير المدرسة الماهر اللوذعي عبد القادر أفندي سري فغن كلا منهما قائم بما فوض إليه أحسن قيام وقد قبلوا في جمعيتهم المجللة بحسن العمل حضرة الفاضل الكامل أحمد بك صبري الباشمهندس بالسكة الحديدية والدمتور محمد أفندي رأفت حكيم القسم الرابع بإسكندرية وانتهى</p>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e783">
                 <head change="#d2e232" xml:id="head_8.d2e785">العدد </head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e788">على واحد وعشرين عضواً وهم المؤسسون والمعضدون وسنذكر أسماءهم جميعاً في عدد آخر تخليداً لذكرهم
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e788">على واحد وعشرين عضواً وهم المؤسسون والمعضدون وسنذكر أسماءهم جميعاً في عدد آخر تخليداً لذكرهم
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P552.xhtml" ed="shamela" n="n1-p553" change="#d2e232" xml:id="pb_29.d2e790"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="553" facs="#facs_553" xml:id="pb_30.d2e791"/>
-                    الجميل ومن أحسن ما يذكر لهم أن كلاً منهم له وظيفة في المدرسة فمنهم الرياضي ومعلم العربي ومعلم اللغة الفرنساوية والطبيب القائم بعلاج التلامذة وبهذا نجحت المدرسة نجاحاً عظيماً ومن اشتغل منهم عن المدرسة نهاراً جاء ليتعلم من أخوانه ليلاً فهم على الدوام ينفعون وينتفعون كلل فعلهم الخيري بالنجاح.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e794">أنا لله وأنا إليه راجعون</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e797">سبحان من تفرد بالعزة والبقاء وقهر العباد بالموت. ولن يؤخر الله نفساً إذا جاء أجلها وقد كان آخر الأجل المقدر لوالدنا المرحوم السيد مصباح بن السيد ابراهيم الإدريسي الحسني الدقيقة التاسعة والعشرين من الساعة التاسعة العربية من ليلة الأحد الموافق  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="4" xml:lang="ar" xml:id="num_1.d2e799">٤</tei:num>  رجب سنة    و <tei:num type="auto-markup" change="#d2e179 #d2e232" value="22" xml:lang="ar" xml:id="num_1.d2e802">٢٢</tei:num>  يناير سنة    وكان مولده ببلدة الطيبة من قرى مديرية الشرقية في اليوم العشرين من شهر ذي الحجة سنة    ووفاته في التاريخ المذكور قبله فعمره خمس وسبعون سنة وستة شهور قمرية وأربعة عشر يوماً وفي الساعة الثامنة من يوم الأحد خرج مشهده باحتفال تفضل علينا بالحضور فيه لفيف من العلماء الإعلام وفريق من الذوات الفخام وجماعة من النبهاء والأعيان والجهاء وصحبونا إلى المقام الحسيني الشريف حيث صلى عليه فيه بإمامة الأستاذ العلامة السيد حمرة فتح الله وبعد الصلاة قرى نسبه الشريف على إسماع هذا الجمع المنيف ثم حمل محفوفاً بهؤلاء المتفضلين بهذا الاحتفال وعند ما</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e806">بلغنا رأس الشارع الموصل إلى القرافة ترجيناهم في الرجوع شاكرين سعيهم
+                    الجميل ومن أحسن ما يذكر لهم أن كلاً منهم له وظيفة في المدرسة فمنهم الرياضي ومعلم العربي ومعلم اللغة الفرنساوية والطبيب القائم بعلاج التلامذة وبهذا نجحت المدرسة نجاحاً عظيماً ومن اشتغل منهم عن المدرسة نهاراً جاء ليتعلم من أخوانه ليلاً فهم على الدوام ينفعون وينتفعون كلل فعلهم الخيري بالنجاح.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e794">أنا لله وأنا إليه راجعون</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e797">سبحان من تفرد بالعزة والبقاء وقهر العباد بالموت. ولن يؤخر الله نفساً إذا جاء أجلها وقد كان آخر الأجل المقدر لوالدنا المرحوم السيد مصباح بن السيد ابراهيم الإدريسي الحسني الدقيقة التاسعة والعشرين من الساعة التاسعة العربية من ليلة الأحد الموافق  <num type="auto-markup" change="#d2e179 #d2e232" value="4" xml:lang="ar" xml:id="num_1.d2e799">٤</num>  رجب سنة    و <num type="auto-markup" change="#d2e179 #d2e232" value="22" xml:lang="ar" xml:id="num_1.d2e802">٢٢</num>  يناير سنة    وكان مولده ببلدة الطيبة من قرى مديرية الشرقية في اليوم العشرين من شهر ذي الحجة سنة    ووفاته في التاريخ المذكور قبله فعمره خمس وسبعون سنة وستة شهور قمرية وأربعة عشر يوماً وفي الساعة الثامنة من يوم الأحد خرج مشهده باحتفال تفضل علينا بالحضور فيه لفيف من العلماء الإعلام وفريق من الذوات الفخام وجماعة من النبهاء والأعيان والجهاء وصحبونا إلى المقام الحسيني الشريف حيث صلى عليه فيه بإمامة الأستاذ العلامة السيد حمرة فتح الله وبعد الصلاة قرى نسبه الشريف على إسماع هذا الجمع المنيف ثم حمل محفوفاً بهؤلاء المتفضلين بهذا الاحتفال وعند ما</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e806">بلغنا رأس الشارع الموصل إلى القرافة ترجيناهم في الرجوع شاكرين سعيهم
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P553.xhtml" ed="shamela" n="n1-p554" change="#d2e232" xml:id="pb_31.d2e808"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="554" facs="#facs_554" xml:id="pb_32.d2e809"/>
-                    فأبوا إلا المشي معنا إلى القرافة فلم نجد بدا من امتثال أمرهم وفي الساعة الحادية عشرة أقفل عليه باب جدته وأودعناه في روضة من رياض الجنة إن شاء الله تعالى وسنأتي على تاريخه وبعض تاريخ آبائه في وقت آخر إن شاء الله وما وصلنا البيت عائدين من القرافة حتى وفد علينا جموع الأمراء والعلماء والوجهاء والأعيان فنقدم الشكر لهؤلاء الذين أسرونا بتفضلهم وجبروا خاطرنا بعنايتهم بنا في هذا المصاب كما نشكر اشتراك أصحابنا محرري الجرائد معنا في الإحساس بآلام هذا الفراق وتفضلهم برثاء المرحوم وعيادتنا بأنفسهم فكان ذلك فضلاً من فضل ونقدم الثناء على أخواننا الوطنيين الذين أرسلوا التلغرافات تترى بالتعزية والتسلية لا أراهم الله مكروهاً والصبر على هذه المصيبة مرجو من الحي الذي لا يموت.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e813">عبد الفتاح نديم</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e816">
+                    فأبوا إلا المشي معنا إلى القرافة فلم نجد بدا من امتثال أمرهم وفي الساعة الحادية عشرة أقفل عليه باب جدته وأودعناه في روضة من رياض الجنة إن شاء الله تعالى وسنأتي على تاريخه وبعض تاريخ آبائه في وقت آخر إن شاء الله وما وصلنا البيت عائدين من القرافة حتى وفد علينا جموع الأمراء والعلماء والوجهاء والأعيان فنقدم الشكر لهؤلاء الذين أسرونا بتفضلهم وجبروا خاطرنا بعنايتهم بنا في هذا المصاب كما نشكر اشتراك أصحابنا محرري الجرائد معنا في الإحساس بآلام هذا الفراق وتفضلهم برثاء المرحوم وعيادتنا بأنفسهم فكان ذلك فضلاً من فضل ونقدم الثناء على أخواننا الوطنيين الذين أرسلوا التلغرافات تترى بالتعزية والتسلية لا أراهم الله مكروهاً والصبر على هذه المصيبة مرجو من الحي الذي لا يموت.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e813">عبد الفتاح نديم</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e816">
                <persName change="#d2e232" xml:id="persName_4.d2e818">عبد الله نديم</persName>
-            </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e822">رجاء</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e825">أصدرنا هذا العدد ثلاث ملازم لاشتغالنا بمأتم المرحوم والدنا فنرجوا الصفح من حضرات المشتركين عن التقصير في إصدار الرابعة ولهم الفضل ـ تأخر لدينا كثير من الرسائل والقصائد وسننشرها في العدد الآتي إن شاءالله.
+            </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e822">رجاء</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e825">أصدرنا هذا العدد ثلاث ملازم لاشتغالنا بمأتم المرحوم والدنا فنرجوا الصفح من حضرات المشتركين عن التقصير في إصدار الرابعة ولهم الفضل ـ تأخر لدينا كثير من الرسائل والقصائد وسننشرها في العدد الآتي إن شاءالله.
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P554.xhtml" ed="shamela" n="n1-p555" change="#d2e232" xml:id="pb_33.d2e827"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="555" facs="#" xml:id="pb_34.d2e828"/>
-            </tei:p>
-            </tei:div>
-      </tei:body>
-   </tei:text></TEI>
+            </p>
+            </div>
+      </body>
+   </text></TEI>

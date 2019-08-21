@@ -8,13 +8,13 @@
                   <persName change="#d2e208" xml:id="persName_1.d2e19">عبد الله النديم</persName>
                </persName>
                 </editor>
-                <tei:respStmt xml:lang="en" change="#d2e208" xml:id="respStmt_1.d2e24">
-                    <tei:resp change="#d2e208" xml:id="resp_1.d2e26">TEI edition</tei:resp>
-                    <tei:persName xml:id="pers_TG">
-                        <tei:forename change="#d2e208" xml:id="forename_1.d2e31">Till</tei:forename>
-                        <tei:surname change="#d2e208" xml:id="surname_1.d2e34">Grallert</tei:surname>
-                    </tei:persName>
-                </tei:respStmt>
+                <respStmt xml:lang="en" change="#d2e208" xml:id="respStmt_1.d2e24">
+                    <resp change="#d2e208" xml:id="resp_1.d2e26">TEI edition</resp>
+                    <persName xml:id="pers_TG">
+                        <forename change="#d2e208" xml:id="forename_1.d2e31">Till</forename>
+                        <surname change="#d2e208" xml:id="surname_1.d2e34">Grallert</surname>
+                    </persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt change="#d2e208" xml:id="publicationStmt_1.d2e40">
                 <p change="#d2e208" xml:id="p_1.d2e42">Unpulished TEI edition</p>
@@ -42,16 +42,16 @@
                                     <placeName xml:lang="en" ref="geon:360630" change="#d2e208" xml:id="placeName_3.d2e94">Cairo</placeName>
                                 </pubPlace>
                                 <!-- this is seems to be the first issue -->
-                                <tei:date calendar="#cal_gregorian" xml:lang="ar" when="1892-09-27" change="#d2e208" xml:id="date_1.d2e100">٢٧ ايلول سنة ١٨٩٢</tei:date>
+                                <date calendar="#cal_gregorian" xml:lang="ar" when="1892-09-27" change="#d2e208" xml:id="date_1.d2e100">٢٧ ايلول سنة ١٨٩٢</date>
                             </imprint>
                             <!-- <biblScope unit="issue" xml:lang="ar">العدد رقم 1</biblScope> -->
                         <biblScope unit="volume" from="1" to="1" change="#d2e208" xml:id="biblScope_1.d2e106"/><biblScope unit="issue" from="6" to="6" change="#d2e208" xml:id="biblScope_2.d2e107">6</biblScope><biblScope unit="page" from="121" to="144" change="#d2e196 #d2e208" xml:id="biblScope_3.d2e109">121-144</biblScope></monogr>
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change xmlns="" when="2019-05-27" who="#pers_TG" xml:id="d4e219" xml:lang="en">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e208" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2019-05-26" who="#pers_TG" xml:id="d2e203">Linked all <tei:tag change="#d2e208" xml:id="tag_1.d2e118">pb ed="print"</tei:tag> to the corresponding facsimile</tei:change><tei:change when="2019-05-26" who="#pers_TG" xml:id="d2e199">Added <tei:gi change="#d2e208" xml:id="gi_1.d2e123">graphic</tei:gi> for 24 pages with references to digital images.</tei:change><change when="2019-05-26" who="#pers_TG" xml:id="d2e196">Page numbers to bibliographic description of the source based on the file's content.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e194">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-05-26" who="#pers_TG" xml:id="d3e188">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <tei:gi change="#d2e208" xml:id="gi_1.d2e134">num</tei:gi> with <tei:att change="#d2e208" xml:id="att_1.d2e137">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en" change="#d2e208" xml:id="change_4.d2e140">Automatically marked up references to periodicals with <tei:tag change="#d2e208" xml:id="tag_1.d2e142">title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e208" xml:id="gi_1.d2e148">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e208" xml:id="gi_1.d2e151">tei:p</tei:gi>s.</change>
-         <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi change="#d2e208" xml:id="gi_1.d2e157">p</tei:gi>s inside <tei:gi change="#d2e208" xml:id="gi_1.d2e160">div</tei:gi>s as bylines (<tei:gi change="#d2e208" xml:id="gi_1.d2e163">byline</tei:gi>) if they did not exceed a string length of 60.</change>
+        <revisionDesc><change xmlns="" when="2019-05-27" who="#pers_TG" xml:id="d4e219" xml:lang="en">Added links to local facsimile files for each <gi>surface</gi> element.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e208" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e203">Linked all <tag change="#d2e208" xml:id="tag_1.d2e118">pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e199">Added <gi change="#d2e208" xml:id="gi_1.d2e123">graphic</gi> for 24 pages with references to digital images.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e196">Page numbers to bibliographic description of the source based on the file's content.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e194">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-05-26" who="#pers_TG" xml:id="d3e188">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <gi change="#d2e208" xml:id="gi_1.d2e134">num</gi> with <att change="#d2e208" xml:id="att_1.d2e137">value</att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</change><change when="2019-05-18" who="#pers_TG" xml:lang="en" change="#d2e208" xml:id="change_4.d2e140">Automatically marked up references to periodicals with <tag change="#d2e208" xml:id="tag_1.d2e142">title level="j"</tag>.</change>
+         <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e208" xml:id="gi_1.d2e148">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e208" xml:id="gi_1.d2e151">tei:p</gi>s.</change>
+         <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <gi change="#d2e208" xml:id="gi_1.d2e157">p</gi>s inside <gi change="#d2e208" xml:id="gi_1.d2e160">div</gi>s as bylines (<gi change="#d2e208" xml:id="gi_1.d2e163">byline</gi>) if they did not exceed a string length of 60.</change>
             <change change="d2e82 #d2e208" when="2019-05-17" who="#pers_TG" xml:lang="en" xml:id="change_6.d2e168">Converted the mark-up of 
                 <foreign xml:lang="ar-Latn-x-ijmes" change="#d2e208" xml:id="foreign_1.d2e170">qaṣīda</foreign>
                 s from 
@@ -66,698 +66,698 @@
                 <gi change="#d2e208" xml:id="gi_4.d2e186">seg</gi>
                 nodes.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of 
-                <tei:gi xml:lang="en" change="#d2e208" xml:id="gi_5.d2e192">tei:lb</tei:gi>
+                <gi xml:lang="en" change="#d2e208" xml:id="gi_5.d2e192">tei:lb</gi>
                 into 
-                <tei:gi xml:lang="en" change="#d2e208" xml:id="gi_5.d2e195">xml:p</tei:gi>
+                <gi xml:lang="en" change="#d2e208" xml:id="gi_5.d2e195">xml:p</gi>
                 s.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of 
-                <tei:gi xml:lang="en" change="#d2e208" xml:id="gi_5.d2e201">tei:head</tei:gi>
+                <gi xml:lang="en" change="#d2e208" xml:id="gi_5.d2e201">tei:head</gi>
                 into 
-                <tei:gi xml:lang="en" change="#d2e208" xml:id="gi_5.d2e204">xml:div</tei:gi>
+                <gi xml:lang="en" change="#d2e208" xml:id="gi_5.d2e204">xml:div</gi>
                 s.</change>
             <change when="2019-05-17" who="#pers_TG" xml:lang="en" change="#d2e208" xml:id="change_9.d2e208">Created this TEI P5 file by automatic conversion from ePub.</change>
         </revisionDesc>
-    </teiHeader><tei:facsimile xml:id="facs"><tei:surface xml:id="facs_121"><tei:graphic xml:id="facs_121-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/121.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_121-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_121.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_122"><tei:graphic xml:id="facs_122-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/122.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_122-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_122.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_123"><tei:graphic xml:id="facs_123-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/123.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_123-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_123.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_124"><tei:graphic xml:id="facs_124-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/124.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_124-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_124.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_125"><tei:graphic xml:id="facs_125-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/125.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_125-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_125.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_126"><tei:graphic xml:id="facs_126-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/126.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_126-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_126.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_127"><tei:graphic xml:id="facs_127-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/127.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_127-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_127.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_128"><tei:graphic xml:id="facs_128-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/128.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_128-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_128.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_129"><tei:graphic xml:id="facs_129-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/129.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_129-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_129.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_130"><tei:graphic xml:id="facs_130-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/130.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_130-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_130.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_131"><tei:graphic xml:id="facs_131-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/131.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_131-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_131.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_132"><tei:graphic xml:id="facs_132-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/132.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_132-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_132.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_133"><tei:graphic xml:id="facs_133-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/133.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_133-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_133.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_134"><tei:graphic xml:id="facs_134-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/134.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_134-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_134.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_135"><tei:graphic xml:id="facs_135-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/135.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_135-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_135.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_136"><tei:graphic xml:id="facs_136-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/136.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_136-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_136.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_137"><tei:graphic xml:id="facs_137-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/137.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_137-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_137.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_138"><tei:graphic xml:id="facs_138-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/138.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_138-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_138.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_139"><tei:graphic xml:id="facs_139-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/139.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_139-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_139.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_140"><tei:graphic xml:id="facs_140-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/140.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_140-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_140.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_141"><tei:graphic xml:id="facs_141-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/141.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_141-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_141.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_142"><tei:graphic xml:id="facs_142-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/142.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_142-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_142.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_143"><tei:graphic xml:id="facs_143-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/143.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_143-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_143.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_144"><tei:graphic xml:id="facs_144-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/144.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e219" xml:id="facs_144-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_144.jpg" mimeType="image/jpeg"/></tei:surface></tei:facsimile><tei:text xml:lang="ar" change="#d2e208" xml:id="text_1.d2e263">
+    </teiHeader><facsimile xml:id="facs"><surface xml:id="facs_121"><graphic xml:id="facs_121-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/121.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_121-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_121.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_122"><graphic xml:id="facs_122-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/122.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_122-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_122.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_123"><graphic xml:id="facs_123-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/123.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_123-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_123.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_124"><graphic xml:id="facs_124-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/124.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_124-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_124.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_125"><graphic xml:id="facs_125-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/125.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_125-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_125.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_126"><graphic xml:id="facs_126-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/126.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_126-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_126.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_127"><graphic xml:id="facs_127-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/127.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_127-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_127.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_128"><graphic xml:id="facs_128-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/128.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_128-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_128.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_129"><graphic xml:id="facs_129-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/129.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_129-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_129.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_130"><graphic xml:id="facs_130-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/130.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_130-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_130.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_131"><graphic xml:id="facs_131-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/131.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_131-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_131.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_132"><graphic xml:id="facs_132-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/132.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_132-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_132.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_133"><graphic xml:id="facs_133-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/133.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_133-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_133.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_134"><graphic xml:id="facs_134-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/134.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_134-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_134.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_135"><graphic xml:id="facs_135-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/135.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_135-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_135.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_136"><graphic xml:id="facs_136-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/136.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_136-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_136.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_137"><graphic xml:id="facs_137-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/137.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_137-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_137.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_138"><graphic xml:id="facs_138-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/138.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_138-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_138.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_139"><graphic xml:id="facs_139-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/139.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_139-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_139.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_140"><graphic xml:id="facs_140-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/140.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_140-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_140.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_141"><graphic xml:id="facs_141-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/141.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_141-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_141.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_142"><graphic xml:id="facs_142-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/142.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_142-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_142.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_143"><graphic xml:id="facs_143-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/143.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_143-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_143.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_144"><graphic xml:id="facs_144-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_6/144.jpg" mimeType="image/jpeg"/><graphic change="#d4e219" xml:id="facs_144-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_6-img_144.jpg" mimeType="image/jpeg"/></surface></facsimile><text xml:lang="ar" change="#d2e208" xml:id="text_1.d2e263">
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P122.xhtml" ed="shamela" n="n1-p121" change="#d2e208" xml:id="pb_1.d2e265"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="121" facs="#facs_121" xml:id="pb_2.d2e266"/>
-      <tei:body change="#d2e208" xml:id="body_1.d2e268">
-         <tei:div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e270">
-                <head change="#d2e208" xml:id="head_1.d2e272">العدد  <tei:num type="auto-markup" change="#d2e179 #d2e208" value="6" xml:lang="ar" xml:id="num_1.d2e274">٦</tei:num> </head>
+      <body change="#d2e208" xml:id="body_1.d2e268">
+         <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e270">
+                <head change="#d2e208" xml:id="head_1.d2e272">العدد  <num type="auto-markup" change="#d2e179 #d2e208" value="6" xml:lang="ar" xml:id="num_1.d2e274">٦</num> </head>
                 <dateline change="#d2e208" xml:id="dateline_1.d2e278">- بتاريخ: 
-                    <date when="1892-09-27" change="#d2e208" xml:id="date_1.d2e280"> <tei:num type="auto-markup" change="#d2e179 #d2e208" value="1892" xml:lang="ar" xml:id="num_1.d2e282">١٨٩٢</tei:num> - <tei:num type="auto-markup" change="#d2e179 #d2e208" value="9" xml:lang="ar" xml:id="num_1.d2e285">٩</tei:num> - <tei:num type="auto-markup" change="#d2e179 #d2e208" value="27" xml:lang="ar" xml:id="num_1.d2e288">٢٧</tei:num> </date>
+                    <date when="1892-09-27" change="#d2e208" xml:id="date_1.d2e280"> <num type="auto-markup" change="#d2e179 #d2e208" value="1892" xml:lang="ar" xml:id="num_1.d2e282">١٨٩٢</num> - <num type="auto-markup" change="#d2e179 #d2e208" value="9" xml:lang="ar" xml:id="num_1.d2e285">٩</num> - <num type="auto-markup" change="#d2e179 #d2e208" value="27" xml:lang="ar" xml:id="num_1.d2e288">٢٧</num> </date>
             </dateline>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e294">
+            </div>
+         <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e294">
                 <head change="#d2e208" xml:id="head_2.d2e296">دستور</head>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e299">العفو يا سادتي فإني أريد أن أقدم إليكم هذا العدد السادس خالياً من المقالات مشحوناً بالأدبيات من أزجال وقصايد وبلديات ترويحاً لأفكاركم المنيرة وترويجاً لبضاعة الأدباء وليس هذا من التقصير أو العجز عن الكلام فإنكم تعلمون أن مطالبنا التي نكتب فيها وسيعة طويلة عريضة ولكني التزمت توزيع المطالب وتنويع الأعداد ليكون الشوق إلى المطالعة وألذ في الأذواق الطاهرة. على أني انتظر سوانح الأخبار لعلي أسمع أن بعض أهل الغيرة الوطنية تحركت هممهم للسعي خلف مقصد من مقاصد الأستاذ التي أرشد إليها لإحياء صناعة أو رواج بضاعة أو تحسين زراعة. فتفضلوا بقبول هذا العدد فكله شقانق ومقانق وتحف ورقائق تسوق الجد في معرض الهزل فهي من باب المضحك المبكي وذق طعم الكلام تعرف ما قصده الإعلام. وليس ما فيه موجهاً لأهل المعارف والكمال والآداب والتهذيب وإنما هي عصى تقرع
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e299">العفو يا سادتي فإني أريد أن أقدم إليكم هذا العدد السادس خالياً من المقالات مشحوناً بالأدبيات من أزجال وقصايد وبلديات ترويحاً لأفكاركم المنيرة وترويجاً لبضاعة الأدباء وليس هذا من التقصير أو العجز عن الكلام فإنكم تعلمون أن مطالبنا التي نكتب فيها وسيعة طويلة عريضة ولكني التزمت توزيع المطالب وتنويع الأعداد ليكون الشوق إلى المطالعة وألذ في الأذواق الطاهرة. على أني انتظر سوانح الأخبار لعلي أسمع أن بعض أهل الغيرة الوطنية تحركت هممهم للسعي خلف مقصد من مقاصد الأستاذ التي أرشد إليها لإحياء صناعة أو رواج بضاعة أو تحسين زراعة. فتفضلوا بقبول هذا العدد فكله شقانق ومقانق وتحف ورقائق تسوق الجد في معرض الهزل فهي من باب المضحك المبكي وذق طعم الكلام تعرف ما قصده الإعلام. وليس ما فيه موجهاً لأهل المعارف والكمال والآداب والتهذيب وإنما هي عصى تقرع
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P123.xhtml" ed="shamela" n="n1-p122" change="#d2e208" xml:id="pb_3.d2e301"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="122" facs="#facs_122" xml:id="pb_4.d2e302"/>
-                    قفا من يستحق الحجر عليه لسفهه ممن خرجوا عن حدود الأدب وانسلخوا من جلد الإنسانية وظهروا بالأفعال البهيمة واسترسلوا خلف الشهوات حتى كأنهم ما سمعوا باسم المدينة فضلاً عن التلبس بها. فإن ادعى سفيه بأن ما يفعلونه من المشابهة بالبهيم من باب الحرية قلنا له أن تعريف الحرية عند عقلاء الأمم قديماً وحديثاً لم يتغير. وهو الوقوف عند الحدود والمطالبة بالحقوق. فإذا طبقنا هذا التعريف على المزدحمين في أبواب البير والخمارات وبيوت العاهرات نفر منهم وبعد عنهم وحلف إيمان القسامة إن هذا الفريق المفسد لعقله وماله ما سم رائحة الحرية ولا عرف لها حقيقة. فإذا عدلنا إلى تعريف البهيمية وهو فعل ما يشتهي مما لا ينصر بالذات. رأيناهم عن البهيم بمراحل فإننا لا نرى بهيماً يأكل سماً ولا يشرب عقاراً وهؤلاء لا يبالون بالمتناولات ولا يبحثون في الضار والنافع فهم أحط درجة عن البهيم وفعلهم أكبر دليل. فمن يرى رجلاً ينفق في الخمارة الريال أو الجنيه كل ليلة وربما كان أولاده بلا عشاء أو ربما كلن ما ينفقه من كسب زوجته أو مسروقاً من مال أبيه ثم يحكم بأن هذا من قسم العقلاء. فنحن في حاجة للحجر على السفهاء حتى يبلغوا حد الرشد فإن الوالد له حق الحجر على ولده حتى يبلغ السن الرشد أي استقامة المرء يحصل في السن المعين غالباً جعل حداً له مجازاً.</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e305">والحاكم الأكبر أبو الأمة المربي لها فهو الحقيق بالحجر على السفهاء وليس ذا بأمر مفتأتٍ فقد تبادل خطباء الانكليز الكلام على وضح حد للمسكرات والسكارى وكثر كلامهم في هذا</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e308">الشأن فأولى بنا نحو بين
+                    قفا من يستحق الحجر عليه لسفهه ممن خرجوا عن حدود الأدب وانسلخوا من جلد الإنسانية وظهروا بالأفعال البهيمة واسترسلوا خلف الشهوات حتى كأنهم ما سمعوا باسم المدينة فضلاً عن التلبس بها. فإن ادعى سفيه بأن ما يفعلونه من المشابهة بالبهيم من باب الحرية قلنا له أن تعريف الحرية عند عقلاء الأمم قديماً وحديثاً لم يتغير. وهو الوقوف عند الحدود والمطالبة بالحقوق. فإذا طبقنا هذا التعريف على المزدحمين في أبواب البير والخمارات وبيوت العاهرات نفر منهم وبعد عنهم وحلف إيمان القسامة إن هذا الفريق المفسد لعقله وماله ما سم رائحة الحرية ولا عرف لها حقيقة. فإذا عدلنا إلى تعريف البهيمية وهو فعل ما يشتهي مما لا ينصر بالذات. رأيناهم عن البهيم بمراحل فإننا لا نرى بهيماً يأكل سماً ولا يشرب عقاراً وهؤلاء لا يبالون بالمتناولات ولا يبحثون في الضار والنافع فهم أحط درجة عن البهيم وفعلهم أكبر دليل. فمن يرى رجلاً ينفق في الخمارة الريال أو الجنيه كل ليلة وربما كان أولاده بلا عشاء أو ربما كلن ما ينفقه من كسب زوجته أو مسروقاً من مال أبيه ثم يحكم بأن هذا من قسم العقلاء. فنحن في حاجة للحجر على السفهاء حتى يبلغوا حد الرشد فإن الوالد له حق الحجر على ولده حتى يبلغ السن الرشد أي استقامة المرء يحصل في السن المعين غالباً جعل حداً له مجازاً.</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e305">والحاكم الأكبر أبو الأمة المربي لها فهو الحقيق بالحجر على السفهاء وليس ذا بأمر مفتأتٍ فقد تبادل خطباء الانكليز الكلام على وضح حد للمسكرات والسكارى وكثر كلامهم في هذا</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e308">الشأن فأولى بنا نحو بين
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P124.xhtml" ed="shamela" n="n1-p123" change="#d2e208" xml:id="pb_5.d2e310"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="123" facs="#facs_123" xml:id="pb_6.d2e311"/>
-                    شبابنا وبين مفسدات عقولهم وأموالهم لنحول بينهم وبين الجنون والإفلاس وهتك حرمة الأمة المصرية فإن امتلاء الطرق بهؤلاء السفهاء وشربهم الخمور وقعودهم مع المومسان بمرءى من المارة بلا حياء ولا خزي مما شين مجد الأمة بنسبتهم إليها. وفي الجعبة نبال من هذا العود نفوقها إن شاء الله تعالى لهذه الأغراض حتى إذا مرقت من الرّمية أثرت وصدنا بها المقصود وما هو إلا سير الأمة خلف السيادة الوطنية بالبعد عن الرذائل والتحلي بدواعي الكمال والانتباه من غفلة الضياع مالاً وذاتاً إلى المحافظة على ما بقي من شرق الوطنية ومجد الآباء.</tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e315">
+                    شبابنا وبين مفسدات عقولهم وأموالهم لنحول بينهم وبين الجنون والإفلاس وهتك حرمة الأمة المصرية فإن امتلاء الطرق بهؤلاء السفهاء وشربهم الخمور وقعودهم مع المومسان بمرءى من المارة بلا حياء ولا خزي مما شين مجد الأمة بنسبتهم إليها. وفي الجعبة نبال من هذا العود نفوقها إن شاء الله تعالى لهذه الأغراض حتى إذا مرقت من الرّمية أثرت وصدنا بها المقصود وما هو إلا سير الأمة خلف السيادة الوطنية بالبعد عن الرذائل والتحلي بدواعي الكمال والانتباه من غفلة الضياع مالاً وذاتاً إلى المحافظة على ما بقي من شرق الوطنية ومجد الآباء.</p>
+            </div>
+         <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e315">
                 <head change="#d2e208" xml:id="head_3.d2e317">قصيدة <persName change="#d2e208" xml:id="persName_4.d2e319">الشيخ أحمد محمد القوصي</persName></head>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e322">ورد إلينا هذا الحمل من إنشاء الفاضل التحرير <persName change="#d2e208" xml:id="persName_5.d2e324">الشيخ أحمد محمد القوصي</persName> أحد طلبة دار العلوم العامرة بالمعارف والآداب وهو من الأدلة التي نقدمها على تهذيب الوفي من المصريين حتى صاروا أهلاً للبحث في الأحوال وسعى كل منتسب إلى المعارف خلف الآداب والكمال ونصه.</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e328">مطلع</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e322">ورد إلينا هذا الحمل من إنشاء الفاضل التحرير <persName change="#d2e208" xml:id="persName_5.d2e324">الشيخ أحمد محمد القوصي</persName> أحد طلبة دار العلوم العامرة بالمعارف والآداب وهو من الأدلة التي نقدمها على تهذيب الوفي من المصريين حتى صاروا أهلاً للبحث في الأحوال وسعى كل منتسب إلى المعارف خلف الآداب والكمال ونصه.</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e328">مطلع</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_1.d2e331">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e333">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e335">ياسي نديم اسمع بردون</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e338">أنا أقول لك ع الحاصل</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e342">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e344">واللي بيحكي ان كان مجنون</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e347">لا بد سامعو يكون عاقل</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e351">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e353">ياسي نديم في غاية الشوق</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e356">لرؤيتك يا نور العين</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e360">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e362">عشر سنين وأنت غايب</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e365">ويوم بعادك كان بسنين</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e369">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e371">ما حد شافك من مده</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e374">كنت غايب عنا فين</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e333">
+                        <seg change="#d2e208" xml:id="seg_1.d2e335">ياسي نديم اسمع بردون</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e338">أنا أقول لك ع الحاصل</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e342">
+                        <seg change="#d2e208" xml:id="seg_1.d2e344">واللي بيحكي ان كان مجنون</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e347">لا بد سامعو يكون عاقل</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e351">
+                        <seg change="#d2e208" xml:id="seg_1.d2e353">ياسي نديم في غاية الشوق</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e356">لرؤيتك يا نور العين</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e360">
+                        <seg change="#d2e208" xml:id="seg_1.d2e362">عشر سنين وأنت غايب</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e365">ويوم بعادك كان بسنين</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e369">
+                        <seg change="#d2e208" xml:id="seg_1.d2e371">ما حد شافك من مده</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e374">كنت غايب عنا فين</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e379">وذوق كلامك أوحشنا 
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e379">وذوق كلامك أوحشنا 
                     <gap resp="#org_MS" change="#d2e208" xml:id="gap_1.d2e381"/>
                     يا حضرة الشهم الفاضل
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P125.xhtml" ed="shamela" n="n1-p124" change="#d2e208" xml:id="pb_7.d2e383"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="124" facs="#facs_124" xml:id="pb_8.d2e384"/>
-                    دور</tei:p>
+                    دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_2.d2e388">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e390">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e392">ساسي نديم اهديك تسليم</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e395">والفين تحيه بلديه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e399">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e401">ولحضرتك عندي أشواق</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e404">فيها دواير بلديه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e408">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e410">أظن ذوقك ما يسلم</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e413">انك تقول لي بلديه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e417">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e419">لأن ذوقك ذوق أصلي</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e422">مالوش مثيل في الناس واصل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e390">
+                        <seg change="#d2e208" xml:id="seg_1.d2e392">ساسي نديم اهديك تسليم</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e395">والفين تحيه بلديه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e399">
+                        <seg change="#d2e208" xml:id="seg_1.d2e401">ولحضرتك عندي أشواق</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e404">فيها دواير بلديه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e408">
+                        <seg change="#d2e208" xml:id="seg_1.d2e410">أظن ذوقك ما يسلم</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e413">انك تقول لي بلديه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e417">
+                        <seg change="#d2e208" xml:id="seg_1.d2e419">لأن ذوقك ذوق أصلي</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e422">مالوش مثيل في الناس واصل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e427">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e427">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_3.d2e430">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e432">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e434">ياسي نديم ظهر الأستاذ</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e437">وكان ظهوره أحسن مظهر</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e441">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e443">زفيه كلام ماشي بالذوق</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e446">والنكنه ماشيه بالأكتر</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e450">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e452">وكل واحد عنده ذوق</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e455">يفهم كلامك بتنوّر</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e459">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e461">ويهون عليه لو كان قارون</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e464">يهديك قوام برّه العاجل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e432">
+                        <seg change="#d2e208" xml:id="seg_1.d2e434">ياسي نديم ظهر الأستاذ</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e437">وكان ظهوره أحسن مظهر</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e441">
+                        <seg change="#d2e208" xml:id="seg_1.d2e443">زفيه كلام ماشي بالذوق</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e446">والنكنه ماشيه بالأكتر</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e450">
+                        <seg change="#d2e208" xml:id="seg_1.d2e452">وكل واحد عنده ذوق</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e455">يفهم كلامك بتنوّر</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e459">
+                        <seg change="#d2e208" xml:id="seg_1.d2e461">ويهون عليه لو كان قارون</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e464">يهديك قوام برّه العاجل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e469">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e469">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_4.d2e472">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e474">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e476">واللي سكن مده في تفليس</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e479">لا بد ما يقبل عذه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e483">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e485">والناس يسيدي مش واحد</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e488">وكل واحد له قدره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e492">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e494">البعض عائش فس الغنيه</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e497">البعض مزنوق في فقره</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e474">
+                        <seg change="#d2e208" xml:id="seg_1.d2e476">واللي سكن مده في تفليس</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e479">لا بد ما يقبل عذه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e483">
+                        <seg change="#d2e208" xml:id="seg_1.d2e485">والناس يسيدي مش واحد</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e488">وكل واحد له قدره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e492">
+                        <seg change="#d2e208" xml:id="seg_1.d2e494">البعض عائش فس الغنيه</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e497">البعض مزنوق في فقره</seg>
+                    </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P126.xhtml" ed="shamela" n="n1-p125" change="#d2e208" xml:id="pb_9.d2e501"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="125" facs="#facs_125" xml:id="pb_10.d2e502"/>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e504">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e506">والدهر ياما يغيظ الحر</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e509">ينعم الندل الجاهل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e504">
+                        <seg change="#d2e208" xml:id="seg_1.d2e506">والدهر ياما يغيظ الحر</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e509">ينعم الندل الجاهل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e514">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e514">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_5.d2e518">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e520">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e522">والحر مالو غير صبره</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e525">والصبر محمود في الغالب</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e529">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e531">وانا يسيدي خل ودود</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e534">ان كنت تقبلني قلّي اشمعنا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e538">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e540">وده كلام موضه وجديد</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e543">وافق يا سيدس وكن معنا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e547">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e549">لا حسن زمان مش زي اليوم</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e552">زاللي يفوت ماهش قابل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e520">
+                        <seg change="#d2e208" xml:id="seg_1.d2e522">والحر مالو غير صبره</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e525">والصبر محمود في الغالب</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e529">
+                        <seg change="#d2e208" xml:id="seg_1.d2e531">وانا يسيدي خل ودود</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e534">ان كنت تقبلني قلّي اشمعنا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e538">
+                        <seg change="#d2e208" xml:id="seg_1.d2e540">وده كلام موضه وجديد</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e543">وافق يا سيدس وكن معنا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e547">
+                        <seg change="#d2e208" xml:id="seg_1.d2e549">لا حسن زمان مش زي اليوم</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e552">زاللي يفوت ماهش قابل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e557">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e557">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_6.d2e560">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e562">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e564">واحنا ياسيدي أولاد اليوم</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e567">ونتّبع أحوال جيلنا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e571">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e573">واليوم مشينا فسير تاني</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e576">وطلعنا فيها وكبرنما</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e580">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e582">خافين نقول لك عَ الحاصل</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e585">ترجع ياسيدي تقفشنا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e589">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e591">لكن ضروري احنا نقول لك</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e594">وانت تكون حاكم عادل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e562">
+                        <seg change="#d2e208" xml:id="seg_1.d2e564">واحنا ياسيدي أولاد اليوم</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e567">ونتّبع أحوال جيلنا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e571">
+                        <seg change="#d2e208" xml:id="seg_1.d2e573">واليوم مشينا فسير تاني</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e576">وطلعنا فيها وكبرنما</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e580">
+                        <seg change="#d2e208" xml:id="seg_1.d2e582">خافين نقول لك عَ الحاصل</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e585">ترجع ياسيدي تقفشنا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e589">
+                        <seg change="#d2e208" xml:id="seg_1.d2e591">لكن ضروري احنا نقول لك</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e594">وانت تكون حاكم عادل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e599">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e599">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_7.d2e602">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e604">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e606">ياسي نديم شف احوالنا</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e609">احنا بقينا اليوم نكته</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e613">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e615">نلبس محزّق ومقمّط</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e618">بالبنطلون والشكيتّه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e622">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e624">ونكره اللبس المصري</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e627">ونقول عليه سته في سته</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e604">
+                        <seg change="#d2e208" xml:id="seg_1.d2e606">ياسي نديم شف احوالنا</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e609">احنا بقينا اليوم نكته</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e613">
+                        <seg change="#d2e208" xml:id="seg_1.d2e615">نلبس محزّق ومقمّط</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e618">بالبنطلون والشكيتّه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e622">
+                        <seg change="#d2e208" xml:id="seg_1.d2e624">ونكره اللبس المصري</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e627">ونقول عليه سته في سته</seg>
+                    </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P127.xhtml" ed="shamela" n="n1-p126" change="#d2e208" xml:id="pb_11.d2e631"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="126" facs="#facs_126" xml:id="pb_12.d2e632"/>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e634">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e636">ونقول فلان قفطان</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e639">أظن كان اصلوا سافل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e634">
+                        <seg change="#d2e208" xml:id="seg_1.d2e636">ونقول فلان قفطان</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e639">أظن كان اصلوا سافل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e644">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e644">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_8.d2e648">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e650">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e652">ونقول فلان لابس قفاطين</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e655">وعمنه فعينا نقطة</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e659">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e661">وذوقه دا مجليط خالص</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e664">واللي يصاحبه في خطه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e668">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e670">ويصبر مهزّأ راجل دون</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e673">وكل ساعة في ورطه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e677">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e679">وف كل مجلس يبقى ثقيل</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e682">غني فقير عالم جاهل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e650">
+                        <seg change="#d2e208" xml:id="seg_1.d2e652">ونقول فلان لابس قفاطين</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e655">وعمنه فعينا نقطة</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e659">
+                        <seg change="#d2e208" xml:id="seg_1.d2e661">وذوقه دا مجليط خالص</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e664">واللي يصاحبه في خطه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e668">
+                        <seg change="#d2e208" xml:id="seg_1.d2e670">ويصبر مهزّأ راجل دون</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e673">وكل ساعة في ورطه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e677">
+                        <seg change="#d2e208" xml:id="seg_1.d2e679">وف كل مجلس يبقى ثقيل</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e682">غني فقير عالم جاهل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e687">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e687">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_9.d2e690">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e692">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e694">وكلنا صرنا موضه</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e697">وكل ليلة في بيره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e701">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e703">وندور نبصص طول الليل</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e706">وفكل قهوة تعميره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e710">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e712">والكاس يدور بينا بالدور</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e715">والكيف مناقله بالشيره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e719">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e721">وبعد ما نسكر خلاص</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e724">نمشي ياسيدي نتمايل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e692">
+                        <seg change="#d2e208" xml:id="seg_1.d2e694">وكلنا صرنا موضه</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e697">وكل ليلة في بيره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e701">
+                        <seg change="#d2e208" xml:id="seg_1.d2e703">وندور نبصص طول الليل</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e706">وفكل قهوة تعميره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e710">
+                        <seg change="#d2e208" xml:id="seg_1.d2e712">والكاس يدور بينا بالدور</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e715">والكيف مناقله بالشيره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e719">
+                        <seg change="#d2e208" xml:id="seg_1.d2e721">وبعد ما نسكر خلاص</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e724">نمشي ياسيدي نتمايل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e729">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e729">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_10.d2e732">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e734">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e736">وبعد مانسكر طينه</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e739">من سكرنا سكرت يني</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e743">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e745">نفضل نهاتي في السكه</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e748">نقول سكرنا وايه يعني</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e752">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e754">واللي يلومنا دا سكران</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e757">عند الخواجه مستني</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e761">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e763">في السكر طول الليل عمره ما يفوق</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e766">واليوم فلوس ما هوش طايل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e734">
+                        <seg change="#d2e208" xml:id="seg_1.d2e736">وبعد مانسكر طينه</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e739">من سكرنا سكرت يني</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e743">
+                        <seg change="#d2e208" xml:id="seg_1.d2e745">نفضل نهاتي في السكه</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e748">نقول سكرنا وايه يعني</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e752">
+                        <seg change="#d2e208" xml:id="seg_1.d2e754">واللي يلومنا دا سكران</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e757">عند الخواجه مستني</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e761">
+                        <seg change="#d2e208" xml:id="seg_1.d2e763">في السكر طول الليل عمره ما يفوق</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e766">واليوم فلوس ما هوش طايل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e771">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e771">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_11.d2e775">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e777">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e779">والموضه ماشيه جد نايت</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e782">وبونو سوار أو بوبنو سيره</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e786">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e788">وماشيه جرمنا تزيق</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e791">وفيه ذهب اشيا كثيره</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e777">
+                        <seg change="#d2e208" xml:id="seg_1.d2e779">والموضه ماشيه جد نايت</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e782">وبونو سوار أو بوبنو سيره</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e786">
+                        <seg change="#d2e208" xml:id="seg_1.d2e788">وماشيه جرمنا تزيق</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e791">وفيه ذهب اشيا كثيره</seg>
+                    </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P128.xhtml" ed="shamela" n="n1-p127" change="#d2e208" xml:id="pb_13.d2e795"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="127" facs="#facs_127" xml:id="pb_14.d2e796"/>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e798">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e800">وكل ما كول لو سكين</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e803">والشوكه للبق تناول</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e798">
+                        <seg change="#d2e208" xml:id="seg_1.d2e800">وكل ما كول لو سكين</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e803">والشوكه للبق تناول</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e808">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e808">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_12.d2e811">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e813">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e815">وكلما نقبض ميراث</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e818">ننزل ننزه انفسنا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e822">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e824">وفي البرص نفتح خمره</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e827">للبنت لما اتآنسنا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e831">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e833">وتحييي امثالنا بكلمه</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e836">لما تروح منا فلوسنا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e840">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e842">وبعد ما ننفض خالص</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e845">على المعيشه نتحايل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e813">
+                        <seg change="#d2e208" xml:id="seg_1.d2e815">وكلما نقبض ميراث</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e818">ننزل ننزه انفسنا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e822">
+                        <seg change="#d2e208" xml:id="seg_1.d2e824">وفي البرص نفتح خمره</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e827">للبنت لما اتآنسنا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e831">
+                        <seg change="#d2e208" xml:id="seg_1.d2e833">وتحييي امثالنا بكلمه</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e836">لما تروح منا فلوسنا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e840">
+                        <seg change="#d2e208" xml:id="seg_1.d2e842">وبعد ما ننفض خالص</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e845">على المعيشه نتحايل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e850">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e850">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_13.d2e853">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e855">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e857">والبعض منا يبيع القطن</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e860">ويضيّعوا كله في ليله</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e864">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e866">لما يروح يكسر ويمز</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e869">ويروح بيات عند جميله</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e873">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e875">يضجك ويلعب وياّها</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e878">وتقوم تسليه بحيله</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e882">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e884">وتصيره ينسى أهله</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e887">وعن بلاده مش سائل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e855">
+                        <seg change="#d2e208" xml:id="seg_1.d2e857">والبعض منا يبيع القطن</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e860">ويضيّعوا كله في ليله</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e864">
+                        <seg change="#d2e208" xml:id="seg_1.d2e866">لما يروح يكسر ويمز</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e869">ويروح بيات عند جميله</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e873">
+                        <seg change="#d2e208" xml:id="seg_1.d2e875">يضجك ويلعب وياّها</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e878">وتقوم تسليه بحيله</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e882">
+                        <seg change="#d2e208" xml:id="seg_1.d2e884">وتصيره ينسى أهله</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e887">وعن بلاده مش سائل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e892">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e892">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_14.d2e896">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e898">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e900">والبعض منا المستخدم</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e903">في أول الشهر بيسكر</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e907">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e909">وفي البلد يبقى جروده</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e912">وف كل خمارة يحضر</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e916">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e918">من الجزيره للنيوبار</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e921">لقهوة الحج يعمر</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e925">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e927">ويشوف له صيده آخر الليل</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e930">بالاتفاق ويا الراجل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e898">
+                        <seg change="#d2e208" xml:id="seg_1.d2e900">والبعض منا المستخدم</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e903">في أول الشهر بيسكر</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e907">
+                        <seg change="#d2e208" xml:id="seg_1.d2e909">وفي البلد يبقى جروده</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e912">وف كل خمارة يحضر</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e916">
+                        <seg change="#d2e208" xml:id="seg_1.d2e918">من الجزيره للنيوبار</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e921">لقهوة الحج يعمر</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e925">
+                        <seg change="#d2e208" xml:id="seg_1.d2e927">ويشوف له صيده آخر الليل</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e930">بالاتفاق ويا الراجل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e935">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e935">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_15.d2e938">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e940">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e942">وكلنا لما نفلس</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e945">بالنفتكر باب الجامع</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e949">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e951">وندور لما نصلي ونتحي</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e954">وربنا فضله واسع</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e958">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e960">ونصير ونمسي</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e963">واحد ولي سره باتع</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e940">
+                        <seg change="#d2e208" xml:id="seg_1.d2e942">وكلنا لما نفلس</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e945">بالنفتكر باب الجامع</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e949">
+                        <seg change="#d2e208" xml:id="seg_1.d2e951">وندور لما نصلي ونتحي</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e954">وربنا فضله واسع</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e958">
+                        <seg change="#d2e208" xml:id="seg_1.d2e960">ونصير ونمسي</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e963">واحد ولي سره باتع</seg>
+                    </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P129.xhtml" ed="shamela" n="n1-p128" change="#d2e208" xml:id="pb_15.d2e967"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="128" facs="#facs_128" xml:id="pb_16.d2e968"/>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e970">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e972">ونروح أل البيت</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e975">ونقول كله كان باطل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e970">
+                        <seg change="#d2e208" xml:id="seg_1.d2e972">ونروح أل البيت</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e975">ونقول كله كان باطل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e980">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e980">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_16.d2e983">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e985">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e987">زي المراكبي لما يديق</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e990">عند الغرق يعرف ربه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e994">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e996">وتزيد وتكتر دعواته</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e999">والرب قادر يلطف به</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1003">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1005">وبعد ما يصبح رايج</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1008">يصير قوام مسرور قلبه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1012">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1014">وينسى ربه بالمره</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1017">وهن عبادته يتكاسل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e985">
+                        <seg change="#d2e208" xml:id="seg_1.d2e987">زي المراكبي لما يديق</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e990">عند الغرق يعرف ربه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e994">
+                        <seg change="#d2e208" xml:id="seg_1.d2e996">وتزيد وتكتر دعواته</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e999">والرب قادر يلطف به</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1003">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1005">وبعد ما يصبح رايج</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1008">يصير قوام مسرور قلبه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1012">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1014">وينسى ربه بالمره</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1017">وهن عبادته يتكاسل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1022">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1022">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_17.d2e1026">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1028">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1030">واللي يبشطح بالدوكار</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1033">ويروح يشرف بالسرعه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1037">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1039">وقبل ما يشطح ينطح</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1042">يوم الاحد ولا الجمعه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1046">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1048">ولجل وعده ودواهيه</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1051">يلف في الأرض الواسعه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1055">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1057">والقمشجي بفضل ممشوق</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1060">على الدوام طالع نازل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1028">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1030">واللي يبشطح بالدوكار</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1033">ويروح يشرف بالسرعه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1037">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1039">وقبل ما يشطح ينطح</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1042">يوم الاحد ولا الجمعه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1046">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1048">ولجل وعده ودواهيه</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1051">يلف في الأرض الواسعه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1055">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1057">والقمشجي بفضل ممشوق</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1060">على الدوام طالع نازل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1065">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1065">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_18.d2e1068">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1070">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1072">وغير كدا فيه الجيل ده</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1075">اشيا كتير عشنا وشفنا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1079">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1081">قصر الكلام احنا بنقول</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1084">من غير مواخذه اتمّنا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1088">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1090">ولكل هيئة طقم جديد</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1093">وللزمن احنا طابقنا</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1070">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1072">وغير كدا فيه الجيل ده</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1075">اشيا كتير عشنا وشفنا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1079">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1081">قصر الكلام احنا بنقول</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1084">من غير مواخذه اتمّنا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1088">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1090">ولكل هيئة طقم جديد</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1093">وللزمن احنا طابقنا</seg>
+                    </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P130.xhtml" ed="shamela" n="n1-p129" change="#d2e208" xml:id="pb_17.d2e1097"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="129" facs="#facs_129" xml:id="pb_18.d2e1098"/>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1100">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1102">وكل واحد بيوافق</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1105">ان كان شاب والا كاهل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1100">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1102">وكل واحد بيوافق</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1105">ان كان شاب والا كاهل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1110">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1110">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_19.d2e1113">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1115">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1117">ياسي نديم ادى الحاه</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1120">وفيه كلام محنش اده</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1124">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1126">أرجوك ياسيدي متعبش</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1129">على الكلام اللي تشاهده</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1133">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1135">وأنا كلامي على ادي</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1138">مني اقبله ولاّ ردّه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1142">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1144">واعمل جميل وارميه البحر</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1147">يعوم ويرجع في الساحل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1115">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1117">ياسي نديم ادى الحاه</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1120">وفيه كلام محنش اده</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1124">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1126">أرجوك ياسيدي متعبش</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1129">على الكلام اللي تشاهده</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1133">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1135">وأنا كلامي على ادي</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1138">مني اقبله ولاّ ردّه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1142">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1144">واعمل جميل وارميه البحر</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1147">يعوم ويرجع في الساحل</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1152">دور</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1152">دور</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_20.d2e1156">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1158">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1160">اهو الكلام أول وآخر</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1163">هوَّ زجل لكن حكمه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1167">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1169">ومشربو يوافق الأستاذ</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1172">ما هش كلام من ضلدرمه</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1176">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1178">من غير مواخذه لو كان دون</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1181">اسحب كلامي إن كان قابل</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1185">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1187">واللي بيحكي إن كان مجنون</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1190">لا بد سامعوا يكون عاقل</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1158">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1160">اهو الكلام أول وآخر</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1163">هوَّ زجل لكن حكمه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1167">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1169">ومشربو يوافق الأستاذ</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1172">ما هش كلام من ضلدرمه</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1176">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1178">من غير مواخذه لو كان دون</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1181">اسحب كلامي إن كان قابل</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1185">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1187">واللي بيحكي إن كان مجنون</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1190">لا بد سامعوا يكون عاقل</seg>
+                    </l>
                 </lg>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1196">
+            </div>
+         <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1196">
                 <head change="#d2e208" xml:id="head_4.d2e1198">زجل <persName change="#d2e208" xml:id="persName_6.d2e1200">الشيخ عبد الجواد</persName></head>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1203">ورد لنا هذا الرجل من <persName change="#d2e208" xml:id="persName_7.d2e1205">الشيخ عبد الجواد</persName> علي من أفاضل شباس الشهدا ضمّن فيه زجل الشيخ محمد يالم الطنطاوي وتلطف وتظرف في طلب النسخة المجانية وقد اجبنا طلبه ونص عبارته.</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1209">ياسيدي كلو فاني * واللي خلقني ما ينساني * ما تسمعوا لي يا اخواني (قصدت واحد ما لو تاني) * فيضه عميم جوده اسبق * من بالمكارم احياني (رب العباد)</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1212">أمال ياعين ليه بتنوحي * والله الأدب ما مات روحي * ظرف النديم سلب الروح
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1203">ورد لنا هذا الرجل من <persName change="#d2e208" xml:id="persName_7.d2e1205">الشيخ عبد الجواد</persName> علي من أفاضل شباس الشهدا ضمّن فيه زجل الشيخ محمد يالم الطنطاوي وتلطف وتظرف في طلب النسخة المجانية وقد اجبنا طلبه ونص عبارته.</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1209">ياسيدي كلو فاني * واللي خلقني ما ينساني * ما تسمعوا لي يا اخواني (قصدت واحد ما لو تاني) * فيضه عميم جوده اسبق * من بالمكارم احياني (رب العباد)</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1212">أمال ياعين ليه بتنوحي * والله الأدب ما مات روحي * ظرف النديم سلب الروح
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P131.xhtml" ed="shamela" n="n1-p130" change="#d2e208" xml:id="pb_19.d2e1214"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="130" facs="#facs_130" xml:id="pb_20.d2e1215"/>
-                    (آه يا نديمي ويا روحي) * يا اللي على الأحباب تشفق * افديك بعقلي وبروحي (يا اللي لك الرايات تخفق)</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1218">تكرش محبتك كام كرشه * هو الفقير عينو عمشه * هو الفقير ودنو طرشه (هو الفقير ريحتو وحشه) * هو الفقير رزقو ضيق * هو الفقير جاتو لطشه (قالو عليه انو يحرق)</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1222">هو الفقير بعده غنيمة * هو الفقير اكله غميمه * هو الفقير ما ولوش سيمه (هو الفقير ما لوش قيمة) * هو الفقير يقعد يزعق * هو الفقير جاتو ضيمه (هو الفقير يطلع يسرق)</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1225">نبعت كتابك بهدواه * وفيه رواني وبقلاوه * وفطير وبسكوت علاوه (ميلت الكتاب كلو حلاوه) * أشكال والوان مزوق * وتبيع علينا بغلاوه (خليت عقلي يشوّق)</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1228">طيب كدا استنه لسه * لما بابدي المس لمسه * لكن أخاف تبقى جرسه (أمانة تعطيني لحسه) * خلي لساني يذوق * واجلس مع الأستاذ جلسه (ترد روحي يا صنجق)</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1231">دعني من أقلامي وورقي * خلو يجري عرقي * ما لي ومال شرقي غربي وغرقي (اوعى تكون واحد خلقي) * شوف قدر ايه لك اتملق * طول عمري ما شربت العرقي (تقوم عليا تتخلّق)</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1234">والله نديم نفسه كريمه * سنع لو شيمة * ولو مفيش صحبه قديمه (رتب لنا الأستاذ) ديمه * يهذب العقل الضيق * وانوي لنا نيّه سليمهة (واعمل جميلة يا محندق)
+                    (آه يا نديمي ويا روحي) * يا اللي على الأحباب تشفق * افديك بعقلي وبروحي (يا اللي لك الرايات تخفق)</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1218">تكرش محبتك كام كرشه * هو الفقير عينو عمشه * هو الفقير ودنو طرشه (هو الفقير ريحتو وحشه) * هو الفقير رزقو ضيق * هو الفقير جاتو لطشه (قالو عليه انو يحرق)</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1222">هو الفقير بعده غنيمة * هو الفقير اكله غميمه * هو الفقير ما ولوش سيمه (هو الفقير ما لوش قيمة) * هو الفقير يقعد يزعق * هو الفقير جاتو ضيمه (هو الفقير يطلع يسرق)</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1225">نبعت كتابك بهدواه * وفيه رواني وبقلاوه * وفطير وبسكوت علاوه (ميلت الكتاب كلو حلاوه) * أشكال والوان مزوق * وتبيع علينا بغلاوه (خليت عقلي يشوّق)</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1228">طيب كدا استنه لسه * لما بابدي المس لمسه * لكن أخاف تبقى جرسه (أمانة تعطيني لحسه) * خلي لساني يذوق * واجلس مع الأستاذ جلسه (ترد روحي يا صنجق)</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1231">دعني من أقلامي وورقي * خلو يجري عرقي * ما لي ومال شرقي غربي وغرقي (اوعى تكون واحد خلقي) * شوف قدر ايه لك اتملق * طول عمري ما شربت العرقي (تقوم عليا تتخلّق)</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1234">والله نديم نفسه كريمه * سنع لو شيمة * ولو مفيش صحبه قديمه (رتب لنا الأستاذ) ديمه * يهذب العقل الضيق * وانوي لنا نيّه سليمهة (واعمل جميلة يا محندق)
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P132.xhtml" ed="shamela" n="n1-p131" change="#d2e208" xml:id="pb_21.d2e1236"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="131" facs="#facs_131" xml:id="pb_22.d2e1237"/>
-                    ما ضر لو جانا امداً * إني اكون له عبداً * خلّي عزولي يمت كمداً (ولا تقولشي لا ابداً) * إلا انا فيه أعشق * اوعى تريد مني سنداً (أحسن انا خلفي ضيق)</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1240">لو كنت قادر كنت احضر * حتى ولو كنت عندك محضر * لكن ما دام مثلي يعذر (عاوز هنا الأستاذ يحضر) لمّا يجينا ويتفرق * ويطفي مني لهيب وجدي (لمّا اشوفو بينهّق)</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1244">ياسيدي جودك صيب * وقد قصدتك لا تخيب * اوعى كتابك لي يغيب (والله تقول لي عدّوا لي * ولا تقول لي ودّوا لي * ولا كلامي تردّوا لي (يا سيدي اسمع قولي) * يا سيدي ارحم واشفق * ما القصد الاّ تيقوا لي (وبس اوعى تزمّزق)
+                    ما ضر لو جانا امداً * إني اكون له عبداً * خلّي عزولي يمت كمداً (ولا تقولشي لا ابداً) * إلا انا فيه أعشق * اوعى تريد مني سنداً (أحسن انا خلفي ضيق)</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1240">لو كنت قادر كنت احضر * حتى ولو كنت عندك محضر * لكن ما دام مثلي يعذر (عاوز هنا الأستاذ يحضر) لمّا يجينا ويتفرق * ويطفي مني لهيب وجدي (لمّا اشوفو بينهّق)</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1244">ياسيدي جودك صيب * وقد قصدتك لا تخيب * اوعى كتابك لي يغيب (والله تقول لي عدّوا لي * ولا تقول لي ودّوا لي * ولا كلامي تردّوا لي (يا سيدي اسمع قولي) * يا سيدي ارحم واشفق * ما القصد الاّ تيقوا لي (وبس اوعى تزمّزق)
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P133.xhtml" ed="shamela" n="n1-p132" change="#d2e208" xml:id="pb_23.d2e1246"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="132" facs="#facs_132" xml:id="pb_24.d2e1247"/>
-                    بالله قل لي ايش فيها * والمسئلة دي انهيها * لكن إذا ما كان فيها (المركب اللي ما فيها) * عيوب في الصنعه نفرق * لكن إذا ما كان فيها (اشيا تكون الله تغرق)</tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1251">
+                    بالله قل لي ايش فيها * والمسئلة دي انهيها * لكن إذا ما كان فيها (المركب اللي ما فيها) * عيوب في الصنعه نفرق * لكن إذا ما كان فيها (اشيا تكون الله تغرق)</p>
+            </div>
+         <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1251">
                 <head change="#d2e208" xml:id="head_5.d2e1253">حنيفة ولطيفة</head>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1256">. ح. إصباح ياسيتي لطبفه. ل. إصباح الخير واليادة عليك يختي. انت يختي بالك كم يوم ما حد شافك هياَّ بسلامتك نبويه ما هي بعافيه. خ. سألت عليك العافية يختي إن شاء الله ما تشوفي وحش بتبوس أيدك وتسلم عليك العافية وما شا الله عليها خلصت التفصيل والنباته وبتشغيل دلوأت علمنسج. ح. ربنا يخليها لك يختي ان شا الله ما تشوفي وحش. عن سا الله ربنا ما يميتني ولايفيتني لما أشوفها متهننية بعرس يفرح قلبها واولادها تجري حواليها. ل. تسلمي يختي وربنا بخلليك بسلامته حسن وبسلامتها نبيه ملّا يملو عليك الدار ذويه ويهنيك يختي. بس. يختي الإنسان بيربي البنت اليوم وهو خايف والنبي يختي أنا قلبي تملي يرجف وخايفه تقع في واحد زي المدهول ابوها يبهددلها ويفتها ويدور طول الليل من الخماره دي للمحشه دي وبدذها واحد ابن أصل يعرف قيمتهة عرضه يصرف عليها وآخر النهار يروّح بيته ويقعد متهني. ح. اسكتي يختي متفكرنيش بالرجّله ودواهيهم احسن المسخّم جوزي موريني الغلب ومضيّأ منافسي وحياتك ياستي ام
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1256">. ح. إصباح ياسيتي لطبفه. ل. إصباح الخير واليادة عليك يختي. انت يختي بالك كم يوم ما حد شافك هياَّ بسلامتك نبويه ما هي بعافيه. خ. سألت عليك العافية يختي إن شاء الله ما تشوفي وحش بتبوس أيدك وتسلم عليك العافية وما شا الله عليها خلصت التفصيل والنباته وبتشغيل دلوأت علمنسج. ح. ربنا يخليها لك يختي ان شا الله ما تشوفي وحش. عن سا الله ربنا ما يميتني ولايفيتني لما أشوفها متهننية بعرس يفرح قلبها واولادها تجري حواليها. ل. تسلمي يختي وربنا بخلليك بسلامته حسن وبسلامتها نبيه ملّا يملو عليك الدار ذويه ويهنيك يختي. بس. يختي الإنسان بيربي البنت اليوم وهو خايف والنبي يختي أنا قلبي تملي يرجف وخايفه تقع في واحد زي المدهول ابوها يبهددلها ويفتها ويدور طول الليل من الخماره دي للمحشه دي وبدذها واحد ابن أصل يعرف قيمتهة عرضه يصرف عليها وآخر النهار يروّح بيته ويقعد متهني. ح. اسكتي يختي متفكرنيش بالرجّله ودواهيهم احسن المسخّم جوزي موريني الغلب ومضيّأ منافسي وحياتك ياستي ام
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P134.xhtml" ed="shamela" n="n1-p133" change="#d2e208" xml:id="pb_25.d2e1258"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="133" facs="#facs_133" xml:id="pb_26.d2e1259"/>
                     محمد ما يجيني اللي الساعه سبعه من الليل. ل. بابختي ما يجيش كمان يتعشى ويّا اولاده. ح. يولا والنبي عمره ما عملها إلا يطلع من ديوانه علة المحلات اللي يعرفها يفضل يسخّم اللي يسخّمه لمّا يجيني آخر الليل عيضه. ولا كفّت توليش مإلا لكما يجي ويدفأ الدردري اللي في جوفه على الفرش يبأ عدوّك يختي توليش الا الدار خماره. أنا عارفه بيحطو الهم دا في بطنهم ازّاي والنبي الرجّاله اللي فيهم عقل آل تبكي لي وأنا اشكي لك والنبي يا دي الحبيبه لو كنت أول لك على اللي بيعملوا فينا الكلب بتاعنا لتتعجبي. دا يئبض المهيه يختي ويجي ما ناخذ منه أجرة البيت لبل بالضالين وأفضل اتحايل عليه وأأع في عرضه لما اعرف اخذ منه جنيهين من العشرين اللي يئبضهم وهو يختي ما يختشي ولا ينئرع الا يفوت ولاده عرايه والبيت عايز ويروح يرافئ ويفوتنا بالخمس ليالي والسته ولا يجينا إلا لما تتسخ هدومه وأنا قاعده حطّا ركي على دمعتي وأولادي يعيطوا حوليه طوال الليل وفضلت يختي ابيع في النحاس لما ما بأش عندنا إلا حيلتي وحياتك. ومن غلبي وعوزتي يختي بعت البدلتين الحرير اللي كانو حيلتي كل دا ودا والخنزير داير في حل شعره زي اللي ما وراهشي حد انا عارفه كل أولاد اليوم كده واهو دا اللي علم نسوانهم الفلت. المرا من دول لما تعرف رخره تدّ هول مطرح ما تدذهول وتجي. ل. يو تفتف تف والنبي أم حسن ايرب
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P135.xhtml" ed="shamela" n="n1-p134" change="#d2e208" xml:id="pb_27.d2e1261"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="134" facs="#facs_134" xml:id="pb_28.d2e1262"/>
-                    ما تحكم علينا بفضيحة يارب سترتها فيما مضى استرها فيما باءَ. يعيني على اولايا لما يغلبهو الزمان. ربنا يغلب الرجاّله اللي ما يعرفو قيمة نسوانهم. ح. افرحي يختي لفرحي طلع جرنال اسموا الأستاذ ديك الليله كنت عند ستي نجيه هانم وكانت قالعده ويتئرا فيه وللئينله نازل على الجدعان التفانين اللي زي لفندي بتاعنا وبياعكم. وستي نجيه تاؤل اسكتي حليه ينشف ريئهم لجل اللي زي البيه بتاعنا يرحجع عن الخبص الا بهدل حالنا وضيع اموالنا والا بعاديه ما هي ملاحئه علينا ودا يا أختي مورينا الغلب ربنا ما يحكم على عدو ولا حبيب. امان يا ستي حنيفه كان الباشا أبوه الله يرحمه زي الأسد ما حد يعرف يكلمه ويجي من ديوانه يقعد في اللاملك والبشوات والبهوات واللفنتديه بجولو وهوا اعد سلطان زمانه ومن الساعه تلاته يطلع حريمه ما ينزل وكانت السرايه مليانه من خيرات الله وكنا اعدين مبسوطين المطبخ شغال ليل ونهار والفواكه واليميش والحلاوات والملابس اللي كل شهر بجيبو لنا شكل جديد والسرايه مليانه بالأغوات والخدامين والفراشين والسئايين. والنبي با اختي مره جه سئا الحريم علباب بيساء على حاجه وكان لغا فوق ودا لجل اطلع عيشه مسكين كان الباشا داخل وشافو وطرده ومسك لغا وعلاّ هـ في سجره في الحنيه وطلع للجوار ومسك الكرباج وفين يجيلك لما بئت الواحدة منا تنتفض زي اللي عليها السخونه.</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1265">ادحنا عشنا وبئينا نشتري الحاجه من علباب بنفسنا وبعد الواحده ما كانت ماحدا يسمع حسها دلوئت يكلمنا بنتاع إلفجل والكسبه. ودا كله سببه
+                    ما تحكم علينا بفضيحة يارب سترتها فيما مضى استرها فيما باءَ. يعيني على اولايا لما يغلبهو الزمان. ربنا يغلب الرجاّله اللي ما يعرفو قيمة نسوانهم. ح. افرحي يختي لفرحي طلع جرنال اسموا الأستاذ ديك الليله كنت عند ستي نجيه هانم وكانت قالعده ويتئرا فيه وللئينله نازل على الجدعان التفانين اللي زي لفندي بتاعنا وبياعكم. وستي نجيه تاؤل اسكتي حليه ينشف ريئهم لجل اللي زي البيه بتاعنا يرحجع عن الخبص الا بهدل حالنا وضيع اموالنا والا بعاديه ما هي ملاحئه علينا ودا يا أختي مورينا الغلب ربنا ما يحكم على عدو ولا حبيب. امان يا ستي حنيفه كان الباشا أبوه الله يرحمه زي الأسد ما حد يعرف يكلمه ويجي من ديوانه يقعد في اللاملك والبشوات والبهوات واللفنتديه بجولو وهوا اعد سلطان زمانه ومن الساعه تلاته يطلع حريمه ما ينزل وكانت السرايه مليانه من خيرات الله وكنا اعدين مبسوطين المطبخ شغال ليل ونهار والفواكه واليميش والحلاوات والملابس اللي كل شهر بجيبو لنا شكل جديد والسرايه مليانه بالأغوات والخدامين والفراشين والسئايين. والنبي با اختي مره جه سئا الحريم علباب بيساء على حاجه وكان لغا فوق ودا لجل اطلع عيشه مسكين كان الباشا داخل وشافو وطرده ومسك لغا وعلاّ هـ في سجره في الحنيه وطلع للجوار ومسك الكرباج وفين يجيلك لما بئت الواحدة منا تنتفض زي اللي عليها السخونه.</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1265">ادحنا عشنا وبئينا نشتري الحاجه من علباب بنفسنا وبعد الواحده ما كانت ماحدا يسمع حسها دلوئت يكلمنا بنتاع إلفجل والكسبه. ودا كله سببه
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P136.xhtml" ed="shamela" n="n1-p135" change="#d2e208" xml:id="pb_29.d2e1267"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="135" facs="#facs_135" xml:id="pb_30.d2e1268"/>
-                    إن البيه جرى ويّا الأولاد البطالين وعلموه النسوان والأمور البطاله وفضل داير طول الليل في الخمارات يسكر ويلعب القمار وآخر الليل يروح ينام عند مره. الجلاله أحسن منها ويصبح يجي حاطط وشه في الأرض وأوائل لك ايه وأعيد بنت عنده داهيه سوده أن جوّزها ما هو مرتاح وإن خلاها عنده ما هو مرتاح. وربنا يلطف. وتلاقي البيه زعلان من الأستاذ زعل أهو رايح رجع يمسك لنا أفية السكارى ويجرّسنا وكل ما أؤل لو طيب ارتجع وخاف من الفضيحة دي هوّا الكلام ده موش فيك يضحك ويؤول ما ينفلق الإنسان يا خدلو يومين حظ وزي ما تجي تجي تلائيني غلبانه فيه وهو داير يبيع في الاطيان لمّا ما بآش حيلتنا الأذ ميت فدان بعد ما كانوا ألف ويتميه وخايفه يبيعهم رخرين ونصبح غلابه. أيوا بس لو كان يعرف لو صنعه ولاّ خدامه</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1271">ما كانت العين بكيت إلاّ لا لدي ولا لدي تلئيني يختي محتاره وخايفه من الفضيحة. بس لو كانت الوواحده أمال مهيّش مشبوكه منه إلا اروح بالأربعة اللي وياي فين. وأنا وحياتك يختي ما أكرهوش أول يختي وبو عيالي ومربيني ونا صغار بس لو كان يتوب عن اللي في دماغه زي الأفندية زي أولاد البلد. دنا كنت ببؤل أنا اللي وقعت في الهم وحدي. ح. يختي موش كل الناس يا ما بهوات ينحطو علجرح يبرا والواحد منهم يمشي في السكة ما يرفع عينه في مره وبيته بيت أمره ونسوانهم هوانم ما
+                    إن البيه جرى ويّا الأولاد البطالين وعلموه النسوان والأمور البطاله وفضل داير طول الليل في الخمارات يسكر ويلعب القمار وآخر الليل يروح ينام عند مره. الجلاله أحسن منها ويصبح يجي حاطط وشه في الأرض وأوائل لك ايه وأعيد بنت عنده داهيه سوده أن جوّزها ما هو مرتاح وإن خلاها عنده ما هو مرتاح. وربنا يلطف. وتلاقي البيه زعلان من الأستاذ زعل أهو رايح رجع يمسك لنا أفية السكارى ويجرّسنا وكل ما أؤل لو طيب ارتجع وخاف من الفضيحة دي هوّا الكلام ده موش فيك يضحك ويؤول ما ينفلق الإنسان يا خدلو يومين حظ وزي ما تجي تجي تلائيني غلبانه فيه وهو داير يبيع في الاطيان لمّا ما بآش حيلتنا الأذ ميت فدان بعد ما كانوا ألف ويتميه وخايفه يبيعهم رخرين ونصبح غلابه. أيوا بس لو كان يعرف لو صنعه ولاّ خدامه</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1271">ما كانت العين بكيت إلاّ لا لدي ولا لدي تلئيني يختي محتاره وخايفه من الفضيحة. بس لو كانت الوواحده أمال مهيّش مشبوكه منه إلا اروح بالأربعة اللي وياي فين. وأنا وحياتك يختي ما أكرهوش أول يختي وبو عيالي ومربيني ونا صغار بس لو كان يتوب عن اللي في دماغه زي الأفندية زي أولاد البلد. دنا كنت ببؤل أنا اللي وقعت في الهم وحدي. ح. يختي موش كل الناس يا ما بهوات ينحطو علجرح يبرا والواحد منهم يمشي في السكة ما يرفع عينه في مره وبيته بيت أمره ونسوانهم هوانم ما
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P137.xhtml" ed="shamela" n="n1-p136" change="#d2e208" xml:id="pb_31.d2e1273"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="136" facs="#facs_136" xml:id="pb_32.d2e1274"/>
                     يطلعو نم الظل للشمس والواحد منهم من ديوانه لبيته ويمكن أبوه يكون كان له متين فدان خلاهم هوّ ألف بشطارته وياما افنديه واعيين وماشيين في حالهم تلائي الواحد منهم حوش اللي حوّشه واشترى لو ابعاديه وبئت حالته معدن وتلائي الواحد في مئام البيه وزيارة وياما اولاد بلو عمرهم ما يعرفة الخبص ولا الفلت وحريماتهم تؤلسيش إلا هوانم طالعين من السريات. موش زي المدهولين اللي وقعنا فيهم. والنبي تخليكي الليله دي عندنا واتفرجي على المجنون لما يجيبونه الجدعان ولاّ العربجيه ويؤلو افتحوا الباب للفندي زي الغنامه بتوع زمان لما كان الواحد يجي ىخر النهار يخبط الباب ويؤل خدو الجدي. ل. تسلمي يختي بس البنت تئعد لوحدها تخاف. ح. ابعت لها نبويه تجيبها وخلينا نسلى غلبنا شويه. (وبعد ما جت نبويه بنبيه اخذوا يتحدتو لما للمغرب يعتوا جابوا بعشره فضه طرشي وبتلاتين فضه طعمية واعدوا ياكلهم وجابت لهم ست حنيفه شويه لب اعدوا يءزأزوا فيها لنص الليل شويه والباب يخبط. ح. مين اللي علباب. الأفندي. افتجحي. ح. اهو جه المدهول دلوأت تشوفي اللي يعمله فينا ونزلت فتحا الباب وسندّته لما طلع فوق وآلتلو ست أن نبيهه هنا مسى عليها. ف. زلخير يارزت (يعني سالخير ياست) انا كنت. . . وياَّ. . . وياَّ. . الأفندي. . . بتاعكم. . هوَّاساجي. . كثيراأ وي. ل. وهو روّح فتوفين يا افندي. ف. انا فتو. . . عند أنطرت الدكه. . هاء هاء ستي لطبفه متضحكش علينا دا كلو مكتوب ومقدّر. . . ما بيدنا حيله. ستي حنيفه أنا جيعان عند كوش
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P138.xhtml" ed="shamela" n="n1-p137" change="#d2e208" xml:id="pb_33.d2e1276"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="137" facs="#facs_137" xml:id="pb_34.d2e1277"/>
-                    ؤمه. ح. منين اللي جبتو ولاّ اللي بعتو. ف. شوف انتي باي لماتواجعينا. . . بالكلام ال. . المؤلم. . انا ما ألت لك من زمان فضك مني. . . والبركه فيكي. . شوفي لنا لؤمه بأى ولاّ افرشس انام أحسن. . . أحسن. . . أحسن راسي مقلوبه ودايخ شويه. ح. مفيش الا رغيف ناشف وحتة طعميهع. ل. متآخذنيش يا افندي ما</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1280">هينط عشرين جنيه لكن مضيّعها برّه. يا ترى أنت عارف ان حريمك عندها خزنه لمّا رايحه تجيب لك أكل من عندها. ف. شوفي بأى انتي لمّا النسوان تجي وياَّ بعضها مانا كل ليله علة كده. . . وهياَّ تجيب لي الأكل من تحت الأرض. . .</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1284">بس هياَّ اللي مكاره تحب تدلّع عليه. ح. والنبي يسيدي ما كان عندنا الا إرش واحد جبنا بعشره مخلل وبتلاتين طعميه وتعشينا صحن بتيك ولا كستليته. ح. اسمعي يا ستي لطيفه البفتيك دا ايه يختي. ل. دا أكل يروحو يأكلوه في الخممير ويسكروا بعدها. يأى هوَّا بيحلم انو في الخماره اللي يؤلو عليها لوكانده. يا صبرك يختي علهم دا كله. ف. أألكا أنا موش وأكل. . . انا حتى،، نفسي غمّت عليه. . أع أع. ح. شوفي يختي الراجل ازاي محروس هدوه وسخم الفرش رايحته تعمل ايع بأى. ح. بأى يختي النسوان اللي بيتفالتم كلو من رجاتهم لما يجيبلهم الراجل آخر الليل بالحلادى وتكون الواحده لسه شابه وفايره وتعرف إنوا انخمد ما يعرف راسه
+                    ؤمه. ح. منين اللي جبتو ولاّ اللي بعتو. ف. شوف انتي باي لماتواجعينا. . . بالكلام ال. . المؤلم. . انا ما ألت لك من زمان فضك مني. . . والبركه فيكي. . شوفي لنا لؤمه بأى ولاّ افرشس انام أحسن. . . أحسن. . . أحسن راسي مقلوبه ودايخ شويه. ح. مفيش الا رغيف ناشف وحتة طعميهع. ل. متآخذنيش يا افندي ما</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1280">هينط عشرين جنيه لكن مضيّعها برّه. يا ترى أنت عارف ان حريمك عندها خزنه لمّا رايحه تجيب لك أكل من عندها. ف. شوفي بأى انتي لمّا النسوان تجي وياَّ بعضها مانا كل ليله علة كده. . . وهياَّ تجيب لي الأكل من تحت الأرض. . .</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1284">بس هياَّ اللي مكاره تحب تدلّع عليه. ح. والنبي يسيدي ما كان عندنا الا إرش واحد جبنا بعشره مخلل وبتلاتين طعميه وتعشينا صحن بتيك ولا كستليته. ح. اسمعي يا ستي لطيفه البفتيك دا ايه يختي. ل. دا أكل يروحو يأكلوه في الخممير ويسكروا بعدها. يأى هوَّا بيحلم انو في الخماره اللي يؤلو عليها لوكانده. يا صبرك يختي علهم دا كله. ف. أألكا أنا موش وأكل. . . انا حتى،، نفسي غمّت عليه. . أع أع. ح. شوفي يختي الراجل ازاي محروس هدوه وسخم الفرش رايحته تعمل ايع بأى. ح. بأى يختي النسوان اللي بيتفالتم كلو من رجاتهم لما يجيبلهم الراجل آخر الليل بالحلادى وتكون الواحده لسه شابه وفايره وتعرف إنوا انخمد ما يعرف راسه
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P139.xhtml" ed="shamela" n="n1-p138" change="#d2e208" xml:id="pb_35.d2e1286"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="138" facs="#facs_138" xml:id="pb_36.d2e1287"/>
                     من رجليه ما يمكن يلعب الشيطان بعئلها اسم الله على اختي والندل من دول يبقى بالنهار بني آدم وبالليل خروف. هي الواحده منا لولا انها بنت ناس وتختشي العيبه ما كانوا النسوان خسروها الا يارب لك ألف حمد عمر ديلي ما انكشف على غير حلالي. ل. والنبي يستي حنيفه عمر عيني ما اطلعت لجال غير جوزي ولا عمري مرّه كشفت وشي على غيره الا على اهله. هيا يختي الواحده رايحه تدخل جهنم بمرضى خاطرها. الخوف من الله كويس. ويمكن ربنا يتوب على رجالتنا وتبأى أشيتهم معدن. ح. شوفي لما أألك كله على تربية الواحده وهيأ صغيره والله إن كانت أمها ولبه طيبه ومتربيه تحت الخبا ولا هياش من النسوان الجرجاره تطلع بنتها زيها وانا أمي عمرها ما طلعت برجلها من باب الدار نهار زفّتي. وكانت تؤلي امتك ياحنيفه بابنتي في خباكي واللي تخون جوزها يا ويلها من الله. واللي تطلعغ غير جوزها يوم الا ياما يكحولوها بمرود نار. واللي تبوس غير جوزها الا يوم الا باما مفضوحة ادام الناس والمده والا يج تسيل منها يصدي وينجلي واللي تصبر عليه يا بختها. ل. والنبي أمك آهي من عينة أمي يا ما ألت لي يا لطيفة الرجال متعبين واحنا يا نسا عصا بينا سواد وعي واحده تغرّك يوم من دول وتفرطي في نفسك. واحده جرجاره. واحده مرؤا
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P140.xhtml" ed="shamela" n="n1-p139" change="#d2e208" xml:id="pb_37.d2e1289"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="139" facs="#facs_139" xml:id="pb_38.d2e1290"/>
-                    عليك. أوعى يا لطبفه. انا كنت ست الحاره ولا فيش واحده في جمالي وكنا يمكن بنات من غير عشا وياما</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1293">جريت عليّ جدعان وبشوات والنبي يا بنتي عمري ما زل عئلي وعملتها. تلائيني كل ما افتكر كلامها تهون عليّ الدنيا. ح. يختي هوَّ يبقى ألعن من الواحده اللي تفرّط في جوزها ولا في نفسها ولا في حاجته. دا الخوف من الله طيب يا ويلها عند الله لما الراجل يبأى مآمنها على نفسها وماله واولاد الأصل بردهم أصلهم فيهم. ل. والنبي يا حبيبتي عمري ما احب المره المايله ولا اللي كل ساعه ملا يتها ولا حبرتها على راسها ودايره نم الدار دي اللدار دي. فيه زي اللي تئعد ست بيتها وأميرة نفسها وصابره على غلب الزمن واهي بتاكل لئمتها ويا جوزها إن كانت حلوه ولا مرّه. فيش الا الواحده يختي بتشم الراجل من كتر ما بها. والا الراجل يختي برده عمود البيت وعز خبا الواحده. والشباب ياما يعملم يعاودوا يتوبوا وتبأى اشيتهم معدن. شوقي ستي ياسين والا ملا اللي بات فيها بعد ما كانت مهياش لائيه الداه آهو لما تاب جوزها والتفت لبيته خلاّها عايمه في الخير.</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1296">لو كانت دي ما صبرتشي على غلبها أيام سبابه ودورته البطالة كانتش طالت دي المطال. ح. يعني يختي أدنت شفت احوال عدوك. وارجع عليه لما أنيمه زي العيال واصبح برضه وحياتك ابوس إيده ووأنضفه واخليه يطلع أدام الناس سنجة تسعين
+                    عليك. أوعى يا لطبفه. انا كنت ست الحاره ولا فيش واحده في جمالي وكنا يمكن بنات من غير عشا وياما</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1293">جريت عليّ جدعان وبشوات والنبي يا بنتي عمري ما زل عئلي وعملتها. تلائيني كل ما افتكر كلامها تهون عليّ الدنيا. ح. يختي هوَّ يبقى ألعن من الواحده اللي تفرّط في جوزها ولا في نفسها ولا في حاجته. دا الخوف من الله طيب يا ويلها عند الله لما الراجل يبأى مآمنها على نفسها وماله واولاد الأصل بردهم أصلهم فيهم. ل. والنبي يا حبيبتي عمري ما احب المره المايله ولا اللي كل ساعه ملا يتها ولا حبرتها على راسها ودايره نم الدار دي اللدار دي. فيه زي اللي تئعد ست بيتها وأميرة نفسها وصابره على غلب الزمن واهي بتاكل لئمتها ويا جوزها إن كانت حلوه ولا مرّه. فيش الا الواحده يختي بتشم الراجل من كتر ما بها. والا الراجل يختي برده عمود البيت وعز خبا الواحده. والشباب ياما يعملم يعاودوا يتوبوا وتبأى اشيتهم معدن. شوقي ستي ياسين والا ملا اللي بات فيها بعد ما كانت مهياش لائيه الداه آهو لما تاب جوزها والتفت لبيته خلاّها عايمه في الخير.</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1296">لو كانت دي ما صبرتشي على غلبها أيام سبابه ودورته البطالة كانتش طالت دي المطال. ح. يعني يختي أدنت شفت احوال عدوك. وارجع عليه لما أنيمه زي العيال واصبح برضه وحياتك ابوس إيده ووأنضفه واخليه يطلع أدام الناس سنجة تسعين
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P141.xhtml" ed="shamela" n="n1-p140" change="#d2e208" xml:id="pb_39.d2e1298"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="140" facs="#facs_140" xml:id="pb_40.d2e1299"/>
-                    ودا كله من تربية أمي لو كانت ما وعتشي الواحده وهيا صغيره كانت دلوأت الواحده حالها عيضه وآعده دار أوها زي العله على الألب.</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1302">وربنا يستر يختي ادحنا بنؤل ربنا يصلح حاله ويلتفت لعياله. والنبي اطلع على السطح في نص الليل واكشف اربزازي واخبط عليهم وادعيلو ان ربنا يهديه ويروّق بال. بس لو كان ربنا بيعده عنه أولاد الحرام إلا له واحد صاحب وياه في الديوان ألب دماغه ومخصّر عأله. ااك ربنا يهديه راخر يعني هلبت مراته ما هي غلبانه زي غلبنا. ل. إتمسي بالخير يختي احسن بئينا نص الليل. ح. يمسيكي بالخير والسعاده يختي والنبي انك سليتينا الليله ولا يورّيك وحش بأى.</tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1307">
+                    ودا كله من تربية أمي لو كانت ما وعتشي الواحده وهيا صغيره كانت دلوأت الواحده حالها عيضه وآعده دار أوها زي العله على الألب.</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1302">وربنا يستر يختي ادحنا بنؤل ربنا يصلح حاله ويلتفت لعياله. والنبي اطلع على السطح في نص الليل واكشف اربزازي واخبط عليهم وادعيلو ان ربنا يهديه ويروّق بال. بس لو كان ربنا بيعده عنه أولاد الحرام إلا له واحد صاحب وياه في الديوان ألب دماغه ومخصّر عأله. ااك ربنا يهديه راخر يعني هلبت مراته ما هي غلبانه زي غلبنا. ل. إتمسي بالخير يختي احسن بئينا نص الليل. ح. يمسيكي بالخير والسعاده يختي والنبي انك سليتينا الليله ولا يورّيك وحش بأى.</p>
+            </div>
+         <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1307">
                 <head change="#d2e208" xml:id="head_6.d2e1309">باب الأدبيات</head>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1312">ومن صدور قصائد الاختفاء صدر قصيدة مدحت بها سيدي ومولاي الإمام السيد عبد القادر الجيلاني الشريف الحسيني وهو من ذرية سيدنا موسى الجون فيجتمع مع جدنا سيدنا ومولانا إدريس الأكبر في الإمام عبد الله المحض رضي الله تعالى عنهم وأعاد علينا من بركات آبائهم الكرام وهو:</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1312">ومن صدور قصائد الاختفاء صدر قصيدة مدحت بها سيدي ومولاي الإمام السيد عبد القادر الجيلاني الشريف الحسيني وهو من ذرية سيدنا موسى الجون فيجتمع مع جدنا سيدنا ومولانا إدريس الأكبر في الإمام عبد الله المحض رضي الله تعالى عنهم وأعاد علينا من بركات آبائهم الكرام وهو:</p>
                 <lg change="#d2e82 #d2e208" xml:id="lg_21.d2e1315">
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1317">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1319">طاف النديم بكاسه في الحان</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1322">ومشى ليزف البكر بالألحان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1326">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1328">وجلا لنا شمسا تحلى جيدها</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1331">بالدر فوق قلائد العقيان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1335">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1337">برزت تقهقه بين ندمام الطلا</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1340">فخجلت أذا ضحكت على الأذقان</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1317">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1319">طاف النديم بكاسه في الحان</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1322">ومشى ليزف البكر بالألحان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1326">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1328">وجلا لنا شمسا تحلى جيدها</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1331">بالدر فوق قلائد العقيان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1335">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1337">برزت تقهقه بين ندمام الطلا</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1340">فخجلت أذا ضحكت على الأذقان</seg>
+                    </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P142.xhtml" ed="shamela" n="n1-p141" change="#d2e208" xml:id="pb_41.d2e1344"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="141" facs="#facs_141" xml:id="pb_42.d2e1345"/>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1347">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1349">يا للرجال لغادة لعبت بنا</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1352">لعب الهواء بلين الأغضان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1357">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1359">خطرت بدرع الحرب وهي تغزنا</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1362">من كيدها ببراقع المسوان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1366">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1368">بنت يسفه رايها أحلامنا</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1371">وتطير في الأحشاء والأذهان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1375">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1377">تبدي لنا بشر المشوق وقلبها</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1380">من شدة الأحقاد في غليان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1384">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1386">من أطلق الهيفاء بعد جناية</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1389">وقضاه شيخ العصر سجن قناني</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1393">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1395">إن زرتها في الدن قبل وصالها</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1398">أبدت الكرام وخشية الخجلان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1402">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1404">فغذا رشفت رضابها من كأسها</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1407">فتحت عليك معامع الشجعان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1412">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1414">لا تعجبوا من فعلها فهي التي</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1417">في خدرها شبت على النيران</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1421">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1423">صبحت رجال الدير دهرا وانثنت</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1426">تسبي النهي بمخايل الكيان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1430">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1432">تهوى الوثوب وفعل أرباب الصبا</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1435">فتحسن الطيران للنشوان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1439">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1441">تأتيك في تيه العذارى خدعةً</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1444">وتريك عند الوصل فعل الجان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1448">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1450">عجباً لها مع ضعفها لا تتقي</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1453">بطش الملوك وصولة الفرسان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1457">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1459">تأتيهم والجند من حول الحمى</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1462">تحت السلاح ولا تخاف الجاني</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1467">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1469">وتسير دون تهيب في خفة</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1472">تحت اللثام على أكف غواني</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1476">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1478">فإذا رمت ذلك اللثام وزغردت</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1481">جذبتهم للرقص كالغلمان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1485">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1487">وإذا استجاشت زمرة الأعضا رمت</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1490">ليث الحروب على بساط هوان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1494">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1496">وأباحت الخدّام عند ملوكهم</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1499">وقت الصفا حرية الصبيان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1503">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1505">ذلت لسطوة حكمها دول الورى</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1508">من غير ما حرب ولا أعوان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1512">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1514">خفت فطارت بالعقول وخلفت</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1517">تلك الجسوم بحالة الحيران</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1347">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1349">يا للرجال لغادة لعبت بنا</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1352">لعب الهواء بلين الأغضان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1357">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1359">خطرت بدرع الحرب وهي تغزنا</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1362">من كيدها ببراقع المسوان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1366">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1368">بنت يسفه رايها أحلامنا</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1371">وتطير في الأحشاء والأذهان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1375">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1377">تبدي لنا بشر المشوق وقلبها</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1380">من شدة الأحقاد في غليان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1384">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1386">من أطلق الهيفاء بعد جناية</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1389">وقضاه شيخ العصر سجن قناني</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1393">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1395">إن زرتها في الدن قبل وصالها</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1398">أبدت الكرام وخشية الخجلان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1402">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1404">فغذا رشفت رضابها من كأسها</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1407">فتحت عليك معامع الشجعان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1412">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1414">لا تعجبوا من فعلها فهي التي</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1417">في خدرها شبت على النيران</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1421">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1423">صبحت رجال الدير دهرا وانثنت</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1426">تسبي النهي بمخايل الكيان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1430">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1432">تهوى الوثوب وفعل أرباب الصبا</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1435">فتحسن الطيران للنشوان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1439">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1441">تأتيك في تيه العذارى خدعةً</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1444">وتريك عند الوصل فعل الجان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1448">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1450">عجباً لها مع ضعفها لا تتقي</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1453">بطش الملوك وصولة الفرسان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1457">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1459">تأتيهم والجند من حول الحمى</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1462">تحت السلاح ولا تخاف الجاني</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1467">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1469">وتسير دون تهيب في خفة</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1472">تحت اللثام على أكف غواني</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1476">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1478">فإذا رمت ذلك اللثام وزغردت</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1481">جذبتهم للرقص كالغلمان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1485">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1487">وإذا استجاشت زمرة الأعضا رمت</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1490">ليث الحروب على بساط هوان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1494">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1496">وأباحت الخدّام عند ملوكهم</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1499">وقت الصفا حرية الصبيان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1503">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1505">ذلت لسطوة حكمها دول الورى</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1508">من غير ما حرب ولا أعوان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1512">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1514">خفت فطارت بالعقول وخلفت</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1517">تلك الجسوم بحالة الحيران</seg>
+                    </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P143.xhtml" ed="shamela" n="n1-p142" change="#d2e208" xml:id="pb_43.d2e1522"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="142" facs="#facs_142" xml:id="pb_44.d2e1523"/>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1525">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1527">سطعت أشعتها فحيرت النهى</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1530">في الوصف والتعريف والتبيان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1534">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1536">عكست حقائق من تراه فباقل</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1539">بفصيحها يعلو على سحبان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1543">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1545">وبجود ما در في حماها أذهبت</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1548">عن حاتم ما نال بالإحسان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1552">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1554">حملت على الراحات حال زفافها</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1557">وعيونها ترنو إلى العدوان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1562">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1564">فحذار منها فهي فتنة دهرها</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1567">تدعو التقي لسحة البهتان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1571">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1573">عجباً لا رباب النهى لعبت بهم</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1576">هذي العتيقة ومظهر العصيان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1580">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1582">أي المحاسن أبصروا في وجها</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1585">وهي العتيقة من قديم الزمان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1589">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1591">أم الخبائث بنت عسلوج الهوى</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1594">أخت الحشائش زوجه الشيطان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1598">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1600">ومن زفها من خدرها لفؤاده</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1603">صرعته عند مزالق الأطيان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1607">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1609">وإذا تستر في ترشفها بدت</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1612">من فيه تفضحه لدى الإخوان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1617">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1619">وإذا مشى لعبت به من مكرها</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1622">ليقال هذي مشية السكران</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1626">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1628">وإذا تمكن سهمها من فتية</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1631">تركتهم في الحان كالأوثان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1635">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1637">وإذا غلت في جوف شخص كدرت</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1640">بالقئ منه مجالس الندمان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1644">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1646">كم حسنت فعل القبيح لشارب</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1649">فعود بعد الهدى في كفران</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1653">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1655">فهي التي ما مزجت في منزل</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1658">نور الصلاح ولا ضيا الإيمان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1662">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1664">حملت صواحبها على طرح الحيا</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1667">فبذلن عرضا بعد حسن صيان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1672">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1674">ويكرها كحلت عيون رجالها</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1677">فتصادموا كتصادم وكثرة النسيان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1681">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1683">خرقوا بها الأكباد جهلاً فانتهوا</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1686">للسقم بل لمدارج الأكفان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1690">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1692">صرفوا النفيس من النفوس ودرهم</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1695">وغدوا لا شرف ولا اكنان</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1525">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1527">سطعت أشعتها فحيرت النهى</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1530">في الوصف والتعريف والتبيان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1534">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1536">عكست حقائق من تراه فباقل</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1539">بفصيحها يعلو على سحبان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1543">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1545">وبجود ما در في حماها أذهبت</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1548">عن حاتم ما نال بالإحسان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1552">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1554">حملت على الراحات حال زفافها</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1557">وعيونها ترنو إلى العدوان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1562">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1564">فحذار منها فهي فتنة دهرها</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1567">تدعو التقي لسحة البهتان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1571">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1573">عجباً لا رباب النهى لعبت بهم</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1576">هذي العتيقة ومظهر العصيان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1580">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1582">أي المحاسن أبصروا في وجها</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1585">وهي العتيقة من قديم الزمان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1589">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1591">أم الخبائث بنت عسلوج الهوى</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1594">أخت الحشائش زوجه الشيطان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1598">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1600">ومن زفها من خدرها لفؤاده</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1603">صرعته عند مزالق الأطيان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1607">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1609">وإذا تستر في ترشفها بدت</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1612">من فيه تفضحه لدى الإخوان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1617">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1619">وإذا مشى لعبت به من مكرها</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1622">ليقال هذي مشية السكران</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1626">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1628">وإذا تمكن سهمها من فتية</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1631">تركتهم في الحان كالأوثان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1635">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1637">وإذا غلت في جوف شخص كدرت</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1640">بالقئ منه مجالس الندمان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1644">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1646">كم حسنت فعل القبيح لشارب</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1649">فعود بعد الهدى في كفران</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1653">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1655">فهي التي ما مزجت في منزل</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1658">نور الصلاح ولا ضيا الإيمان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1662">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1664">حملت صواحبها على طرح الحيا</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1667">فبذلن عرضا بعد حسن صيان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1672">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1674">ويكرها كحلت عيون رجالها</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1677">فتصادموا كتصادم وكثرة النسيان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1681">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1683">خرقوا بها الأكباد جهلاً فانتهوا</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1686">للسقم بل لمدارج الأكفان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1690">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1692">صرفوا النفيس من النفوس ودرهم</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1695">وغدوا لا شرف ولا اكنان</seg>
+                    </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P144.xhtml" ed="shamela" n="n1-p143" change="#d2e208" xml:id="pb_45.d2e1699"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="143" facs="#facs_143" xml:id="pb_46.d2e1700"/>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1702">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1704">ويل لهم تركوا الشريعة خلفهم</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1707">وتسابقوا لمغاضب الرحمن</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1712">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1714">أي الفوائد أدركوا من حانها</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1717">وهو العدو لجملة الأديان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1721">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1723">أيسرهم أن الأمير بها يرى</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1726">أن أفلسته بحالة الغلبان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1730">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1732">والحر يأتي حانها متعززاً</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1735">فيقاد حال السكر كالعبدان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1739">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1741">وأخو الحجا يخشى العثار بهفوة</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1744">وبها يرى الإنسان كالحيوان</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1748">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1750">قل للندامى كسروا أقداحهم</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1753">وبها بدد دولة الخسران</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1757">
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1759">ملأ النديم الكاس في حان التقى</tei:seg>
-                        <tei:seg change="#d2e208" xml:id="seg_1.d2e1762">من سر عبد القادر الجيلاني</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1702">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1704">ويل لهم تركوا الشريعة خلفهم</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1707">وتسابقوا لمغاضب الرحمن</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1712">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1714">أي الفوائد أدركوا من حانها</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1717">وهو العدو لجملة الأديان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1721">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1723">أيسرهم أن الأمير بها يرى</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1726">أن أفلسته بحالة الغلبان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1730">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1732">والحر يأتي حانها متعززاً</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1735">فيقاد حال السكر كالعبدان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1739">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1741">وأخو الحجا يخشى العثار بهفوة</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1744">وبها يرى الإنسان كالحيوان</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1748">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1750">قل للندامى كسروا أقداحهم</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1753">وبها بدد دولة الخسران</seg>
+                    </l>
+                    <l change="#d2e82 #d2e208" type="bayt" xml:id="l_1.d2e1757">
+                        <seg change="#d2e208" xml:id="seg_1.d2e1759">ملأ النديم الكاس في حان التقى</seg>
+                        <seg change="#d2e208" xml:id="seg_1.d2e1762">من سر عبد القادر الجيلاني</seg>
+                    </l>
                 </lg>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1768">
+            </div>
+         <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1768">
                 <head change="#d2e208" xml:id="head_7.d2e1770">تهنئة</head>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1773">انتهت السنة التاسعة لجمعية حفظ التاريخ القبطي بأسيوط وقد حفظت الجمعية في سنتها الماضية وفاة عزيز مصر وأميرها المحبوب عند طوائفها المرحوم أفندينا توفيق باشا وجلوس إلهام الغيور على وطنه وأهله المتضلع من معارف الشرق والغرب المتحلي بحليتي الحزم والشجاعة الجامع بين نشاط الشبان وفطانة الشيوخ صاحب الفخامة أفندينا عباس باشا الثاني أيد الله تعالى الوطن العزيز بصائب آرائه وجليل حكمه. وأردفت هذين التاريخين بتقديم الطائفة القبطية وأعمال شبانها وشيوخها العائدة بالنفع العام فنهنئهم بهذا الثبات والأثر العظيم ونتمنى لهم التقدم واتساع نطاق التاريخ بجمع حوادث كل سنة التي يحتاجها التاريخ وعلى الخصوص الحوادث المصرية إدارية كانت أو حربية أرضية أو جوية وطنية أو أجنبية فقد استحقوا الثناء بهذا السعي الجميل.
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1773">انتهت السنة التاسعة لجمعية حفظ التاريخ القبطي بأسيوط وقد حفظت الجمعية في سنتها الماضية وفاة عزيز مصر وأميرها المحبوب عند طوائفها المرحوم أفندينا توفيق باشا وجلوس إلهام الغيور على وطنه وأهله المتضلع من معارف الشرق والغرب المتحلي بحليتي الحزم والشجاعة الجامع بين نشاط الشبان وفطانة الشيوخ صاحب الفخامة أفندينا عباس باشا الثاني أيد الله تعالى الوطن العزيز بصائب آرائه وجليل حكمه. وأردفت هذين التاريخين بتقديم الطائفة القبطية وأعمال شبانها وشيوخها العائدة بالنفع العام فنهنئهم بهذا الثبات والأثر العظيم ونتمنى لهم التقدم واتساع نطاق التاريخ بجمع حوادث كل سنة التي يحتاجها التاريخ وعلى الخصوص الحوادث المصرية إدارية كانت أو حربية أرضية أو جوية وطنية أو أجنبية فقد استحقوا الثناء بهذا السعي الجميل.
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P145.xhtml" ed="shamela" n="n1-p144" change="#d2e208" xml:id="pb_47.d2e1775"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="144" facs="#facs_144" xml:id="pb_48.d2e1776"/>
-            </tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1780">
+            </p>
+            </div>
+         <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1780">
                 <head change="#d2e208" xml:id="head_8.d2e1782">تقاريظ</head>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1785">كتبا تهذيب الشبان بتقلب الزمان صحيفة  <tei:num type="auto-markup" change="#d2e179 #d2e208" value="116" xml:lang="ar" xml:id="num_1.d2e1787">١١٦</tei:num>  وكتاب القلائد الدرية. في أساليب الحرية صحيفة  <tei:num type="auto-markup" change="#d2e179 #d2e208" value="44" xml:lang="ar" xml:id="num_1.d2e1790">٤٤</tei:num>  والاثنان في غلاف واحد وهما من تأليف الفاضل الكامل الأستاذ الشيخ محمد الأبرشي وقد جعل ثمنها عشرة قروش بمصر واثني عشر خارجها وانه لثمن قليل جداً بالنسبة لما أودعه فيهما من رقيق العبارة ولطيف المعاني وما التزمه من النثر والنظم في الكتابين وما أودعه في الأول من الزجل الرقيق والمعنى الدقيق فعلى طلاب الآداب والرفاق أن يبادروا بمشتراتها * فخير جليس في الزمان الكتاب *</tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1795">
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1785">كتبا تهذيب الشبان بتقلب الزمان صحيفة  <num type="auto-markup" change="#d2e179 #d2e208" value="116" xml:lang="ar" xml:id="num_1.d2e1787">١١٦</num>  وكتاب القلائد الدرية. في أساليب الحرية صحيفة  <num type="auto-markup" change="#d2e179 #d2e208" value="44" xml:lang="ar" xml:id="num_1.d2e1790">٤٤</num>  والاثنان في غلاف واحد وهما من تأليف الفاضل الكامل الأستاذ الشيخ محمد الأبرشي وقد جعل ثمنها عشرة قروش بمصر واثني عشر خارجها وانه لثمن قليل جداً بالنسبة لما أودعه فيهما من رقيق العبارة ولطيف المعاني وما التزمه من النثر والنظم في الكتابين وما أودعه في الأول من الزجل الرقيق والمعنى الدقيق فعلى طلاب الآداب والرفاق أن يبادروا بمشتراتها * فخير جليس في الزمان الكتاب *</p>
+            </div>
+         <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1795">
                 <head change="#d2e208" xml:id="head_9.d2e1797">التماس</head>
                 <byline change="#d2e150 #d2e208" xml:id="byline_1.d2e1800">لم يبق بالمكتب شيء من</byline>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1804">
+            </div>
+         <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e1804">
                 <head change="#d2e208" xml:id="head_10.d2e1806">العدد </head>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1809">الأول وطلبات الاشتراك المترادفة كل يوم تطالبنا بالجريدة من أولها فنرجو حضرات المشتركين المتأخرين أن ينتظروا طبع العدد الأول مرة ثانية إن شاء الله تعالى وأسماؤهم محفوظة حتى يتم الطبع فيرسل ولا يفوتهم عدد من الأعداد.</tei:p>
-                <tei:p change="#d2e73 #d2e208" xml:id="p_2.d2e1812">المكاتب الواردة من حضرات المشتركين تحثنا على إرسال معتمد لأخذ قيم الاشتراك وقد عينا حضرة محمد أفندي خليل وكيلاً عاماً متجولاً ومعه دفاتر القسائم لجميع قيم الاشتراك وإعطاء الإيصالات لأربابها ومحاسبة حضرات الوكلاء أيضاً على ما عندهم من المتحصلات وإعطائهم إيصالات بأسماء المشتركين كل مشترك بوصله. وأملنا في حضرات المشتركين التساهل معه حتى لا يتأخر عن أداء وظيفته في وقت قريب إن شاء الله.</tei:p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1809">الأول وطلبات الاشتراك المترادفة كل يوم تطالبنا بالجريدة من أولها فنرجو حضرات المشتركين المتأخرين أن ينتظروا طبع العدد الأول مرة ثانية إن شاء الله تعالى وأسماؤهم محفوظة حتى يتم الطبع فيرسل ولا يفوتهم عدد من الأعداد.</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e1812">المكاتب الواردة من حضرات المشتركين تحثنا على إرسال معتمد لأخذ قيم الاشتراك وقد عينا حضرة محمد أفندي خليل وكيلاً عاماً متجولاً ومعه دفاتر القسائم لجميع قيم الاشتراك وإعطاء الإيصالات لأربابها ومحاسبة حضرات الوكلاء أيضاً على ما عندهم من المتحصلات وإعطائهم إيصالات بأسماء المشتركين كل مشترك بوصله. وأملنا في حضرات المشتركين التساهل معه حتى لا يتأخر عن أداء وظيفته في وقت قريب إن شاء الله.</p>
                 <byline change="#d2e150 #d2e208" xml:id="byline_2.d2e1815">نديم
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P146.xhtml" ed="shamela" n="n1-p145" change="#d2e208" xml:id="pb_49.d2e1817"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="145" facs="#" xml:id="pb_50.d2e1818"/>
             </byline>
-            </tei:div>
-      </tei:body>
-   </tei:text></TEI>
+            </div>
+      </body>
+   </text></TEI>

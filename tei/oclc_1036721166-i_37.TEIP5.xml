@@ -8,13 +8,13 @@
                   <persName change="#d2e232" xml:id="persName_1.d2e19">عبد الله النديم</persName>
                </persName>
                 </editor>
-                <tei:respStmt xml:lang="en" change="#d2e232" xml:id="respStmt_1.d2e24">
-                    <tei:resp change="#d2e232" xml:id="resp_1.d2e26">TEI edition</tei:resp>
-                    <tei:persName xml:id="pers_TG">
-                        <tei:forename change="#d2e232" xml:id="forename_1.d2e31">Till</tei:forename>
-                        <tei:surname change="#d2e232" xml:id="surname_1.d2e34">Grallert</tei:surname>
-                    </tei:persName>
-                </tei:respStmt>
+                <respStmt xml:lang="en" change="#d2e232" xml:id="respStmt_1.d2e24">
+                    <resp change="#d2e232" xml:id="resp_1.d2e26">TEI edition</resp>
+                    <persName xml:id="pers_TG">
+                        <forename change="#d2e232" xml:id="forename_1.d2e31">Till</forename>
+                        <surname change="#d2e232" xml:id="surname_1.d2e34">Grallert</surname>
+                    </persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt change="#d2e232" xml:id="publicationStmt_1.d2e40">
                 <p change="#d2e232" xml:id="p_1.d2e42">Unpulished TEI edition</p>
@@ -42,16 +42,16 @@
                                     <placeName xml:lang="en" ref="geon:360630" change="#d2e232" xml:id="placeName_3.d2e94">Cairo</placeName>
                                 </pubPlace>
                                 <!-- this is seems to be the first issue -->
-                                <tei:date calendar="#cal_gregorian" xml:lang="ar" when="1893-05-09" change="#d2e232" xml:id="date_1.d2e100">٩ ايار سنة ١٨٩٣</tei:date>
+                                <date calendar="#cal_gregorian" xml:lang="ar" when="1893-05-09" change="#d2e232" xml:id="date_1.d2e100">٩ ايار سنة ١٨٩٣</date>
                             </imprint>
                             <!-- <biblScope unit="issue" xml:lang="ar">العدد رقم 1</biblScope> -->
                         <biblScope unit="volume" from="1" to="1" change="#d2e232" xml:id="biblScope_1.d2e106"/><biblScope unit="issue" from="37" to="37" change="#d2e232" xml:id="biblScope_2.d2e107">37</biblScope><biblScope unit="page" from="873" to="896" change="#d2e220 #d2e232" xml:id="biblScope_3.d2e109">873-896</biblScope></monogr>
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change xmlns="" when="2019-05-27" who="#pers_TG" xml:id="d4e243" xml:lang="en">Added links to local facsimile files for each <tei:gi>surface</tei:gi> element.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e232" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2019-05-26" who="#pers_TG" xml:id="d2e227">Linked all <tei:tag change="#d2e232" xml:id="tag_1.d2e118">pb ed="print"</tei:tag> to the corresponding facsimile</tei:change><tei:change when="2019-05-26" who="#pers_TG" xml:id="d2e223">Added <tei:gi change="#d2e232" xml:id="gi_1.d2e123">graphic</tei:gi> for 24 pages with references to digital images.</tei:change><change when="2019-05-26" who="#pers_TG" xml:id="d2e220">Page numbers to bibliographic description of the source based on the file's content.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e218">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-05-26" who="#pers_TG" xml:id="d3e212">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><tei:change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-18" who="#pers_TG" xml:id="d3e187" xml:lang="en">Marked up dates by automatically wrapping all <tei:list change="#d2e232" xml:id="list_1.d2e134"><tei:item change="#d2e232" xml:id="item_1.d2e135">occurrences of "سنة" and "عام" followed by a <tei:gi change="#d2e232" xml:id="gi_1.d2e137">num</tei:gi> node </tei:item><tei:item change="#d2e232" xml:id="item_1.d2e140"><tei:gi change="#d2e232" xml:id="gi_1.d2e141">num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item change="#d2e232" xml:id="item_1.d2e144">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi change="#d2e232" xml:id="gi_1.d2e147">date</tei:gi> with the appropriate <tei:att change="#d2e232" xml:id="att_1.d2e150">calendar</tei:att> and <tei:att change="#d2e232" xml:id="att_1.d2e153">datingMethod</tei:att> attributes</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <tei:gi change="#d2e232" xml:id="gi_1.d2e158">num</tei:gi> with <tei:att change="#d2e232" xml:id="att_1.d2e161">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2019-05-18" who="#pers_TG" xml:lang="en" change="#d2e232" xml:id="change_4.d2e164">Automatically marked up references to periodicals with <tei:tag change="#d2e232" xml:id="tag_1.d2e166">title level="j"</tei:tag>.</tei:change>
-         <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e232" xml:id="gi_1.d2e172">head</tei:gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e232" xml:id="gi_1.d2e175">tei:p</tei:gi>s.</change>
-         <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <tei:gi change="#d2e232" xml:id="gi_1.d2e182">p</tei:gi>s inside <tei:gi change="#d2e232" xml:id="gi_1.d2e185">div</tei:gi>s as bylines (<tei:gi change="#d2e232" xml:id="gi_1.d2e188">byline</tei:gi>) if they did not exceed a string length of 60.</change>
+        <revisionDesc><change xmlns="" when="2019-05-27" who="#pers_TG" xml:id="d4e243" xml:lang="en">Added links to local facsimile files for each <gi>surface</gi> element.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e232" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e227">Linked all <tag change="#d2e232" xml:id="tag_1.d2e118">pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e223">Added <gi change="#d2e232" xml:id="gi_1.d2e123">graphic</gi> for 24 pages with references to digital images.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e220">Page numbers to bibliographic description of the source based on the file's content.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e218">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-05-26" who="#pers_TG" xml:id="d3e212">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-18" who="#pers_TG" xml:id="d3e187" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e232" xml:id="list_1.d2e134"><item change="#d2e232" xml:id="item_1.d2e135">occurrences of "سنة" and "عام" followed by a <gi change="#d2e232" xml:id="gi_1.d2e137">num</gi> node </item><item change="#d2e232" xml:id="item_1.d2e140"><gi change="#d2e232" xml:id="gi_1.d2e141">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e232" xml:id="item_1.d2e144">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e232" xml:id="gi_1.d2e147">date</gi> with the appropriate <att change="#d2e232" xml:id="att_1.d2e150">calendar</att> and <att change="#d2e232" xml:id="att_1.d2e153">datingMethod</att> attributes</change><change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <gi change="#d2e232" xml:id="gi_1.d2e158">num</gi> with <att change="#d2e232" xml:id="att_1.d2e161">value</att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</change><change when="2019-05-18" who="#pers_TG" xml:lang="en" change="#d2e232" xml:id="change_4.d2e164">Automatically marked up references to periodicals with <tag change="#d2e232" xml:id="tag_1.d2e166">title level="j"</tag>.</change>
+         <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e232" xml:id="gi_1.d2e172">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e232" xml:id="gi_1.d2e175">tei:p</gi>s.</change>
+         <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <gi change="#d2e232" xml:id="gi_1.d2e182">p</gi>s inside <gi change="#d2e232" xml:id="gi_1.d2e185">div</gi>s as bylines (<gi change="#d2e232" xml:id="gi_1.d2e188">byline</gi>) if they did not exceed a string length of 60.</change>
             <change change="d2e82 #d2e232" when="2019-05-17" who="#pers_TG" xml:lang="en" xml:id="change_6.d2e192">Converted the mark-up of 
                 <foreign xml:lang="ar-Latn-x-ijmes" change="#d2e232" xml:id="foreign_1.d2e194">qaṣīda</foreign>
                 s from 
@@ -66,394 +66,394 @@
                 <gi change="#d2e232" xml:id="gi_4.d2e210">seg</gi>
                 nodes.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of 
-                <tei:gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e216">tei:lb</tei:gi>
+                <gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e216">tei:lb</gi>
                 into 
-                <tei:gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e219">xml:p</tei:gi>
+                <gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e219">xml:p</gi>
                 s.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e64" xml:lang="en">Grouped sections indicated by the presence of 
-                <tei:gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e225">tei:head</tei:gi>
+                <gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e225">tei:head</gi>
                 into 
-                <tei:gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e228">xml:div</tei:gi>
+                <gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e228">xml:div</gi>
                 s.</change>
             <change when="2019-05-17" who="#pers_TG" xml:lang="en" change="#d2e232" xml:id="change_9.d2e232">Created this TEI P5 file by automatic conversion from ePub.</change>
         </revisionDesc>
-    </teiHeader><tei:facsimile xml:id="facs"><tei:surface xml:id="facs_873"><tei:graphic xml:id="facs_873-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/873.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_873-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_873.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_874"><tei:graphic xml:id="facs_874-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/874.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_874-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_874.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_875"><tei:graphic xml:id="facs_875-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/875.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_875-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_875.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_876"><tei:graphic xml:id="facs_876-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/876.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_876-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_876.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_877"><tei:graphic xml:id="facs_877-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/877.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_877-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_877.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_878"><tei:graphic xml:id="facs_878-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/878.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_878-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_878.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_879"><tei:graphic xml:id="facs_879-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/879.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_879-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_879.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_880"><tei:graphic xml:id="facs_880-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/880.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_880-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_880.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_881"><tei:graphic xml:id="facs_881-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/881.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_881-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_881.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_882"><tei:graphic xml:id="facs_882-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/882.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_882-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_882.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_883"><tei:graphic xml:id="facs_883-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/883.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_883-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_883.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_884"><tei:graphic xml:id="facs_884-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/884.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_884-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_884.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_885"><tei:graphic xml:id="facs_885-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/885.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_885-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_885.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_886"><tei:graphic xml:id="facs_886-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/886.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_886-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_886.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_887"><tei:graphic xml:id="facs_887-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/887.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_887-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_887.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_888"><tei:graphic xml:id="facs_888-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/888.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_888-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_888.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_889"><tei:graphic xml:id="facs_889-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/889.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_889-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_889.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_890"><tei:graphic xml:id="facs_890-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/890.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_890-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_890.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_891"><tei:graphic xml:id="facs_891-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/891.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_891-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_891.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_892"><tei:graphic xml:id="facs_892-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/892.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_892-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_892.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_893"><tei:graphic xml:id="facs_893-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/893.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_893-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_893.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_894"><tei:graphic xml:id="facs_894-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/894.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_894-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_894.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_895"><tei:graphic xml:id="facs_895-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/895.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_895-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_895.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_896"><tei:graphic xml:id="facs_896-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/896.jpg" mimeType="image/jpeg"/><tei:graphic change="#d4e243" xml:id="facs_896-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_896.jpg" mimeType="image/jpeg"/></tei:surface></tei:facsimile><tei:text xml:lang="ar" change="#d2e232" xml:id="text_1.d2e287">
+    </teiHeader><facsimile xml:id="facs"><surface xml:id="facs_873"><graphic xml:id="facs_873-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/873.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_873-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_873.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_874"><graphic xml:id="facs_874-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/874.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_874-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_874.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_875"><graphic xml:id="facs_875-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/875.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_875-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_875.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_876"><graphic xml:id="facs_876-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/876.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_876-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_876.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_877"><graphic xml:id="facs_877-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/877.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_877-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_877.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_878"><graphic xml:id="facs_878-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/878.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_878-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_878.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_879"><graphic xml:id="facs_879-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/879.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_879-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_879.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_880"><graphic xml:id="facs_880-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/880.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_880-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_880.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_881"><graphic xml:id="facs_881-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/881.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_881-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_881.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_882"><graphic xml:id="facs_882-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/882.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_882-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_882.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_883"><graphic xml:id="facs_883-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/883.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_883-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_883.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_884"><graphic xml:id="facs_884-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/884.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_884-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_884.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_885"><graphic xml:id="facs_885-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/885.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_885-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_885.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_886"><graphic xml:id="facs_886-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/886.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_886-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_886.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_887"><graphic xml:id="facs_887-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/887.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_887-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_887.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_888"><graphic xml:id="facs_888-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/888.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_888-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_888.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_889"><graphic xml:id="facs_889-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/889.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_889-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_889.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_890"><graphic xml:id="facs_890-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/890.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_890-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_890.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_891"><graphic xml:id="facs_891-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/891.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_891-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_891.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_892"><graphic xml:id="facs_892-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/892.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_892-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_892.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_893"><graphic xml:id="facs_893-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/893.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_893-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_893.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_894"><graphic xml:id="facs_894-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/894.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_894-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_894.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_895"><graphic xml:id="facs_895-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/895.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_895-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_895.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_896"><graphic xml:id="facs_896-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1893/Issue_37/896.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_896-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_37-img_896.jpg" mimeType="image/jpeg"/></surface></facsimile><text xml:lang="ar" change="#d2e232" xml:id="text_1.d2e287">
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P871.xhtml" ed="shamela" n="n1-p873" change="#d2e232" xml:id="pb_1.d2e289"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="873" facs="#facs_873" xml:id="pb_2.d2e290"/>
-      <tei:body change="#d2e232" xml:id="body_1.d2e292">
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e294">
-                <head change="#d2e232" xml:id="head_1.d2e296">العدد  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="37" xml:lang="ar" xml:id="num_1.d2e298">٣٧</tei:num> </head>
+      <body change="#d2e232" xml:id="body_1.d2e292">
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e294">
+                <head change="#d2e232" xml:id="head_1.d2e296">العدد  <num type="auto-markup" change="#d2e179 #d2e232" value="37" xml:lang="ar" xml:id="num_1.d2e298">٣٧</num> </head>
                 <dateline change="#d2e232" xml:id="dateline_1.d2e302">- بتاريخ: 
-                    <date when="1893-05-09" change="#d2e232" xml:id="date_1.d2e304"> <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1893" xml:lang="ar" xml:id="num_1.d2e306">١٨٩٣</tei:num> - <tei:num type="auto-markup" change="#d2e179 #d2e232" value="5" xml:lang="ar" xml:id="num_1.d2e309">٥</tei:num> - <tei:num type="auto-markup" change="#d2e179 #d2e232" value="9" xml:lang="ar" xml:id="num_1.d2e312">٩</tei:num> </date>
+                    <date when="1893-05-09" change="#d2e232" xml:id="date_1.d2e304"> <num type="auto-markup" change="#d2e179 #d2e232" value="1893" xml:lang="ar" xml:id="num_1.d2e306">١٨٩٣</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="5" xml:lang="ar" xml:id="num_1.d2e309">٥</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="9" xml:lang="ar" xml:id="num_1.d2e312">٩</num> </date>
             </dateline>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e318">
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e318">
                 <head change="#d2e232" xml:id="head_2.d2e320">التربية والتعليم</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e323">معلوم أن سعادة كل أمة موقوفة على تربيتها وانتشار العلوم فيها فإن الجهل يسوق أهله إلى الدمار والخراب وتواصل الفتن والحروب الداخلية والخارجية مع حيلولته بين أهله وبين ما يوصلهم إلى الظفر وبلوغ المقاصد بسبب فقد المعدات والآلات التي حرمهم منها وقد كانت الممالك قديماً محاطة بسور الجهل فكانت الحضارة فيها قليلة والرفاهية متعذرة والأمن معارضاً بالغارات والثورات الأهلية والخارجية الصناعة متأخرة تأخراً أوقفها عند الضروري الذي تلجئُ إليه شدة الحاجة. وللجهل تاريخ في كل أمة ومملكة يحفظه العقلاء ويعلمون مقدار ما جلبه من المصائب وما ترتب عليه من الخسائر. وقد أخذ الشرق دوره الأول ففي التربية والتعليم حتى أهّل غيره للأخذ عنه فكانت أوروبا أسرع في التقليد وأدق في
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e323">معلوم أن سعادة كل أمة موقوفة على تربيتها وانتشار العلوم فيها فإن الجهل يسوق أهله إلى الدمار والخراب وتواصل الفتن والحروب الداخلية والخارجية مع حيلولته بين أهله وبين ما يوصلهم إلى الظفر وبلوغ المقاصد بسبب فقد المعدات والآلات التي حرمهم منها وقد كانت الممالك قديماً محاطة بسور الجهل فكانت الحضارة فيها قليلة والرفاهية متعذرة والأمن معارضاً بالغارات والثورات الأهلية والخارجية الصناعة متأخرة تأخراً أوقفها عند الضروري الذي تلجئُ إليه شدة الحاجة. وللجهل تاريخ في كل أمة ومملكة يحفظه العقلاء ويعلمون مقدار ما جلبه من المصائب وما ترتب عليه من الخسائر. وقد أخذ الشرق دوره الأول ففي التربية والتعليم حتى أهّل غيره للأخذ عنه فكانت أوروبا أسرع في التقليد وأدق في
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P872.xhtml" ed="shamela" n="n1-p874" change="#d2e232" xml:id="pb_3.d2e325"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="874" facs="#facs_874" xml:id="pb_4.d2e326"/>
                     التعليم وآداب في طلب المعارف بترجمة الكتب العربية والتركية والفارسية كما ترجم العرب اليونانية واللاطينية والنبطية وغيرها من لغات الأمم السابقة في التقدم العلمي فانتهت أوروبا الآن إلى غاية لم يلها غيرها ووسعت دوائر التعليم وأكثرت مواد العلوم وآلاتها وانتهت إلى الاختراع حتى زينت العالم الأرضي بثمرات أتعابها من علم وصناعة وزراعة وعمارية وتجارة وآلات حربية وفنون سياسية وقوانين إدارية ولو قابلنا بين وقفتها الأولى وحركتها الجارية لرأينا فرقاً عظيماً وتقدماً غريباً أوصلها إليه التربية والتعليم. والنفس تشتاق لمعرفة الطرق التي بها تخلصت من أسر الجهل ووصلت بها إلى حرية العمل والقول ولا نجد من تواريخ التربية فيها إلا بعض كلمات يلتقطها الكتاب من لائحة أو واقعة تاريخية لا تفي بالمقصود فكانت النفس متطلعة لكتاب شامل لقوانين التربية والتعليم في كل مملكة أوروبية ليتمكن الإنسان من المقابلة بين الأمم وليستنتج ما عساه أن ينتفع به أهل بلاده حتى رأيت ما للعلامة الفاضل خادم وطنه الوزير الخطير علي باشا مبارك من تعريب وجمع ما فيه الكفاية في هذا الباب فإنه لم يضع وقته سدى بل قضى عمره المبارك إما مستخدماً فيشتغل بمصلحته وأما مشتغلاً بالكتابة النافعة أيام خلوه من الخدمة وهذه خصوصية لم يشاركه فيها إلا القليل من أمثاله وقد بين حالة كل دولة وما كانت عليه من الانحطاط أيام الجهل وما صارت إليه من العز والحضارة والقوة أيام تحليها بحلية المعارف ونحن نلخص ما كان خاصاً بالتربية والتعليم تبصرة وذكرى لأولى الألباب وتنشيطاً لهمم إخواننا الشرقيين وحثهم على المجاراة.
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P873.xhtml" ed="shamela" n="n1-p875" change="#d2e232" xml:id="pb_5.d2e328"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="875" facs="#facs_875" xml:id="pb_6.d2e329"/>
-            </tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e333">
+            </p>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e333">
                 <head change="#d2e232" xml:id="head_3.d2e335">مملكة بروسيا</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e338">إن هذه الأمة اجتهدت في التربية والتعليم قروناً طويلة وسبقت أوروبا في الطريق وقد لازمت الجد والاجتهاد وقلبت أنواع التعليم ونقحت القوانين مرة بعد أخرى حتى وصلت إلى ما هي عليه ن القوة والاستعداد بسبب اجتهادها في التربية والتعليم. والذي ساعد الحكومة على التقدم والنجاح اتحاد مقصدي الدين والحكومة وتوحيد الوجهة فإن أمناء الدين بنوا الطرق التي توصل إليه ولم يحجروا على الأهلين شيئاً من العلوم الضرورية لهم والحكومة لم تقصر في نشر التعلم وحث الناس عليه وبذلك ما في وسعها إجابة لطلب رؤساء الدين وحباً في نجاح الأمة وارتقائها. ومن سنة  <tei:date when="1540" change="#d3e187 #d2e232" xml:id="date_2.d2e340"><tei:num type="auto-markup" change="#d2e179 #d2e232" value="1540" xml:lang="ar" xml:id="num_1.d2e341">١٥٤٠</tei:num></tei:date>  إلى الآن صدرت أوامر ملكية وظهرت قوانين تنظيمية تتعلق بالتعليم ونشرت في المدن والقرى وكان التعليم اختياراً فمن شاء أن يعلم ولده من أهل البلاد أرسله إلى المكتب ومن لم يرد لا يجبر على ذلك حتى كانت سنة    حيث أمر الملك فردريك بجعل التعليم إلزامياً وجاء من بعده من الملوك فأنشأوا لوائح ودونوا قوانين للتعليم والصحة ومجال التربية وفي سنة    صدرت أوامر الحكومة لجميع جهات المملكة ببناء المكاتب في البلاد من طرف الأهالي وإلزامهم بمرتبات المعلمين وجعلت لكل معلم قطعة أرض تزرع على ذمته ليتعيش منها وقطعة أُخرى ترعى فيها ماشيته وأقطعت الدولة أراضي واسعة خصصت حاصلها للصرف على الطلبة الذين أعدتهم لطبقة المعلمين وعينت مفتشين فيها البلاد للإطلاع على ما هو جار من التربية ولتنبيه المعلمين على ما يجب
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e338">إن هذه الأمة اجتهدت في التربية والتعليم قروناً طويلة وسبقت أوروبا في الطريق وقد لازمت الجد والاجتهاد وقلبت أنواع التعليم ونقحت القوانين مرة بعد أخرى حتى وصلت إلى ما هي عليه ن القوة والاستعداد بسبب اجتهادها في التربية والتعليم. والذي ساعد الحكومة على التقدم والنجاح اتحاد مقصدي الدين والحكومة وتوحيد الوجهة فإن أمناء الدين بنوا الطرق التي توصل إليه ولم يحجروا على الأهلين شيئاً من العلوم الضرورية لهم والحكومة لم تقصر في نشر التعلم وحث الناس عليه وبذلك ما في وسعها إجابة لطلب رؤساء الدين وحباً في نجاح الأمة وارتقائها. ومن سنة  <date when="1540" change="#d3e187 #d2e232" xml:id="date_2.d2e340"><num type="auto-markup" change="#d2e179 #d2e232" value="1540" xml:lang="ar" xml:id="num_1.d2e341">١٥٤٠</num></date>  إلى الآن صدرت أوامر ملكية وظهرت قوانين تنظيمية تتعلق بالتعليم ونشرت في المدن والقرى وكان التعليم اختياراً فمن شاء أن يعلم ولده من أهل البلاد أرسله إلى المكتب ومن لم يرد لا يجبر على ذلك حتى كانت سنة    حيث أمر الملك فردريك بجعل التعليم إلزامياً وجاء من بعده من الملوك فأنشأوا لوائح ودونوا قوانين للتعليم والصحة ومجال التربية وفي سنة    صدرت أوامر الحكومة لجميع جهات المملكة ببناء المكاتب في البلاد من طرف الأهالي وإلزامهم بمرتبات المعلمين وجعلت لكل معلم قطعة أرض تزرع على ذمته ليتعيش منها وقطعة أُخرى ترعى فيها ماشيته وأقطعت الدولة أراضي واسعة خصصت حاصلها للصرف على الطلبة الذين أعدتهم لطبقة المعلمين وعينت مفتشين فيها البلاد للإطلاع على ما هو جار من التربية ولتنبيه المعلمين على ما يجب
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P874.xhtml" ed="shamela" n="n1-p876" change="#d2e232" xml:id="pb_7.d2e344"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="876" facs="#facs_876" xml:id="pb_8.d2e345"/>
-                    عليهم وما ينبغي من القوانين وطرق التعليم وهؤُلاء المفتشون إذا رأوا أمراً يقتضي التغيير أو الزيادة أو التحوير فيما يختص بالتربية والتعليم نبهوا الحكومة عليه لتحسن حالة التربية ويتقدم التلامذة فنجم عن ذلك فوائد جمة وتحصلت الحكومة والأمة على نتائج جليلة. وعندما ظهرت هذه النتائج اشتغل الملوك والأهالي بما يقوي التربية حتى صارت عند الأهالي من أهم الواجبات. وما نزلت بهذه المملكة نازلة أو حرب أهلية أو خارجية إلا كانت داعية لزيادة التعليم وتحسين طرق التربية حتى بلغ عدد المكاتب في سنة  <tei:date when="1840" change="#d3e187 #d2e232" xml:id="date_2.d2e347"><tei:num type="auto-markup" change="#d2e179 #d2e232" value="1840" xml:lang="ar" xml:id="num_1.d2e348">١٨٤٠</tei:num></tei:date>  ثلاثين ألف مكتب غير ست مدارس عامة ومائة وعشرين محلاً لتعليم الجنباز وقد كان عدد الأهالي في تلك السنة خمسة عشر مليوناً. والأساس الذي بني عليه التعليم فيها وضع على أمرين الأول كل ناحية مكلفة ببناء مدرسة لأبنائها والصرف عليها. والثاني إلزام الأهالي بإرسال أبنائهم إلى المكاتب ومعاقبة من</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e352">تأخر عن ذلك بغرامة أو حبس. ومن قوانينها أن سن التعليم من خمس سنين إلى  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="14" xml:lang="ar" xml:id="num_1.d2e354">١٤</tei:num>  سنة فرئيس كل ناحية مكلف بتحرير قائمة بأسماء الأطفال الذين دخلوا في السنة الخامسة على رأس كل سنة وإرسالها إلى القسس القائمين بالتعليم لطلب الأولاد من آبائهم. وإن من رغب تربية ابنه عنده لا يمنع وإنما يتحصل على رخصة من رئيس مجلس بلده ومن أراد استخدام طفل من الأطفال وهو في سن التعلم لا يسلم له إلا إذا تعهد بعدم منعه من التوجه إلى المكتب. وقد أنشأت مكتباً بجوار كل معمل وورشة لتعليم الشغالين بها وجعلت رئيس كل مكتب قسيس الناحية ليرغب الأهالي ويحث على التعلم ويرأف بالأولاد في العقوبة وما زالت المملكة
+                    عليهم وما ينبغي من القوانين وطرق التعليم وهؤُلاء المفتشون إذا رأوا أمراً يقتضي التغيير أو الزيادة أو التحوير فيما يختص بالتربية والتعليم نبهوا الحكومة عليه لتحسن حالة التربية ويتقدم التلامذة فنجم عن ذلك فوائد جمة وتحصلت الحكومة والأمة على نتائج جليلة. وعندما ظهرت هذه النتائج اشتغل الملوك والأهالي بما يقوي التربية حتى صارت عند الأهالي من أهم الواجبات. وما نزلت بهذه المملكة نازلة أو حرب أهلية أو خارجية إلا كانت داعية لزيادة التعليم وتحسين طرق التربية حتى بلغ عدد المكاتب في سنة  <date when="1840" change="#d3e187 #d2e232" xml:id="date_2.d2e347"><num type="auto-markup" change="#d2e179 #d2e232" value="1840" xml:lang="ar" xml:id="num_1.d2e348">١٨٤٠</num></date>  ثلاثين ألف مكتب غير ست مدارس عامة ومائة وعشرين محلاً لتعليم الجنباز وقد كان عدد الأهالي في تلك السنة خمسة عشر مليوناً. والأساس الذي بني عليه التعليم فيها وضع على أمرين الأول كل ناحية مكلفة ببناء مدرسة لأبنائها والصرف عليها. والثاني إلزام الأهالي بإرسال أبنائهم إلى المكاتب ومعاقبة من</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e352">تأخر عن ذلك بغرامة أو حبس. ومن قوانينها أن سن التعليم من خمس سنين إلى  <num type="auto-markup" change="#d2e179 #d2e232" value="14" xml:lang="ar" xml:id="num_1.d2e354">١٤</num>  سنة فرئيس كل ناحية مكلف بتحرير قائمة بأسماء الأطفال الذين دخلوا في السنة الخامسة على رأس كل سنة وإرسالها إلى القسس القائمين بالتعليم لطلب الأولاد من آبائهم. وإن من رغب تربية ابنه عنده لا يمنع وإنما يتحصل على رخصة من رئيس مجلس بلده ومن أراد استخدام طفل من الأطفال وهو في سن التعلم لا يسلم له إلا إذا تعهد بعدم منعه من التوجه إلى المكتب. وقد أنشأت مكتباً بجوار كل معمل وورشة لتعليم الشغالين بها وجعلت رئيس كل مكتب قسيس الناحية ليرغب الأهالي ويحث على التعلم ويرأف بالأولاد في العقوبة وما زالت المملكة
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P875.xhtml" ed="shamela" n="n1-p877" change="#d2e232" xml:id="pb_9.d2e357"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="877" facs="#facs_877" xml:id="pb_10.d2e358"/>
                     تترقى شيئاً فشيئاً حتى بلغ عدد المعاقبين بالحبس بعض مئين وعدد الغرامة النقدية ثلاثة آلاف فرنك في الأيام الأخير حال كون التعداد صار تسعة عشر مليوناً. ومن هذا يعلم أن جميع المأمورين ورجال الحكومة صاروا معاً يداً واحدة وإن المتأخر عن تعليم ولده قليل جدّاً. وقد اختصت الحكومة بإصدار الأوامر وترتيب طرق التعليم أما الصرف على تلامذة المكاتب فمما يؤخذ على الأطفال ومن جهات معينة لذلك ومن ضريبة مقدرة على الأهالي بحسب اقتدارهم وقد تساعدهم الحكومة إذا رأت عدم اقتدار ناحية على ما يلزم للمكتب. وكانت المكاتب الابتدائية مؤسسة على تعليم الأمور الدينية وفن القراءة والكتابة الذي هو المقصد الأعظم والذي سهل هذه الطرق ظهور المذهب البروتستانتي فإنه حتم على كل إنسان قراءة الإنجيل بنفسه ولذلك عظمت رغبة الأهالي في تعلم القراءة ليتمكنوا من قراءة الإنجيل بأنفسهم. واستمرت الحال كذلك مدة إلى أن سعى بعض النواحي في فصل التربية الدينية من التربية المعاشية كما هو حاصل في بلاد النيمسا ولكن الحكومة البروسيانية لم توافق على ذلك وألزمت الطفل بتعلم ما يلزم لدينه ودنياه في المكتب بحسب ما يرى لرجال الديانة خوفاً من أن يعدل عن طريق الفضل وليشب الطفل على الطاعة والامتثال واعتبار الناس على اختلاف درجاتهم وحب ذوب القربى والميل إلى اصطناع المعروف وفعل الخير واجتناب السوء وأهله فإذا انتهى من تعلم القواعد الدينية والحكم الأدبية بلغ الشجاعة من غير تفاخر والأقدام من غير نكير والحرية من غير تعد للحدود ويحصل على علم ما له وما عليه فلا يتساهل في طلب
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P876.xhtml" ed="shamela" n="n1-p878" change="#d2e232" xml:id="pb_11.d2e360"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="878" facs="#facs_878" xml:id="pb_12.d2e361"/>
-                    ما هو له ولا يتوقف ما هو له ولا يتوقف في أداء ما هو عليه. وكان الواجب على الطفل معرفته سنة  <tei:date when="1853" change="#d3e187 #d2e232" xml:id="date_2.d2e363"><tei:num type="auto-markup" change="#d2e179 #d2e232" value="1853" xml:lang="ar" xml:id="num_1.d2e364">١٨٥٣</tei:num></tei:date>  أن يتعلم أصول</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e368">الديانة في ست ساعات من كل أسبوع والقراءة والكتابة في  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="12" xml:lang="ar" xml:id="num_1.d2e370">١٢</tei:num>  ساعة والحساب في خمس والألحان في ثلاث ثم يتعلم الجنباز ويأخذ في أثناء تعلم القراءة بعض فصول تاريخية وحوادث طبيعية ومواد نافعة تمريناً له ويقتصر في التاريخ على الوقائع والحوادث الوطنية ليغرس المعلم في ذهنه حب وطنه ويبين له ما يجب عليه في حفظه والدفاع عنه ثم يشرح له بعض التاريخ الطبيعي ليقف على حقائق الحيوان والنبات والمعدن بعبارات تناسب سنه. ومعلم الجغرافية يبدأ بشرح حال الناحية التي هم فيها ثم يتكلم على الخط التابعة له ثم على القسم الجامع للاخطاط ثم على المديرية ثم على الولاية ثم ينتقل إلى شرح الكرة الأرضية ثم يعلمون الأطفال أدعية وأناشيد دينية ووطنية يترنمون بها في المكتب ليغرسوا في قلوبهم حب الوطن والدين من الصغر. وفي سنة    تقرر أن تكون التربية في جميع البلاد مجاناً ولكن هذا الأمر لم يتم في بعض الجهات إلى الآن ثم بعد أن كنت طرق التعليم قاصرة على العلم صارت الآن شاملة هل وللعمل وبعد أن كان الأهالي لا يعرفون شيئاً مما تفعله الحكومة أصبحوا مشتركين معها في جميع ما تجريه معهم من الأعمال النافعة اللازمة لتوسيع دائرة الثروة في الداخل ورد العدو وإرغامه في الخارج. وهذه المملكة أول مملكة رأت وجوب إنشاء مدارس خصوصية لأُناس تجعلهم معلمين في المكاتب الأهلية فكان عدد هذه المدارس سنة    اثنتين وستين مدرسة فيها من الشبان  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="3614" xml:lang="ar" xml:id="num_1.d2e373">٣٦١٤</tei:num>  وهي تكون في المدن غالباً في معابد مهجورة. ومن قوانينها أن كل من كان بيده شهادة وفيه
+                    ما هو له ولا يتوقف ما هو له ولا يتوقف في أداء ما هو عليه. وكان الواجب على الطفل معرفته سنة  <date when="1853" change="#d3e187 #d2e232" xml:id="date_2.d2e363"><num type="auto-markup" change="#d2e179 #d2e232" value="1853" xml:lang="ar" xml:id="num_1.d2e364">١٨٥٣</num></date>  أن يتعلم أصول</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e368">الديانة في ست ساعات من كل أسبوع والقراءة والكتابة في  <num type="auto-markup" change="#d2e179 #d2e232" value="12" xml:lang="ar" xml:id="num_1.d2e370">١٢</num>  ساعة والحساب في خمس والألحان في ثلاث ثم يتعلم الجنباز ويأخذ في أثناء تعلم القراءة بعض فصول تاريخية وحوادث طبيعية ومواد نافعة تمريناً له ويقتصر في التاريخ على الوقائع والحوادث الوطنية ليغرس المعلم في ذهنه حب وطنه ويبين له ما يجب عليه في حفظه والدفاع عنه ثم يشرح له بعض التاريخ الطبيعي ليقف على حقائق الحيوان والنبات والمعدن بعبارات تناسب سنه. ومعلم الجغرافية يبدأ بشرح حال الناحية التي هم فيها ثم يتكلم على الخط التابعة له ثم على القسم الجامع للاخطاط ثم على المديرية ثم على الولاية ثم ينتقل إلى شرح الكرة الأرضية ثم يعلمون الأطفال أدعية وأناشيد دينية ووطنية يترنمون بها في المكتب ليغرسوا في قلوبهم حب الوطن والدين من الصغر. وفي سنة    تقرر أن تكون التربية في جميع البلاد مجاناً ولكن هذا الأمر لم يتم في بعض الجهات إلى الآن ثم بعد أن كنت طرق التعليم قاصرة على العلم صارت الآن شاملة هل وللعمل وبعد أن كان الأهالي لا يعرفون شيئاً مما تفعله الحكومة أصبحوا مشتركين معها في جميع ما تجريه معهم من الأعمال النافعة اللازمة لتوسيع دائرة الثروة في الداخل ورد العدو وإرغامه في الخارج. وهذه المملكة أول مملكة رأت وجوب إنشاء مدارس خصوصية لأُناس تجعلهم معلمين في المكاتب الأهلية فكان عدد هذه المدارس سنة    اثنتين وستين مدرسة فيها من الشبان  <num type="auto-markup" change="#d2e179 #d2e232" value="3614" xml:lang="ar" xml:id="num_1.d2e373">٣٦١٤</num>  وهي تكون في المدن غالباً في معابد مهجورة. ومن قوانينها أن كل من كان بيده شهادة وفيه
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P877.xhtml" ed="shamela" n="n1-p879" change="#d2e232" xml:id="pb_13.d2e376"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="879" facs="#facs_879" xml:id="pb_14.d2e377"/>
-                    قدرة على التعليم له أن يفتح مدرسة يعلم فيها من يشاء التعلم وللحكومة النظر والتفتيش على تعليمه بحيث لا يخرج عن القوانين المتبعة في جميع المملكة. ومدة التعليم في المدارس الابتدائية ثلاث سنين يتعلم فيها التلميذ ما هو آت.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e380">سنة أولىسنة ثانية سنة ثالثة</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e384">ساعات من كل أسبوع ساعات من كل أسبوع ساعات من كل أسبوع</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e387">تمرين <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e389">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e392">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e395">٢</tei:num> </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e399">الديانة  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="6" xml:lang="ar" xml:id="num_1.d2e401">٦</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="6" xml:lang="ar" xml:id="num_1.d2e404">٦</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="6" xml:lang="ar" xml:id="num_1.d2e407">٦</tei:num> </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e411">اللسان الألماني  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="5" xml:lang="ar" xml:id="num_1.d2e413">٥</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="5" xml:lang="ar" xml:id="num_1.d2e416">٥</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="3" xml:lang="ar" xml:id="num_1.d2e419">٣</tei:num> </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e423">التاريخ  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="0" xml:lang="ar" xml:id="num_1.d2e425">٠</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e428">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e431">٢</tei:num> </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e435">جغرافية  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e437">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e440">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="0" xml:lang="ar" xml:id="num_1.d2e443">٠</tei:num> </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e448">علوم طبيعية  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e450">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e453">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e456">٢</tei:num> </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e460">حساب  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="3" xml:lang="ar" xml:id="num_1.d2e462">٣</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="3" xml:lang="ar" xml:id="num_1.d2e465">٣</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e468">١</tei:num> </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e472">كتابة <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e474">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e477">١</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="0" xml:lang="ar" xml:id="num_1.d2e480">٠</tei:num> </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e484">رسم <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e486">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e489">١</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="0" xml:lang="ar" xml:id="num_1.d2e492">٠</tei:num> </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e496">غناء <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e498">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e501">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e504">٢</tei:num> </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e508">موسيقى  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e510">١</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e513">٢</tei:num>   <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e516">١</tei:num> </tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e521">ومن هذا يعلم أنهم يعتنون بفن الموسيقى اعتناءً كبيراً حتى أن الأطفال يجتمعون ليلاً للترنم بالأناشيد ولا يقبل في الفن إلا من فيه قابلية واستعداد له وأما الجمباز وفن البستاني فهما من ضمن التعاليم ومعدود أن من مواد التسلية والرياضة. وفي السنة الثالثة يكلف تلميذ هذه المدارس بإعطاء
+                    قدرة على التعليم له أن يفتح مدرسة يعلم فيها من يشاء التعلم وللحكومة النظر والتفتيش على تعليمه بحيث لا يخرج عن القوانين المتبعة في جميع المملكة. ومدة التعليم في المدارس الابتدائية ثلاث سنين يتعلم فيها التلميذ ما هو آت.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e380">سنة أولىسنة ثانية سنة ثالثة</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e384">ساعات من كل أسبوع ساعات من كل أسبوع ساعات من كل أسبوع</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e387">تمرين <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e389">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e392">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e395">٢</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e399">الديانة  <num type="auto-markup" change="#d2e179 #d2e232" value="6" xml:lang="ar" xml:id="num_1.d2e401">٦</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="6" xml:lang="ar" xml:id="num_1.d2e404">٦</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="6" xml:lang="ar" xml:id="num_1.d2e407">٦</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e411">اللسان الألماني  <num type="auto-markup" change="#d2e179 #d2e232" value="5" xml:lang="ar" xml:id="num_1.d2e413">٥</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="5" xml:lang="ar" xml:id="num_1.d2e416">٥</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="3" xml:lang="ar" xml:id="num_1.d2e419">٣</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e423">التاريخ  <num type="auto-markup" change="#d2e179 #d2e232" value="0" xml:lang="ar" xml:id="num_1.d2e425">٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e428">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e431">٢</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e435">جغرافية  <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e437">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e440">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="0" xml:lang="ar" xml:id="num_1.d2e443">٠</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e448">علوم طبيعية  <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e450">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e453">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e456">٢</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e460">حساب  <num type="auto-markup" change="#d2e179 #d2e232" value="3" xml:lang="ar" xml:id="num_1.d2e462">٣</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="3" xml:lang="ar" xml:id="num_1.d2e465">٣</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e468">١</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e472">كتابة <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e474">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e477">١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="0" xml:lang="ar" xml:id="num_1.d2e480">٠</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e484">رسم <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e486">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e489">١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="0" xml:lang="ar" xml:id="num_1.d2e492">٠</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e496">غناء <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e498">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e501">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e504">٢</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e508">موسيقى  <num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e510">١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e513">٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e516">١</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e521">ومن هذا يعلم أنهم يعتنون بفن الموسيقى اعتناءً كبيراً حتى أن الأطفال يجتمعون ليلاً للترنم بالأناشيد ولا يقبل في الفن إلا من فيه قابلية واستعداد له وأما الجمباز وفن البستاني فهما من ضمن التعاليم ومعدود أن من مواد التسلية والرياضة. وفي السنة الثالثة يكلف تلميذ هذه المدارس بإعطاء
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P878.xhtml" ed="shamela" n="n1-p880" change="#d2e232" xml:id="pb_15.d2e523"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="880" facs="#facs_880" xml:id="pb_16.d2e524"/>
-                    بعض دروس في المكاتب الأهلية ليتمرن على التعليم وتفهيم الغير ويكون ذلك تحت ملاحظة المعلم وفي المدة التي يقيمها الطلبة في المدارس يعلمون الخدم الداخلية بأنفسهم ليتعودوا على تأدية وظائفهم بعد خروجهم من المدرسة إلى الأرياف. وفي آخر السنة الثالثة يعمل امتحان عام بحضور جميع المعلمين تحت رئاسة مجلس تربية المديرية وبحضور رئيس مجلس تربية الدائرة فإنه هو الذي يعين الجهة المحتاجة إلى معلم. وبعد سنتين من خروج التلميذ يصير امتحانه في العمل المختص بوظيفته إمام المعلمين ومتى وجدت فيه الأهلية قيدوا اسمه وصار معلماً مثلهم وعلى المعلمين أن يجتمعوا في أوقات معلومة ليتمرنوا ويتفننوا في طرق التعليم بما يمارسونه فيما بينهم. وفي كل شهر يجتمع معلموا الخط مرة تحت رئاسة القسيس ويجتمع معلموا الاخطاط في القسم كل شهرين مرة تحت رياسة قسيس يعينه مجلس القسم ويجتمع معلموا الأقسام في الدائرة كل ستة أشهر ومعلموا المديرية كل سنة مرة تحت رئاسة مجلس تربية المديرية في هذه الاجتماعات يتذاكرون في طرق التعليم المتبعة وما يجب إصلاحه منها وما يوجب التقدم أكثر من الحاصل. وبسبب قلة ثروة الحكومة وكثرة مصروف العسكرية لم تكن مكاتبها كافية للمتعلمين ففي سنة  <tei:date when="1822" change="#d3e187 #d2e232" xml:id="date_2.d2e526"><tei:num type="auto-markup" change="#d2e179 #d2e232" value="1822" xml:lang="ar" xml:id="num_1.d2e527">١٨٢٢</tei:num></tei:date>  كان العدد المتوسط من الأطفال لكل مكتب سبعين وفي سنة    كان المتوسط لكل مكتب خمسة وتسعين وفي سنة    بلغ المتوسط مائة</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e531">وخمسة وفي سنة  <tei:date when="1864" change="#d3e187 #d2e232" xml:id="date_2.d2e533"><tei:num type="auto-markup" change="#d2e179 #d2e232" value="1864" xml:lang="ar" xml:id="num_1.d2e534">١٨٦٤</tei:num></tei:date>  بلغ مائة وثلاثة عشر. وبسبب بكثرة الأطفال وتعدد الطبقات لم يكن المعلمون كافين للعمل فإنه بمقارنة عددهم بعدد التلامذة علم أن المتوسط معلم واحد لكل  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="79" xml:lang="ar" xml:id="num_1.d2e537">٧٩</tei:num>  تلميذاً وفي الجهات الكثيرة العمران معلم لكل  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="90" xml:lang="ar" xml:id="num_1.d2e540">٩٠</tei:num>  تلميذاً. وما يوجب تعب المعلم التعب
+                    بعض دروس في المكاتب الأهلية ليتمرن على التعليم وتفهيم الغير ويكون ذلك تحت ملاحظة المعلم وفي المدة التي يقيمها الطلبة في المدارس يعلمون الخدم الداخلية بأنفسهم ليتعودوا على تأدية وظائفهم بعد خروجهم من المدرسة إلى الأرياف. وفي آخر السنة الثالثة يعمل امتحان عام بحضور جميع المعلمين تحت رئاسة مجلس تربية المديرية وبحضور رئيس مجلس تربية الدائرة فإنه هو الذي يعين الجهة المحتاجة إلى معلم. وبعد سنتين من خروج التلميذ يصير امتحانه في العمل المختص بوظيفته إمام المعلمين ومتى وجدت فيه الأهلية قيدوا اسمه وصار معلماً مثلهم وعلى المعلمين أن يجتمعوا في أوقات معلومة ليتمرنوا ويتفننوا في طرق التعليم بما يمارسونه فيما بينهم. وفي كل شهر يجتمع معلموا الخط مرة تحت رئاسة القسيس ويجتمع معلموا الاخطاط في القسم كل شهرين مرة تحت رياسة قسيس يعينه مجلس القسم ويجتمع معلموا الأقسام في الدائرة كل ستة أشهر ومعلموا المديرية كل سنة مرة تحت رئاسة مجلس تربية المديرية في هذه الاجتماعات يتذاكرون في طرق التعليم المتبعة وما يجب إصلاحه منها وما يوجب التقدم أكثر من الحاصل. وبسبب قلة ثروة الحكومة وكثرة مصروف العسكرية لم تكن مكاتبها كافية للمتعلمين ففي سنة  <date when="1822" change="#d3e187 #d2e232" xml:id="date_2.d2e526"><num type="auto-markup" change="#d2e179 #d2e232" value="1822" xml:lang="ar" xml:id="num_1.d2e527">١٨٢٢</num></date>  كان العدد المتوسط من الأطفال لكل مكتب سبعين وفي سنة    كان المتوسط لكل مكتب خمسة وتسعين وفي سنة    بلغ المتوسط مائة</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e531">وخمسة وفي سنة  <date when="1864" change="#d3e187 #d2e232" xml:id="date_2.d2e533"><num type="auto-markup" change="#d2e179 #d2e232" value="1864" xml:lang="ar" xml:id="num_1.d2e534">١٨٦٤</num></date>  بلغ مائة وثلاثة عشر. وبسبب بكثرة الأطفال وتعدد الطبقات لم يكن المعلمون كافين للعمل فإنه بمقارنة عددهم بعدد التلامذة علم أن المتوسط معلم واحد لكل  <num type="auto-markup" change="#d2e179 #d2e232" value="79" xml:lang="ar" xml:id="num_1.d2e537">٧٩</num>  تلميذاً وفي الجهات الكثيرة العمران معلم لكل  <num type="auto-markup" change="#d2e179 #d2e232" value="90" xml:lang="ar" xml:id="num_1.d2e540">٩٠</num>  تلميذاً. وما يوجب تعب المعلم التعب
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P879.xhtml" ed="shamela" n="n1-p881" change="#d2e232" xml:id="pb_17.d2e543"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="881" facs="#facs_881" xml:id="pb_18.d2e544"/>
-                    الشديد أنه يوجد في كل مدرسة ثمان طبقات من طبقات التعليم فإن مدة التعليم ثمان سنين فيلزمه أن يشتغل بتعليم كل طبقة على حدتها. ومرتبات المعلمين في هذه المملكة قليلة جداً غير كافية لمعاشهم فمتوسط المرتب للمعلم يبلغ كل سنة  <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="0218" change="#d3e187 #d2e232" xml:id="date_2.d2e546"><tei:num type="auto-markup" change="#d2e179 #d2e232" value="218" xml:lang="ar" xml:id="num_1.d2e547">٢١٨</tei:num></tei:date>  تالير أعين  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="817" xml:lang="ar" xml:id="num_1.d2e551">٨١٧</tei:num>  فرنكاً ونصف فرنك وفي الأرياف يبلغ  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="181" xml:lang="ar" xml:id="num_1.d2e554">١٨١</tei:num>  تاليراي  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="678" xml:lang="ar" xml:id="num_1.d2e557">٦٧٨</tei:num>  فرنكاً وفي ولاية سكس يبلغ  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="268" xml:lang="ar" xml:id="num_1.d2e560">٢٦٨</tei:num>  تاليراً وفي ولاية الوسفالي  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="226" xml:lang="ar" xml:id="num_1.d2e563">٢٢٦</tei:num>  وفي بعض المديريات لا يزيد المتوسط عن مائة تالير وفي بعضها يكن  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="150" xml:lang="ar" xml:id="num_1.d2e566">١٥٠</tei:num>  تاليراً ويوجد في جملة المعلمين  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1926" xml:lang="ar" xml:id="num_1.d2e570">١٩٢٦</tei:num>  معلماً مرتب الواحد منهم  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="100" xml:lang="ar" xml:id="num_1.d2e573">١٠٠</tei:num>  تالير ومن هذا يعلم أن معظم المعلمين لا يزيد مرتبهم عن  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="500" xml:lang="ar" xml:id="num_1.d2e576">٥٠٠</tei:num>  فرنك. وبالنسبة لغلو الأسعار الآن صار ما يتحصل عليه المعلم أقل من أجرة الأجير مع أنه لم يتحصل على درجة معلم إلا بعد امتحانات احتاج فيها إلى الاستعداد وصرف الوقت فيما يؤهله للتعليم ثم أنه لا يصل إلى هذه الرتبة إلا إذا بلغ العشرين من عمره فيكون قد قضى شبيبته في الوصول إلى هذه الدرجة ثم لا يجد ما يكفيه من المرتب ولهذا نقص طلاب هذه الوظيفة فبعد أن كانوا يزيدون عن المحال المحتاجة لهم صار المحال محتاجة إلى معلمين. وهذا بيان إحصاء سنة   .</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e580">عدد الأهالي  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="139" xml:lang="ar" xml:id="num_1.d2e582">١٣٩</tei:num>  ر <tei:num type="auto-markup" change="#d2e179 #d2e232" value="255" xml:lang="ar" xml:id="num_1.d2e585">٢٥٥</tei:num>  ر <tei:num type="auto-markup" change="#d2e179 #d2e232" value="19" xml:lang="ar" xml:id="num_1.d2e588">١٩</tei:num>  مكاتب الأرياف الميرية  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="35058" xml:lang="ar" xml:id="num_1.d2e591">٣٥٠٥٨</tei:num>  مكاتب ريفية غير ميرية  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="906" xml:lang="ar" xml:id="num_1.d2e594">٩٠٦</tei:num>  عدد المعلمين في المكاتب الميرية  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="30805" xml:lang="ar" xml:id="num_1.d2e598">٣٠٨٠٥</tei:num>  عدد المعيدين أعني العرفاء  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2427" xml:lang="ar" xml:id="num_1.d2e601">٢٤٢٧</tei:num>  عدد المعلمات في المكاتب الميرية  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2815" xml:lang="ar" xml:id="num_1.d2e604">٢٨١٥</tei:num>  عدد المعلمين في المكاتب غير الميرية  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="995" xml:lang="ar" xml:id="num_1.d2e607">٩٩٥</tei:num>  عدد المعلمات فيها  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="688" xml:lang="ar" xml:id="num_1.d2e610">٦٨٨</tei:num>  عدد الأطفال في المكاتب الميرية  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1.427191E6" xml:lang="ar" xml:id="num_1.d2e613">١.٤٢٧١٩١E٦</tei:num>  عدد الإناث فيها  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1.398131E6" xml:lang="ar" xml:id="num_1.d2e617">١.٣٩٨١٣١E٦</tei:num>  عدد الأطفال
+                    الشديد أنه يوجد في كل مدرسة ثمان طبقات من طبقات التعليم فإن مدة التعليم ثمان سنين فيلزمه أن يشتغل بتعليم كل طبقة على حدتها. ومرتبات المعلمين في هذه المملكة قليلة جداً غير كافية لمعاشهم فمتوسط المرتب للمعلم يبلغ كل سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="0218" change="#d3e187 #d2e232" xml:id="date_2.d2e546"><num type="auto-markup" change="#d2e179 #d2e232" value="218" xml:lang="ar" xml:id="num_1.d2e547">٢١٨</num></date>  تالير أعين  <num type="auto-markup" change="#d2e179 #d2e232" value="817" xml:lang="ar" xml:id="num_1.d2e551">٨١٧</num>  فرنكاً ونصف فرنك وفي الأرياف يبلغ  <num type="auto-markup" change="#d2e179 #d2e232" value="181" xml:lang="ar" xml:id="num_1.d2e554">١٨١</num>  تاليراي  <num type="auto-markup" change="#d2e179 #d2e232" value="678" xml:lang="ar" xml:id="num_1.d2e557">٦٧٨</num>  فرنكاً وفي ولاية سكس يبلغ  <num type="auto-markup" change="#d2e179 #d2e232" value="268" xml:lang="ar" xml:id="num_1.d2e560">٢٦٨</num>  تاليراً وفي ولاية الوسفالي  <num type="auto-markup" change="#d2e179 #d2e232" value="226" xml:lang="ar" xml:id="num_1.d2e563">٢٢٦</num>  وفي بعض المديريات لا يزيد المتوسط عن مائة تالير وفي بعضها يكن  <num type="auto-markup" change="#d2e179 #d2e232" value="150" xml:lang="ar" xml:id="num_1.d2e566">١٥٠</num>  تاليراً ويوجد في جملة المعلمين  <num type="auto-markup" change="#d2e179 #d2e232" value="1926" xml:lang="ar" xml:id="num_1.d2e570">١٩٢٦</num>  معلماً مرتب الواحد منهم  <num type="auto-markup" change="#d2e179 #d2e232" value="100" xml:lang="ar" xml:id="num_1.d2e573">١٠٠</num>  تالير ومن هذا يعلم أن معظم المعلمين لا يزيد مرتبهم عن  <num type="auto-markup" change="#d2e179 #d2e232" value="500" xml:lang="ar" xml:id="num_1.d2e576">٥٠٠</num>  فرنك. وبالنسبة لغلو الأسعار الآن صار ما يتحصل عليه المعلم أقل من أجرة الأجير مع أنه لم يتحصل على درجة معلم إلا بعد امتحانات احتاج فيها إلى الاستعداد وصرف الوقت فيما يؤهله للتعليم ثم أنه لا يصل إلى هذه الرتبة إلا إذا بلغ العشرين من عمره فيكون قد قضى شبيبته في الوصول إلى هذه الدرجة ثم لا يجد ما يكفيه من المرتب ولهذا نقص طلاب هذه الوظيفة فبعد أن كانوا يزيدون عن المحال المحتاجة لهم صار المحال محتاجة إلى معلمين. وهذا بيان إحصاء سنة   .</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e580">عدد الأهالي  <num type="auto-markup" change="#d2e179 #d2e232" value="139" xml:lang="ar" xml:id="num_1.d2e582">١٣٩</num>  ر <num type="auto-markup" change="#d2e179 #d2e232" value="255" xml:lang="ar" xml:id="num_1.d2e585">٢٥٥</num>  ر <num type="auto-markup" change="#d2e179 #d2e232" value="19" xml:lang="ar" xml:id="num_1.d2e588">١٩</num>  مكاتب الأرياف الميرية  <num type="auto-markup" change="#d2e179 #d2e232" value="35058" xml:lang="ar" xml:id="num_1.d2e591">٣٥٠٥٨</num>  مكاتب ريفية غير ميرية  <num type="auto-markup" change="#d2e179 #d2e232" value="906" xml:lang="ar" xml:id="num_1.d2e594">٩٠٦</num>  عدد المعلمين في المكاتب الميرية  <num type="auto-markup" change="#d2e179 #d2e232" value="30805" xml:lang="ar" xml:id="num_1.d2e598">٣٠٨٠٥</num>  عدد المعيدين أعني العرفاء  <num type="auto-markup" change="#d2e179 #d2e232" value="2427" xml:lang="ar" xml:id="num_1.d2e601">٢٤٢٧</num>  عدد المعلمات في المكاتب الميرية  <num type="auto-markup" change="#d2e179 #d2e232" value="2815" xml:lang="ar" xml:id="num_1.d2e604">٢٨١٥</num>  عدد المعلمين في المكاتب غير الميرية  <num type="auto-markup" change="#d2e179 #d2e232" value="995" xml:lang="ar" xml:id="num_1.d2e607">٩٩٥</num>  عدد المعلمات فيها  <num type="auto-markup" change="#d2e179 #d2e232" value="688" xml:lang="ar" xml:id="num_1.d2e610">٦٨٨</num>  عدد الأطفال في المكاتب الميرية  <num type="auto-markup" change="#d2e179 #d2e232" value="1.427191E6" xml:lang="ar" xml:id="num_1.d2e613">١.٤٢٧١٩١E٦</num>  عدد الإناث فيها  <num type="auto-markup" change="#d2e179 #d2e232" value="1.398131E6" xml:lang="ar" xml:id="num_1.d2e617">١.٣٩٨١٣١E٦</num>  عدد الأطفال
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P880.xhtml" ed="shamela" n="n1-p882" change="#d2e232" xml:id="pb_19.d2e620"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="882" facs="#facs_882" xml:id="pb_20.d2e621"/>
-                    في المكاتب غير الميرية  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="25226" xml:lang="ar" xml:id="num_1.d2e623">٢٥٢٢٦</tei:num>  عدد الإناث فيها  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="27406" xml:lang="ar" xml:id="num_1.d2e626">٢٧٤٠٦</tei:num>  وفي السبع مدارس العامة  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="6047" xml:lang="ar" xml:id="num_1.d2e629">٦٠٤٧</tei:num>  من الشبان وفي الاثنين وستين مكتباً المعدة لتعليم المعلمين  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="3610" xml:lang="ar" xml:id="num_1.d2e633">٣٦١٠</tei:num>  فيخص كل  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="740" xml:lang="ar" xml:id="num_1.d2e636">٧٤٠</tei:num>  شخصاً من الأهالي مكتب ويكون على كل ستة أشخاص وستة أعشار شخص من الأهالي طفل واحد في المكاتب وهذه نتيجة طيبة بالنسبة إلى عدد الأطفال غير طيبة بالنسبة لعدد المكاتب. ومن الإطلاع على هذا الإحصاء يعلم أن درجة</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e640">التعليم أخذت في التقدم تدريجاً ففي سنة  <tei:date when="1822" change="#d3e187 #d2e232" xml:id="date_2.d2e642"><tei:num type="auto-markup" change="#d2e179 #d2e232" value="1822" xml:lang="ar" xml:id="num_1.d2e643">١٨٢٢</tei:num></tei:date>  كان يوجد  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e646">٢</tei:num> و <tei:num type="auto-markup" change="#d2e179 #d2e232" value="12" xml:lang="ar" xml:id="num_1.d2e649">١٢</tei:num>  من الأطفال في كل مائة وفي سنة    بلغ  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="15" xml:lang="ar" xml:id="num_1.d2e652">١٥</tei:num>  وفي سنة    زاد بقدر العشر وفي سنة    نقص وصار  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="14" xml:lang="ar" xml:id="num_1.d2e655">١٤</tei:num>  وسبعة أعشار وبمقارنة الذكور بالإناث يرى أن النسبة للذكور  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="14" xml:lang="ar" xml:id="num_1.d2e659">١٤</tei:num>  وسبعة أعشار في المائة وللإناث  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="14" xml:lang="ar" xml:id="num_1.d2e662">١٤</tei:num>  وأربعة أعشار فالفرق بينهما قيل جداً. ومقدار المنصرف على المكاتب ومحال التعليم في سنة    هكذا مرتب المعلمين والمعلمات في مملكة بروسيا  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="224" xml:lang="ar" xml:id="num_1.d2e665">٢٢٤</tei:num>  و <tei:num type="auto-markup" change="#d2e179 #d2e232" value="449" xml:lang="ar" xml:id="num_1.d2e668">٤٤٩</tei:num>  و <tei:num type="auto-markup" change="#d2e179 #d2e232" value="7" xml:lang="ar" xml:id="num_1.d2e671">٧</tei:num>  تالير. وباقي المصروف لجهات سائرة  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="472" xml:lang="ar" xml:id="num_1.d2e674">٤٧٢</tei:num>  و <tei:num type="auto-markup" change="#d2e179 #d2e232" value="453" xml:lang="ar" xml:id="num_1.d2e678">٤٥٣</tei:num>  و <tei:num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e681">٢</tei:num>  تالير يكون ذلك بالفرنك باعتبار التالير ثلاثة فرنكات وثلاثة أرباع  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="110" xml:lang="ar" xml:id="num_1.d2e684">١١٠</tei:num>  و <tei:num type="auto-markup" change="#d2e179 #d2e232" value="135" xml:lang="ar" xml:id="num_1.d2e687">١٣٥</tei:num>  و <tei:num type="auto-markup" change="#d2e179 #d2e232" value="37" xml:lang="ar" xml:id="num_1.d2e690">٣٧</tei:num>  وبتوزيع هذا المبلغ على الأهالي يخص كل شخص فرنكان ويخص كل طفل ثلاثة عشر فرنكاً. ومن سنة    إلى سنة    حصلت زيادة المتعلمين في مدينة برلين فإنه انتقل من  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="73196" xml:lang="ar" xml:id="num_1.d2e693">٧٣١٩٦</tei:num>  إلى  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="84829" xml:lang="ar" xml:id="num_1.d2e697">٨٤٨٢٩</tei:num>  مع أن عدد الأهالي في هذه المدينة سنة    كان  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="607309" xml:lang="ar" xml:id="num_1.d2e700">٦٠٧٣٠٩</tei:num>  وفي سنة    كان عدد مكاتب المدينة  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="21" xml:lang="ar" xml:id="num_1.d2e703">٢١</tei:num>  مكتباً فيها مائتا فصل وفي سنة    بلغ عددها  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="37" xml:lang="ar" xml:id="num_1.d2e706">٣٧</tei:num>  وفصولها  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="300" xml:lang="ar" xml:id="num_1.d2e709">٣٠٠</tei:num>  وبناءً على قانون التربية المدون سنة    زيد مرتب المعلمين بالصورة الآتية من
+                    في المكاتب غير الميرية  <num type="auto-markup" change="#d2e179 #d2e232" value="25226" xml:lang="ar" xml:id="num_1.d2e623">٢٥٢٢٦</num>  عدد الإناث فيها  <num type="auto-markup" change="#d2e179 #d2e232" value="27406" xml:lang="ar" xml:id="num_1.d2e626">٢٧٤٠٦</num>  وفي السبع مدارس العامة  <num type="auto-markup" change="#d2e179 #d2e232" value="6047" xml:lang="ar" xml:id="num_1.d2e629">٦٠٤٧</num>  من الشبان وفي الاثنين وستين مكتباً المعدة لتعليم المعلمين  <num type="auto-markup" change="#d2e179 #d2e232" value="3610" xml:lang="ar" xml:id="num_1.d2e633">٣٦١٠</num>  فيخص كل  <num type="auto-markup" change="#d2e179 #d2e232" value="740" xml:lang="ar" xml:id="num_1.d2e636">٧٤٠</num>  شخصاً من الأهالي مكتب ويكون على كل ستة أشخاص وستة أعشار شخص من الأهالي طفل واحد في المكاتب وهذه نتيجة طيبة بالنسبة إلى عدد الأطفال غير طيبة بالنسبة لعدد المكاتب. ومن الإطلاع على هذا الإحصاء يعلم أن درجة</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e640">التعليم أخذت في التقدم تدريجاً ففي سنة  <date when="1822" change="#d3e187 #d2e232" xml:id="date_2.d2e642"><num type="auto-markup" change="#d2e179 #d2e232" value="1822" xml:lang="ar" xml:id="num_1.d2e643">١٨٢٢</num></date>  كان يوجد  <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e646">٢</num> و <num type="auto-markup" change="#d2e179 #d2e232" value="12" xml:lang="ar" xml:id="num_1.d2e649">١٢</num>  من الأطفال في كل مائة وفي سنة    بلغ  <num type="auto-markup" change="#d2e179 #d2e232" value="15" xml:lang="ar" xml:id="num_1.d2e652">١٥</num>  وفي سنة    زاد بقدر العشر وفي سنة    نقص وصار  <num type="auto-markup" change="#d2e179 #d2e232" value="14" xml:lang="ar" xml:id="num_1.d2e655">١٤</num>  وسبعة أعشار وبمقارنة الذكور بالإناث يرى أن النسبة للذكور  <num type="auto-markup" change="#d2e179 #d2e232" value="14" xml:lang="ar" xml:id="num_1.d2e659">١٤</num>  وسبعة أعشار في المائة وللإناث  <num type="auto-markup" change="#d2e179 #d2e232" value="14" xml:lang="ar" xml:id="num_1.d2e662">١٤</num>  وأربعة أعشار فالفرق بينهما قيل جداً. ومقدار المنصرف على المكاتب ومحال التعليم في سنة    هكذا مرتب المعلمين والمعلمات في مملكة بروسيا  <num type="auto-markup" change="#d2e179 #d2e232" value="224" xml:lang="ar" xml:id="num_1.d2e665">٢٢٤</num>  و <num type="auto-markup" change="#d2e179 #d2e232" value="449" xml:lang="ar" xml:id="num_1.d2e668">٤٤٩</num>  و <num type="auto-markup" change="#d2e179 #d2e232" value="7" xml:lang="ar" xml:id="num_1.d2e671">٧</num>  تالير. وباقي المصروف لجهات سائرة  <num type="auto-markup" change="#d2e179 #d2e232" value="472" xml:lang="ar" xml:id="num_1.d2e674">٤٧٢</num>  و <num type="auto-markup" change="#d2e179 #d2e232" value="453" xml:lang="ar" xml:id="num_1.d2e678">٤٥٣</num>  و <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e681">٢</num>  تالير يكون ذلك بالفرنك باعتبار التالير ثلاثة فرنكات وثلاثة أرباع  <num type="auto-markup" change="#d2e179 #d2e232" value="110" xml:lang="ar" xml:id="num_1.d2e684">١١٠</num>  و <num type="auto-markup" change="#d2e179 #d2e232" value="135" xml:lang="ar" xml:id="num_1.d2e687">١٣٥</num>  و <num type="auto-markup" change="#d2e179 #d2e232" value="37" xml:lang="ar" xml:id="num_1.d2e690">٣٧</num>  وبتوزيع هذا المبلغ على الأهالي يخص كل شخص فرنكان ويخص كل طفل ثلاثة عشر فرنكاً. ومن سنة    إلى سنة    حصلت زيادة المتعلمين في مدينة برلين فإنه انتقل من  <num type="auto-markup" change="#d2e179 #d2e232" value="73196" xml:lang="ar" xml:id="num_1.d2e693">٧٣١٩٦</num>  إلى  <num type="auto-markup" change="#d2e179 #d2e232" value="84829" xml:lang="ar" xml:id="num_1.d2e697">٨٤٨٢٩</num>  مع أن عدد الأهالي في هذه المدينة سنة    كان  <num type="auto-markup" change="#d2e179 #d2e232" value="607309" xml:lang="ar" xml:id="num_1.d2e700">٦٠٧٣٠٩</num>  وفي سنة    كان عدد مكاتب المدينة  <num type="auto-markup" change="#d2e179 #d2e232" value="21" xml:lang="ar" xml:id="num_1.d2e703">٢١</num>  مكتباً فيها مائتا فصل وفي سنة    بلغ عددها  <num type="auto-markup" change="#d2e179 #d2e232" value="37" xml:lang="ar" xml:id="num_1.d2e706">٣٧</num>  وفصولها  <num type="auto-markup" change="#d2e179 #d2e232" value="300" xml:lang="ar" xml:id="num_1.d2e709">٣٠٠</num>  وبناءً على قانون التربية المدون سنة    زيد مرتب المعلمين بالصورة الآتية من
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P881.xhtml" ed="shamela" n="n1-p883" change="#d2e232" xml:id="pb_21.d2e712"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="883" facs="#facs_883" xml:id="pb_22.d2e714"/>
-                    أمضى في الخدمة ثلاث سنين فمرتبه  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="450" xml:lang="ar" xml:id="num_1.d2e716">٤٥٠</tei:num>  تاليراً ومن أمضى ست سنين فمرتبه  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="500" xml:lang="ar" xml:id="num_1.d2e719">٥٠٠</tei:num>  ومن أمضى تسعاً فمرتبه  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="600" xml:lang="ar" xml:id="num_1.d2e722">٦٠٠</tei:num>  ومن أمضى أربع عشرة سنة    ومن أمضى  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="19" xml:lang="ar" xml:id="num_1.d2e725">١٩</tei:num>  سنة    ومن أمضى  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="24" xml:lang="ar" xml:id="num_1.d2e728">٢٤</tei:num>  سنة   . ومن عهد قريب أنشئت مدارس لتكميل تعليم الأطفال الذين خرجوا من المكاتب واشتغلوا بالصنائع والحرف وتسمى مكاتب التمرين والغرض منها أن التلامذة الذين خرجوا من المدارس بعد أن أمضوا ثماني سنين يجدون محلاَّ يمكنهم الاجتماع فيه للمذاكرة في العلوم التي درسوها حتى لا ينسوها أو لتلقون أموراً عملية مطبقة على ما قرأُوه ولتساعدهم على كسب الضروري لمعاشهم وكان أول وجود هذه المحال في ولاية ويرتمبرغ من ألمانيا ف سن  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1735" xml:lang="ar" xml:id="num_1.d2e732">١٧٣٥</tei:num>  وانتشرت في ولاية باد سنة    وفي بلاد بروسيا سنة    وفي ولاية باويره سنة    وكان فن الرسم لا يوجد إلا في هذه المدارس ثم توسعوا فيها حتى فتحوا عدة مدارس من ذلك على أسلوب بديع وغالب هذه المدارس لا يفتح إلا يوم الأحد وفيها من فروع التعليم الحساب والرسم والخط ويوجد في بعضها زيادة فرع أو فرعين كالهندسة والطبيعة والتاريخ الطبيعي والجغرافيا والتاريخ والأصول التجارية والاصطلاحات والقوانين وكيفية مسك الدفاتر</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e736">وغير ذلك. وأهم المدارس ما يوجد في المدن المشتملة على مدارس الصنائع بقرب المدارس المذكورة والمدرسون مرّة أو مرتين في الليل لمن يحضر ومعه ما يلزم من مواد التعلم المهمة وأما ما يدفعه التلميذ في السنة فهو تالير واحد.
+                    أمضى في الخدمة ثلاث سنين فمرتبه  <num type="auto-markup" change="#d2e179 #d2e232" value="450" xml:lang="ar" xml:id="num_1.d2e716">٤٥٠</num>  تاليراً ومن أمضى ست سنين فمرتبه  <num type="auto-markup" change="#d2e179 #d2e232" value="500" xml:lang="ar" xml:id="num_1.d2e719">٥٠٠</num>  ومن أمضى تسعاً فمرتبه  <num type="auto-markup" change="#d2e179 #d2e232" value="600" xml:lang="ar" xml:id="num_1.d2e722">٦٠٠</num>  ومن أمضى أربع عشرة سنة    ومن أمضى  <num type="auto-markup" change="#d2e179 #d2e232" value="19" xml:lang="ar" xml:id="num_1.d2e725">١٩</num>  سنة    ومن أمضى  <num type="auto-markup" change="#d2e179 #d2e232" value="24" xml:lang="ar" xml:id="num_1.d2e728">٢٤</num>  سنة   . ومن عهد قريب أنشئت مدارس لتكميل تعليم الأطفال الذين خرجوا من المكاتب واشتغلوا بالصنائع والحرف وتسمى مكاتب التمرين والغرض منها أن التلامذة الذين خرجوا من المدارس بعد أن أمضوا ثماني سنين يجدون محلاَّ يمكنهم الاجتماع فيه للمذاكرة في العلوم التي درسوها حتى لا ينسوها أو لتلقون أموراً عملية مطبقة على ما قرأُوه ولتساعدهم على كسب الضروري لمعاشهم وكان أول وجود هذه المحال في ولاية ويرتمبرغ من ألمانيا ف سن  <num type="auto-markup" change="#d2e179 #d2e232" value="1735" xml:lang="ar" xml:id="num_1.d2e732">١٧٣٥</num>  وانتشرت في ولاية باد سنة    وفي بلاد بروسيا سنة    وفي ولاية باويره سنة    وكان فن الرسم لا يوجد إلا في هذه المدارس ثم توسعوا فيها حتى فتحوا عدة مدارس من ذلك على أسلوب بديع وغالب هذه المدارس لا يفتح إلا يوم الأحد وفيها من فروع التعليم الحساب والرسم والخط ويوجد في بعضها زيادة فرع أو فرعين كالهندسة والطبيعة والتاريخ الطبيعي والجغرافيا والتاريخ والأصول التجارية والاصطلاحات والقوانين وكيفية مسك الدفاتر</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e736">وغير ذلك. وأهم المدارس ما يوجد في المدن المشتملة على مدارس الصنائع بقرب المدارس المذكورة والمدرسون مرّة أو مرتين في الليل لمن يحضر ومعه ما يلزم من مواد التعلم المهمة وأما ما يدفعه التلميذ في السنة فهو تالير واحد.
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P882.xhtml" ed="shamela" n="n1-p884" change="#d2e232" xml:id="pb_23.d2e738"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="884" facs="#facs_884" xml:id="pb_24.d2e739"/>
-            </tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e743">
+            </p>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e743">
                 <head change="#d2e232" xml:id="head_4.d2e745">أسباب الحرب</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e748">بقلم الأديب المجيد محمد رفيق بك العظم الدمشقي</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e751">أسباب الحرب هي بواعثها الجوهرية وتنحصر في أمرين الأول مجرد حب التغلب والثاني العداوة السابقة أما حب التغلب الذي هو ثمرة الطمع فإنه ملكة تدفع صاحبا إلى استجلاب المنفعة إلهي بالخروج عن دائرة السكون إلى براح الحركة طلباً للمزيد على ما لديه من القوة والسلطان والممالك والبلدان كما هو شأن المجتمع الدولي المنتظم من هيئة الدول العظام بخلاف الشعوب المتبربرة والأمم المتوحشة ممن يؤثرون الرحلة على المقام فإنما منفعتهم عبارة عن مجرد السلب والنهب اللذين هما مادة ارتزاق أولئك الأقوام. ويحسن أن نسمي الحرب الناشئة عن هذا السبب حرباً مجردة.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e754">وأما العداوة السابقة فهي أما أن تكون ناشئة عن تعدٍ قديم يوجب إيغار الصدور حتى إذا جاء ألقت المناسب للانتقام وأمكنت الفرصة استحال السكون إلى حركة تضطر للتألب سعياً وراء الأخذ بالثأر واسترجاعاً للحق المغصب أو الشرف المسلوب فإن الإنسان مطبوع على إباء الضيم والأنفة من اهتضام الحقوق ومن هنا نشأت المخاصمات والمنازعات التي كانت علة لوضع القوانين بين الناس. وأما أن تكون منبعثة عن حب الرآسة والرغبة في الاستئثار بالمنفعة مما لا مصدر له إلا الحسد الذميم الذي يتولد في عناصر الأمم فيدعو إلى البغضاء ويبعث على الشحناء ويهيج النفوس لحب إزالة النعم ويناسب أن تلقب الحرب المنبعثة عن هذا السبب حرباً غير مجردة.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e757">فهذه هي أسباب الحروب المستمرة التي فطر الإنسان على إثارتها فجرّ
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e748">بقلم الأديب المجيد محمد رفيق بك العظم الدمشقي</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e751">أسباب الحرب هي بواعثها الجوهرية وتنحصر في أمرين الأول مجرد حب التغلب والثاني العداوة السابقة أما حب التغلب الذي هو ثمرة الطمع فإنه ملكة تدفع صاحبا إلى استجلاب المنفعة إلهي بالخروج عن دائرة السكون إلى براح الحركة طلباً للمزيد على ما لديه من القوة والسلطان والممالك والبلدان كما هو شأن المجتمع الدولي المنتظم من هيئة الدول العظام بخلاف الشعوب المتبربرة والأمم المتوحشة ممن يؤثرون الرحلة على المقام فإنما منفعتهم عبارة عن مجرد السلب والنهب اللذين هما مادة ارتزاق أولئك الأقوام. ويحسن أن نسمي الحرب الناشئة عن هذا السبب حرباً مجردة.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e754">وأما العداوة السابقة فهي أما أن تكون ناشئة عن تعدٍ قديم يوجب إيغار الصدور حتى إذا جاء ألقت المناسب للانتقام وأمكنت الفرصة استحال السكون إلى حركة تضطر للتألب سعياً وراء الأخذ بالثأر واسترجاعاً للحق المغصب أو الشرف المسلوب فإن الإنسان مطبوع على إباء الضيم والأنفة من اهتضام الحقوق ومن هنا نشأت المخاصمات والمنازعات التي كانت علة لوضع القوانين بين الناس. وأما أن تكون منبعثة عن حب الرآسة والرغبة في الاستئثار بالمنفعة مما لا مصدر له إلا الحسد الذميم الذي يتولد في عناصر الأمم فيدعو إلى البغضاء ويبعث على الشحناء ويهيج النفوس لحب إزالة النعم ويناسب أن تلقب الحرب المنبعثة عن هذا السبب حرباً غير مجردة.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e757">فهذه هي أسباب الحروب المستمرة التي فطر الإنسان على إثارتها فجرّ
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P883.xhtml" ed="shamela" n="n1-p885" change="#d2e232" xml:id="pb_25.d2e759"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="885" facs="#facs_885" xml:id="pb_26.d2e760"/>
-                    على أبناء نوعه بها الهلاك ودوام الارتباك فليته لم يكن شيئاً مذكورا.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e764">ولما كانت الأمة المحاربة لا تَقدم على الحرب إلا إذا تيقنت من نفسها الفوز والغلبة على عدوّها كان لابد لها من قوة تستند عليها وتعوّل في نوال النصرة عليها. وتلك القوة تختلف باختلاف الدول والأمم فإنها أربعة أقسام قوة المال وقوة الرجال وقوة الموقع الجغرافي وقوة المركز السياسي.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e767">فقوّة المال مرجعها تقدم الأمة في التجارة والصناعة والزراعة وما يتبع ذلك من العلوم والفنون التي عليها مجار التقدم في الثروة والغنى. وقوّة الرجال مرجعها عمارة البلدان</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e770">واتساعها ووفرة السكان وانتظام الجند وصبرهم على تحمل مشاق الحروب ودُرْبة القوّاد وأمانتهم. وقوّة الموقع الجغرافي الصدفة. وقوّة المركز السياسي مرجعها انضمام أطراف المملكة وخلوّها من الاضطرابات الداخلية وتوفر دواعي الأمن والانتظام فهيا واتفاق أهليها على المصلحة الوطنية وإن اختلفوا فيها طرقاً وانقسموا احزاباً وفرقاً مع ما يلحق ذلك من عدم طموح الدولة إلى طلب المزيد على ما لديها محافظة على مركزها ودفعاً لأسباب العداوة مع سواها وقد ينضم إلى مراجع هذه القوّة الأخيرة كون وجود الدولة في العالم السياسي فيه مصلحة لدولة أو عدة دول ترى نفسها مراعاة لمصلحتها مضطرة عند مسيس الحاجة للمدافعة عن تلك الدولة حسياً أو معنوياً.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e773">ولكل من هذه القوى الأربع دخل عظيم في الظفر والانتصار فإذا اجتمعت لدى دولة كانت إلى الربح أقرب منها إلى الخسران والعكس
+                    على أبناء نوعه بها الهلاك ودوام الارتباك فليته لم يكن شيئاً مذكورا.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e764">ولما كانت الأمة المحاربة لا تَقدم على الحرب إلا إذا تيقنت من نفسها الفوز والغلبة على عدوّها كان لابد لها من قوة تستند عليها وتعوّل في نوال النصرة عليها. وتلك القوة تختلف باختلاف الدول والأمم فإنها أربعة أقسام قوة المال وقوة الرجال وقوة الموقع الجغرافي وقوة المركز السياسي.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e767">فقوّة المال مرجعها تقدم الأمة في التجارة والصناعة والزراعة وما يتبع ذلك من العلوم والفنون التي عليها مجار التقدم في الثروة والغنى. وقوّة الرجال مرجعها عمارة البلدان</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e770">واتساعها ووفرة السكان وانتظام الجند وصبرهم على تحمل مشاق الحروب ودُرْبة القوّاد وأمانتهم. وقوّة الموقع الجغرافي الصدفة. وقوّة المركز السياسي مرجعها انضمام أطراف المملكة وخلوّها من الاضطرابات الداخلية وتوفر دواعي الأمن والانتظام فهيا واتفاق أهليها على المصلحة الوطنية وإن اختلفوا فيها طرقاً وانقسموا احزاباً وفرقاً مع ما يلحق ذلك من عدم طموح الدولة إلى طلب المزيد على ما لديها محافظة على مركزها ودفعاً لأسباب العداوة مع سواها وقد ينضم إلى مراجع هذه القوّة الأخيرة كون وجود الدولة في العالم السياسي فيه مصلحة لدولة أو عدة دول ترى نفسها مراعاة لمصلحتها مضطرة عند مسيس الحاجة للمدافعة عن تلك الدولة حسياً أو معنوياً.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e773">ولكل من هذه القوى الأربع دخل عظيم في الظفر والانتصار فإذا اجتمعت لدى دولة كانت إلى الربح أقرب منها إلى الخسران والعكس
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P884.xhtml" ed="shamela" n="n1-p886" change="#d2e232" xml:id="pb_27.d2e775"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="886" facs="#facs_886" xml:id="pb_28.d2e776"/>
-                    بالعكس ومثله ما إذا كانت الدولة ذات قوة جندية يسعها بواسطتها أن تحشد لساحة القتال عدداً عظيماً من الرجال فإنها أن لم تكن مصادر القوة المالية متوفرة لديها فلن تستطيع القايم بمؤونة الجند إلا بالتقتير أو جلب المال من أوجه المظالم وذلك مما يفضي بداخليتها إلى الوهن والضعف بخلاف ما إذا اجتمع لديها قوتا الجند والمال مثلاُ فإنها تنفق عن سعة لتتأهب بما يجعلها ترجح سواها.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e779">وعلاوة على ذلك فإن لكل قوة من هذه القوى على انفرادها فعلاً خاصاً لا تنكر أهميته كقوة الموقع الجغرافي مثلاُ فإن المملكة التي تكون محصنة الجواب بالمضائق البرّية والبحرية ممنعة الأطراف لا يقدر العدوّ إن يأتيها إلا من طريق واحدة ليست كالمملكة التي تكون متفرقة الأجزاء والقوة محاطة بالأجزاء وقس على ذلك بواقي القوات وفعلها بالنسبة لحال المتحاربين.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e782">ثم أنا لو قابلنا بين الحروب القديمة والحديثة لوجدنا الحديثة أشد بلاء وأقوى خطراً وأدعى إلى الهلاك وإن كانتا كلتاهما سبباً فيه فكم من أمم تلاشت ودول دخلت أخبار عظمتها في خبر كان بما جنته عليها الحروب التي يسعى إليها الإنسان مجداً في كل زمان كأنما نسي أن الحروب من أعظم مصائب النوع الأناني فأصبح عاملاً على حتفه بيديه يخترع لذلك الآلات المهلكة ويعد المعدّات التي لم تقف به عند حد معلوم بل كلما ترقى في المدنية درجة ترقت معه مثلها حتى كأن المدنية الحديثة عدوّة للإنسان أقامت عليه رقيباً بتأثره إنّي ذهب</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e786">وكيفما صعد حتى إذا أصاب
+                    بالعكس ومثله ما إذا كانت الدولة ذات قوة جندية يسعها بواسطتها أن تحشد لساحة القتال عدداً عظيماً من الرجال فإنها أن لم تكن مصادر القوة المالية متوفرة لديها فلن تستطيع القايم بمؤونة الجند إلا بالتقتير أو جلب المال من أوجه المظالم وذلك مما يفضي بداخليتها إلى الوهن والضعف بخلاف ما إذا اجتمع لديها قوتا الجند والمال مثلاُ فإنها تنفق عن سعة لتتأهب بما يجعلها ترجح سواها.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e779">وعلاوة على ذلك فإن لكل قوة من هذه القوى على انفرادها فعلاً خاصاً لا تنكر أهميته كقوة الموقع الجغرافي مثلاُ فإن المملكة التي تكون محصنة الجواب بالمضائق البرّية والبحرية ممنعة الأطراف لا يقدر العدوّ إن يأتيها إلا من طريق واحدة ليست كالمملكة التي تكون متفرقة الأجزاء والقوة محاطة بالأجزاء وقس على ذلك بواقي القوات وفعلها بالنسبة لحال المتحاربين.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e782">ثم أنا لو قابلنا بين الحروب القديمة والحديثة لوجدنا الحديثة أشد بلاء وأقوى خطراً وأدعى إلى الهلاك وإن كانتا كلتاهما سبباً فيه فكم من أمم تلاشت ودول دخلت أخبار عظمتها في خبر كان بما جنته عليها الحروب التي يسعى إليها الإنسان مجداً في كل زمان كأنما نسي أن الحروب من أعظم مصائب النوع الأناني فأصبح عاملاً على حتفه بيديه يخترع لذلك الآلات المهلكة ويعد المعدّات التي لم تقف به عند حد معلوم بل كلما ترقى في المدنية درجة ترقت معه مثلها حتى كأن المدنية الحديثة عدوّة للإنسان أقامت عليه رقيباً بتأثره إنّي ذهب</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e786">وكيفما صعد حتى إذا أصاب
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P885.xhtml" ed="shamela" n="n1-p887" change="#d2e232" xml:id="pb_29.d2e788"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="887" facs="#facs_887" xml:id="pb_30.d2e789"/>
-                    منه غرة ألقاه من أعلى درجات المدنية إلى مهاوي الهلاك وذلك بحكم القياس على من تولى من الأمم القديمة التي أبادتها الحروب وذهبت بحضارتها وعمران ممالكها أيدي الغارات كالمصريين والفرس والرومان واليوانان وغيرهم من الأمم العظيمة التي كانت لها المنعة والسلطان.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e792">فقد ذكر بعض المؤرخين أن أقدم دولة رتبت جيشاً خاضعاً لقوانين منظمة فرقت بها بينه وبني طبقات الناس دولة الفراعنة في مصر. وأعظم من أعتنى من الفراعنة بالجيوش وتنظيمها وإحراز معدات الحروب هو رمسيس الثاني فإن بعوثه وصلت إلى ممالك الهند والتتار والآشوريين وغيرهم.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e795">فلو تأملنا تدويخه معظم هذه الممالك لوجدناه بلا ريب أعظم قواد المصريين القدماء ومع هذا العظم وذلك الاقتدار وما وصلت إليه المدنية في تلك العصور كما تدل عليه الآثار الخالدة إلى هذه الأيام لم يكن السلاح إذ ذاك إلا من السهام والفؤس سيوف النحاس ولم تكن الدروع إلا من اللبد. وكذلك أمة الفرس التي فاقت بنظامها الحربي من تقدمها من الأمم لم يكن سلاحها إلا كسلاح المصريين وقد أبادتهم جميعاً الحروب وأتت على مدنيتهم الغرات حتى لم يبق لهم إلا أثر يبصر أو خبر يذكر.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e798">ولا جرم فإن عقول رجال العصور المتمدنة الأولى لم تتوصل إلى اختراع آلات وإبداع أدوات لإهلاك الإنسان الضعيف أكثر مما ذكر فماذا يقال في شأن المدنية الجديدة الغربية وما هي عليه الآن من التقدم كيف يتفنن رجالها في اختراع الآلات الحربية المهلكة للإنسان كالمدفع الرشاش والارمسترنغ والكروب والبندق السريع الطلق والبارود غير ذي الصوت
+                    منه غرة ألقاه من أعلى درجات المدنية إلى مهاوي الهلاك وذلك بحكم القياس على من تولى من الأمم القديمة التي أبادتها الحروب وذهبت بحضارتها وعمران ممالكها أيدي الغارات كالمصريين والفرس والرومان واليوانان وغيرهم من الأمم العظيمة التي كانت لها المنعة والسلطان.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e792">فقد ذكر بعض المؤرخين أن أقدم دولة رتبت جيشاً خاضعاً لقوانين منظمة فرقت بها بينه وبني طبقات الناس دولة الفراعنة في مصر. وأعظم من أعتنى من الفراعنة بالجيوش وتنظيمها وإحراز معدات الحروب هو رمسيس الثاني فإن بعوثه وصلت إلى ممالك الهند والتتار والآشوريين وغيرهم.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e795">فلو تأملنا تدويخه معظم هذه الممالك لوجدناه بلا ريب أعظم قواد المصريين القدماء ومع هذا العظم وذلك الاقتدار وما وصلت إليه المدنية في تلك العصور كما تدل عليه الآثار الخالدة إلى هذه الأيام لم يكن السلاح إذ ذاك إلا من السهام والفؤس سيوف النحاس ولم تكن الدروع إلا من اللبد. وكذلك أمة الفرس التي فاقت بنظامها الحربي من تقدمها من الأمم لم يكن سلاحها إلا كسلاح المصريين وقد أبادتهم جميعاً الحروب وأتت على مدنيتهم الغرات حتى لم يبق لهم إلا أثر يبصر أو خبر يذكر.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e798">ولا جرم فإن عقول رجال العصور المتمدنة الأولى لم تتوصل إلى اختراع آلات وإبداع أدوات لإهلاك الإنسان الضعيف أكثر مما ذكر فماذا يقال في شأن المدنية الجديدة الغربية وما هي عليه الآن من التقدم كيف يتفنن رجالها في اختراع الآلات الحربية المهلكة للإنسان كالمدفع الرشاش والارمسترنغ والكروب والبندق السريع الطلق والبارود غير ذي الصوت
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P886.xhtml" ed="shamela" n="n1-p888" change="#d2e232" xml:id="pb_31.d2e800"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="888" facs="#facs_888" xml:id="pb_32.d2e801"/>
-                    وغير ذي الدخان والتوربيد والديناميت والمنطاد الحربي إلى غير ذلك من الأسباب التي تسدّ في وجه المدنية المذاهب وتفضي إلى اضمحلالها وصيرورة أهليتها أخباراً تحار عند ذكرها الأذهان.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e804">فلا ريب أن مضار هذه المدنية على النوع الإنساني أكثر من نفعها بل أيّ نفع يرجى ن مدنية صيرت العالم على شفا جرف هار من البوار وفتحت على الممالك أفواه البنادق والمدافع كمن ينتظر إشارة ليلهب الأرض ومن عليها بنيران الهلاك والتدمير.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e807">ولا عجب فالحرب أخت الإنسان نشأت معه وتربت بين يديه فلما لم يتق شرها انقلبت</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e811">بالوبال عليه.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e814">ومن يجعل الصِل الخبيث ربيبه=ويأْمل منه الخير بشره بالشر</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e817">وهل يرتجي ممن نشا طبعه الأذي=سوى بثّه سمّ الأذية والضرّ</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e820">والحمد لله الذي جعل البلاد المصرية في مأمن واق من الحروب وحصن حصين دون الكروب وجعل بأسها عباسها فدفع له عنها كل محظور فنسأل الله تعالى لمقامه العالي تأييداً وإعزازاً حتى تصل به مصر إلى معنى التقدم الحق والكمال المطلوب أمين.</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e823">انتهى المولد الأحمدي الصغير وكان خفيفاً قليل الزوّار بائر التجارة لم يربح فهي إلا بعض الخمارات فإن معظم أصحاب الأطيان بأع <tei:num type="auto-markup" change="#d2e179 #d2e232" value="7" xml:lang="ar" xml:id="num_1.d2e825">٧</tei:num> وها أو رهنوها ولم يبق بيدهم ما يشترون بضاعة أو يضيعون به شرفاً ومالاً وديناً أم أصحاب الطرق وأهل الخير فكانوا على أحسن ما يكون من الهدوء والنظام والاشتغال بأنواع الطاعة والقربات ولنا في هذا الموضوع كلام نؤجلهُ إلى فرصة أخرى.
+                    وغير ذي الدخان والتوربيد والديناميت والمنطاد الحربي إلى غير ذلك من الأسباب التي تسدّ في وجه المدنية المذاهب وتفضي إلى اضمحلالها وصيرورة أهليتها أخباراً تحار عند ذكرها الأذهان.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e804">فلا ريب أن مضار هذه المدنية على النوع الإنساني أكثر من نفعها بل أيّ نفع يرجى ن مدنية صيرت العالم على شفا جرف هار من البوار وفتحت على الممالك أفواه البنادق والمدافع كمن ينتظر إشارة ليلهب الأرض ومن عليها بنيران الهلاك والتدمير.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e807">ولا عجب فالحرب أخت الإنسان نشأت معه وتربت بين يديه فلما لم يتق شرها انقلبت</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e811">بالوبال عليه.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e814">ومن يجعل الصِل الخبيث ربيبه=ويأْمل منه الخير بشره بالشر</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e817">وهل يرتجي ممن نشا طبعه الأذي=سوى بثّه سمّ الأذية والضرّ</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e820">والحمد لله الذي جعل البلاد المصرية في مأمن واق من الحروب وحصن حصين دون الكروب وجعل بأسها عباسها فدفع له عنها كل محظور فنسأل الله تعالى لمقامه العالي تأييداً وإعزازاً حتى تصل به مصر إلى معنى التقدم الحق والكمال المطلوب أمين.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e823">انتهى المولد الأحمدي الصغير وكان خفيفاً قليل الزوّار بائر التجارة لم يربح فهي إلا بعض الخمارات فإن معظم أصحاب الأطيان بأع <num type="auto-markup" change="#d2e179 #d2e232" value="7" xml:lang="ar" xml:id="num_1.d2e825">٧</num> وها أو رهنوها ولم يبق بيدهم ما يشترون بضاعة أو يضيعون به شرفاً ومالاً وديناً أم أصحاب الطرق وأهل الخير فكانوا على أحسن ما يكون من الهدوء والنظام والاشتغال بأنواع الطاعة والقربات ولنا في هذا الموضوع كلام نؤجلهُ إلى فرصة أخرى.
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P887.xhtml" ed="shamela" n="n1-p889" change="#d2e232" xml:id="pb_33.d2e828"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="889" facs="#facs_889" xml:id="pb_34.d2e829"/>
-            </tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e833">
+            </p>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e833">
                 <head change="#d2e232" xml:id="head_5.d2e835">صبر جميل</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e838">بارت تجارة الإجراء فلم يجدوا طريقاً تنفق به سلعتهم إلا السعاية من جهة والحط على الأمراء الصادقين في الخدمة من جهة أخرى ولما لم يفدهم ذلك ارجفوا بأن محرر الأستاذ سيبعد عن مصر إقعاداً لهمم المشتركين وسداً لباب تحصيل قيم الاشتراك فنحن ننادي في مشارق الأرض ومغاربها إننا من رجال الهيئة الوطنية المشمولين برعاية الحضرة الخديوية وحياطة الحكومة المصرية لا ننطق بكلمة ولا نتحرك حركة إلا وهي أعلم بها وكذلك رجال بريطانيا العظمة يعلمون من حركاتنا وسكناتنا ما هو مقرر بالتقارير المتتالية ممن لا نخطو خطوة إلا وهم على أثرنا ولم نزد في جريدتنا على النصح وتقبيح القبيح وتحسين الحسن وهو الذي تريد انكلترة أن تهدينا إليه ولا ينكر أحد أن حرية المبطوعات انتهت في مصر إلى أن يطعن الإجراء في المصريين طعناً شخصياً ويقبحوا أعمال من يرون صرف الأفكار عنه لا يبالون في أي عظيم كتبوا ولا بأية عبارة نطقوا ولا يليق بدولة عظيمة كدولة بريطانيا أن تحجر على زيد ما أباحته لعمر أو أن تبعد سيبويه لتنفق بضاعة نفطويه وعلى كل فإن ما أرجف به المرجفون من أبعادنا عن أوطاننا محض افتراء وكذب لا يكون في حكومة نظامية مقيدة بمجالس قانونية لا تستبد عليا بفعل من الأفعال وإذ دار إنسان على دوائر حكومتنا السنية وسأل عن هذه الإشاعة فإنه لا يجد لها أثراً ولا خبراً عند أصاغر الخدمة فضالً عن الأمراء الفخام وهناك يعلم أن المرجف بهذه هو المرجف بإغلاق الأستاذ أولاً ونفي صاحبه ثانياً على السنة أمثاله في الأرياف والمدن
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e838">بارت تجارة الإجراء فلم يجدوا طريقاً تنفق به سلعتهم إلا السعاية من جهة والحط على الأمراء الصادقين في الخدمة من جهة أخرى ولما لم يفدهم ذلك ارجفوا بأن محرر الأستاذ سيبعد عن مصر إقعاداً لهمم المشتركين وسداً لباب تحصيل قيم الاشتراك فنحن ننادي في مشارق الأرض ومغاربها إننا من رجال الهيئة الوطنية المشمولين برعاية الحضرة الخديوية وحياطة الحكومة المصرية لا ننطق بكلمة ولا نتحرك حركة إلا وهي أعلم بها وكذلك رجال بريطانيا العظمة يعلمون من حركاتنا وسكناتنا ما هو مقرر بالتقارير المتتالية ممن لا نخطو خطوة إلا وهم على أثرنا ولم نزد في جريدتنا على النصح وتقبيح القبيح وتحسين الحسن وهو الذي تريد انكلترة أن تهدينا إليه ولا ينكر أحد أن حرية المبطوعات انتهت في مصر إلى أن يطعن الإجراء في المصريين طعناً شخصياً ويقبحوا أعمال من يرون صرف الأفكار عنه لا يبالون في أي عظيم كتبوا ولا بأية عبارة نطقوا ولا يليق بدولة عظيمة كدولة بريطانيا أن تحجر على زيد ما أباحته لعمر أو أن تبعد سيبويه لتنفق بضاعة نفطويه وعلى كل فإن ما أرجف به المرجفون من أبعادنا عن أوطاننا محض افتراء وكذب لا يكون في حكومة نظامية مقيدة بمجالس قانونية لا تستبد عليا بفعل من الأفعال وإذ دار إنسان على دوائر حكومتنا السنية وسأل عن هذه الإشاعة فإنه لا يجد لها أثراً ولا خبراً عند أصاغر الخدمة فضالً عن الأمراء الفخام وهناك يعلم أن المرجف بهذه هو المرجف بإغلاق الأستاذ أولاً ونفي صاحبه ثانياً على السنة أمثاله في الأرياف والمدن
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P888.xhtml" ed="shamela" n="n1-p890" change="#d2e232" xml:id="pb_35.d2e840"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="890" facs="#facs_890" xml:id="pb_36.d2e841"/>
-                    وكلما زادونا أرجافاً وسعاية زدناهم إعراضاً وإهداراً ووقفنا أمامهم وقوف الجبل في مهب الرياح ولنا في مثل هذا المقام قصيدة قلناها في الاحتفاء وقد أحاطت بنا الجواسيس وتواترت أخبار الأراجيف ففترت همم الإخوان وداخلهم الخوف والرعب وثبتنا أمام تلك المزعجات وأخذنا ننشدها محاربة للنوائب وإظهاراً لما في الطوية من الصبر والثبات وإذا كان لساننا ذلك في حالة الشدة أفيرى المرجف أنه يحرك منا ساكناً بإرجافه في وقت الرخاء ونحن بين يدي أمير حكيم خبير بأحوال رعيته ووزير خطير هو أدق الناس في اختبار الناس ومعرفة ما هم عليه ولنورد بعض القصيدة هنا ترويحاً للنفس وتذكيراً بأيام التجلد للمحن والنوائب وقد أنشدناها توسلاً بالجد الأعظم صلى الله عليه وسلم وهي:</tei:p>
+                    وكلما زادونا أرجافاً وسعاية زدناهم إعراضاً وإهداراً ووقفنا أمامهم وقوف الجبل في مهب الرياح ولنا في مثل هذا المقام قصيدة قلناها في الاحتفاء وقد أحاطت بنا الجواسيس وتواترت أخبار الأراجيف ففترت همم الإخوان وداخلهم الخوف والرعب وثبتنا أمام تلك المزعجات وأخذنا ننشدها محاربة للنوائب وإظهاراً لما في الطوية من الصبر والثبات وإذا كان لساننا ذلك في حالة الشدة أفيرى المرجف أنه يحرك منا ساكناً بإرجافه في وقت الرخاء ونحن بين يدي أمير حكيم خبير بأحوال رعيته ووزير خطير هو أدق الناس في اختبار الناس ومعرفة ما هم عليه ولنورد بعض القصيدة هنا ترويحاً للنفس وتذكيراً بأيام التجلد للمحن والنوائب وقد أنشدناها توسلاً بالجد الأعظم صلى الله عليه وسلم وهي:</p>
                 <lg change="#d2e82 #d2e232" xml:id="lg_1.d2e844">
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e846">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e848">أتحسبنا إذا قلنا بُلينا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e851">بَلينا أو يروم القلب لينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e855">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e857">نعم للمجد نقتحم الدواهي</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e860">فيحسب خامل أن دهينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e864">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e866">تناوشنا فنقهرها خطوب</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e869">ترى ليث العرين لها قرينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e873">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e875">سواءٌ حربها والسلم أنا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e878">أناس قبل هدنتها هدينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e882">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e884">سُررنا بالصلى والبشر بادٍ</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e887">وكيُّ السر يستديع إلا نينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e892">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e894">ومرضعنا تغذينا بصبر</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e897">مرِير حين مازجنا حلينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e901">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e903">فطمنا بالظماء على ثبات</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e906">فصمنا عن شراب الجازعينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e910">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e912">إذا ما الدهر صافانا مرضنا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e915">فإن عدنا إلى خطب شفينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e919">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e921">لنا جلد على جَلَد يقينا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e924">فإن زاد البلاد زدنا يقينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e928">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e930">ألفنا كلّ مكروه تفدّى</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e933">له فرسانه بالرّاجلينا</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e846">
+                        <seg change="#d2e232" xml:id="seg_1.d2e848">أتحسبنا إذا قلنا بُلينا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e851">بَلينا أو يروم القلب لينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e855">
+                        <seg change="#d2e232" xml:id="seg_1.d2e857">نعم للمجد نقتحم الدواهي</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e860">فيحسب خامل أن دهينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e864">
+                        <seg change="#d2e232" xml:id="seg_1.d2e866">تناوشنا فنقهرها خطوب</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e869">ترى ليث العرين لها قرينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e873">
+                        <seg change="#d2e232" xml:id="seg_1.d2e875">سواءٌ حربها والسلم أنا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e878">أناس قبل هدنتها هدينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e882">
+                        <seg change="#d2e232" xml:id="seg_1.d2e884">سُررنا بالصلى والبشر بادٍ</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e887">وكيُّ السر يستديع إلا نينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e892">
+                        <seg change="#d2e232" xml:id="seg_1.d2e894">ومرضعنا تغذينا بصبر</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e897">مرِير حين مازجنا حلينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e901">
+                        <seg change="#d2e232" xml:id="seg_1.d2e903">فطمنا بالظماء على ثبات</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e906">فصمنا عن شراب الجازعينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e910">
+                        <seg change="#d2e232" xml:id="seg_1.d2e912">إذا ما الدهر صافانا مرضنا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e915">فإن عدنا إلى خطب شفينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e919">
+                        <seg change="#d2e232" xml:id="seg_1.d2e921">لنا جلد على جَلَد يقينا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e924">فإن زاد البلاد زدنا يقينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e928">
+                        <seg change="#d2e232" xml:id="seg_1.d2e930">ألفنا كلّ مكروه تفدّى</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e933">له فرسانه بالرّاجلينا</seg>
+                    </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P889.xhtml" ed="shamela" n="n1-p891" change="#d2e232" xml:id="pb_37.d2e937"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="891" facs="#facs_891" xml:id="pb_38.d2e939"/>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e941">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e943">فأعيا الخطبَ ما يلقاه منا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e946">ولكنا صحاح ما عيينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e950">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e952">صلينا يا خطوب فقد عُرفنا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e955">بأنّا الصُلب صُلنا أو صُلينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e959">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e961">وقرّي فوق عاقتنا وقولي</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e964">نزلت اليوم أعلى طور سينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e968">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e970">علينا للعلا دين وضعنا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e973">عليه الروح لا الدنيا رهينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e977">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e979">فهل يمسي رهين في سرور</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e982">وهل تلقى بلا كدر مدينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e987">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e989">إذا ما المجد نادانا أجبنا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e992">فيظهر حين ينظرنا حنينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e996">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e998">يغنينا فيلهبنا التغنيّ</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1001">عن الباكي وينسينا الحزينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1005">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1007">ولسنا الساخطين إذا رزئنا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1010">عم يلقى القضا قلباً رزينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1014">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1016">فإنا في عداد الناس قوم</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1019">بما يرضى الإله لنا رضينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1023">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1025">إذا طاش الزمان بنا حلمنا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1028">ولكنا نُهينا إن نهينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1032">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1034">فبيت المجد يهدمه التغابي</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1037">وزند الفضل ينتن أن أُبينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1042">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1044">وإنا والورى قسمان لكن</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1047">إذا ماتوا بنازلة حيينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1051">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1053">وإن لاذوا بعترتن ضعفنا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1056">فإن رفعوا أنوفهم قوينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1060">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1062">وإن شئنا نشرنا القول درا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1065">وإن شئنا نظمناه ثمينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1069">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1071">وإن شئنا سلبنا كل لب</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1074">وإن شئنا سحرنا المنشئينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1078">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1080">ومسطرنا يناجي كل حبر</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1083">بما يهوى ويعلى الكاتبينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1087">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1089">سلوا عنا منابرنا فإنا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1092">تركنا في منصتها فطينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1097">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1099">لحكمتنا تقول إذا هذرتم</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1102">الاهبي بصحنك فاصجينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1106">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1108">ورثناها عن الآباء بحق</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1111">فإن سرنا نورّثها البنينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1115">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1117">بعيد أن يرى حبر غبياً</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1120">وسيد عترة يلفى هجينا</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e941">
+                        <seg change="#d2e232" xml:id="seg_1.d2e943">فأعيا الخطبَ ما يلقاه منا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e946">ولكنا صحاح ما عيينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e950">
+                        <seg change="#d2e232" xml:id="seg_1.d2e952">صلينا يا خطوب فقد عُرفنا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e955">بأنّا الصُلب صُلنا أو صُلينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e959">
+                        <seg change="#d2e232" xml:id="seg_1.d2e961">وقرّي فوق عاقتنا وقولي</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e964">نزلت اليوم أعلى طور سينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e968">
+                        <seg change="#d2e232" xml:id="seg_1.d2e970">علينا للعلا دين وضعنا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e973">عليه الروح لا الدنيا رهينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e977">
+                        <seg change="#d2e232" xml:id="seg_1.d2e979">فهل يمسي رهين في سرور</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e982">وهل تلقى بلا كدر مدينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e987">
+                        <seg change="#d2e232" xml:id="seg_1.d2e989">إذا ما المجد نادانا أجبنا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e992">فيظهر حين ينظرنا حنينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e996">
+                        <seg change="#d2e232" xml:id="seg_1.d2e998">يغنينا فيلهبنا التغنيّ</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1001">عن الباكي وينسينا الحزينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1005">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1007">ولسنا الساخطين إذا رزئنا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1010">عم يلقى القضا قلباً رزينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1014">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1016">فإنا في عداد الناس قوم</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1019">بما يرضى الإله لنا رضينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1023">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1025">إذا طاش الزمان بنا حلمنا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1028">ولكنا نُهينا إن نهينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1032">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1034">فبيت المجد يهدمه التغابي</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1037">وزند الفضل ينتن أن أُبينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1042">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1044">وإنا والورى قسمان لكن</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1047">إذا ماتوا بنازلة حيينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1051">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1053">وإن لاذوا بعترتن ضعفنا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1056">فإن رفعوا أنوفهم قوينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1060">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1062">وإن شئنا نشرنا القول درا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1065">وإن شئنا نظمناه ثمينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1069">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1071">وإن شئنا سلبنا كل لب</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1074">وإن شئنا سحرنا المنشئينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1078">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1080">ومسطرنا يناجي كل حبر</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1083">بما يهوى ويعلى الكاتبينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1087">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1089">سلوا عنا منابرنا فإنا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1092">تركنا في منصتها فطينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1097">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1099">لحكمتنا تقول إذا هذرتم</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1102">الاهبي بصحنك فاصجينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1106">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1108">ورثناها عن الآباء بحق</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1111">فإن سرنا نورّثها البنينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1115">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1117">بعيد أن يرى حبر غبياً</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1120">وسيد عترة يلفى هجينا</seg>
+                    </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P890.xhtml" ed="shamela" n="n1-p892" change="#d2e232" xml:id="pb_39.d2e1124"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="892" facs="#facs_892" xml:id="pb_40.d2e1125"/>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1127">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1129">سرى فينا من الآباء سر</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1132">يسوق البر نحو الموذينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1137">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1139">فإن عشنا منحنا سائلينا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1142">وإن متنت نفحنا الزائرينا</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1127">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1129">سرى فينا من الآباء سر</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1132">يسوق البر نحو الموذينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1137">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1139">فإن عشنا منحنا سائلينا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1142">وإن متنت نفحنا الزائرينا</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e1147">_ ومنها بعد التخلص والمديح _</tei:p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1147">_ ومنها بعد التخلص والمديح _</p>
                 <lg change="#d2e82 #d2e232" xml:id="lg_2.d2e1150">
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1152">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1154">أأنسى يوم مصر والبلايا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1157">تطاردني ولا ألقى معينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1161">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1163">فكنتَ الغوث في ويم كريه</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1166">أخاف الشهم والحبر ألسمينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1170">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1172">مدحا فيه في إشراق شمس</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1175">فلما جاء مغربه هجينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1179">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1181">وهل أنسى هجوم الجند عصرا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1184">بلا علم وقد كنا فجينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1188">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1190">أحاطوا بي وسدوا كل باب</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1193">وصرنا بين أيدي الباحثينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1198">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1200">وكان السطح مملوءاً بجند</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1203">وخلف البيت كم وضعوا كمينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1207">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1209">فأدركت الوحيد وكان صيداً</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1212">قريباً من فخاخ الطالبينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1216">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1218">وأرشدت النديم إلى مكان</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1221">رآهُ بعد حيرته مكينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1225">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1227">وأعمى الله عنا كل عين</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1230">وكان للعساكر ناظرينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1234">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1236">وصرنا فوق سطح فيه علو</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1239">يحطم هاوياً منه متينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1243">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1245">فلم أرهب وثوبي من طمار</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1248">ولم أنظر شمالاً أو يمينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1253">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1255">فقد كنا بلا ستر يرانا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1258">أمام العين كل القاصدينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1262">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1264">وكم سرنا بلا خوف جهارا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1267">ركبنا الخيل أو جئنا السفينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1271">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1273">وهل أنسى تصدّي بعض قوم</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1276">لأن أُمسي بحيهم طعينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1280">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1282">فخلفت العيال وسرت ليلاً</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1285">ولم أحمل حمول الظاعنينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1289">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1291">فكنت الغوث يا جداه دوما</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1294">وقعنا في المهالك أو قُفينا</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1152">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1154">أأنسى يوم مصر والبلايا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1157">تطاردني ولا ألقى معينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1161">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1163">فكنتَ الغوث في ويم كريه</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1166">أخاف الشهم والحبر ألسمينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1170">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1172">مدحا فيه في إشراق شمس</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1175">فلما جاء مغربه هجينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1179">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1181">وهل أنسى هجوم الجند عصرا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1184">بلا علم وقد كنا فجينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1188">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1190">أحاطوا بي وسدوا كل باب</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1193">وصرنا بين أيدي الباحثينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1198">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1200">وكان السطح مملوءاً بجند</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1203">وخلف البيت كم وضعوا كمينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1207">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1209">فأدركت الوحيد وكان صيداً</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1212">قريباً من فخاخ الطالبينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1216">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1218">وأرشدت النديم إلى مكان</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1221">رآهُ بعد حيرته مكينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1225">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1227">وأعمى الله عنا كل عين</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1230">وكان للعساكر ناظرينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1234">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1236">وصرنا فوق سطح فيه علو</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1239">يحطم هاوياً منه متينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1243">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1245">فلم أرهب وثوبي من طمار</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1248">ولم أنظر شمالاً أو يمينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1253">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1255">فقد كنا بلا ستر يرانا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1258">أمام العين كل القاصدينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1262">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1264">وكم سرنا بلا خوف جهارا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1267">ركبنا الخيل أو جئنا السفينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1271">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1273">وهل أنسى تصدّي بعض قوم</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1276">لأن أُمسي بحيهم طعينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1280">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1282">فخلفت العيال وسرت ليلاً</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1285">ولم أحمل حمول الظاعنينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1289">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1291">فكنت الغوث يا جداه دوما</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1294">وقعنا في المهالك أو قُفينا</seg>
+                    </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P891.xhtml" ed="shamela" n="n1-p893" change="#d2e232" xml:id="pb_41.d2e1298"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="893" facs="#facs_893" xml:id="pb_42.d2e1300"/>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1302">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1304">وإني الآن في خطب عظيم</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1307">أرى في طيه داءً دفينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1311">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1313">أتانا مخبر عن قوم سوءٍ</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1316">أرادوا وصفنا للحاكمينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1320">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1322">وخاف الضُرّا حبابي جميعا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1325">وقالوا بالوشاية قد رمينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1329">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1331">فعجل بالرحيل بلا توانٍ</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1334">ولا تخبر صديقنا أو خدينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1338">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1340">فأدرك يا أبي نجلاً دهاه</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1343">من الأهوال ما يوهي البدينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1348">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1350">فما خفت المنون ولا الأعادي</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1353">نعم خفت انشراح الشامتينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1357">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1359">فسرت الليل يصحبني ثبات</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1362">لخلّ نحو منزله دعينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1366">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1368">ورافقني خليل كان قبلا</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1371">يوافي حين كنا ظاهرينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1375">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1377">وأدركنا القطار بغير خوف</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1380">وكنا بالثياب منكَّرينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1384">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1386">وألقى الله ستر الحفظ فضلاً</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1389">فلم ترنا عيون المبلسيا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1393">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1395">وكان الخل منتظرا قدومي</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1398">بخيل أوصلتنا سالمينا</tei:seg>
-                    </tei:l>
-                    <tei:l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1403">
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1405">ونجى الله بعد اليأْس عبداً</tei:seg>
-                        <tei:seg change="#d2e232" xml:id="seg_1.d2e1408">يرى الرحمن خير المنقذينا</tei:seg>
-                    </tei:l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1302">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1304">وإني الآن في خطب عظيم</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1307">أرى في طيه داءً دفينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1311">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1313">أتانا مخبر عن قوم سوءٍ</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1316">أرادوا وصفنا للحاكمينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1320">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1322">وخاف الضُرّا حبابي جميعا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1325">وقالوا بالوشاية قد رمينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1329">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1331">فعجل بالرحيل بلا توانٍ</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1334">ولا تخبر صديقنا أو خدينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1338">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1340">فأدرك يا أبي نجلاً دهاه</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1343">من الأهوال ما يوهي البدينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1348">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1350">فما خفت المنون ولا الأعادي</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1353">نعم خفت انشراح الشامتينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1357">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1359">فسرت الليل يصحبني ثبات</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1362">لخلّ نحو منزله دعينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1366">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1368">ورافقني خليل كان قبلا</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1371">يوافي حين كنا ظاهرينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1375">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1377">وأدركنا القطار بغير خوف</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1380">وكنا بالثياب منكَّرينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1384">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1386">وألقى الله ستر الحفظ فضلاً</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1389">فلم ترنا عيون المبلسيا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1393">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1395">وكان الخل منتظرا قدومي</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1398">بخيل أوصلتنا سالمينا</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1403">
+                        <seg change="#d2e232" xml:id="seg_1.d2e1405">ونجى الله بعد اليأْس عبداً</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1408">يرى الرحمن خير المنقذينا</seg>
+                    </l>
                 </lg>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e1414">ومن كامنت هذه عقيدته في الشدة وهذا صبره في الخطوب التي كان يجهل عاقبتها لا تؤثر فيه أوهام المرجفين بعد سكاه دار الأمن بأمر وعفو الحضرة الخديوية أيدها الله تعالى وأدام علينا سوابغ نعمها.</tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1419">
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1414">ومن كامنت هذه عقيدته في الشدة وهذا صبره في الخطوب التي كان يجهل عاقبتها لا تؤثر فيه أوهام المرجفين بعد سكاه دار الأمن بأمر وعفو الحضرة الخديوية أيدها الله تعالى وأدام علينا سوابغ نعمها.</p>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1419">
                 <head change="#d2e232" xml:id="head_6.d2e1421">الكسوة الشريفة</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e1424">احتفل ليلة السبت في ديوان محافظة مصر احتفالاً جليلاً دعى إليه العلماء والأمراء وأرباب الطرق وكثير من الوجهاء والأعيان سروراً بإنجاز كسوة مقام سيدنا الخليل عليه الصلاة والسلام وقد بلغت مصارفها  <tei:num type="auto-markup" change="#d2e179 #d2e232" value="1700" xml:lang="ar" xml:id="num_1.d2e1426">١٧٠٠</tei:num> 
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1424">احتفل ليلة السبت في ديوان محافظة مصر احتفالاً جليلاً دعى إليه العلماء والأمراء وأرباب الطرق وكثير من الوجهاء والأعيان سروراً بإنجاز كسوة مقام سيدنا الخليل عليه الصلاة والسلام وقد بلغت مصارفها  <num type="auto-markup" change="#d2e179 #d2e232" value="1700" xml:lang="ar" xml:id="num_1.d2e1426">١٧٠٠</num> 
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P892.xhtml" ed="shamela" n="n1-p894" change="#d2e232" xml:id="pb_43.d2e1429"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="894" facs="#facs_894" xml:id="pb_44.d2e1430"/>
-                    جنيهاً وفي الصباح انتظم الموكب مركباً من فرق العساكر الخيالة والمشاة والمدفعية وكان + الوزراء الكرام يقدمهم صاحب الدولة رياض باشا نائباً عن الحضرة الخديوية قد اجتمعوا في سقيفة المنشية يصحبهم لفيف من العلماء الإعلام في مقدمتهم صاحب السماحة والفضيلة شيخنا الأستاذ الشيخ الانبابي وفي مقدمة رجال الطرق وأصحاب الأشاير صاحب السماحة والسيادة السيد توفيق أفندي البكري الصديقي وسماحة قاضي أفندي مصر أي أن هؤُلاء الإعلام وجدوا مع النظار الكرام بالملابس الرسمية في مقدمة من وجد معهم من العلماء والأشياخ ومن ساحة المنشية سار الموكب حتى دخل مسجد الغمام الحسين رضي الله تعالى عنه وقد هرع الناس إلى الشوارع التي مر بها حتى لم يبق في مصر أحد ممن يميلون لرؤية هذا الموكب المنف إلا وقف له داعياً للحضرة الخديوية الفخيمة بطول العمر ودوام العز والاقبا متفرجاً.</tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1434">
+                    جنيهاً وفي الصباح انتظم الموكب مركباً من فرق العساكر الخيالة والمشاة والمدفعية وكان + الوزراء الكرام يقدمهم صاحب الدولة رياض باشا نائباً عن الحضرة الخديوية قد اجتمعوا في سقيفة المنشية يصحبهم لفيف من العلماء الإعلام في مقدمتهم صاحب السماحة والفضيلة شيخنا الأستاذ الشيخ الانبابي وفي مقدمة رجال الطرق وأصحاب الأشاير صاحب السماحة والسيادة السيد توفيق أفندي البكري الصديقي وسماحة قاضي أفندي مصر أي أن هؤُلاء الإعلام وجدوا مع النظار الكرام بالملابس الرسمية في مقدمة من وجد معهم من العلماء والأشياخ ومن ساحة المنشية سار الموكب حتى دخل مسجد الغمام الحسين رضي الله تعالى عنه وقد هرع الناس إلى الشوارع التي مر بها حتى لم يبق في مصر أحد ممن يميلون لرؤية هذا الموكب المنف إلا وقف له داعياً للحضرة الخديوية الفخيمة بطول العمر ودوام العز والاقبا متفرجاً.</p>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1434">
                 <head change="#d2e232" xml:id="head_7.d2e1436">مصنوع البلاد</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e1439">معلوم للمصريين أنه يوجد بالمحلة الكبرى صناع يصنعون الأقمشة اللطيفة المحتا إليها لباساً وأثاثاً مع إتقان الصنع وجودة القماش وحسن المنظر فيصنع فيها العصائب والملآت الحريرية والقطنيه والبشاكير والمناديل والناموسيات والفرش البهيجة الحريرية والقصبية والقطنية ولكن الناس مغرمون بمصنوع الأجنبي الذي لا يساوي شيئاً في جانب مصنوع البلاد لما أشتمل عليه من رداءة المغزول وغلو السعر وفقد المتانة وقد تنبه الأمراء لمصنوع المحلة ومصر والفيوم وغيرها من البلاد المشتغلة بعمل الأصواف ونسج
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1439">معلوم للمصريين أنه يوجد بالمحلة الكبرى صناع يصنعون الأقمشة اللطيفة المحتا إليها لباساً وأثاثاً مع إتقان الصنع وجودة القماش وحسن المنظر فيصنع فيها العصائب والملآت الحريرية والقطنيه والبشاكير والمناديل والناموسيات والفرش البهيجة الحريرية والقصبية والقطنية ولكن الناس مغرمون بمصنوع الأجنبي الذي لا يساوي شيئاً في جانب مصنوع البلاد لما أشتمل عليه من رداءة المغزول وغلو السعر وفقد المتانة وقد تنبه الأمراء لمصنوع المحلة ومصر والفيوم وغيرها من البلاد المشتغلة بعمل الأصواف ونسج
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P893.xhtml" ed="shamela" n="n1-p895" change="#d2e232" xml:id="pb_45.d2e1441"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="895" facs="#facs_895" xml:id="pb_46.d2e1442"/>
-                    السجاجيد والقطني والشاهي والغزالي والفوط والبشاكير وملأت النساء والفرش والستائر والناموسيات والمناديل أحياءً لصنعة البلاد وأهلها فقد رأيت صاحب السعادة والفضل سعد الدين باشا مدير الغربية استحضر أصنافاً كثيرة من أقمشة الفرش الملونة وملأت الفرش القطنية اللطيفة والبشاكير المتينة والمناديل الرقيقة من مصنوع المحلة ليأخذ منها ما يلزم وليقتدي به في استعمال المنسوجات الوطنية ترويجاً لأهليها وتزييناً للبيوت بما يفتخر به وإننا لنشكرهُ على هذا المقصد الحسن ونرجو أن يقتدي به الناس في التمتع بمصنوع البلاد على أنه أرخص سعراً من القماش الأجنبي بالنسبة لمتانته وحسن منظره وبقائه زمناً طويلاً يغير فيه الإنسان أمثاله من المصنوع الأجنبي كما نحث عمال المحلة وبقية البلاد المصرية ذات الأعمال النسيجية أن يجتهدوا في تنميق الألوان والتفنن في النقوش المبهجة وتوسيع دائرة المصنوعات أملاً في انتشارها ورجوع الناس إليها وما ذلك على الله بعزيز.</tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1446">
+                    السجاجيد والقطني والشاهي والغزالي والفوط والبشاكير وملأت النساء والفرش والستائر والناموسيات والمناديل أحياءً لصنعة البلاد وأهلها فقد رأيت صاحب السعادة والفضل سعد الدين باشا مدير الغربية استحضر أصنافاً كثيرة من أقمشة الفرش الملونة وملأت الفرش القطنية اللطيفة والبشاكير المتينة والمناديل الرقيقة من مصنوع المحلة ليأخذ منها ما يلزم وليقتدي به في استعمال المنسوجات الوطنية ترويجاً لأهليها وتزييناً للبيوت بما يفتخر به وإننا لنشكرهُ على هذا المقصد الحسن ونرجو أن يقتدي به الناس في التمتع بمصنوع البلاد على أنه أرخص سعراً من القماش الأجنبي بالنسبة لمتانته وحسن منظره وبقائه زمناً طويلاً يغير فيه الإنسان أمثاله من المصنوع الأجنبي كما نحث عمال المحلة وبقية البلاد المصرية ذات الأعمال النسيجية أن يجتهدوا في تنميق الألوان والتفنن في النقوش المبهجة وتوسيع دائرة المصنوعات أملاً في انتشارها ورجوع الناس إليها وما ذلك على الله بعزيز.</p>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1446">
                 <head change="#d2e232" xml:id="head_8.d2e1448">رجاء</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e1451">نرجو من مديري مصلحة السكة الحديد أن يوجهوا النظر نحو محطة الشين التي هي عبارة عن صدوق من الخشب طوله ثلاثة أمتار وعرضه متران وفي هذا الصندوق التلغراف والتذاكر والبوسطة ودفاتر المحطة ومحل جلوس ناظر المحطة ومن معه وأضيق منه بيته المنحط عن الجسر أربعة أمتار والماء يرشح من أرضه فهو بيت المرض وسجن الهلاك ومصلحة كهذه ملاءت جهاتها نظاماً وتحسيناً وسبقت الإدارات بنباهة رجالها وسعيهم في
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1451">نرجو من مديري مصلحة السكة الحديد أن يوجهوا النظر نحو محطة الشين التي هي عبارة عن صدوق من الخشب طوله ثلاثة أمتار وعرضه متران وفي هذا الصندوق التلغراف والتذاكر والبوسطة ودفاتر المحطة ومحل جلوس ناظر المحطة ومن معه وأضيق منه بيته المنحط عن الجسر أربعة أمتار والماء يرشح من أرضه فهو بيت المرض وسجن الهلاك ومصلحة كهذه ملاءت جهاتها نظاماً وتحسيناً وسبقت الإدارات بنباهة رجالها وسعيهم في
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P894.xhtml" ed="shamela" n="n1-p896" change="#d2e232" xml:id="pb_47.d2e1453"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="896" facs="#facs_896" xml:id="pb_48.d2e1454"/>
-                    تقدمها حقيقة بأن تلتفت لهذه المحطة وما كان على شاكلتها من المحطات المستجدة التي وضعت لاه الصناديق الخشبية موقتة وعلى كل فإننا نثني على مديريها ونظارها ومفتشيها أحسن الثناء ولسان أعمالهم أحسن ثناء من لسان الأستاذ.</tei:p>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1458">
+                    تقدمها حقيقة بأن تلتفت لهذه المحطة وما كان على شاكلتها من المحطات المستجدة التي وضعت لاه الصناديق الخشبية موقتة وعلى كل فإننا نثني على مديريها ونظارها ومفتشيها أحسن الثناء ولسان أعمالهم أحسن ثناء من لسان الأستاذ.</p>
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1458">
                 <head change="#d2e232" xml:id="head_9.d2e1460">المسويو بطرون</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e1463">تناقل الناس عبارته التي جعل بها المصريين كالأغنام وجعل من وافقه على خلطه عنوان المصريين ولا أرى أن تتعرض الآن له برد أو تبكيت بعد علمنا أنه عدو لمصر وأهلها والعدو يقول ما يشاء ولو علم أنه أدخل الريب من فرنسا في قلب كل مصري بهذه العبارة لحثا التراب على رأسه توبة واستغفار ولله در القائل</tei:p>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e1466">لي حيلة فيمن ينم=وليس في الكذاب حيله</tei:p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1463">تناقل الناس عبارته التي جعل بها المصريين كالأغنام وجعل من وافقه على خلطه عنوان المصريين ولا أرى أن تتعرض الآن له برد أو تبكيت بعد علمنا أنه عدو لمصر وأهلها والعدو يقول ما يشاء ولو علم أنه أدخل الريب من فرنسا في قلب كل مصري بهذه العبارة لحثا التراب على رأسه توبة واستغفار ولله در القائل</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1466">لي حيلة فيمن ينم=وليس في الكذاب حيله</p>
                 <byline change="#d2e150 #d2e232" xml:id="byline_1.d2e1469">من كان يخلق ما يقو_ل فحيلتي فيه قليله</byline>
-            </tei:div>
-         <tei:div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1473">
+            </div>
+         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1473">
                 <head change="#d2e232" xml:id="head_10.d2e1475">فاجعه</head>
-                <tei:p change="#d2e73 #d2e232" xml:id="p_2.d2e1478">رزئ الفضل والأدب بوفاة الشاب الفطن اللبيب إسماعيل أفندي عزت خريج مدرسة المعلمين التوفيقية ومعلم اللغة الفرنساوية بمدرسة عباس غير بالغ من العمر إلا اثنتين وعشرين سنة وقد كان رحمه الله من دعة الأخلاق وكرم النفس وقوة الحافظة على جانب عظيم فنحن نعزي عترته وإخوانه ونشاركهم في حق الأسف عليه أسبغ عليهم جميعاً ثوب الصبر الجميل وأسكنه فراديس جنته وأولاده مغفرة ورضوانا.
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1478">رزئ الفضل والأدب بوفاة الشاب الفطن اللبيب إسماعيل أفندي عزت خريج مدرسة المعلمين التوفيقية ومعلم اللغة الفرنساوية بمدرسة عباس غير بالغ من العمر إلا اثنتين وعشرين سنة وقد كان رحمه الله من دعة الأخلاق وكرم النفس وقوة الحافظة على جانب عظيم فنحن نعزي عترته وإخوانه ونشاركهم في حق الأسف عليه أسبغ عليهم جميعاً ثوب الصبر الجميل وأسكنه فراديس جنته وأولاده مغفرة ورضوانا.
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P895.xhtml" ed="shamela" n="n1-p897" change="#d2e232" xml:id="pb_49.d2e1480"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="897" facs="#" xml:id="pb_50.d2e1481"/>
-            </tei:p>
-            </tei:div>
-      </tei:body>
-   </tei:text></TEI>
+            </p>
+            </div>
+      </body>
+   </text></TEI>
