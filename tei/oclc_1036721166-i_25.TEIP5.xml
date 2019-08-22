@@ -494,7 +494,7 @@
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1330">
                         <seg change="#d2e232" xml:id="seg_1.d2e1332">ولا غرو فهو البحر يقذف بالمنى</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e1335">إذا اليمن في يمناه واليسر في اليسرى</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1335">إذا <placeName>اليمن</placeName> في يمناه واليسر في اليسرى</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1339">
                         <seg change="#d2e232" xml:id="seg_1.d2e1341">عزيز علينا ان نراك أبا الضيا</seg>
