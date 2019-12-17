@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modsCollection xmlns:tei="http://www.tei-c.org/ns/1.0"
+<modsCollection xmlns="http://www.loc.gov/mods/v3"
                 xmlns:mods="http://www.loc.gov/mods/v3"
-                xmlns="http://www.loc.gov/mods/v3"
+                xmlns:tei="http://www.tei-c.org/ns/1.0"
+                xmlns:oape="https://openarabicpe.github.io/ns"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods-3-7.xsd">
-   <mods ID="oclc_1036721166-i_21-div_1.d2e294-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">العدد ٢١</title>
       </titleInfo>
@@ -16,7 +17,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -24,9 +28,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -43,17 +49,22 @@
                <end>483</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e294</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e294</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e294</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e294</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e318-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">عيد الجلوس الخديوي</title>
       </titleInfo>
@@ -65,7 +76,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -73,9 +87,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -92,17 +108,22 @@
                <end>487</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e318</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e318</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e318</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e318</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e1047-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">رسالة من الشيخ علي سالم</title>
       </titleInfo>
@@ -114,7 +135,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -122,9 +146,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -141,17 +167,22 @@
                <end>492</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e1047</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e1047</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1047</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1047</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e1181-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">رسالة مغربية</title>
       </titleInfo>
@@ -163,7 +194,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -171,9 +205,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -190,17 +226,22 @@
                <end>497</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e1181</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e1181</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1181</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1181</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e1267-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">استلفات أنظار</title>
       </titleInfo>
@@ -212,7 +253,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -220,9 +264,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -239,17 +285,22 @@
                <end>500</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e1267</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e1267</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1267</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1267</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e1305-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">تقاريظ</title>
       </titleInfo>
@@ -261,7 +312,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -269,9 +323,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -288,17 +344,22 @@
                <end>501</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e1305</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e1305</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1305</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1305</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e1329-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">فريق التمثيل العربي</title>
       </titleInfo>
@@ -310,7 +371,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -318,9 +382,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -337,17 +403,22 @@
                <end>503</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e1329</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e1329</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1329</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1329</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e1347-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">جريدة الأزهر</title>
       </titleInfo>
@@ -359,7 +430,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -367,9 +441,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -386,17 +462,22 @@
                <end>504</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e1347</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e1347</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1347</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1347</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e1362-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">تهيئة بشفاء</title>
       </titleInfo>
@@ -408,7 +489,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -416,9 +500,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -435,17 +521,22 @@
                <end>504</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e1362</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e1362</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1362</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1362</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e1371-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">نعمة تذكر لتشكر</title>
       </titleInfo>
@@ -457,7 +548,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -465,9 +559,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -484,17 +580,22 @@
                <end>505</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e1371</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e1371</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1371</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1371</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e1383-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">تنبيه</title>
       </titleInfo>
@@ -506,7 +607,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -514,9 +618,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -533,17 +639,22 @@
                <end>505</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e1383</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e1383</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1383</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1383</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e1393-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">السلسلة الدرية في الفكاهات التاريخية</title>
       </titleInfo>
@@ -555,7 +666,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -563,9 +677,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -582,17 +698,22 @@
                <end>506</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e1393</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e1393</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1393</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1393</url>
       </location>
       <language>
          <languageTerm type="code"
                        authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
       </language>
    </mods>
-   <mods ID="oclc_1036721166-i_21-div_1.d2e1408-mods">
+   <mods>
       <titleInfo>
          <title xml:lang="">رسالة من إبراهيم أفندي الأنجباوي</title>
       </titleInfo>
@@ -604,7 +725,10 @@
             <title xml:lang="ar">الأستاذ</title>
          </titleInfo>
          <genre authority="marcgt">journal</genre>
-         <name type="personal" xml:lang="ar">
+         <name type="personal"
+               xml:lang="ar"
+               authority="viaf"
+               valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
             <role>
@@ -612,9 +736,11 @@
             </role>
          </name>
          <originInfo>
-            <edition xml:lang="en">digital TEI edition, 2019</edition>
             <place>
-               <placeTerm type="text" xml:lang="ar">القاهرة</placeTerm>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          authority="geonames"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-01-10</dateIssued>
             <issuance>continuing</issuance>
@@ -631,10 +757,15 @@
                <end>507</end>
             </extent>
          </part>
+         <identifier type="BibTeX">oclc_1036721166-i_21-div_1.d2e1408</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">oclc_1036721166-i_21</identifier>
       </relatedItem>
       <accessCondition/>
       <location>
-         <url dateLastAccessed="2019-05-26" usage="primary display">#div_1.d2e1408</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1408</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_21.TEIP5.xml#div_1.d2e1408</url>
       </location>
       <language>
          <languageTerm type="code"
