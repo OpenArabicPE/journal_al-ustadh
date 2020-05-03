@@ -16,4 +16,4 @@ It appeared that the page breaks from *al-maktaba al-shamela* correspond to the 
 
 If you just want to browse the edition in a more human-readable view, start [here](https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_1.TEIP5.xml). All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/).
 
-[sakhrit]: http://archive.alsharekh.org/newmagazineYears.aspx?MID=106
+[sakhrit]: http://archive.alsharekh.org/newmagazineYears/106
