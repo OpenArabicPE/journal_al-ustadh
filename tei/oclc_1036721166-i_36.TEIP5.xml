@@ -5,11 +5,9 @@
                 <title type="sub" change="#d2e232" xml:id="title_2.d2e12">TEI edition</title>
                 <editor xml:lang="ar" change="#d2e232" xml:id="editor_1.d2e15">
                     <persName change="#d2e232 #d3e276" xml:id="persName_1.d2e17" ref="oape:pers:962 viaf:72750911">
-                  <persName change="#d2e232 #d3e276" xml:id="persName_1.d2e19" ref="oape:pers:962 viaf:72750911">
                             <forename>عبد الله</forename>
                             <surname>النديم</surname>
                         </persName>
-               </persName>
                 </editor>
                 <respStmt xml:lang="en" change="#d2e232" xml:id="respStmt_1.d2e24">
                     <resp change="#d2e232" xml:id="resp_1.d2e26">TEI edition</resp>
