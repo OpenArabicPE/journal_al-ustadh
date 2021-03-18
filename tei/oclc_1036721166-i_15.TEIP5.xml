@@ -80,9 +80,9 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P338.xhtml" ed="shamela" n="n1-p337" change="#d2e208" xml:id="pb_1.d2e265"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="337" facs="#facs_337" xml:id="pb_2.d2e266"/>
       <body change="#d2e208" xml:id="body_1.d2e268">
          <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e270">
-                <head change="#d2e208" xml:id="head_1.d2e272">العدد  <num type="auto-markup" change="#d2e179 #d2e208" value="15" xml:lang="ar" xml:id="num_1.d2e274">١٥</num> </head>
+                <head change="#d2e208" xml:id="head_1.d2e272">العدد  ١٥ </head>
                 <dateline change="#d2e208" xml:id="dateline_1.d2e278">- بتاريخ: 
-                    <date when="1892-11-29" change="#d2e208" xml:id="date_1.d2e280"> <num type="auto-markup" change="#d2e179 #d2e208" value="1892" xml:lang="ar" xml:id="num_1.d2e282">١٨٩٢</num> - <num type="auto-markup" change="#d2e179 #d2e208" value="11" xml:lang="ar" xml:id="num_1.d2e285">١١</num> - <num type="auto-markup" change="#d2e179 #d2e208" value="29" xml:lang="ar" xml:id="num_1.d2e288">٢٩</num> </date>
+                    <date when="1892-11-29" change="#d2e208" xml:id="date_1.d2e280"> ١٨٩٢ - ١١ - ٢٩ </date>
             </dateline>
             </div>
          <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e294">
@@ -182,7 +182,7 @@
             </div>
          <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e506">
                 <head change="#d2e208" xml:id="head_5.d2e508">الللآلي السنية في الأصول الحسابية</head>
-                <p change="#d2e73 #d2e208" xml:id="p_2.d2e511">هو كتاب نفيس في علم الحساب وضعهُ الفاضل الماهر محمد أفندي شكري معلم الرياضة بالمدارس الأهلية وهو جزأن انتهى طبع الجزء الأول منه فبلغ  <num type="auto-markup" change="#d2e179 #d2e208" value="216" xml:lang="ar" xml:id="num_1.d2e513">٢١٦</num>  صحيفة والثاني جار طبعهُ وهو كتاب جليل في بابه وضعه حضرة المؤلف وضعاً جميلاً معتنى به لا يستغني عنه تلميذ وقد جعل ثمنه  <num type="auto-markup" change="#d2e179 #d2e208" value="15" xml:lang="ar" xml:id="num_1.d2e516">١٥</num> قرشا صاغا وهو يباع بطرف مؤلفة باسكندرية وبادارة جريدة مرقى النجاح الغراو باشهر كتبيات البيع فعلى من اشتغل بتعلم الحساب الحصول عليه قبل تصريفه.</p>
+                <p change="#d2e73 #d2e208" xml:id="p_2.d2e511">هو كتاب نفيس في علم الحساب وضعهُ الفاضل الماهر محمد أفندي شكري معلم الرياضة بالمدارس الأهلية وهو جزأن انتهى طبع الجزء الأول منه فبلغ  ٢١٦  صحيفة والثاني جار طبعهُ وهو كتاب جليل في بابه وضعه حضرة المؤلف وضعاً جميلاً معتنى به لا يستغني عنه تلميذ وقد جعل ثمنه  ١٥ قرشا صاغا وهو يباع بطرف مؤلفة باسكندرية وبادارة جريدة مرقى النجاح الغراو باشهر كتبيات البيع فعلى من اشتغل بتعلم الحساب الحصول عليه قبل تصريفه.</p>
                 <byline change="#d2e150 #d2e208" xml:id="byline_1.d2e520">
                <persName change="#d2e208 #d3e246" xml:id="persName_4.d2e522" ref="oape:pers:962 viaf:72750911">
                             <forename>عبد الله</forename>

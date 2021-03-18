@@ -80,9 +80,9 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P554.xhtml" ed="shamela" n="n1-p555" change="#d2e232" xml:id="pb_1.d2e289"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="555" facs="#facs_555" xml:id="pb_2.d2e290"/>
       <body change="#d2e232" xml:id="body_1.d2e292">
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e294">
-                <head change="#d2e232" xml:id="head_1.d2e296">العدد  <num type="auto-markup" change="#d2e179 #d2e232" value="24" xml:lang="ar" xml:id="num_1.d2e298">٢٤</num> </head>
+                <head change="#d2e232" xml:id="head_1.d2e296">العدد  ٢٤ </head>
                 <dateline change="#d2e232" xml:id="dateline_1.d2e302">- بتاريخ: 
-                    <date when="1893-01-31" change="#d2e232" xml:id="date_1.d2e304"> <num type="auto-markup" change="#d2e179 #d2e232" value="1893" xml:lang="ar" xml:id="num_1.d2e306">١٨٩٣</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e309">١</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="31" xml:lang="ar" xml:id="num_1.d2e312">٣١</num> </date>
+                    <date when="1893-01-31" change="#d2e232" xml:id="date_1.d2e304"> ١٨٩٣ - ١ - ٣١ </date>
             </dateline>
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e318">
@@ -386,7 +386,7 @@
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e993">يكفي لعمل عمد قصر فضلاً عن مدينة قضى العمال في بنائها ثلثمائة سنة فيلزم لها من العمد ما يساوي جبلاً عظيماً خصوصاً وأنها عمد تقطع كما تقطع الصخور فلابد وأن يكون قد تخلف من الأحجار الثمينة عند قطعها ما يكون حلياً للعالم اجمع ولو كان شيء مثل هذا ويعلمه كعب لكان النبي صلى الله تعالى عليه وسلم بعلمه أولى ولم يصح عنه شيء في هذا على أن عادا كانوا يسكنون بين عمان وحضرموت وهي بلاد الأحقاف وكلها أرض ذات رمال ولم يكن فيها معادن ذهب ولا فضة ولا ياقوت ولا زبرجد وأن قبل أنه استحضر الذهب والفضة من بعيد قلنا أن هذين المعدنين لم يكونا مستخرجين ومستعملين بقدر ما هما عليه الآن ومع عناية الأمم باستخراجهما في العصر الحاضر فإن المستعمل منهما لا يكفي لبناء مدينة يصرف الصناع في بنائها ثلثمائة عام والقرآن الشريف لم يتعرض لهذه القصة ولا ذكر شيئاً ما يومي إليها فلا نعول عليها والحق أن ذات العماد وصف للقبيلة أو لبلدهم المحكم بناؤه الصخرى أو المنحوت في الجبال فإن القصد زجر الكفار بأن الله تعالى أهلك عادا مع شدتها وقوتها وعملها الأعمال العجيبة كما أهلك ثمود أي قوم ثمود الذين جابوا الصخر أي قطعوه واتخذوه بيوتاً وكما انزل الهلاك بفرعون ذي الأوتاد فهو قادر على أهلاكهم لتكذيبهم رسوله كما أهلك من كذب رسله السابقين والله أعلم.
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P575.xhtml" ed="shamela" n="n1-p576" change="#d2e232" xml:id="pb_43.d2e995"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="576" facs="#facs_576" xml:id="pb_44.d2e996"/>
                     ورد في جريدة <title level="j" change="#d2e174 #d2e232" xml:id="title_5.d2e998">الأهرام</title> الغراء ما نصه</p>
-                <byline change="#d2e150 #d2e232" xml:id="byline_2.d2e1003">جرجا لأحد السياح في  <num type="auto-markup" change="#d2e179 #d2e232" value="24" xml:lang="ar" xml:id="num_1.d2e1005">٢٤</num> </byline>
+                <byline change="#d2e150 #d2e232" xml:id="byline_2.d2e1003">جرجا لأحد السياح في  ٢٤ </byline>
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1010">
                 <head change="#d2e232" xml:id="head_8.d2e1012">عدل الانكليز وأحكامهم</head>
@@ -428,10 +428,10 @@
                         <seg change="#d2e232" xml:id="seg_1.d2e1095">دام الوزير رياض</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1100">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e1102"><num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e1103">١٣١٠</num></date>  ـ  <num type="auto-markup" change="#d2e179 #d2e232" value="45" xml:lang="ar" xml:id="num_1.d2e1106">٤٥</num>  ـ  <num type="auto-markup" change="#d2e179 #d2e232" value="254" xml:lang="ar" xml:id="num_1.d2e1109">٢٥٤</num>  ـ  <num type="auto-markup" change="#d2e179 #d2e232" value="1011" xml:lang="ar" xml:id="num_1.d2e1112">١٠١١</num> .</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1100">سنة  ١٣١٠  ـ  ٤٥  ـ  ٢٥٤  ـ  ١٠١١ .</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e1116">فنلتمس لهذا الواقع على أعتاب سيدنا ومولانا العباس عفواً ينقذه من شدائد باقي مدته فإن ذنبه كالعدم المحض في جانب عفو السيد الأكبر أيد الله تعالى ملكه وحفظ ذاته الكريمة كيف والعفو يطلق ألسنة عائلة هذا الضعيف بجميل الدعاء المقبول إن شاء الله.
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P577.xhtml" ed="shamela" n="n1-p578" change="#d2e232" xml:id="pb_47.d2e1118"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="578" facs="#facs_578" xml:id="pb_48.d2e1119"/>
-                    (الراوي) جريدة علمية أدبية تهذيبية منشئها الفاضل التحرير بطرس أفندي حنا بأسيوط وتطبع بمطبعة التأليف بمصر وقيمة الاشتراك فيها خمسة وعشرون قرشاً كل سنة وهي  <num type="auto-markup" change="#d2e179 #d2e232" value="16" xml:lang="ar" xml:id="num_1.d2e1121">١٦</num>  صحيفة جاءنا</p>
+                    (الراوي) جريدة علمية أدبية تهذيبية منشئها الفاضل التحرير بطرس أفندي حنا بأسيوط وتطبع بمطبعة التأليف بمصر وقيمة الاشتراك فيها خمسة وعشرون قرشاً كل سنة وهي  ١٦  صحيفة جاءنا</p>
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1126">
                 <head change="#d2e232" xml:id="head_10.d2e1128">العدد </head>

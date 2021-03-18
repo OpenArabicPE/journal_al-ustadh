@@ -80,9 +80,9 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P314.xhtml" ed="shamela" n="n1-p313" change="#d2e208" xml:id="pb_1.d2e265"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="313" facs="#facs_313" xml:id="pb_2.d2e266"/>
       <body change="#d2e208" xml:id="body_1.d2e268">
          <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e270">
-                <head change="#d2e208" xml:id="head_1.d2e272">العدد  <num type="auto-markup" change="#d2e179 #d2e208" value="14" xml:lang="ar" xml:id="num_1.d2e274">١٤</num> </head>
+                <head change="#d2e208" xml:id="head_1.d2e272">العدد  ١٤ </head>
                 <dateline change="#d2e208" xml:id="dateline_1.d2e278">- بتاريخ: 
-                    <date when="1892-11-22" change="#d2e208" xml:id="date_1.d2e280"> <num type="auto-markup" change="#d2e179 #d2e208" value="1892" xml:lang="ar" xml:id="num_1.d2e282">١٨٩٢</num> - <num type="auto-markup" change="#d2e179 #d2e208" value="11" xml:lang="ar" xml:id="num_1.d2e285">١١</num> - <num type="auto-markup" change="#d2e179 #d2e208" value="22" xml:lang="ar" xml:id="num_1.d2e288">٢٢</num> </date>
+                    <date when="1892-11-22" change="#d2e208" xml:id="date_1.d2e280"> ١٨٩٢ - ١١ - ٢٢ </date>
             </dateline>
             </div>
          <div change="#d2e64 #d2e208" subtype="article" type="item" xml:id="div_1.d2e294">

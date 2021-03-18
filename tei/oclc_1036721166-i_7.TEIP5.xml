@@ -80,9 +80,9 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P146.xhtml" ed="shamela" n="n1-p145" change="#d2e232" xml:id="pb_1.d2e289"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="145" facs="#facs_145" xml:id="pb_2.d2e290"/>
       <body change="#d2e232" xml:id="body_1.d2e292">
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e294">
-                <head change="#d2e232" xml:id="head_1.d2e296">العدد  <num type="auto-markup" change="#d2e179 #d2e232" value="7" xml:lang="ar" xml:id="num_1.d2e298">٧</num> </head>
+                <head change="#d2e232" xml:id="head_1.d2e296">العدد  ٧ </head>
                 <dateline change="#d2e232" xml:id="dateline_1.d2e302">- بتاريخ: 
-                    <date when="1892-10-04" change="#d2e232" xml:id="date_1.d2e304"> <num type="auto-markup" change="#d2e179 #d2e232" value="1892" xml:lang="ar" xml:id="num_1.d2e306">١٨٩٢</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="10" xml:lang="ar" xml:id="num_1.d2e309">١٠</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="4" xml:lang="ar" xml:id="num_1.d2e312">٤</num> </date>
+                    <date when="1892-10-04" change="#d2e232" xml:id="date_1.d2e304"> ١٨٩٢ - ١٠ - ٤ </date>
             </dateline>
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e318">
@@ -183,7 +183,7 @@
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e512">
                 <head change="#d2e232" xml:id="head_11.d2e514">رثاء وعزاء</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e517">أصخ للقلم تجده يئن بصوت الحزين الكئيب وانظر الدواة ترها لبست ثوب الحداد على ركن الإنشاء الذي قوضت دعائمه بوفاة النبيه النبيل الشاب المرحوم محمد لي بك وكيل إدارة الأقلام العربية بالداخلية توفى صبيحة يوم الجمعة  <num type="auto-markup" change="#d2e179 #d2e232" value="9" xml:lang="ar" xml:id="num_1.d2e519">٩</num>  ربيع الأول سنة <num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</num> وشيع باحتفال مشى فيه كثير من العلماء والذوات والعيان فنعزي شقيقه الفاضل محمود أفندي علي في غصن مجد ذوى في إبان نموه ونسأل له ولآله صبراً جميلاً وللمتوفي أجراً حسناً ورحمةً من الله ورضواناً.
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e517">أصخ للقلم تجده يئن بصوت الحزين الكئيب وانظر الدواة ترها لبست ثوب الحداد على ركن الإنشاء الذي قوضت دعائمه بوفاة النبيه النبيل الشاب المرحوم محمد لي بك وكيل إدارة الأقلام العربية بالداخلية توفى صبيحة يوم الجمعة  ٩  ربيع الأول سنة ١٣١٠ وشيع باحتفال مشى فيه كثير من العلماء والذوات والعيان فنعزي شقيقه الفاضل محمود أفندي علي في غصن مجد ذوى في إبان نموه ونسأل له ولآله صبراً جميلاً وللمتوفي أجراً حسناً ورحمةً من الله ورضواناً.
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P170.xhtml" ed="shamela" n="n1-p169" change="#d2e232" xml:id="pb_49.d2e522"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="169" facs="#" xml:id="pb_50.d2e523"/>
             </p>
             </div>

@@ -80,21 +80,21 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P434.xhtml" ed="shamela" n="n1-p433" change="#d2e232" xml:id="pb_1.d2e289"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="433" facs="#facs_433" xml:id="pb_2.d2e290"/>
       <body change="#d2e232" xml:id="body_1.d2e292">
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e294">
-                <head change="#d2e232" xml:id="head_1.d2e296">العدد  <num type="auto-markup" change="#d2e179 #d2e232" value="19" xml:lang="ar" xml:id="num_1.d2e298">١٩</num> </head>
+                <head change="#d2e232" xml:id="head_1.d2e296">العدد  ١٩ </head>
                 <dateline change="#d2e232" xml:id="dateline_1.d2e302">- بتاريخ: 
-                    <date when="1892-12-27" change="#d2e232" xml:id="date_1.d2e304"> <num type="auto-markup" change="#d2e179 #d2e232" value="1892" xml:lang="ar" xml:id="num_1.d2e306">١٨٩٢</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="12" xml:lang="ar" xml:id="num_1.d2e309">١٢</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="27" xml:lang="ar" xml:id="num_1.d2e312">٢٧</num> </date>
+                    <date when="1892-12-27" change="#d2e232" xml:id="date_1.d2e304"> ١٨٩٢ - ١٢ - ٢٧ </date>
             </dateline>
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e318">
                 <head change="#d2e232" xml:id="head_2.d2e320">عيد ميلاد الحضرة الخديوية الفخيمة</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e323">كان يوم الأربعاء الماضي يوم التبريك بعيد وتذكار مولد أميرنا المعظم وخديونا الأفخم الممتلئة قلوبنا بمجبته مولانا عباس باشا الثاني أيده الله تعالى فوفد الأمراء والعلماء والذوات والوجهاء والأعيان على السراي العامرة مهنئين ومباركين والذات الكريمة تقابل كل إنسان بالبشر والطلاقة وتلاطف كل فريق بما يهوى رجال المعية السنية يقابلون الناس بالتبجيل والاحترام فرحاً بتذكار مولانا السيد الأكبر والأمير الأجل الأفخر وقياماً بخدمة من اصطفاهم لبابه العالي ومما يحسن أيراه هنا قصيدة لحضرة السيد حسن محمد الفاكهاني إنشأها تهنئة للحضرة الخديوية بحلول سنة  <date when="1893" change="#d3e187 #d2e232" xml:id="date_2.d2e325"><num type="auto-markup" change="#d2e179 #d2e232" value="1893" xml:lang="ar" xml:id="num_1.d2e326">١٨٩٣</num></date> ملاحظاً أنه عام جديد وإن كان تاريخاً للغير.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e323">كان يوم الأربعاء الماضي يوم التبريك بعيد وتذكار مولد أميرنا المعظم وخديونا الأفخم الممتلئة قلوبنا بمجبته مولانا عباس باشا الثاني أيده الله تعالى فوفد الأمراء والعلماء والذوات والوجهاء والأعيان على السراي العامرة مهنئين ومباركين والذات الكريمة تقابل كل إنسان بالبشر والطلاقة وتلاطف كل فريق بما يهوى رجال المعية السنية يقابلون الناس بالتبجيل والاحترام فرحاً بتذكار مولانا السيد الأكبر والأمير الأجل الأفخر وقياماً بخدمة من اصطفاهم لبابه العالي ومما يحسن أيراه هنا قصيدة لحضرة السيد حسن محمد الفاكهاني إنشأها تهنئة للحضرة الخديوية بحلول سنة  ١٨٩٣ ملاحظاً أنه عام جديد وإن كان تاريخاً للغير.</p>
                 <lg change="#d2e82 #d2e232" xml:id="lg_1.d2e330">
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e332">
                         <seg change="#d2e232" xml:id="seg_1.d2e334">اليوم قد عمت البشرى وقد سطعت</seg>
                         <seg change="#d2e232" xml:id="seg_1.d2e337">أنوار عام وآيات الهنا تليت</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e342"> <num type="auto-markup" change="#d2e179 #d2e232" value="87" xml:lang="ar" xml:id="num_1.d2e344">٨٧</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="104" xml:lang="ar" xml:id="num_1.d2e347">١٠٤</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="510" xml:lang="ar" xml:id="num_1.d2e350">٥١٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="543" xml:lang="ar" xml:id="num_1.d2e353">٥٤٣</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="110" xml:lang="ar" xml:id="num_1.d2e356">١١٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="539" xml:lang="ar" xml:id="num_1.d2e360">٥٣٩</num> 
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e342"> ٨٧   ١٠٤   ٥١٠   ٥٤٣   ١١٠   ٥٣٩ 
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P435.xhtml" ed="shamela" n="n1-p434" change="#d2e232" xml:id="pb_3.d2e363"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="434" facs="#facs_434" xml:id="pb_4.d2e364"/>
                     ولاح بدر الأماني وهو يخطر في 
                     <gap resp="#org_MS" change="#d2e232" xml:id="gap_1.d2e366"/>
@@ -145,13 +145,13 @@
                     المار بها الموكب الجليل فسار من محطة مصر محاطاً بجاويشية الحرم المخصصين لمثل هذا الموكب إلى شارع وجه البركة ثم على شارع محمد علي إلى الحلمية حيث انتهى إلى سراي الوزير الجليل والعروس النبيل</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e467">وسان التهنئة يخبر عن حسن صنع دولته مؤرخاً</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e470">رب المحاسن زف الشمس للقمر</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e473"> <num type="auto-markup" change="#d2e179 #d2e232" value="202" xml:lang="ar" xml:id="num_1.d2e475">٢٠٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="10" xml:lang="ar" xml:id="num_1.d2e478">١٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="87" xml:lang="ar" xml:id="num_1.d2e481">٨٧</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="431" xml:lang="ar" xml:id="num_1.d2e484">٤٣١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="400" xml:lang="ar" xml:id="num_1.d2e487">٤٠٠</num> </p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e491">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e493"><num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e494">١٣١٠</num></date> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e473"> ٢٠٢   ١٠   ٨٧   ٤٣١   ٤٠٠ </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e491">سنة  ١٣١٠ </p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e498">وفي منتصف الساعة الخامسة ليلاً سار موكب العروس الفاضل مشتملاً على فرقة من العساكر حاملة للسلاح لتأديه التعظيم اللازم وأمامها فرقة أخرى تتقدمها الموسيقى العسكرية</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e502">ثم مرَّ إلى شارع سبيل والدة عباس باشا الأول ثم إلى جامع الماس الكائن بميدان الحلمية فدخل العروس ومن معه لصلاة العشاء والناس كانوا يقتصرون على صلاة العروس وهم ينتظرون أما هذا فصلَّي معه كل من صحبه إظهاراً للعشائر الدينية ثم خرج الموكب ومشى محفوفاً بالأُبهة والجلال حتى دخل السراي العامرة مرموقاً بأعين التعظيم والإجلال قد خلعت عليه الأفراح ثوب أنس وسرور وكل محب يقول</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e505">أُحب فرح رياض</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e508"> <num type="auto-markup" change="#d2e179 #d2e232" value="11" xml:lang="ar" xml:id="num_1.d2e510">١١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="288" xml:lang="ar" xml:id="num_1.d2e513">٢٨٨</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="1011" xml:lang="ar" xml:id="num_1.d2e516">١٠١١</num> </p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e520">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e522"><num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e523">١٣١٠</num></date> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e508"> ١١   ٢٨٨   ١٠١١ </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e520">سنة  ١٣١٠ </p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e527">وقد خطب في ساحة الفرح جماعة من أفاضل الوقت وأذكيائه ثم اطلقت العساكر بنادقها طلقات متتالية ودخل العروس بيت العز والشرف
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P439.xhtml" ed="shamela" n="n1-p438" change="#d2e232" xml:id="pb_11.d2e529"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="438" facs="#facs_438" xml:id="pb_12.d2e530"/>
                     وإنا نزولنا عن درجة المهنئين والمؤرخين نتقدم بين يدي دولته بالتبريك متبعين ذلك بدعوات تتناولها يد القبول إن شاء الله تعالى سائلين الله تعالى أن أن يديم سعوده بتوجهات الحضرة الخديوية حفظها الله تعالىة ونظره بعين العناية التي هو أحق بها وأهلها وأن يشفع هذا الفرح المحمودي بالفرح الحسيني ويردف الاثنين بأفراح البنين والبنات. فإن تفضل بقبول ذلك انثنينا إلى الثناء على الوزراء الأجلاء والأمراء العظام والعلماء الكرام والنبهاء والأدباء الذين استنارت بهم تلك الليالي وانست بهم النفوس كما نثني على حضرات ذوات الأجانب وأعيانهم الذين لبوا الدعوة فتم بهم نظام تلك المحافل الوزيرية التي جمعت بين الأجناس والطوائف فكانت عنواناً لليالي أفراح الأمراء. وما قدمنا هذه التهنئة إلا بقدرنا لا بقدر ما يجب للحضرة الرياضية من المهنئين.</p>
@@ -251,8 +251,8 @@
                         <seg change="#d2e232" xml:id="seg_1.d2e733">دام السعود خديوي مصر عباس</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e737">
-                        <seg change="#d2e232" xml:id="seg_1.d2e739">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1309" change="#d3e187 #d2e232" xml:id="date_2.d2e741"><num type="auto-markup" change="#d2e179 #d2e232" value="1309" xml:lang="ar" xml:id="num_1.d2e742">١٣٠٩</num></date> </seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e746"> <num type="auto-markup" change="#d2e179 #d2e232" value="45" xml:lang="ar" xml:id="num_1.d2e748">٤٥</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="171" xml:lang="ar" xml:id="num_1.d2e751">١٧١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="630" xml:lang="ar" xml:id="num_1.d2e754">٦٣٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="330" xml:lang="ar" xml:id="num_1.d2e757">٣٣٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="133" xml:lang="ar" xml:id="num_1.d2e760">١٣٣</num> </seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e739">سنة  ١٣٠٩ </seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e746"> ٤٥   ١٧١   ٦٣٠   ٣٣٠   ١٣٣ </seg>
                     </l>
                 </lg>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e766">فرج الله كربه وعطف عليه قلب الأمير الأفخم أيده الله تعالى.</p>
@@ -307,8 +307,8 @@
                         <seg change="#d2e232" xml:id="seg_1.d2e872">لبي بأستاذ نديم</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e876">
-                        <seg change="#d2e232" xml:id="seg_1.d2e878">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e880"><num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e881">١٣١٠</num></date> </seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e885"> <num type="auto-markup" change="#d2e179 #d2e232" value="42" xml:lang="ar" xml:id="num_1.d2e887">٤٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="1164" xml:lang="ar" xml:id="num_1.d2e890">١١٦٤</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="104" xml:lang="ar" xml:id="num_1.d2e893">١٠٤</num> </seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e878">سنة  ١٣١٠ </seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e885"> ٤٢   ١١٦٤   ١٠٤ </seg>
                     </l>
                 </lg>
             </div>
@@ -320,7 +320,7 @@
                 <head change="#d2e232" xml:id="head_11.d2e911">رثاء</head>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e914">أنشبت المنية أظفارها بالمرحوم حسام الدين باشا مفتش السنطة والهياتم
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P453.xhtml" ed="shamela" n="n1-p452" change="#d2e232" xml:id="pb_39.d2e916"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="452" facs="#facs_452" xml:id="pb_40.d2e917"/>
-                    سابقاً واحد عتقى المرحوم عباس باشا الأول وترك  <num type="auto-markup" change="#d2e179 #d2e232" value="625" xml:lang="ar" xml:id="num_1.d2e919">٦٢٥</num>  فداناً وقف منها مائة لخادمه أحمد وأولاده والبقية لأولاد شكيب باشا كما كتب له جميع متروكاته من نقود وأثاث ما عدا ثيابه فإنها بقيت لدائرة البرنس عبد الحليم باشا وقد رثاه صديقه السيد محمد أفندي التميمي الداري بقصيدة طويلة منها قوله:</p>
+                    سابقاً واحد عتقى المرحوم عباس باشا الأول وترك  ٦٢٥  فداناً وقف منها مائة لخادمه أحمد وأولاده والبقية لأولاد شكيب باشا كما كتب له جميع متروكاته من نقود وأثاث ما عدا ثيابه فإنها بقيت لدائرة البرنس عبد الحليم باشا وقد رثاه صديقه السيد محمد أفندي التميمي الداري بقصيدة طويلة منها قوله:</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e923">شعر</p>
                 <lg change="#d2e82 #d2e232" xml:id="lg_9.d2e926">
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e928">
@@ -352,8 +352,8 @@
                         <seg change="#d2e232" xml:id="seg_1.d2e988">هنيءٌ بين ولدان وحور</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e993"> <num type="auto-markup" change="#d2e179 #d2e232" value="109" xml:lang="ar" xml:id="num_1.d2e995">١٠٩</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="95" xml:lang="ar" xml:id="num_1.d2e998">٩٥</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="90" xml:lang="ar" xml:id="num_1.d2e1001">٩٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="454" xml:lang="ar" xml:id="num_1.d2e1004">٤٥٤</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="124" xml:lang="ar" xml:id="num_1.d2e1007">١٢٤</num> = <num type="auto-markup" change="#d2e179 #d2e232" value="65" xml:lang="ar" xml:id="num_1.d2e1011">٦٥</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="62" xml:lang="ar" xml:id="num_1.d2e1014">٦٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="91" xml:lang="ar" xml:id="num_1.d2e1017">٩١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="220" xml:lang="ar" xml:id="num_1.d2e1020">٢٢٠</num> </p>
-                <byline change="#d2e150 #d2e232" xml:id="byline_3.d2e1025">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e1027"><num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e1028">١٣١٠</num></date> </byline>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e993"> ١٠٩   ٩٥   ٩٠   ٤٥٤   ١٢٤ = ٦٥   ٦٢   ٩١   ٢٢٠ </p>
+                <byline change="#d2e150 #d2e232" xml:id="byline_3.d2e1025">سنة  ١٣١٠ </byline>
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1034">
                 <head change="#d2e232" xml:id="head_12.d2e1036">خطبة ابن السماك</head>

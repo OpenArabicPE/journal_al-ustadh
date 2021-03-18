@@ -80,9 +80,9 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P482.xhtml" ed="shamela" n="n1-p483" change="#d2e232" xml:id="pb_1.d2e289"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="483" facs="#facs_483" xml:id="pb_2.d2e290"/>
       <body change="#d2e232" xml:id="body_1.d2e292">
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e294">
-                <head change="#d2e232" xml:id="head_1.d2e296">العدد  <num type="auto-markup" change="#d2e179 #d2e232" value="21" xml:lang="ar" xml:id="num_1.d2e298">٢١</num> </head>
+                <head change="#d2e232" xml:id="head_1.d2e296">العدد  ٢١ </head>
                 <dateline change="#d2e232" xml:id="dateline_1.d2e302">- بتاريخ: 
-                    <date when="1893-01-10" change="#d2e232" xml:id="date_1.d2e304"> <num type="auto-markup" change="#d2e179 #d2e232" value="1893" xml:lang="ar" xml:id="num_1.d2e306">١٨٩٣</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e309">١</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="10" xml:lang="ar" xml:id="num_1.d2e312">١٠</num> </date>
+                    <date when="1893-01-10" change="#d2e232" xml:id="date_1.d2e304"> ١٨٩٣ - ١ - ١٠ </date>
             </dateline>
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e318">
@@ -259,8 +259,8 @@
                         <seg change="#d2e232" xml:id="seg_1.d2e712">صار الجلوس الخديوي عيد إقبالي</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e716">
-                        <seg change="#d2e232" xml:id="seg_1.d2e718">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e720"><num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e721">١٣١٠</num></date> </seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e725"> <num type="auto-markup" change="#d2e179 #d2e232" value="291" xml:lang="ar" xml:id="num_1.d2e727">٢٩١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="130" xml:lang="ar" xml:id="num_1.d2e730">١٣٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="661" xml:lang="ar" xml:id="num_1.d2e733">٦٦١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="84" xml:lang="ar" xml:id="num_1.d2e736">٨٤</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="144" xml:lang="ar" xml:id="num_1.d2e739">١٤٤</num> </seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e718">سنة  ١٣١٠ </seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e725"> ٢٩١   ١٣٠   ٦٦١   ٨٤   ١٤٤ </seg>
                     </l>
                 </lg>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e745">قصيدة محمود أفندي حسين يهنئُ بها الخديوي</p>
@@ -328,7 +328,7 @@
                         <seg change="#d2e232" xml:id="seg_1.d2e890">بشرى بميلاد عباس السرور لنا</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e895">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e897"><num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e898">١٣١٠</num></date>   <num type="auto-markup" change="#d2e179 #d2e232" value="512" xml:lang="ar" xml:id="num_1.d2e901">٥١٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="87" xml:lang="ar" xml:id="num_1.d2e904">٨٧</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="133" xml:lang="ar" xml:id="num_1.d2e907">١٣٣</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="497" xml:lang="ar" xml:id="num_1.d2e910">٤٩٧</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="81" xml:lang="ar" xml:id="num_1.d2e914">٨١</num> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e895">سنة  ١٣١٠   ٥١٢   ٨٧   ١٣٣   ٤٩٧   ٨١ </p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e918">قصيدة حسن محمد الفاكهاني</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e921">وللفاضل السيد حسن محمد الفاكهاني مؤرخاً لعيد الجلوس الخديوي المعظم</p>
                 <lg change="#d2e82 #d2e232" xml:id="lg_3.d2e924">
@@ -373,8 +373,8 @@
                         <seg change="#d2e232" xml:id="seg_1.d2e1013">عيد الجلوس حلت بالإنس طلعته</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e1017">
-                        <seg change="#d2e232" xml:id="seg_1.d2e1019">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e1021"><num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e1022">١٣١٠</num></date> </seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e1026"> <num type="auto-markup" change="#d2e179 #d2e232" value="84" xml:lang="ar" xml:id="num_1.d2e1028">٨٤</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="130" xml:lang="ar" xml:id="num_1.d2e1031">١٣٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="438" xml:lang="ar" xml:id="num_1.d2e1034">٤٣٨</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="144" xml:lang="ar" xml:id="num_1.d2e1037">١٤٤</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="514" xml:lang="ar" xml:id="num_1.d2e1040">٥١٤</num> </seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1019">سنة  ١٣١٠ </seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e1026"> ٨٤   ١٣٠   ٤٣٨   ١٤٤   ٥١٤ </seg>
                     </l>
                 </lg>
             </div>
@@ -386,8 +386,8 @@
                     عبد الوهاب النجار إلى مركز السنطة فلما جن علينا الليل عثرنا ببعض أصحابنا هناك وكنا على شوق منه فجلسنا نتحدث معه وجرَّ بنا الحديثُ عن قريب إلى ذكر الأستاذ فأثنى كل منا على قدر طاقته من حيث أنه هدى الناس وعطل الكاس فقال صاحبنا أنه لمَّا شدد على المساكر خصوصاً في البنادر تاب أكثر الناس غير أنه يوجد في طنطا نحو الخمسة وفي السنطة نحو العشرة سموا أنفسهم العصاة وعقدوا الحانه في قرية السنطة وتحالفوا على رفض النصائح وارتكاب القبائح وسيتلُو كبيرهم خطبة تلك الليلة في الخمارة ستحضر عليها نهاراً فهل لكم أن تسمعوا فقلنا له حيث أخبرتنا بهذا الشأن فعليك أن تظهر لنا الحقيقة حتى لا يخفى علينا من أمرهم شيء، ثم تنكرنا وذهبنا معه إلى الخمارة وجلسنا من حيث لا يبصرون ولا يشعرون وأخذ كل واحد منا يكتب ما يصدر منهم. . . بعد أن اجتمعوا ابتدأ رئيسهم يقول: (صورة أمر واطي).</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e1061">نحن العصاة المجتمعين في الخمارة المختلطة من سكارى طنطا والسنطة المنعقدة تحت رئاسة إبليس نكلف خطيبنا أن يلقي على مسامعنا خطبة في هذه الجلسة تشعر عن فضل الخمر.</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e1064">(في الحان قام خطيب السوء من دونهم ينج)</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1068"> <num type="auto-markup" change="#d2e179 #d2e232" value="96" xml:lang="ar" xml:id="num_1.d2e1070">٩٦</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="90" xml:lang="ar" xml:id="num_1.d2e1073">٩٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="141" xml:lang="ar" xml:id="num_1.d2e1076">١٤١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="621" xml:lang="ar" xml:id="num_1.d2e1079">٦٢١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="97" xml:lang="ar" xml:id="num_1.d2e1082">٩٧</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="90" xml:lang="ar" xml:id="num_1.d2e1086">٩٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="105" xml:lang="ar" xml:id="num_1.d2e1089">١٠٥</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="70" xml:lang="ar" xml:id="num_1.d2e1092">٧٠</num> </p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1096">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1310" change="#d3e187 #d2e232" xml:id="date_2.d2e1098"><num type="auto-markup" change="#d2e179 #d2e232" value="1310" xml:lang="ar" xml:id="num_1.d2e1099">١٣١٠</num></date> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1068"> ٩٦   ٩٠   ١٤١   ٦٢١   ٩٧   ٩٠   ١٠٥   ٧٠ </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1096">سنة  ١٣١٠ </p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e1103">ابتدئ خطبتي الخمرية وخطيئتي السكرية باسم الشيطان العجوز اللعين الكنذوز. الذي حبب إلينا الكأس وكره إلينا الكوز نحمده على العصيان ونشكره على الخسران ونشهد أن بنت العنب ألذ من بنات العرب
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P488.xhtml" ed="shamela" n="n1-p489" change="#d2e232" xml:id="pb_13.d2e1105"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="489" facs="#facs_489" xml:id="pb_14.d2e1106"/>
                     تروح النفوس. وتضحك العبوس. وتبيج الحرم. وتعين على الكرم. تروق الدم وتريق. وتهوّن الكرب وتوسع المضيق. لها الأسماءُ العظمى. وكثرة الأسماء تدل على شرف المسمى. للجسم غذاءٌ لطيف. وللعقل شيطانٌ ظريف. تكثر الدم. وتمحو الهم. . إخواننا السفهاء. الذي تعست بكم تلك الصهباء؟ ها هنا يبين القفا؟ ويطفح كأس الصفا. فتمسكوا بقول أبي مغازل. لا تسمعوا في الخمر لعاذل إذا كانت الهموم في</p>
@@ -483,7 +483,7 @@
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P500.xhtml" ed="shamela" n="n1-p501" change="#d2e232" xml:id="pb_37.d2e1315"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="501" facs="#facs_501" xml:id="pb_38.d2e1316"/>
                     وغيره فنحث أهل الأدب ومحبي المطالعة على شرائه للوقوف على ما فيه من حسن العبارة ولطف الواقعة التاريخية وقد قدمه للحضرة الخديوية الفخيمة فحظى بالقبول.</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e1319">الدليل المفيد في إشغال البريد</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1322">كتاب وضعته البوسطة المصرية متضمناً أسماء الكتب وكيفية المعاملة مع البوسطة في إرسال المكاتب والصر والطرود وغيرها مما هو من شؤون البوسطة فجاء كتاباً مفيداً دالاً على عناية مديرها المجتهد في تحسين إدارتها وإصلاح شؤونها حتى أفرغ إليها كثير من بوسطات أوروبا لثقة الدول بانتظام إدارتها وسيرها على محور الاستقامة فنثني على سعادة سابا باشا ورجال إدارته القائمين بهذا النظام المجتهدين في تحسين الإدارة بكل ما فيه رضا الأمم مما يزيديهم ثقة بها وقد جعلت ثمنه عشرين مليماً مع كونه  <num type="auto-markup" change="#d2e179 #d2e232" value="186" xml:lang="ar" xml:id="num_1.d2e1324">١٨٦</num>  صحيفة وما أرخصت ثمنه إلا ليسهل على التاجر وغيره اقتناؤه للعلم بما فيه.</p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1322">كتاب وضعته البوسطة المصرية متضمناً أسماء الكتب وكيفية المعاملة مع البوسطة في إرسال المكاتب والصر والطرود وغيرها مما هو من شؤون البوسطة فجاء كتاباً مفيداً دالاً على عناية مديرها المجتهد في تحسين إدارتها وإصلاح شؤونها حتى أفرغ إليها كثير من بوسطات أوروبا لثقة الدول بانتظام إدارتها وسيرها على محور الاستقامة فنثني على سعادة سابا باشا ورجال إدارته القائمين بهذا النظام المجتهدين في تحسين الإدارة بكل ما فيه رضا الأمم مما يزيديهم ثقة بها وقد جعلت ثمنه عشرين مليماً مع كونه  ١٨٦  صحيفة وما أرخصت ثمنه إلا ليسهل على التاجر وغيره اقتناؤه للعلم بما فيه.</p>
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1329">
                 <head change="#d2e232" xml:id="head_7.d2e1331">فريق التمثيل العربي</head>

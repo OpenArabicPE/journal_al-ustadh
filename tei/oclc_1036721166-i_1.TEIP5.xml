@@ -80,8 +80,8 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P2.xhtml" ed="shamela" n="n1-p1" change="#d2e232" xml:id="pb_1.d2e289"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="1" facs="#facs_1" xml:id="pb_2.d2e290"/>
       <body change="#d2e232" xml:id="body_1.d2e292">
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e294">
-                <head change="#d2e232" xml:id="head_1.d2e296">العدد  <num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e298">١</num> </head>- بتاريخ: 
-                <dateline change="#d2e232" xml:id="dateline_1.d2e302"><date when="1892-08-24" change="#d2e232" xml:id="date_1.d2e303"> <num type="auto-markup" change="#d2e179 #d2e232" value="1892" xml:lang="ar" xml:id="num_1.d2e305">١٨٩٢</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="8" xml:lang="ar" xml:id="num_1.d2e308">٨</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="24" xml:lang="ar" xml:id="num_1.d2e311">٢٤</num> </date></dateline>
+                <head change="#d2e232" xml:id="head_1.d2e296">العدد  ١ </head>- بتاريخ: 
+                <dateline change="#d2e232" xml:id="dateline_1.d2e302"><date when="1892-08-24" change="#d2e232" xml:id="date_1.d2e303"> ١٨٩٢ - ٨ - ٢٤ </date></dateline>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P3.xhtml" ed="shamela" n="n1-p2" change="#d2e232" xml:id="pb_3.d2e315"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="2" facs="#facs_2" xml:id="pb_4.d2e316"/>
          </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e319">
@@ -119,8 +119,8 @@
                         <seg change="#d2e232" xml:id="seg_1.d2e411">توفيق في عز النعيم السرمدي</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e416"> <num type="auto-markup" change="#d2e179 #d2e232" value="596" xml:lang="ar" xml:id="num_1.d2e418">٥٩٦</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="90" xml:lang="ar" xml:id="num_1.d2e421">٩٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="77" xml:lang="ar" xml:id="num_1.d2e424">٧٧</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="201" xml:lang="ar" xml:id="num_1.d2e427">٢٠١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="345" xml:lang="ar" xml:id="num_1.d2e430">٣٤٥</num> </p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e434">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1309" change="#d3e187 #d2e232" xml:id="date_2.d2e436"><num type="auto-markup" change="#d2e179 #d2e232" value="1309" xml:lang="ar" xml:id="num_1.d2e437">١٣٠٩</num></date> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e416"> ٥٩٦   ٩٠   ٧٧   ٢٠١   ٣٤٥ </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e434">سنة  ١٣٠٩ </p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e441">وقد تكفل بها وما معها من تاريخ حياته الطيبة كتاب النحلة في الرحلة فإني رثيته لتفضله</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e444">علي وإحسانه لا ليقال أجاد فيما قال ولا ليكون الرثاء وسيلة أبتغي بها مقصداً فلذا لم أرسلها وأنا في <placeName change="#d2e282" xml:id="placeName_5.d2e515">الشام</placeName> لتنشر مع المراثي التي دونت فرحم الله تعالى روحاً زكية وذاتاً نقية وجعل مضجعه المنير روضة من رياض الجنة ممطوراً بسحائب الرحمة والرضوان.</p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e447">وما زحزح الهم عن الفؤاد ومسح دموع الحزن بمنديل السرور إلا ارتقاء صدر الصدور وعين أعيان الأمراء وخلاصة العائلة المحمدية وبدر سماء بيت الإمارة أفندينا الخديوي المفخم ذي الفخامة والجلالة مولانا عباس باشا حلمي الثاني أيده الله تعالى فتسلت النفس بأشرف خلف لخير سلف وانطلق لسان التهاني منشداً
@@ -142,8 +142,8 @@
                         <seg change="#d2e232" xml:id="seg_1.d2e481">صدر الصفا عباس حلمي الثاني</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e486"> <num type="auto-markup" change="#d2e179 #d2e232" value="294" xml:lang="ar" xml:id="num_1.d2e488">٢٩٤</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="202" xml:lang="ar" xml:id="num_1.d2e491">٢٠٢</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="133" xml:lang="ar" xml:id="num_1.d2e494">١٣٣</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="88" xml:lang="ar" xml:id="num_1.d2e497">٨٨</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="592" xml:lang="ar" xml:id="num_1.d2e500">٥٩٢</num> </p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e504">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1309" change="#d3e187 #d2e232" xml:id="date_2.d2e506"><num type="auto-markup" change="#d2e179 #d2e232" value="1309" xml:lang="ar" xml:id="num_1.d2e507">١٣٠٩</num></date> </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e486"> ٢٩٤   ٢٠٢   ١٣٣   ٨٨   ٥٩٢ </p>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e504">سنة  ١٣٠٩ </p>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e511">وما فرغ اللسان من الإنشاد حتى جاءني خبر عفوه الكريم عني وصدور أمره العالي بعودتي إلى وطني تفضلاً وإحساناً فاعتقل اللسان ولم يستطع النطق لعظم النعمة وخروجها عن حد ما يشكر فإني لو جمعت اللغات ونظمتها في سلسلة قصائد لا نهاية لها لكنت مقصراً في أداء الواجب لمرحوم أطلق لي قيد حياتي ومحفوظ خلصني من أسر الغربة ومتعني برؤية وطن أهله مبعث سروري ومرجع أنسي فله الشكر ما حييت وإن أمت سمع الثناء عليه من رنين صوت عظامي. كل هذا والثناء على ذات العصمة والمقام الأسمى ذات الدولة الوالدة الفخيمة مرتبط بكل فاصلة من فواصل الشكر والحمد فمدح هذا البيت الكريم حق واجب على هذا المخلص في دعائه وأهل بيته ما دام اللسان ينطق بما ينسب للمخلص</p>
                 <byline change="#d2e150 #d2e232" xml:id="byline_1.d2e514">
                <persName change="#d2e232 #d3e293" xml:id="persName_8.d2e516" ref="oape:pers:962 viaf:72750911">

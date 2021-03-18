@@ -80,9 +80,9 @@
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P290.xhtml" ed="shamela" n="n1-p289" change="#d2e232" xml:id="pb_1.d2e289"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="289" facs="#facs_289" xml:id="pb_2.d2e290"/>
       <body change="#d2e232" xml:id="body_1.d2e292">
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e294">
-                <head change="#d2e232" xml:id="head_1.d2e296">العدد  <num type="auto-markup" change="#d2e179 #d2e232" value="13" xml:lang="ar" xml:id="num_1.d2e298">١٣</num> </head>
+                <head change="#d2e232" xml:id="head_1.d2e296">العدد  ١٣ </head>
                 <dateline change="#d2e232" xml:id="dateline_1.d2e302">- بتاريخ: 
-                    <date when="1892-11-15" change="#d2e232" xml:id="date_1.d2e304"> <num type="auto-markup" change="#d2e179 #d2e232" value="1892" xml:lang="ar" xml:id="num_1.d2e306">١٨٩٢</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="11" xml:lang="ar" xml:id="num_1.d2e309">١١</num> - <num type="auto-markup" change="#d2e179 #d2e232" value="15" xml:lang="ar" xml:id="num_1.d2e312">١٥</num> </date>
+                    <date when="1892-11-15" change="#d2e232" xml:id="date_1.d2e304"> ١٨٩٢ - ١١ - ١٥ </date>
             </dateline>
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e318">
@@ -276,88 +276,88 @@
                 <lg change="#d2e82 #d2e232" xml:id="lg_6.d2e726">
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e728">
                         <seg change="#d2e232" xml:id="seg_1.d2e730">ع. عم السرور وآيات الثنا تليت</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e733"> <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e735">٢</num> بمجلس فيه مرآة الهنا جُلبت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e733"> ٢ بمجلس فيه مرآة الهنا جُلبت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e740">
                         <seg change="#d2e232" xml:id="seg_1.d2e742">ش. شبرى بها شيَّد الاقبال من طرب</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e745"> <num type="auto-markup" change="#d2e179 #d2e232" value="4" xml:lang="ar" xml:id="num_1.d2e747">٤</num> دار لتفريح أخوان الصفا بُنيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e745"> ٤ دار لتفريح أخوان الصفا بُنيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e752">
                         <seg change="#d2e232" xml:id="seg_1.d2e754">ي. يا حسن دار اديرت في حدائقها</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e757"> <num type="auto-markup" change="#d2e179 #d2e232" value="200" xml:lang="ar" xml:id="num_1.d2e759">٢٠٠</num> راحُ ابتهاج بكاسات الوفا سقيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e757"> ٢٠٠ راحُ ابتهاج بكاسات الوفا سقيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e764">
                         <seg change="#d2e232" xml:id="seg_1.d2e766">ا. أحيت محاسن أيام لنا سلفت</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e769"> <num type="auto-markup" change="#d2e179 #d2e232" value="400" xml:lang="ar" xml:id="num_1.d2e771">٤٠٠</num> تاهت باحيائها من ما فنيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e769"> ٤٠٠ تاهت باحيائها من ما فنيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e776">
                         <seg change="#d2e232" xml:id="seg_1.d2e778">ف. فريد باشا استنار الدهر منك وقد</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e781"> <num type="auto-markup" change="#d2e179 #d2e232" value="3" xml:lang="ar" xml:id="num_1.d2e783">٣</num> جددت بهجة أفراح به نسيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e781"> ٣ جددت بهجة أفراح به نسيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e789">
                         <seg change="#d2e232" xml:id="seg_1.d2e791">ر. رنحَّت اعطاف آمال وسِرَت بها</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e794"> <num type="auto-markup" change="#d2e179 #d2e232" value="30" xml:lang="ar" xml:id="num_1.d2e796">٣٠</num> لخير مغنّى به النعماءُ قد غنيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e794"> ٣٠ لخير مغنّى به النعماءُ قد غنيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e801">
                         <seg change="#d2e232" xml:id="seg_1.d2e803">ي. يا بعجة القطر اذ قطر الندى مرحاً</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e806"> <num type="auto-markup" change="#d2e179 #d2e232" value="400" xml:lang="ar" xml:id="num_1.d2e808">٤٠٠</num> تجلى كشمس بأنوار البها كسيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e806"> ٤٠٠ تجلى كشمس بأنوار البها كسيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e813">
                         <seg change="#d2e232" xml:id="seg_1.d2e815">د. دام الحبور لإبراهيم اذ نظمت</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e818"> <num type="auto-markup" change="#d2e179 #d2e232" value="30" xml:lang="ar" xml:id="num_1.d2e820">٣٠</num> له بعلياك آمال قد انتقيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e818"> ٣٠ له بعلياك آمال قد انتقيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e825">
                         <seg change="#d2e232" xml:id="seg_1.d2e827">ل. لله انت فقد أوسعته منناً</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e830"> <num type="auto-markup" change="#d2e179 #d2e232" value="5" xml:lang="ar" xml:id="num_1.d2e832">٥</num> هان النضار لديها عندما حبيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e830"> ٥ هان النضار لديها عندما حبيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e837">
                         <seg change="#d2e232" xml:id="seg_1.d2e839">م. من مثله حاز أوصاف الرضا غدا</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e842"> <num type="auto-markup" change="#d2e179 #d2e232" value="300" xml:lang="ar" xml:id="num_1.d2e844">٣٠٠</num> شريف نفس بغير المجد ما رضيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e842"> ٣٠٠ شريف نفس بغير المجد ما رضيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e849">
                         <seg change="#d2e232" xml:id="seg_1.d2e851">ن. نبيل قدر جليل في شبيبته</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e854"> <num type="auto-markup" change="#d2e179 #d2e232" value="40" xml:lang="ar" xml:id="num_1.d2e856">٤٠</num> مهذب الطبع يرعي ذمة رعيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e854"> ٤٠ مهذب الطبع يرعي ذمة رعيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e862">
                         <seg change="#d2e232" xml:id="seg_1.d2e864">هـ. هذا الفخار ومن يشبه اباه فقد</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e867"> <num type="auto-markup" change="#d2e179 #d2e232" value="60" xml:lang="ar" xml:id="num_1.d2e869">٦٠</num> ساد الزمانُ به ان أزمة قويت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e867"> ٦٠ ساد الزمانُ به ان أزمة قويت</seg>
                     </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P309.xhtml" ed="shamela" n="n1-p308" change="#d2e232" xml:id="pb_39.d2e874"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="308" facs="#facs_308" xml:id="pb_40.d2e875"/>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e877">
                         <seg change="#d2e232" xml:id="seg_1.d2e879">ن. نرى محاسنه في الناس ظاهرة</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e882"> <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e884">٢</num> بينا نرى مثلها في غيرها خفيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e882"> ٢ بينا نرى مثلها في غيرها خفيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e889">
-                        <seg change="#d2e232" xml:id="seg_1.d2e891"> <num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e893">١</num> . ابان مخبره عن طيب عنصره</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e897"> <num type="auto-markup" change="#d2e179 #d2e232" value="2" xml:lang="ar" xml:id="num_1.d2e899">٢</num> بادي البديهة في الأنباء اذ رويت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e891"> ١ . ابان مخبره عن طيب عنصره</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e897"> ٢ بادي البديهة في الأنباء اذ رويت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e904">
                         <seg change="#d2e232" xml:id="seg_1.d2e906">م. مولاي يا احمد الأمجاد قاطبة</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e909"> <num type="auto-markup" change="#d2e179 #d2e232" value="5" xml:lang="ar" xml:id="num_1.d2e911">٥</num> هنئت والنجل ما أوصافكم حكيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e909"> ٥ هنئت والنجل ما أوصافكم حكيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e917">
                         <seg change="#d2e232" xml:id="seg_1.d2e919">و. وعشت حتى ترى أبناء عِزَّته</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e922"> <num type="auto-markup" change="#d2e179 #d2e232" value="3" xml:lang="ar" xml:id="num_1.d2e924">٣</num> جدود أبنائهم في عزة بقيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e922"> ٣ جدود أبنائهم في عزة بقيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e929">
                         <seg change="#d2e232" xml:id="seg_1.d2e931">ر. راقين أوج المعالي في سما شرفٍ</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e934"> <num type="auto-markup" change="#d2e179 #d2e232" value="400" xml:lang="ar" xml:id="num_1.d2e936">٤٠٠</num> تعنو لكم كل حال بالندى عنيت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e934"> ٤٠٠ تعنو لكم كل حال بالندى عنيت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e941">
                         <seg change="#d2e232" xml:id="seg_1.d2e943">خ. خل السوي يا سمير الروح ممتدحاً</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e946"> <num type="auto-markup" change="#d2e179 #d2e232" value="5" xml:lang="ar" xml:id="num_1.d2e948">٥</num> هذا الفريد ونجليه ومن هُديت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e946"> ٥ هذا الفريد ونجليه ومن هُديت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e953">
                         <seg change="#d2e232" xml:id="seg_1.d2e955">هـ. هنئتموا آل بيت في الفخار لكم</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e958"> <num type="auto-markup" change="#d2e179 #d2e232" value="1" xml:lang="ar" xml:id="num_1.d2e960">١</num> أَسمى صفات لغابات الثنا عزبت</seg>
+                        <seg change="#d2e232" xml:id="seg_1.d2e958"> ١ أَسمى صفات لغابات الثنا عزبت</seg>
                     </l>
                     <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e965">
                         <seg change="#d2e232" xml:id="seg_1.d2e967">و. وها كمواما ضعيف الفكر ارخه</seg>
                         <seg change="#d2e232" xml:id="seg_1.d2e970">شمس لنجل فريد بالحلى زهيت</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e975">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="0092" change="#d3e187 #d2e232" xml:id="date_2.d2e977"><num type="auto-markup" change="#d2e179 #d2e232" value="92" xml:lang="ar" xml:id="num_1.d2e978">٩٢</num></date>   <num type="auto-markup" change="#d2e179 #d2e232" value="400" xml:lang="ar" xml:id="num_1.d2e981">٤٠٠</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="113" xml:lang="ar" xml:id="num_1.d2e984">١١٣</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="294" xml:lang="ar" xml:id="num_1.d2e987">٢٩٤</num> .  <num type="auto-markup" change="#d2e179 #d2e232" value="81" xml:lang="ar" xml:id="num_1.d2e990">٨١</num>   <num type="auto-markup" change="#d2e179 #d2e232" value="422" xml:lang="ar" xml:id="num_1.d2e994">٤٢٢</num> </p>
-                <byline change="#d2e150 #d2e232" xml:id="byline_1.d2e998">سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="0131" change="#d3e187 #d2e232" xml:id="date_2.d2e1000"><num type="auto-markup" change="#d2e179 #d2e232" value="131" xml:lang="ar" xml:id="num_1.d2e1001">١٣١</num></date> </byline>
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e975">سنة  ٩٢   ٤٠٠   ١١٣   ٢٩٤ .  ٨١   ٤٢٢ </p>
+                <byline change="#d2e150 #d2e232" xml:id="byline_1.d2e998">سنة  ١٣١ </byline>
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1006">
                 <head change="#d2e232" xml:id="head_9.d2e1008">
@@ -453,9 +453,9 @@
             </div>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1217">
                 <head change="#d2e232" xml:id="head_13.d2e1219">رثاء وعزاء</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1222">زرئ الفضل والعلم والأدب بوفاة العالم العلامة الحسيب النسيب السيد سعيد افندي الدجاني الحسيني اليافي كما علمنا من كتاب أفضل الفضلاء ابن عمه ذي الفضيلة السيد علي افندي أبي المواهب الحسيني مفتي افندي <placeName>يافا</placeName> حالاً. توفي رحمه الله تعالى يوم الأحد  <num type="auto-markup" change="#d2e179 #d2e232" value="9" xml:lang="ar" xml:id="num_1.d2e1224">٩</num> ربيع الثاني سنة <num type="auto-markup" change="#d2e179" value="1310" xml:lang="ar">١٣١٠</num> ودفن يوم الاثنين
+                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1222">زرئ الفضل والعلم والأدب بوفاة العالم العلامة الحسيب النسيب السيد سعيد افندي الدجاني الحسيني اليافي كما علمنا من كتاب أفضل الفضلاء ابن عمه ذي الفضيلة السيد علي افندي أبي المواهب الحسيني مفتي افندي <placeName>يافا</placeName> حالاً. توفي رحمه الله تعالى يوم الأحد  ٩ ربيع الثاني سنة ١٣١٠ ودفن يوم الاثنين
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P313.xhtml" ed="shamela" n="n1-p312" change="#d2e232" xml:id="pb_47.d2e1227"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="312" facs="#facs_312" xml:id="pb_48.d2e1228"/>
-                    باحتفال شهده جميع أهالي <placeName>يافا</placeName> على اختلاف أجناسهم وأديانهم وصلي عليه في المسجد الجامع ثم تليت قصائد الرثاء من كثير من لشعراء وشيعت جنازته إلى القرافة حيث دفن بمقبرة أسلافه وآله الكرام وقد صحبته أيام أقامتي في <placeName>يافا</placeName> فرايت سيدا ملئ فضلاً وعلماً وكمالاً أخبرني أنه ولد سنة  <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1256" change="#d3e187 #d2e232" xml:id="date_2.d2e1230"><num type="auto-markup" change="#d2e179 #d2e232" value="1256" xml:lang="ar" xml:id="num_1.d2e1231">١٢٥٦</num></date>  وتربي في بيت والده ب<placeName>يافا</placeName> ثم ظاخذ فقه الحنفية والحديث والمصطلح والطريقة الخلوتية عن شيخة العارف بالله تعالى المرحوم السيد حسين أفندي الدجاني الحسيني نفتي <placeName>يافا</placeName> سابقاً وأخذ النحو والصرف وجميع العلوم العقلية والآلية عن عمه المرحوم السيد علي سليم الدجاني ثم اشتغل بالتدريس في مسجد <placeName>يافا</placeName> باقي حياته الطيبة وانقطع عن الدنيا إلى العلم في ثراء ومهابة وله ديوان شعر جمعه حال حياته ومجموعة انشاء ورسالة فيما صح من أحاديث الاسراء والمعراج وكان متمسكاً بالسنة الشريفة محبباً للناس لا يضار أحداً ويكاد أن لا يخرج من بيته إلا للمسجد أو زيارة صديق ولا يتكلم إلا إذا سئل فإن تكلم اوجز ما رؤى في مجلس لهو قط ولا سخر بمجلسه وبالجملة فإنهُ كان شمس البيت الدجاني وأفضل رجاله وأعزهم نفساً لا يضارعه في علمه إلا العلامة فاضل <placeName>يافا</placeName> على الإطلاق السيد علي أفندي أبو المواهب مفتيها الحالي فنعزي البيت الدجاني خصوصاً وأهل <placeName>يافا</placeName> عموماً في سيد قضى عمره في خدمة العلم ووطنه ومساعدة ذوي الحاجات على اختلاف الجنس والدين وقد عاش سعيداً كما مات وسار فاحزن عليه الآل وابكى صديقه. المعزي</p>
+                    باحتفال شهده جميع أهالي <placeName>يافا</placeName> على اختلاف أجناسهم وأديانهم وصلي عليه في المسجد الجامع ثم تليت قصائد الرثاء من كثير من لشعراء وشيعت جنازته إلى القرافة حيث دفن بمقبرة أسلافه وآله الكرام وقد صحبته أيام أقامتي في <placeName>يافا</placeName> فرايت سيدا ملئ فضلاً وعلماً وكمالاً أخبرني أنه ولد سنة  ١٢٥٦  وتربي في بيت والده ب<placeName>يافا</placeName> ثم ظاخذ فقه الحنفية والحديث والمصطلح والطريقة الخلوتية عن شيخة العارف بالله تعالى المرحوم السيد حسين أفندي الدجاني الحسيني نفتي <placeName>يافا</placeName> سابقاً وأخذ النحو والصرف وجميع العلوم العقلية والآلية عن عمه المرحوم السيد علي سليم الدجاني ثم اشتغل بالتدريس في مسجد <placeName>يافا</placeName> باقي حياته الطيبة وانقطع عن الدنيا إلى العلم في ثراء ومهابة وله ديوان شعر جمعه حال حياته ومجموعة انشاء ورسالة فيما صح من أحاديث الاسراء والمعراج وكان متمسكاً بالسنة الشريفة محبباً للناس لا يضار أحداً ويكاد أن لا يخرج من بيته إلا للمسجد أو زيارة صديق ولا يتكلم إلا إذا سئل فإن تكلم اوجز ما رؤى في مجلس لهو قط ولا سخر بمجلسه وبالجملة فإنهُ كان شمس البيت الدجاني وأفضل رجاله وأعزهم نفساً لا يضارعه في علمه إلا العلامة فاضل <placeName>يافا</placeName> على الإطلاق السيد علي أفندي أبو المواهب مفتيها الحالي فنعزي البيت الدجاني خصوصاً وأهل <placeName>يافا</placeName> عموماً في سيد قضى عمره في خدمة العلم ووطنه ومساعدة ذوي الحاجات على اختلاف الجنس والدين وقد عاش سعيداً كما مات وسار فاحزن عليه الآل وابكى صديقه. المعزي</p>
                 <byline change="#d2e150 #d2e232" xml:id="byline_2.d2e1235">
                <persName change="#d2e232 #d3e270" xml:id="persName_4.d2e1237" ref="oape:pers:962 viaf:72750911">
                             <forename>عبد الله</forename>
