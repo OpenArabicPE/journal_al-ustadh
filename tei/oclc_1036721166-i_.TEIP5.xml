@@ -6,9 +6,7 @@
                 <title xml:lang="ar">مجلة الأستاذ</title>
                 <title type="sub">TEI edition</title>
                 <editor xml:lang="ar">
-                    <persName>
                   <persName>عبد الله النديم</persName>
-               </persName>
                 </editor>
                 <respStmt xml:lang="en">
                     <resp>TEI edition</resp>
