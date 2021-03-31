@@ -14,3 +14,6 @@ metadata/issues/
 # temporary files #
 ~$*
 .R*
+
+# to not include Github actions in the gh-pages branch
+.github/actions/
