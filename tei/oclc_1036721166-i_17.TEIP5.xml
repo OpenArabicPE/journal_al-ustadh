@@ -141,7 +141,7 @@
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P400.xhtml" ed="shamela" n="n1-p399" change="#d2e232" xml:id="pb_29.d2e425"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="399" facs="#facs_399" xml:id="pb_30.d2e426"/>
                     ما بقيت اطلع من باب دارنا أنا كنت باحسب أن الواحدة ينوبها ثواب في العمايل د التوبة من دي النوبة يا رب ما تقدر عليَّ بقى الطلوع لمشايخ إلا إذا كنت ويا جوزي. س. الله يتوب عليك يا بنتي الدين طيب يا ستي بهية هوا فيه احسن من الست اللي ما حد يشوف لها طول مشايخ ايه يا بنتي هما يحبوا قلة القيمة دي والأمور البطالة ولا والنبي إلا يكرهوا النسوان اللي يروحوا لهم ويبقى بدهم يحنقوهم دول احباب الله ولا يحبوش إلا اللي ماشيين على شرع الله وفين اللي ماشي على الشرع دلوقت ربنا يلطف.</p>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e430">
+         <div change="#d2e64 #d2e232"  type="section" xml:id="div_1.d2e430">
                 <head change="#d2e232" xml:id="head_5.d2e432">باب الأدبيات</head>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e435">من نظم الفاضل محمود افندي وصف حبيس سجن اسكندرية الآن ما قاله تاريخاً لورود الفرمان السلطاني مرفوعاً لأعتاب الحضرة الفخيمة الخديوية</p>
                 <lg change="#d2e82 #d2e232" xml:id="lg_2.d2e438">
@@ -502,8 +502,7 @@
                             <forename>عبد الله</forename>
                             <surname>النديم</surname>
                         </persName>
-                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P410.xhtml" ed="shamela" n="n1-p409" change="#d2e232" xml:id="pb_49.d2e1339"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="409" facs="#" xml:id="pb_50.d2e1340"/>
-            </byline>
-            </div>
+                    </byline>
+            </div><pb corresp="../epub/shamela_35118/OEBPS/xhtml/P410.xhtml" ed="shamela" n="n1-p409" change="#d2e232" xml:id="pb_49.d2e1339"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="409" facs="#" xml:id="pb_50.d2e1340"/>
       </body>
    </text></TEI>

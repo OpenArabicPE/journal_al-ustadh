@@ -776,8 +776,7 @@
                             <forename xml:lang="ar">عبد الله</forename>
                             <surname xml:lang="ar">نديم</surname>
                         </persName>
-                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P338.xhtml" ed="shamela" n="n1-p337" change="#d2e208" xml:id="pb_49.d2e1849"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="337" facs="#" xml:id="pb_50.d2e1850"/>
-            </byline>
-            </div>
+                    </byline>
+            </div><pb corresp="../epub/shamela_35118/OEBPS/xhtml/P338.xhtml" ed="shamela" n="n1-p337" change="#d2e208" xml:id="pb_49.d2e1849"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="337" facs="#" xml:id="pb_50.d2e1850"/>
       </body>
    </text></TEI>
