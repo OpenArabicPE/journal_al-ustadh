@@ -383,9 +383,10 @@
                     <gap change="#d2e232" resp="#org_MS" xml:id="gap_1.d2e841"
                     />
                     وافهم معانيه للآخر
-                    <pb change="#d2e232" corresp="../epub/shamela_35118/OEBPS/xhtml/P255.xhtml" ed="shamela" n="n1-p254"
-                    xml:id="pb_27.d2e843"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" facs="#facs_254" n="254" xml:id="pb_28.d2e844"/> </p>
-            </div>
+                    </p></div>
+<pb change="#d2e232" corresp="../epub/shamela_35118/OEBPS/xhtml/P255.xhtml" ed="shamela" n="n1-p254"
+                    xml:id="pb_27.d2e843"/>
+<pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" facs="#facs_254" n="254" xml:id="pb_28.d2e844"/>
             <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e849">
                 <head change="#d2e232" xml:id="head_6.d2e851">باب الأدبيات</head>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e854">إفراح الأرواح</p>
@@ -626,10 +627,11 @@
                 <head change="#d2e232" xml:id="head_10.d2e1640">إعلان</head>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e1643"
                     >عزم حضرة الفاضل أحمد أفندي نجيب على إصدار جريدة سماها المنظوم تنشر مدائح الملوك والأمراء والأعيان وما قيل من فنون الشعر مع انتقاد بعض الأبيات التي يجوز انتقادها وسيصدرها مرتين كل شهر وجعل الاشتراك أربعين قرشاً عن كل سنة في مصر وخمسين في الخارج فنحث حلفاء الأدب ونصراء البديع على مشاركة هذا الفاضل في هذا المشروع الجليل بالاشتراك معه بالطول والقول أحيا لصناعة الشعر الجميلة.
-                    <pb
-                    change="#d2e232" corresp="../epub/shamela_35118/OEBPS/xhtml/P265.xhtml" ed="shamela" n="n1-p264" xml:id="pb_47.d2e1645"/><pb change="#d2e218 #d2e227 #d2e232" ed="print"
-                    edRef="#edition_1" facs="#facs_264" n="264" xml:id="pb_48.d2e1646"/> </p>
-            </div>
+                    </p></div>
+<pb
+                    change="#d2e232" corresp="../epub/shamela_35118/OEBPS/xhtml/P265.xhtml" ed="shamela" n="n1-p264" xml:id="pb_47.d2e1645"/>
+<pb change="#d2e218 #d2e227 #d2e232" ed="print"
+                    edRef="#edition_1" facs="#facs_264" n="264" xml:id="pb_48.d2e1646"/>
             <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1650">
                 <head change="#d2e232" xml:id="head_11.d2e1652">قاموس عربي وفرنساوي</head>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e1655"
