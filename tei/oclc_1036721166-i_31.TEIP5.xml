@@ -267,8 +267,7 @@
                             <forename xml:lang="ar">عبد الله</forename>
                             <surname xml:lang="ar">نديم</surname>
                         </persName>)
-                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P752.xhtml" ed="shamela" n="n1-p753" change="#d2e232" xml:id="pb_49.d2e1718"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="753" facs="#" xml:id="pb_50.d2e1719"/>
-            </byline>
-            </div>
+                    </byline>
+            </div><pb corresp="../epub/shamela_35118/OEBPS/xhtml/P752.xhtml" ed="shamela" n="n1-p753" change="#d2e232" xml:id="pb_49.d2e1718"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="753" facs="#" xml:id="pb_50.d2e1719"/>
       </body>
    </text></TEI>

@@ -196,9 +196,8 @@
                         <seg change="#d2e232" xml:id="seg_1.d2e542">نصر الخديوي دائم فليسعد</seg>
                     </l>
                 </lg>
-                <byline change="#d2e150 #d2e232" xml:id="byline_1.d2e547"><date change="#d3e288" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1310" from="1892" to="1893">سنة ١٣١٠</date> <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P550.xhtml" ed="shamela" n="n1-p551" change="#d2e232" xml:id="pb_25.d2e553"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="551" facs="#facs_551" xml:id="pb_26.d2e554"/>
-            </byline>
-            </div>
+                <byline change="#d2e150 #d2e232" xml:id="byline_1.d2e547"><date change="#d3e288" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1310" from="1892" to="1893">سنة ١٣١٠</date> </byline>
+            </div><pb corresp="../epub/shamela_35118/OEBPS/xhtml/P550.xhtml" ed="shamela" n="n1-p551" change="#d2e232" xml:id="pb_25.d2e553"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="551" facs="#facs_551" xml:id="pb_26.d2e554"/>
          <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e559">
                 <head change="#d2e232" xml:id="head_6.d2e561">تاريخ البشري البهية بعود الوزارة الرياضية</head>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e564">من إنشاء الفاضل الماجد والشاعر المطبوع الأديب سليمان أفندي عياد من مستخدمي الداخلية الجليلة قال أيده الله تعالى:</p>

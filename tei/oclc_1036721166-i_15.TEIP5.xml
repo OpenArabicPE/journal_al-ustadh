@@ -188,8 +188,7 @@
                             <forename>عبد الله</forename>
                             <surname>النديم</surname>
                         </persName>
-                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P362.xhtml" ed="shamela" n="n1-p361" change="#d2e208" xml:id="pb_49.d2e525"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="361" facs="#" xml:id="pb_50.d2e526"/>
-            </byline>
-            </div>
+                    </byline>
+            </div><pb corresp="../epub/shamela_35118/OEBPS/xhtml/P362.xhtml" ed="shamela" n="n1-p361" change="#d2e208" xml:id="pb_49.d2e525"/><pb change="#d2e194 #d2e203 #d2e208" ed="print" edRef="#edition_1" n="361" facs="#" xml:id="pb_50.d2e526"/>
       </body>
    </text></TEI>

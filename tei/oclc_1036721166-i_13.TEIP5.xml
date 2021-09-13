@@ -461,8 +461,7 @@
                             <forename>عبد الله</forename>
                             <surname>النديم</surname>
                         </persName>
-                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P314.xhtml" ed="shamela" n="n1-p313" change="#d2e232" xml:id="pb_49.d2e1240"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="313" facs="#" xml:id="pb_50.d2e1241"/>
-            </byline>
-            </div>
+                    </byline>
+            </div><pb corresp="../epub/shamela_35118/OEBPS/xhtml/P314.xhtml" ed="shamela" n="n1-p313" change="#d2e232" xml:id="pb_49.d2e1240"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="313" facs="#" xml:id="pb_50.d2e1241"/>
       </body>
    </text></TEI>

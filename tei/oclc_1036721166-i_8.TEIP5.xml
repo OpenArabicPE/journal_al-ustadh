@@ -206,8 +206,7 @@
                 <head change="#d2e232" xml:id="head_9.d2e680">العدد</head>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e683">ان الأول والثاني يرسلان لمن اشترك حديثاً بعد طبعهما.</p>
                 <byline change="#d2e150 #d2e232" xml:id="byline_2.d2e686">نديم
-                    <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P194.xhtml" ed="shamela" n="n1-p193" change="#d2e232" xml:id="pb_49.d2e688"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="193" facs="#" xml:id="pb_50.d2e689"/>
-            </byline>
-            </div>
+                    </byline>
+            </div><pb corresp="../epub/shamela_35118/OEBPS/xhtml/P194.xhtml" ed="shamela" n="n1-p193" change="#d2e232" xml:id="pb_49.d2e688"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="193" facs="#" xml:id="pb_50.d2e689"/>
       </body>
    </text></TEI>
