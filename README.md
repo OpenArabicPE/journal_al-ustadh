@@ -20,6 +20,9 @@ If you just want to browse the edition in a more human-readable view, start [her
 
 ## notes
 
+- mark-up of sections
+    + باب الأدبيات
+
 - 2021-03-17: I just saw that something went wrong with the automatic mark-up of dates on 17 May 2019. Some numbers got deleted. Searching commits for "contents:سنة", I was able to restore them.
 
 [sakhrit]: http://archive.alsharekh.org/newmagazineYears/106
