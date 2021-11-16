@@ -395,12 +395,17 @@
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e874"
                     >لا يمضي يوم إلاَّ ونرى أو نسمع خبراً ساراً ومشروعاً نافعاً تحدثه النشئة المصرية الخالصة من أمشاج الأجانب المحثكة أفكار أهلها في أفكار أهل الفضل من أي جنس كانوا ولا نلبث أن نرى مصر روضة علم ومنبع فضل يحقق لنا هذا الأمل ما نراه من أقدام الشيوخ والشبان على إنشاء الجرائد العلمية والسياسية فقد صدر في هذين الأسبوعين <bibl
                     change="#d2e312" subtype="newspaper" type="periodical">جريدة <title change="#d2e174 #d2e232" level="j" xml:id="title_5.d2e876"
-                    >الثمرة</title></bibl> لمحررها الفاضل انطونيوس منصور وتلتها <bibl change="#d2e312" subtype="newspaper" type="periodical">جريدة <title change="#d2e174 #d2e232" level="j"
-                    xml:id="title_5.d2e879"
-                    >الهدى</title></bibl> لمحررها الكامل أحمد أفندي لطفي ثم المدرسة لمحررها المهذب مصطفى أفندي كامل ثم النديم لمحرره التحرير أحمد أفندي عبد اللطيف وغدا يصدر التلميذ لمحرره الأديب محمد أفندي البابلي وستصدر أيضاً الشرائع في الأسبوع القادم وهذه نشئة علمية تنبئنا عن حسن مستقبل مصر فقد صار لأبنائها جرائد المؤيد والنيل والآداب والوطن وفرصة الأوقات ومرقى النجاح والراوي والثمرة والهدى والتلميذ والمدرسة والشرائع والنديم والرشاد والمنظوم والمهندس والأستاذ وأنه لعدد كثير في نشئة قليلة الوقت كثيرة الفوائد. </p>
+                    >الثمرة</title> لمحررها الفاضل <editor><persName>انطونيوس منصور</persName></editor></bibl> وتلتها <bibl change="#d2e312" subtype="newspaper" type="periodical">جريدة <title
+                    change="#d2e174 #d2e232" level="j" xml:id="title_5.d2e879">الهدى</title> لمحررها الكامل <editor><persName>أحمد أفندي لطفي</persName></editor></bibl> ثم <bibl subtype="newspaper"
+                    type="periodical"><title level="j">المدرسة</title> لمحررها المهذب <editor><persName>مصطفى أفندي كامل</persName></editor></bibl> ثم <bibl subtype="newspaper" type="periodical"
+                    ><title level="j">النديم</title> لمحرره التحرير <editor><persName>أحمد أفندي عبد اللطيف</persName></editor></bibl> و<bibl subtype="newspaper" type="periodical">غدا يصدر <title
+                    level="j">التلميذ</title> لمحرره الأديب <editor><persName>محمد أفندي البابلي</persName></editor></bibl> و<bibl subtype="newspaper" type="periodical"
+                    >ستصدر أيضاً الشرائع في الأسبوع القادم</bibl> وهذه نشئة علمية تنبئنا عن حسن مستقبل مصر فقد صار لأبنائها جرائد <title level="j">المؤيد</title> و<title level="j"
+                    >النيل</title> و<title level="j">الآداب</title> و<title level="j">الوطن</title> و<title level="j">فرصة الأوقات</title> و<title level="j">مرقى النجاح</title> و<title level="j"
+                    >الراوي</title> و<title level="j">الثمرة</title> و<title level="j">الهدى</title> و<title level="j">التلميذ</title> و<title level="j">المدرسة</title> و<title level="j"
+                    >الشرائع</title> و<title level="j">النديم</title> و<title level="j">الرشاد</title> و<title level="j">المنظوم</title> و<title level="j"
+                    >المهندس</title> و<title>الأستاذ</title> وأنه لعدد كثير في نشئة قليلة الوقت كثيرة الفوائد. </p>
             </div>
-            <pb change="#d2e232" corresp="../epub/shamela_35118/OEBPS/xhtml/P672.xhtml" ed="shamela" n="n1-p673" xml:id="pb_45.d2e882"/>
-            <pb change="#d2e218 #d2e227 #d2e232 #d2e356" ed="print" edRef="#edition_1" facs="#" n="675" xml:id="pb_46.d2e883"/>
         </body>
     </text>
 </TEI>
