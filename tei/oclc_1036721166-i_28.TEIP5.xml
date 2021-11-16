@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
 <TEI next="oclc_1036721166-i_29.TEIP5.xml" prev="oclc_1036721166-i_27.TEIP5.xml" xml:id="oclc_1036721166-i_28" xmlns="http://www.tei-c.org/ns/1.0" xmlns:oape="https://openarabicpe.github.io/ns"
     xmlns:tei="http://www.tei-c.org/ns/1.0">
     <teiHeader change="#d2e232" xml:id="teiHeader_1.d2e3" xml:lang="en">
@@ -55,6 +51,10 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <tei:change when="2021-11-16" who="#pers_TG" xml:id="d9e383" xml:lang="en">Added references to local authority file (<tei:ref
+                target="/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" xml:lang="en"
+                >/BachUni/BachBibliothek/GitHub/OpenArabicPE/authority-files/data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi xml:lang="en"
+                >titles</tei:gi>s without such references based on  <tei:gi xml:lang="en">biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change>
             <tei:change when="2021-11-16" who="#pers_TG" xml:id="d2e374">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
             <tei:change when="2021-11-16" who="#pers_TG" xml:id="d2e356"
                 >Added automated page numbers as <att>n</att>s in addition to <att>ed</att>="print" and <att>edRef</att>="#edition_1" for every<gi>pb</gi> that was not of <att>ed</att>="shamela".</tei:change>
@@ -370,7 +370,8 @@
                 <fw change="#d2e232" xml:id="head_24.d2e814">[ص: ٦٦٤ ]</fw>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e820"
                     >جماعة السوريون أخواننا وجيراننا وتحت حكم سلطاننا ويلزمنا أن نكون عصا واحدة في المحافظة على حقوقنا الوطنية ولا يلزم تفريق الكلمة وأحداث العداوة والبغضاء ونحن محتاجون لقطع عروق العداوة فقام المعلم عفيفي وقال أن بعض السوريين يكتب ضدنا ويشتم جرائدنا الوطنية ويكذب على حكامنا ويمدح الأجانب ويذم المصريين فكيف نشترك في جرائدهم بعد ذلك فقلت له كل أمه فيها الصالح والطالح والأمين والخائن أفلاجل المنافق منهم أو الغاش نبغض هذا الجنس المختلط بنا من قديم الزمان أن الخائن منهم عرفناه فنتجنبه وقليل الحيأ منهم لا ينبغي أن نلتفت إليه ولا نعده من بني آدم ولكن لا ينبغي هجر المخلص منهم والصادق في خدمته أن كان في الجرائد أو في الحكومة و<bibl
-                    change="#d2e312" subtype="newspaper" type="periodical">جريدة <title change="#d2e174 #d2e232" level="j" xml:id="title_5.d2e822"
+                    change="#d2e312" subtype="newspaper" type="periodical">جريدة <title change="#d2e174 #d2e232 #d9e383" level="j" ref="oclc:508226561 jaraid:bibl:t1r100 oape:bibl:55" resp="#xslt"
+                    xml:id="title_5.d2e822"
                     >الأهرام</title></bibl> نراها تنادي بآمال المصريين وتسعى في المحافظة على حقوقهم فلا ينبغي أن نعدها في الجرائد الغاشة فضلاً عن كونها أقدم الجرائد العربية في بلادنا وصاحبها شرقي مثلنا ومثل الأهرام المحروسة والاتحاد فإنهما مجتهدتان في خدمة مصر وأهلها فينبغي أن نشترك فيهما أيضاً فتم الرأي واشتركنا في الأهرام والمحروسة والاتحاد من جرائد السوريين وصرنا نجتمع كل ليلة نقرأ اليومي منها وفي كل أسبوع نقرأ الأسبوعي فحصل عندنا تنوير ذهن واتساع أفكار من كثرة المطالعة والسماع وهذا كله من نتائج نصائح الأستاذ وإرشاده. ن. الله يبشرك بكل خير الآن اعتقد أن المصريين تقدموا في المعارف على اختلاف طبقاتهم وصار كل منهم يبحث في الأحوال الحاضرة والمستقبل وهذه نشئة كان ينكرها علينا بعض الأوروبيين وقد ملأوا جرائدهم بتقبيح أعمالنا وتجهيل رجالنا ورمينا بالهمجية وأنهم هم الذين وضعوا النظام بمصر وحافظوا على الأمن العام مع أن </p>
                 <pb change="#d2e232" corresp="../epub/shamela_35118/OEBPS/xhtml/P671.xhtml" ed="shamela" n="n1-p672" xml:id="pb_43.d2e825"/>
                 <pb change="#d2e218 #d2e227 #d2e232 #d2e356 #d2e374" ed="print" edRef="#edition_1" facs="#facs_673" n="673" xml:id="pb_44.d2e826"/>
@@ -385,7 +386,7 @@
                 <pb change="#d2e356 #d2e374" ed="print" edRef="#edition_1" facs="#facs_674" n="674"/>
                 <fw change="#d2e232" xml:id="head_27.d2e853">[ص: ٦٦٦ ]</fw>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e859">يقدر العلماء حق قدرهم فلتهنأ مصر بعودة ابنها الغيور عليها وليهنأ إخوانه الذين ملئت قلوبهم بمحبة ذكي يهنئه</p>
-                <byline change="#d2e73 #d2e232" xml:id="p_2.d2e862"><title level="j">النديم</title></byline>
+                <byline change="#d2e73 #d2e232" xml:id="p_2.d2e862"><title change="#d9e383" level="j" ref="jaraid:bibl:t1r422 oape:bibl:3282" resp="#xslt">النديم</title></byline>
             </div>
             <div change="#d2e64 #d2e232" subtype="article" type="item">
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e865"
@@ -395,17 +396,24 @@
                 <head change="#d2e232" xml:id="head_28.d2e871">تقريظ</head>
                 <p change="#d2e73 #d2e232" xml:id="p_2.d2e874"
                     >لا يمضي يوم إلاَّ ونرى أو نسمع خبراً ساراً ومشروعاً نافعاً تحدثه النشئة المصرية الخالصة من أمشاج الأجانب المحثكة أفكار أهلها في أفكار أهل الفضل من أي جنس كانوا ولا نلبث أن نرى مصر روضة علم ومنبع فضل يحقق لنا هذا الأمل ما نراه من أقدام الشيوخ والشبان على إنشاء الجرائد العلمية والسياسية فقد صدر في هذين الأسبوعين <bibl
-                    change="#d2e312" subtype="newspaper" type="periodical">جريدة <title change="#d2e174 #d2e232" level="j" xml:id="title_5.d2e876"
-                    >الثمرة</title> لمحررها الفاضل <editor><persName>انطونيوس منصور</persName></editor></bibl> وتلتها <bibl change="#d2e312" subtype="newspaper" type="periodical">جريدة <title
-                    change="#d2e174 #d2e232" level="j" xml:id="title_5.d2e879">الهدى</title> لمحررها الكامل <editor><persName>أحمد أفندي لطفي</persName></editor></bibl> ثم <bibl subtype="newspaper"
-                    type="periodical"><title level="j">المدرسة</title> لمحررها المهذب <editor><persName>مصطفى أفندي كامل</persName></editor></bibl> ثم <bibl subtype="newspaper" type="periodical"
-                    ><title level="j">النديم</title> لمحرره التحرير <editor><persName>أحمد أفندي عبد اللطيف</persName></editor></bibl> و<bibl subtype="newspaper" type="periodical">غدا يصدر <title
-                    level="j">التلميذ</title> لمحرره الأديب <editor><persName>محمد أفندي البابلي</persName></editor></bibl> و<bibl subtype="newspaper" type="periodical"
-                    >ستصدر أيضاً الشرائع في الأسبوع القادم</bibl> وهذه نشئة علمية تنبئنا عن حسن مستقبل مصر فقد صار لأبنائها جرائد <title level="j">المؤيد</title> و<title level="j"
-                    >النيل</title> و<title level="j">الآداب</title> و<title level="j">الوطن</title> و<title level="j">فرصة الأوقات</title> و<title level="j">مرقى النجاح</title> و<title level="j"
-                    >الراوي</title> و<title level="j">الثمرة</title> و<title level="j">الهدى</title> و<title level="j">التلميذ</title> و<title level="j">المدرسة</title> و<title level="j"
-                    >الشرائع</title> و<title level="j">النديم</title> و<title level="j">الرشاد</title> و<title level="j">المنظوم</title> و<title level="j"
-                    >المهندس</title> و<title>الأستاذ</title> وأنه لعدد كثير في نشئة قليلة الوقت كثيرة الفوائد. </p>
+                    change="#d2e312" subtype="newspaper" type="periodical">جريدة <title change="#d2e174 #d2e232 #d9e383" level="j" ref="jaraid:bibl:t1r435 oape:bibl:871" resp="#xslt"
+                    xml:id="title_5.d2e876">الثمرة</title> لمحررها الفاضل <editor><persName>انطونيوس منصور</persName></editor></bibl> وتلتها <bibl change="#d2e312" subtype="newspaper"
+                    type="periodical">جريدة <title change="#d2e174 #d2e232 #d9e383" level="j" ref="jaraid:bibl:t1r409 oape:bibl:872" resp="#xslt" xml:id="title_5.d2e879"
+                    >الهدى</title> لمحررها الكامل <editor><persName>أحمد أفندي لطفي</persName></editor></bibl> ثم <bibl subtype="newspaper" type="periodical"><title change="#d9e383" level="j"
+                    ref="jaraid:bibl:t1r414 oape:bibl:3280" resp="#xslt">المدرسة</title> لمحررها المهذب <editor><persName>مصطفى أفندي كامل</persName></editor></bibl> ثم <bibl subtype="newspaper"
+                    type="periodical"><title change="#d9e383" level="j" ref="jaraid:bibl:t1r422 oape:bibl:3282" resp="#xslt"
+                    >النديم</title> لمحرره التحرير <editor><persName>أحمد أفندي عبد اللطيف</persName></editor></bibl> و<bibl subtype="newspaper" type="periodical">غدا يصدر <title change="#d9e383"
+                    level="j" ref="jaraid:bibl:t1r436 oape:bibl:3281" resp="#xslt">التلميذ</title> لمحرره الأديب <editor><persName>محمد أفندي البابلي</persName></editor></bibl> و<bibl
+                    subtype="newspaper" type="periodical">ستصدر أيضاً الشرائع في الأسبوع القادم</bibl> وهذه نشئة علمية تنبئنا عن حسن مستقبل مصر فقد صار لأبنائها جرائد <title change="#d9e383" level="j"
+                    ref="oclc:792755902 oape:bibl:25" resp="#xslt">المؤيد</title> و<title level="j">النيل</title> و<title level="j">الآداب</title> و<title change="#d9e383" level="j"
+                    ref="jaraid:bibl:t1r122 oape:bibl:61" resp="#xslt">الوطن</title> و<title change="#d9e383" level="j" ref="jaraid:bibl:t1r374 oape:bibl:856" resp="#xslt">فرصة الأوقات</title> و<title
+                    change="#d9e383" level="j" ref="jaraid:bibl:t1r381 oape:bibl:846" resp="#xslt">مرقى النجاح</title> و<title change="#d9e383" level="j" ref="jaraid:bibl:t1r393 oape:bibl:3273"
+                    resp="#xslt">الراوي</title> و<title change="#d9e383" level="j" ref="jaraid:bibl:t1r435 oape:bibl:871" resp="#xslt">الثمرة</title> و<title change="#d9e383" level="j"
+                    ref="jaraid:bibl:t1r409 oape:bibl:872" resp="#xslt">الهدى</title> و<title change="#d9e383" level="j" ref="jaraid:bibl:t1r436 oape:bibl:3281" resp="#xslt">التلميذ</title> و<title
+                    change="#d9e383" level="j" ref="jaraid:bibl:t1r414 oape:bibl:3280" resp="#xslt">المدرسة</title> و<title change="#d9e383" level="j" ref="jaraid:bibl:t1r431 oape:bibl:874"
+                    resp="#xslt">الشرائع</title> و<title change="#d9e383" level="j" ref="jaraid:bibl:t1r422 oape:bibl:3282" resp="#xslt">النديم</title> و<title change="#d9e383" level="j"
+                    ref="jaraid:bibl:t1r392 oape:bibl:858" resp="#xslt">الرشاد</title> و<title change="#d9e383" level="j" ref="jaraid:bibl:t1r380 oape:bibl:836" resp="#xslt">المنظوم</title> و<title
+                    change="#d9e383" level="j" ref="jaraid:bibl:t1r417 oape:bibl:870" resp="#xslt">المهندس</title> و<title>الأستاذ</title> وأنه لعدد كثير في نشئة قليلة الوقت كثيرة الفوائد. </p>
             </div>
         </body>
     </text>
