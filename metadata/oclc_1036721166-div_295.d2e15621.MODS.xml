@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.loc.gov/standards/mods/mods-3-7.xsd">
+   <mods>
+      <titleInfo>
+         <title xml:lang="ar">[ص: 659]</title>
+      </titleInfo>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="local" xml:lang="en">journalArticle</genre>
+      <genre authority="marcgt" xml:lang="en">article</genre>
+      <relatedItem type="host">
+         <titleInfo>
+            <title xml:lang="ar">الأستاذ</title>
+         </titleInfo>
+         <genre authority="marcgt">journal</genre>
+         <name type="personal"
+               xml:lang="ar"
+               valueURI="https://viaf.org/viaf/72750911">
+            <namePart type="family" xml:lang="ar">النديم</namePart>
+            <namePart type="given" xml:lang="ar">عبد الله</namePart>
+            <role>
+               <roleTerm authority="marcrelator" type="code">edt</roleTerm>
+            </role>
+         </name>
+         <originInfo>
+            <place>
+               <placeTerm type="text"
+                          xml:lang="ar"
+                          valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
+            </place>
+            <dateIssued encoding="w3cdtf">1892-08-24</dateIssued>
+            <issuance>continuing</issuance>
+         </originInfo>
+         <part>
+            <extent unit="pages">
+               <start/>
+               <end/>
+            </extent>
+         </part>
+         <identifier type="BibTeX">TEI_1.d2e6-div_295.d2e15621</identifier>
+         <identifier type="jid">106</identifier>
+         <identifier type="OCLC">1036721166</identifier>
+         <identifier type="URI">TEI_1.d2e6</identifier>
+      </relatedItem>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
+      <location>
+         <url usage="primary display">#div_295.d2e15621</url>
+      </location>
+      <language>
+         <languageTerm type="code"
+                       authorityURI="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">ar</languageTerm>
+      </language>
+   </mods>
+</modsCollection>

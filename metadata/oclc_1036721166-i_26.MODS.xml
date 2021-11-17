@@ -7,7 +7,7 @@
                 xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods-3-7.xsd">
    <mods>
       <titleInfo>
-         <title xml:lang="">العدد ٢٦</title>
+         <title xml:lang="ar">العدد ٢٦</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -19,7 +19,6 @@
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
@@ -31,7 +30,6 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-02-14</dateIssued>
@@ -54,7 +52,7 @@
          <identifier type="OCLC">1036721166</identifier>
          <identifier type="URI">oclc_1036721166-i_26</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_26.TEIP5.xml#div_1.d2e294</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_26.TEIP5.xml#div_1.d2e294</url>
@@ -66,7 +64,7 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">العلماء والتعليم</title>
+         <title xml:lang="ar">العلماء والتعليم</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -78,7 +76,6 @@
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
@@ -90,7 +87,6 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-02-14</dateIssued>
@@ -105,7 +101,7 @@
             </detail>
             <extent unit="pages">
                <start>603</start>
-               <end>620</end>
+               <end>619</end>
             </extent>
          </part>
          <identifier type="BibTeX">oclc_1036721166-i_26-div_1.d2e318</identifier>
@@ -113,7 +109,7 @@
          <identifier type="OCLC">1036721166</identifier>
          <identifier type="URI">oclc_1036721166-i_26</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_26.TEIP5.xml#div_1.d2e318</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_26.TEIP5.xml#div_1.d2e318</url>
@@ -125,7 +121,7 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">تهنئة قدوم</title>
+         <title xml:lang="ar">تهنئة قدوم</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -137,7 +133,6 @@
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
@@ -149,7 +144,6 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-02-14</dateIssued>
@@ -172,7 +166,7 @@
          <identifier type="OCLC">1036721166</identifier>
          <identifier type="URI">oclc_1036721166-i_26</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_26.TEIP5.xml#div_1.d2e465</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_26.TEIP5.xml#div_1.d2e465</url>
@@ -184,7 +178,7 @@
    </mods>
    <mods>
       <titleInfo>
-         <title xml:lang="">أدبيات</title>
+         <title xml:lang="ar">أدبيات</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -196,7 +190,6 @@
          <genre authority="marcgt">journal</genre>
          <name type="personal"
                xml:lang="ar"
-               authority="viaf"
                valueURI="https://viaf.org/viaf/72750911">
             <namePart type="family" xml:lang="ar">النديم</namePart>
             <namePart type="given" xml:lang="ar">عبد الله</namePart>
@@ -208,7 +201,6 @@
             <place>
                <placeTerm type="text"
                           xml:lang="ar"
-                          authority="geonames"
                           valueURI="https://www.geonames.org/360630">القاهرة</placeTerm>
             </place>
             <dateIssued encoding="w3cdtf">1893-02-14</dateIssued>
@@ -223,7 +215,7 @@
             </detail>
             <extent unit="pages">
                <start>624</start>
-               <end>627</end>
+               <end>626</end>
             </extent>
          </part>
          <identifier type="BibTeX">oclc_1036721166-i_26-div_1.d2e1047</identifier>
@@ -231,7 +223,7 @@
          <identifier type="OCLC">1036721166</identifier>
          <identifier type="URI">oclc_1036721166-i_26</identifier>
       </relatedItem>
-      <accessCondition/>
+      <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
          <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_26.TEIP5.xml#div_1.d2e1047</url>
          <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_26.TEIP5.xml#div_1.d2e1047</url>

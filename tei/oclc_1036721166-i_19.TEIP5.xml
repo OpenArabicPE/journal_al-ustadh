@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_1036721166-i_19" next="oclc_1036721166-i_20.TEIP5.xml" prev="oclc_1036721166-i_18.TEIP5.xml" xmlns:oape="https://openarabicpe.github.io/ns"><teiHeader xml:lang="en" change="#d2e232" xml:id="teiHeader_1.d2e3">
-        <fileDesc change="#d2e232" xml:id="fileDesc_1.d2e5">
-            <titleStmt change="#d2e232" xml:id="titleStmt_1.d2e7">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:oape="https://openarabicpe.github.io/ns" xml:id="oclc_1036721166-i_19" next="oclc_1036721166-i_20.TEIP5.xml" prev="oclc_1036721166-i_18.TEIP5.xml" change="#d2e321" xml:lang=""><teiHeader xml:lang="en" change="#d2e232" xml:id="teiHeader_1.d2e3">
+        <fileDesc change="#d2e232 #d2e321" xml:id="fileDesc_1.d2e5" xml:lang="en">
+            <titleStmt change="#d2e232 #d2e321" xml:id="titleStmt_1.d2e7" xml:lang="en">
                 <title xml:lang="ar" change="#d2e232" xml:id="title_1.d2e9">مجلة الأستاذ</title>
-                <title type="sub" change="#d2e232" xml:id="title_2.d2e12">TEI edition</title>
+                <title type="sub" change="#d2e232 #d2e321" xml:id="title_2.d2e12" xml:lang="en">TEI edition</title>
                 <editor xml:lang="ar" change="#d2e232" xml:id="editor_1.d2e15">
-                    <persName change="#d2e232 #d3e270" xml:id="persName_1.d2e17" ref="oape:pers:962 viaf:72750911">
-                            <forename>عبد الله</forename>
-                            <surname>النديم</surname>
+                    <persName change="#d2e232 #d3e270 #d2e321" xml:id="persName_1.d2e17" ref="oape:pers:962 viaf:72750911" xml:lang="ar">
+                            <forename change="#d2e301 #d2e321" xml:id="forename_1.d2e22" xml:lang="ar">عبد الله</forename>
+                            <surname change="#d2e301 #d2e321" xml:id="surname_1.d2e24" xml:lang="ar">النديم</surname>
                         </persName>
                 </editor>
                 <respStmt xml:lang="en" change="#d2e232" xml:id="respStmt_1.d2e24">
-                    <resp change="#d2e232" xml:id="resp_1.d2e26">TEI edition</resp>
-                    <persName xml:id="pers_TG">
-                        <forename change="#d2e232" xml:id="forename_1.d2e31">Till</forename>
-                        <surname change="#d2e232" xml:id="surname_1.d2e34">Grallert</surname>
+                    <resp change="#d2e232 #d2e321" xml:id="resp_1.d2e26" xml:lang="en">TEI edition</resp>
+                    <persName xml:id="pers_TG" change="#d2e321" xml:lang="en">
+                        <forename change="#d2e232 #d2e321" xml:id="forename_1.d2e31" xml:lang="en">Till</forename>
+                        <surname change="#d2e232 #d2e321" xml:id="surname_1.d2e34" xml:lang="en">Grallert</surname>
                     </persName>
                 </respStmt>
             </titleStmt>
-            <publicationStmt change="#d2e232 #d2e248" xml:id="publicationStmt_1.d2e40" xml:lang="en"><authority><persName><forename>Till</forename><surname>Grallert</surname></persName></authority><pubPlace><placeName>Beirut</placeName></pubPlace><date when="2019">2019</date><availability status="restricted"><licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_19.TEIP5.xml</idno><idno type="url">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_19.TEIP5.xml</idno></publicationStmt>
-            <sourceDesc change="#d2e232" xml:id="sourceDesc_1.d2e46">
+            <publicationStmt change="#d2e232 #d2e248" xml:id="publicationStmt_1.d2e40" xml:lang="en"><authority change="#d2e301 #d2e321" xml:id="authority_1.d2e45" xml:lang="en"><persName change="#d2e301 #d2e321" xml:id="persName_3.d2e46" xml:lang="en"><forename change="#d2e301 #d2e321" xml:id="forename_3.d2e47" xml:lang="en">Till</forename><surname change="#d2e301 #d2e321" xml:id="surname_3.d2e48" xml:lang="en">Grallert</surname></persName></authority><pubPlace change="#d2e301 #d2e321" xml:id="pubPlace_1.d2e49" xml:lang="en"><placeName change="#d2e301 #d2e321" xml:id="placeName_1.d2e50" xml:lang="en">Beirut</placeName></pubPlace><date when="2019" change="#d2e301 #d2e321" xml:id="date_1.d2e51" xml:lang="en">2019</date><availability status="restricted" change="#d2e301 #d2e321" xml:id="availability_1.d2e53" xml:lang="en"><licence target="http://creativecommons.org/licenses/by-sa/4.0/" change="#d2e301 #d2e321" xml:id="licence_1.d2e54" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence></availability><idno type="url" change="#d2e301 #d2e321" xml:id="idno_1.d2e56" xml:lang="en">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_19.TEIP5.xml</idno><idno type="url" change="#d2e301 #d2e321" xml:id="idno_2.d2e58" xml:lang="en">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_19.TEIP5.xml</idno></publicationStmt>
+            <sourceDesc change="#d2e232 #d2e321" xml:id="sourceDesc_1.d2e46" xml:lang="en">
                 <biblStruct xml:lang="ar" change="#d2e232" xml:id="biblStruct_1.d2e48">
                         <monogr xml:lang="ar" change="#d2e232" xml:id="monogr_1.d2e50">
                             <title level="j" xml:lang="ar" change="#d2e232" xml:id="title_3.d2e52">الأستاذ</title>
                             <title level="j" xml:lang="ar-Latn-x-ijmes" change="#d2e232" xml:id="title_4.d2e55">al-Ustādh</title>
                             <idno type="jid" xml:lang="ar" change="#d2e232" xml:id="idno_1.d2e58">106</idno>
-                            <idno type="OCLC" change="#d2e232" xml:id="idno_2.d2e61">1036721166</idno>
+                            <idno type="OCLC" change="#d2e232 #d2e321" xml:id="idno_2.d2e61" xml:lang="ar">1036721166</idno>
                             <textLang mainLang="ar" change="#d2e232" xml:id="textLang_1.d2e64"/>
                             <editor xml:lang="ar" change="#d2e232" xml:id="editor_2.d2e67">
                                 <persName ref="oape:pers:962 viaf:72750911" xml:lang="ar" change="#d2e232 #d3e270" xml:id="persName_3.d2e69">
@@ -44,25 +44,25 @@
                                 <date calendar="#cal_gregorian" xml:lang="ar" when="1892-12-27" change="#d2e232" xml:id="date_1.d2e100">٢٧ كانون الاول سنة ١٨٩٢</date>
                             </imprint>
                             <!-- <biblScope unit="issue" xml:lang="ar">العدد رقم 1</biblScope> -->
-                        <biblScope unit="volume" from="1" to="1" change="#d2e232" xml:id="biblScope_1.d2e106"/><biblScope unit="issue" from="19" to="19" change="#d2e232" xml:id="biblScope_2.d2e107">19</biblScope><biblScope unit="page" from="433" to="456" change="#d2e220 #d2e232" xml:id="biblScope_3.d2e109">433-456</biblScope></monogr>
+                        <biblScope unit="volume" from="1" to="1" change="#d2e232" xml:id="biblScope_1.d2e106"/><biblScope unit="issue" from="19" to="19" change="#d2e232 #d2e321" xml:id="biblScope_2.d2e107" xml:lang="ar">19</biblScope><biblScope unit="page" from="433" to="456" change="#d2e220 #d2e232 #d2e321" xml:id="biblScope_3.d2e109" xml:lang="ar">433-456</biblScope></monogr>
                     </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2021-03-23" who="#pers_TG" xml:id="d2e312" xml:lang="en">Automatically wrapped all <tag>title level="j"</tag> preceded by مجلة or جريدة in a <tag>bibl type="periodical"</tag></change><tei:change when="2021-03-23" who="#pers_TG" xml:id="d3e288" xml:lang="en">Automatically marked up dates by wrapping all <tei:list><tei:item>occurrences of "سنة" and "عام" followed by a <tei:gi>num</tei:gi> node </tei:item><tei:item><tei:gi>num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item>\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi>date</tei:gi> with the appropriate <tei:att>calendar</tei:att> and <tei:att>datingMethod</tei:att> attributes</tei:change><change when="2020-01-27" who="#pers_TG" xml:id="d3e270" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-10-25" who="#pers_TG" xml:id="d2e248" xml:lang="en">Added <gi>publicationStmt</gi>.</change><change when="2019-05-27" who="#pers_TG" xml:id="d4e243" xml:lang="en">Added links to local facsimile files for each <gi>surface</gi> element.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e232" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e227">Linked all <tag change="#d2e232" xml:id="tag_1.d2e118">pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e223">Added <gi change="#d2e232" xml:id="gi_1.d2e123">graphic</gi> for 24 pages with references to digital images.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e220">Page numbers to bibliographic description of the source based on the file's content.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e218">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-05-26" who="#pers_TG" xml:id="d3e212">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><change xmlns:oape="https://openarabicpe.github.io/ns" when="2019-05-18" who="#pers_TG" xml:id="d3e187" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e232" xml:id="list_1.d2e134"><item change="#d2e232" xml:id="item_1.d2e135">occurrences of "سنة" and "عام" followed by a <gi change="#d2e232" xml:id="gi_1.d2e137">num</gi> node </item><item change="#d2e232" xml:id="item_1.d2e140"><gi change="#d2e232" xml:id="gi_1.d2e141">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e232" xml:id="item_1.d2e144">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e232" xml:id="gi_1.d2e147">date</gi> with the appropriate <att change="#d2e232" xml:id="att_1.d2e150">calendar</att> and <att change="#d2e232" xml:id="att_1.d2e153">datingMethod</att> attributes</change><change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <gi change="#d2e232" xml:id="gi_1.d2e158">num</gi> with <att change="#d2e232" xml:id="att_1.d2e161">value</att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</change><change when="2019-05-18" who="#pers_TG" xml:lang="en" change="#d2e232" xml:id="change_4.d2e164">Automatically marked up references to periodicals with <tag change="#d2e232" xml:id="tag_1.d2e166">title level="j"</tag>.</change>
+        <revisionDesc change="#d2e301" xml:id="revisionDesc_1.d2e130" xml:lang="en"><change when="2021-11-16" who="#github" xml:id="d2e321" xml:lang="en">Added the @xml:lang attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change><change when="2021-11-16" who="#github" xml:id="d2e301" xml:lang="en">Added automated @xml:id to every element had no existing @xml:id, following the pattern "name()_generate-id()".</change><change when="2021-03-23" who="#pers_TG" xml:id="d2e312" xml:lang="en">Automatically wrapped all <tag change="#d2e301 #d2e321" xml:id="tag_1.d2e133" xml:lang="en">title level="j"</tag> preceded by مجلة or جريدة in a <tag change="#d2e301 #d2e321" xml:id="tag_2.d2e135" xml:lang="en">bibl type="periodical"</tag></change><tei:change when="2021-03-23" who="#pers_TG" xml:id="d3e288" xml:lang="en">Automatically marked up dates by wrapping all <tei:list change="#d2e301 #d2e321" xml:id="list_1.d2e138" xml:lang="en"><tei:item change="#d2e301 #d2e321" xml:id="item_1.d2e139" xml:lang="en">occurrences of "سنة" and "عام" followed by a <tei:gi change="#d2e301 #d2e321" xml:id="gi_1.d2e141" xml:lang="en">num</tei:gi> node </tei:item><tei:item change="#d2e301 #d2e321" xml:id="item_1.d2e143" xml:lang="en"><tei:gi change="#d2e301 #d2e321" xml:id="gi_1.d2e144" xml:lang="en">num</tei:gi> nodes followed by either "هـ" or "م" as indicators of calendars</tei:item><tei:item change="#d2e301 #d2e321" xml:id="item_1.d2e146" xml:lang="en">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</tei:item></tei:list> in a <tei:gi change="#d2e301 #d2e321" xml:id="gi_1.d2e148" xml:lang="en">date</tei:gi> with the appropriate <tei:att change="#d2e301 #d2e321" xml:id="att_1.d2e150" xml:lang="en">calendar</tei:att> and <tei:att change="#d2e301 #d2e321" xml:id="att_1.d2e152" xml:lang="en">datingMethod</tei:att> attributes</tei:change><change when="2020-01-27" who="#pers_TG" xml:id="d3e270" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e301 #d2e321" xml:id="ref_1.d2e156" xml:lang="en">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi change="#d2e301 #d2e321" xml:id="gi_1.d2e159" xml:lang="en">persName</gi>s without such references based on <gi change="#d2e301 #d2e321" xml:id="gi_2.d2e161" xml:lang="en">person</gi>s in the local authority file. If the source <gi change="#d2e301 #d2e321" xml:id="gi_3.d2e163" xml:lang="en">persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-10-25" who="#pers_TG" xml:id="d2e248" xml:lang="en">Added <gi change="#d2e301 #d2e321" xml:id="gi_4.d2e167" xml:lang="en">publicationStmt</gi>.</change><change when="2019-05-27" who="#pers_TG" xml:id="d4e243" xml:lang="en">Added links to local facsimile files for each <gi change="#d2e301 #d2e321" xml:id="gi_5.d2e171" xml:lang="en">surface</gi> element.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e232" xml:lang="en">Added automated <att xml:lang="en" change="#d2e301" xml:id="att_1.d2e175">xml:id</att>s for every element that is a descendant of <gi xml:lang="en" change="#d2e301" xml:id="gi_6.d2e178">tei:text</gi> and had no existing <att xml:lang="en" change="#d2e301" xml:id="att_2.d2e181">xml:id</att> following the pattern "name()_generate-id()".</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e227" change="#d2e321" xml:lang="en">Linked all <tag change="#d2e232 #d2e321" xml:id="tag_1.d2e118" xml:lang="en">pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e223" change="#d2e321" xml:lang="en">Added <gi change="#d2e232 #d2e321" xml:id="gi_1.d2e123" xml:lang="en">graphic</gi> for 24 pages with references to digital images.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e220" change="#d2e321" xml:lang="en">Page numbers to bibliographic description of the source based on the file's content.</change><change when="2019-05-26" who="#pers_TG" xml:id="d2e218" change="#d2e321" xml:lang="en">Page breaks for the print edition that mirror the pagination from shamela.ws</change><change when="2019-05-26" who="#pers_TG" xml:id="d3e212" change="#d2e321" xml:lang="en">Added  issue numbers and publication dates on the basis of first div's title in shamela's transcription.</change><change when="2019-05-18" who="#pers_TG" xml:id="d3e187" xml:lang="en">Marked up dates by automatically wrapping all <list change="#d2e232 #d2e321" xml:id="list_1.d2e134" xml:lang="en"><item change="#d2e232 #d2e321" xml:id="item_1.d2e135" xml:lang="en">occurrences of "سنة" and "عام" followed by a <gi change="#d2e232 #d2e321" xml:id="gi_1.d2e137" xml:lang="en">num</gi> node </item><item change="#d2e232 #d2e321" xml:id="item_1.d2e140" xml:lang="en"><gi change="#d2e232 #d2e321" xml:id="gi_1.d2e141" xml:lang="en">num</gi> nodes followed by either "هـ" or "م" as indicators of calendars</item><item change="#d2e232 #d2e321" xml:id="item_1.d2e144" xml:lang="en">\d{3,4} followed by either "هـ" or "م" as indicators of calendars.</item></list> in a <gi change="#d2e232 #d2e321" xml:id="gi_1.d2e147" xml:lang="en">date</gi> with the appropriate <att change="#d2e232 #d2e321" xml:id="att_1.d2e150" xml:lang="en">calendar</att> and <att change="#d2e232 #d2e321" xml:id="att_1.d2e153" xml:lang="en">datingMethod</att> attributes</change><change when="2019-05-18" who="#pers_TG" xml:id="d2e179" xml:lang="en">Wrapped all numerals in <gi change="#d2e232 #d2e321" xml:id="gi_1.d2e158" xml:lang="en">num</gi> with <att change="#d2e232 #d2e321" xml:id="att_1.d2e161" xml:lang="en">value</att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</change><change when="2019-05-18" who="#pers_TG" xml:lang="en" change="#d2e232" xml:id="change_4.d2e164">Automatically marked up references to periodicals with <tag change="#d2e232 #d2e321" xml:id="tag_1.d2e166" xml:lang="en">title level="j"</tag>.</change>
          <change when="2019-05-18" who="#pers_TG" xml:id="d2e162" xml:lang="en">Grouped divs along the presence of <gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e232" xml:id="gi_1.d2e172">head</gi>of "العدد\s*\d+" that indicate the beginning of a new journal issue into ...<gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:lang="en" change="#d2e232" xml:id="gi_1.d2e175">tei:p</gi>s.</change>
-         <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <gi change="#d2e232" xml:id="gi_1.d2e182">p</gi>s inside <gi change="#d2e232" xml:id="gi_1.d2e185">div</gi>s as bylines (<gi change="#d2e232" xml:id="gi_1.d2e188">byline</gi>) if they did not exceed a string length of 60.</change>
+         <change when="2019-05-18" who="#pers_TG" xml:id="d2e150" xml:lang="en">Marked final <gi change="#d2e232 #d2e321" xml:id="gi_1.d2e182" xml:lang="en">p</gi>s inside <gi change="#d2e232 #d2e321" xml:id="gi_1.d2e185" xml:lang="en">div</gi>s as bylines (<gi change="#d2e232 #d2e321" xml:id="gi_1.d2e188" xml:lang="en">byline</gi>) if they did not exceed a string length of 60.</change>
             <change change="d2e82 #d2e232" when="2019-05-17" who="#pers_TG" xml:lang="en" xml:id="change_6.d2e192">Converted the mark-up of 
                 <foreign xml:lang="ar-Latn-x-ijmes" change="#d2e232" xml:id="foreign_1.d2e194">qaṣīda</foreign>
                 s from 
-                <gi change="#d2e232" xml:id="gi_1.d2e197">p</gi>
+                <gi change="#d2e232 #d2e321" xml:id="gi_1.d2e197" xml:lang="en">p</gi>
                 s divided by a 
-                <gi change="#d2e232" xml:id="gi_2.d2e200">gap</gi>
+                <gi change="#d2e232 #d2e321" xml:id="gi_2.d2e200" xml:lang="en">gap</gi>
                 to 
-                <gi change="#d2e232" xml:id="gi_3.d2e203">l</gi>
+                <gi change="#d2e232 #d2e321" xml:id="gi_3.d2e203" xml:lang="en">l</gi>
                 of 
-                <att change="#d2e232" xml:id="att_1.d2e206">type</att>
+                <att change="#d2e232 #d2e321" xml:id="att_1.d2e206" xml:lang="en">type</att>
                 ="bayt" comprising two 
-                <gi change="#d2e232" xml:id="gi_4.d2e210">seg</gi>
+                <gi change="#d2e232 #d2e321" xml:id="gi_4.d2e210" xml:lang="en">seg</gi>
                 nodes.</change>
             <change when="2019-05-17" who="#pers_TG" xml:id="d2e73" xml:lang="en">Grouped paragraphs indicated by the presence of 
                 <gi xml:lang="en" change="#d2e232" xml:id="gi_5.d2e216">tei:lb</gi>
@@ -78,312 +78,312 @@
         </revisionDesc>
     </teiHeader><facsimile xml:id="facs"><surface xml:id="facs_433"><graphic xml:id="facs_433-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/433.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_433-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_433.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_434"><graphic xml:id="facs_434-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/434.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_434-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_434.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_435"><graphic xml:id="facs_435-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/435.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_435-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_435.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_436"><graphic xml:id="facs_436-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/436.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_436-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_436.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_437"><graphic xml:id="facs_437-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/437.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_437-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_437.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_438"><graphic xml:id="facs_438-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/438.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_438-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_438.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_439"><graphic xml:id="facs_439-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/439.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_439-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_439.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_440"><graphic xml:id="facs_440-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/440.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_440-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_440.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_441"><graphic xml:id="facs_441-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/441.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_441-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_441.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_442"><graphic xml:id="facs_442-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/442.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_442-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_442.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_443"><graphic xml:id="facs_443-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/443.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_443-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_443.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_444"><graphic xml:id="facs_444-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/444.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_444-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_444.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_445"><graphic xml:id="facs_445-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/445.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_445-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_445.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_446"><graphic xml:id="facs_446-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/446.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_446-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_446.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_447"><graphic xml:id="facs_447-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/447.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_447-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_447.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_448"><graphic xml:id="facs_448-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/448.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_448-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_448.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_449"><graphic xml:id="facs_449-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/449.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_449-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_449.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_450"><graphic xml:id="facs_450-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/450.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_450-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_450.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_451"><graphic xml:id="facs_451-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/451.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_451-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_451.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_452"><graphic xml:id="facs_452-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/452.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_452-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_452.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_453"><graphic xml:id="facs_453-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/453.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_453-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_453.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_454"><graphic xml:id="facs_454-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/454.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_454-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_454.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_455"><graphic xml:id="facs_455-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/455.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_455-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_455.jpg" mimeType="image/jpeg"/></surface><surface xml:id="facs_456"><graphic xml:id="facs_456-g_1" url="http://archive.alsharekh.org/MagazinePages/Magazine_JPG/AL_ostaz/AL_ostaz_1892/Issue_19/456.jpg" mimeType="image/jpeg"/><graphic change="#d4e243" xml:id="facs_456-g_2" url="../images/sakhrit/oclc_1036721166-v_1-i_19-img_456.jpg" mimeType="image/jpeg"/></surface></facsimile><text xml:lang="ar" change="#d2e232" xml:id="text_1.d2e287">
       <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P434.xhtml" ed="shamela" n="n1-p433" change="#d2e232" xml:id="pb_1.d2e289"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="433" facs="#facs_433" xml:id="pb_2.d2e290"/>
-      <body change="#d2e232" xml:id="body_1.d2e292">
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e294">
-                <head change="#d2e232" xml:id="head_1.d2e296">العدد  ١٩ </head>
-                <dateline change="#d2e232" xml:id="dateline_1.d2e302">- بتاريخ: 
-                    <date when="1892-12-27" change="#d2e232" xml:id="date_1.d2e304"> ١٨٩٢ - ١٢ - ٢٧ </date>
+      <body change="#d2e232 #d2e321" xml:id="body_1.d2e292" xml:lang="ar">
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e294" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_1.d2e296" xml:lang="ar">العدد  ١٩ </head>
+                <dateline change="#d2e232 #d2e321" xml:id="dateline_1.d2e302" xml:lang="ar">- بتاريخ: 
+                    <date when="1892-12-27" change="#d2e232 #d2e321" xml:id="date_1.d2e304" xml:lang="ar"> ١٨٩٢ - ١٢ - ٢٧ </date>
             </dateline>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e318">
-                <head change="#d2e232" xml:id="head_2.d2e320">عيد ميلاد الحضرة الخديوية الفخيمة</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e323">كان يوم الأربعاء الماضي يوم التبريك بعيد وتذكار مولد أميرنا المعظم وخديونا الأفخم الممتلئة قلوبنا بمجبته مولانا عباس باشا الثاني أيده الله تعالى فوفد الأمراء والعلماء والذوات والوجهاء والأعيان على السراي العامرة مهنئين ومباركين والذات الكريمة تقابل كل إنسان بالبشر والطلاقة وتلاطف كل فريق بما يهوى رجال المعية السنية يقابلون الناس بالتبجيل والاحترام فرحاً بتذكار مولانا السيد الأكبر والأمير الأجل الأفخر وقياماً بخدمة من اصطفاهم لبابه العالي ومما يحسن أيراه هنا قصيدة لحضرة السيد حسن محمد الفاكهاني إنشأها تهنئة للحضرة الخديوية بحلول <date change="#d3e288" calendar="#cal_gregorian" resp="#xslt" cert="low" xml:lang="ar" when="1893">سنة ١٨٩٣</date> ملاحظاً أنه عام جديد وإن كان تاريخاً للغير.</p>
-                <lg change="#d2e82 #d2e232" xml:id="lg_1.d2e330">
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e332">
-                        <seg change="#d2e232" xml:id="seg_1.d2e334">اليوم قد عمت البشرى وقد سطعت</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e337">أنوار عام وآيات الهنا تليت</seg>
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e318" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_2.d2e320" xml:lang="ar">عيد ميلاد الحضرة الخديوية الفخيمة</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e323" xml:lang="ar">كان يوم الأربعاء الماضي يوم التبريك بعيد وتذكار مولد أميرنا المعظم وخديونا الأفخم الممتلئة قلوبنا بمجبته مولانا عباس باشا الثاني أيده الله تعالى فوفد الأمراء والعلماء والذوات والوجهاء والأعيان على السراي العامرة مهنئين ومباركين والذات الكريمة تقابل كل إنسان بالبشر والطلاقة وتلاطف كل فريق بما يهوى رجال المعية السنية يقابلون الناس بالتبجيل والاحترام فرحاً بتذكار مولانا السيد الأكبر والأمير الأجل الأفخر وقياماً بخدمة من اصطفاهم لبابه العالي ومما يحسن أيراه هنا قصيدة لحضرة السيد حسن محمد الفاكهاني إنشأها تهنئة للحضرة الخديوية بحلول <date change="#d3e288 #d2e301" calendar="#cal_gregorian" resp="#xslt" cert="low" xml:lang="ar" when="1893" xml:id="date_4.d2e406">سنة ١٨٩٣</date> ملاحظاً أنه عام جديد وإن كان تاريخاً للغير.</p>
+                <lg change="#d2e82 #d2e232 #d2e321" xml:id="lg_1.d2e330" xml:lang="ar">
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e332" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e334" xml:lang="ar">اليوم قد عمت البشرى وقد سطعت</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e337" xml:lang="ar">أنوار عام وآيات الهنا تليت</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e342"> ٨٧   ١٠٤   ٥١٠   ٥٤٣   ١١٠   ٥٣٩ 
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e342" xml:lang="ar"> ٨٧   ١٠٤   ٥١٠   ٥٤٣   ١١٠   ٥٣٩ 
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P435.xhtml" ed="shamela" n="n1-p434" change="#d2e232" xml:id="pb_3.d2e363"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="434" facs="#facs_434" xml:id="pb_4.d2e364"/>
                     ولاح بدر الأماني وهو يخطر في 
                     <gap resp="#org_MS" change="#d2e232" xml:id="gap_1.d2e366"/>
                     ثوب الكمال وشمس المجد قد طلعت</p>
-                <lg change="#d2e82 #d2e232" xml:id="lg_2.d2e369">
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e371">
-                        <seg change="#d2e232" xml:id="seg_1.d2e373">قم وأطلب السعد فالأيام باسمة</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e376">والعز أعلامه في مصر قد نشرت</seg>
+                <lg change="#d2e82 #d2e232 #d2e321" xml:id="lg_2.d2e369" xml:lang="ar">
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e371" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e373" xml:lang="ar">قم وأطلب السعد فالأيام باسمة</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e376" xml:lang="ar">والعز أعلامه في مصر قد نشرت</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e380">
-                        <seg change="#d2e232" xml:id="seg_1.d2e382">لله عام علمنا من بشائره</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e385">نيل المراد وأوقات الصفا حضرت</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e380" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e382" xml:lang="ar">لله عام علمنا من بشائره</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e385" xml:lang="ar">نيل المراد وأوقات الصفا حضرت</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e389">
-                        <seg change="#d2e232" xml:id="seg_1.d2e391">وكيف لا ومليك العصر سيدنا</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e394">عباس باشا به أيامنا سعدت</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e389" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e391" xml:lang="ar">وكيف لا ومليك العصر سيدنا</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e394" xml:lang="ar">عباس باشا به أيامنا سعدت</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e398">
-                        <seg change="#d2e232" xml:id="seg_1.d2e400">ساس الأنام بعدل جل واهبة</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e403">هذي العلوم التي آياتها بهرت</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e398" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e400" xml:lang="ar">ساس الأنام بعدل جل واهبة</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e403" xml:lang="ar">هذي العلوم التي آياتها بهرت</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e407">
-                        <seg change="#d2e232" xml:id="seg_1.d2e409">الدهر طوع له والسعد خادمه</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e412">أخلاق أجداده الغرا إليه سرت</seg>
-                    </l>
-                </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e418">إلى إن قال</p>
-                <lg change="#d2e82 #d2e232" xml:id="lg_3.d2e421">
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e423">
-                        <seg change="#d2e232" xml:id="seg_1.d2e425">وطالع السعد لما أرخه</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e428">عام منيرٌ وشمس بالصفَّا تبعت</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e407" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e409" xml:lang="ar">الدهر طوع له والسعد خادمه</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e412" xml:lang="ar">أخلاق أجداده الغرا إليه سرت</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e433">وهي طويلة اقتصرنا على المختار منها وأنا مع عجزنا عن الدخول في زمرة الهنئين نسأل الله تعالى أن يجعل أعياه متتالية وأيامنا بطول حياته الطيبة مزينة زاهية وأن يمتعنا بتوجهاته العلية وحسن رعايته.</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e418" xml:lang="ar">إلى إن قال</p>
+                <lg change="#d2e82 #d2e232 #d2e321" xml:id="lg_3.d2e421" xml:lang="ar">
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e423" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e425" xml:lang="ar">وطالع السعد لما أرخه</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e428" xml:lang="ar">عام منيرٌ وشمس بالصفَّا تبعت</seg>
+                    </l>
+                </lg>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e433" xml:lang="ar">وهي طويلة اقتصرنا على المختار منها وأنا مع عجزنا عن الدخول في زمرة الهنئين نسأل الله تعالى أن يجعل أعياه متتالية وأيامنا بطول حياته الطيبة مزينة زاهية وأن يمتعنا بتوجهاته العلية وحسن رعايته.</p>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e437">
-                <head change="#d2e232" xml:id="head_3.d2e439">الأفراح الرياضية</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e442">ما شاء الله كان</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e445">بسم الله ذي الجلال الحي القيوم احصن ساحة عز اشرقت فيها شموي أنس وطلعت عليها أقمار أفراح وأمطرتها سماءُ الصفا طرباً وسرور افناسبت رياض المجد والشرف بما فيها من الأنس والابتهاج وما ثلت أنوارُها وضؤها الكهربائي وزينتها البديعة أثمار انشراح وحبور على ذوات الوافدين فغنهم أغصان عز وسعادة تسقى بماء محبة نمبر الفضل وطالع السعد عنوان الكمال وأمام محراب أمراء العصر من تفخر به
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e437" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_3.d2e439" xml:lang="ar">الأفراح الرياضية</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e442" xml:lang="ar">ما شاء الله كان</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e445" xml:lang="ar">بسم الله ذي الجلال الحي القيوم احصن ساحة عز اشرقت فيها شموي أنس وطلعت عليها أقمار أفراح وأمطرتها سماءُ الصفا طرباً وسرور افناسبت رياض المجد والشرف بما فيها من الأنس والابتهاج وما ثلت أنوارُها وضؤها الكهربائي وزينتها البديعة أثمار انشراح وحبور على ذوات الوافدين فغنهم أغصان عز وسعادة تسقى بماء محبة نمبر الفضل وطالع السعد عنوان الكمال وأمام محراب أمراء العصر من تفخر به
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P436.xhtml" ed="shamela" n="n1-p435" change="#d2e232" xml:id="pb_5.d2e447"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="435" facs="#facs_435" xml:id="pb_6.d2e448"/>
                     مصر وتحفظ تاريخع الأيام ذي الدولة الوزير المصري الجليل مصطفى رياض باشا حفظ الله تعالى وجوده وأدام لكل مصري سسعوده. فهي ساحة احتفل فيها بالعيد الأكبر والمهرجان الجامع الذي أُعد لاجتماع أمراء المصريين وذواتهم وعلمائهم ووجهائهم ليشهدوا أفراح نجله السعيد النبيه النبيل المرشح لعوالي الرتب التي تفخر بارتقائه إليها الفاضل ذي السعادة محمود رياض باشا محافظ عموم قنال السويس حالاً أدام الله تعالى أيام سروره وجعل أوقات عمره المبارك أوقات أفراح وابنتهاج وكيف يغيب عظيم عن موسم جمع الأحباب ودعى إليه كل وجيه من المدن والقرى وشدا فيه بما ينعش الأرواح ويبعث الأفراح بلبل غصن الطرب معبد زمانه واسمحق أوانه الوحيد في صناعته وأدبه ولطفه عبده افندي الحمولي متصلاً صوته اللطيف بصوت صديقه الذي أعاد له فات من ضروبا لموسيقى وحرك النفوس برخيم صوته الشيخ يوسف خفاجة يساعدهمات على تفريح القلوب بصوتهما عودٌ غنت عليه الورُق وهو أخضر وغنيا عليه وهو يابس يكاد ينطقه بما يقولون فريدا عصرهما أحمد افندي الليثي ومحمد افندي عثمان ومن معهما من رجال تخت كادت ترقص ثريات الفرح طرباً بما يبديه. وقد رتبت الضيافة الوزيرية في ليال متتالية دعي لكل منها فريق من الناس وما أحسن ما صنعه هذا الوزير الجليل من توزيع سفر الطعام على بيوت جيرانه الذين ربما منعهم الحياءُ من مزاحمة الأمراء والأعيان في أمكنة الطعام. ولله ذاك المنظر البعج المحلي بأقمشة من صنع المصريين تمثل للناس شرفهم واقتدارهم على أحسن ما يتخذ للزينة والبهجة وتبكت الغافلين عنها بأنها تبقى في دكاكين صناعها حتى يطلبها مثل هذا الوزير
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P437.xhtml" ed="shamela" n="n1-p436" change="#d2e232" xml:id="pb_7.d2e450"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="436" facs="#facs_436" xml:id="pb_8.d2e451"/>
                     أو يأتيها ساح أوروبي ليشتريها. وبالجملة فإن العبارة لا تفى بشرح هذا</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e454">المهرجان الجليل والفرح الجميل وقد أرخه الفاضل الكامل والأستاذ الجهبذ العامل أمام محراب البلاغة وخطيب منبر الفصاحة الشيخ علي الليثي بقصيدة طبعت بجريدتنا الأستاذ وتلاه العالم التحرير الشاعر المجيد الشيخ سليمان العبد أحد علماء الأزهر الشريف فارخه بقصيدة جليلة.</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e457">وقد احسنا وأجاد في تاريخ فرح شهد من الأيام أسعدها وهي أيام الحضرة الخديوية العباسية التي شربت النفوس محبتها ولهجت الألسن بالدعاء الصالح لذاتها الكريمة أن يديم الله تعالى أيامها ويجعلها أيام خير وسرور. ومن غريب الاتفاق مصادفة الفرح لعيد ميلاد مولانا الخديوي الأعظم عباس باشا الثاني وهذا الاتفاق فال حسن يبشرنا بأن سيولد للعروسين أبناء كرام طوالعهم سعيدة ورتبتهم عالية يحفظ لهم تاريخ الميلاد كما حفظ لسيد بلادهم وموجه عنايته إلى جدهم وأبيهم أيده الله تعالى وقد ثنى هذا الاتفاق اتفاق أحيا المولد الحسيني الجليل فكانت أيام الفرح مشملة على أفراح عامة وخاصة وهو اتفاقعجيب. وقد وفد الأمراء والعلماء والأعيان وذوو المظاهر على هذا الوزير مهنئين ومباركين.</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e461">ولا ينسى المصريون الاحتفاق بزفاف ذات العصمة عرسو الهنا والصفا حيث جاءت من ثغر اسكندرية على قطار مخصوص واستقبلت في محلة مصر بالإجلال والتعظيم وانتظم الموكب تتقدمه الموسيقى العسكرية السواري وفصيلة فرسان الجيش المصري وفرقة من خيالة البوليس وقد سارت مشاة البوليس بجانبي الموكب وهرع الناس رجالاً ونساء وكباراً وصغاراً إلى الشوارع
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e454" xml:lang="ar">المهرجان الجليل والفرح الجميل وقد أرخه الفاضل الكامل والأستاذ الجهبذ العامل أمام محراب البلاغة وخطيب منبر الفصاحة الشيخ علي الليثي بقصيدة طبعت بجريدتنا الأستاذ وتلاه العالم التحرير الشاعر المجيد الشيخ سليمان العبد أحد علماء الأزهر الشريف فارخه بقصيدة جليلة.</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e457" xml:lang="ar">وقد احسنا وأجاد في تاريخ فرح شهد من الأيام أسعدها وهي أيام الحضرة الخديوية العباسية التي شربت النفوس محبتها ولهجت الألسن بالدعاء الصالح لذاتها الكريمة أن يديم الله تعالى أيامها ويجعلها أيام خير وسرور. ومن غريب الاتفاق مصادفة الفرح لعيد ميلاد مولانا الخديوي الأعظم عباس باشا الثاني وهذا الاتفاق فال حسن يبشرنا بأن سيولد للعروسين أبناء كرام طوالعهم سعيدة ورتبتهم عالية يحفظ لهم تاريخ الميلاد كما حفظ لسيد بلادهم وموجه عنايته إلى جدهم وأبيهم أيده الله تعالى وقد ثنى هذا الاتفاق اتفاق أحيا المولد الحسيني الجليل فكانت أيام الفرح مشملة على أفراح عامة وخاصة وهو اتفاقعجيب. وقد وفد الأمراء والعلماء والأعيان وذوو المظاهر على هذا الوزير مهنئين ومباركين.</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e461" xml:lang="ar">ولا ينسى المصريون الاحتفاق بزفاف ذات العصمة عرسو الهنا والصفا حيث جاءت من ثغر اسكندرية على قطار مخصوص واستقبلت في محلة مصر بالإجلال والتعظيم وانتظم الموكب تتقدمه الموسيقى العسكرية السواري وفصيلة فرسان الجيش المصري وفرقة من خيالة البوليس وقد سارت مشاة البوليس بجانبي الموكب وهرع الناس رجالاً ونساء وكباراً وصغاراً إلى الشوارع
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P438.xhtml" ed="shamela" n="n1-p437" change="#d2e232" xml:id="pb_9.d2e463"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="437" facs="#facs_437" xml:id="pb_10.d2e464"/>
                     المار بها الموكب الجليل فسار من محطة مصر محاطاً بجاويشية الحرم المخصصين لمثل هذا الموكب إلى شارع وجه البركة ثم على شارع محمد علي إلى الحلمية حيث انتهى إلى سراي الوزير الجليل والعروس النبيل</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e467">وسان التهنئة يخبر عن حسن صنع دولته مؤرخاً</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e470">رب المحاسن زف الشمس للقمر</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e473"> ٢٠٢   ١٠   ٨٧   ٤٣١   ٤٠٠ </p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e491"><date change="#d3e288" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1310" from="1892" to="1893">سنة ١٣١٠</date> </p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e498">وفي منتصف الساعة الخامسة ليلاً سار موكب العروس الفاضل مشتملاً على فرقة من العساكر حاملة للسلاح لتأديه التعظيم اللازم وأمامها فرقة أخرى تتقدمها الموسيقى العسكرية</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e502">ثم مرَّ إلى شارع سبيل والدة عباس باشا الأول ثم إلى جامع الماس الكائن بميدان الحلمية فدخل العروس ومن معه لصلاة العشاء والناس كانوا يقتصرون على صلاة العروس وهم ينتظرون أما هذا فصلَّي معه كل من صحبه إظهاراً للعشائر الدينية ثم خرج الموكب ومشى محفوفاً بالأُبهة والجلال حتى دخل السراي العامرة مرموقاً بأعين التعظيم والإجلال قد خلعت عليه الأفراح ثوب أنس وسرور وكل محب يقول</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e505">أُحب فرح رياض</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e508"> ١١   ٢٨٨   ١٠١١ </p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e520"><date change="#d3e288" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1310" from="1892" to="1893">سنة ١٣١٠</date> </p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e527">وقد خطب في ساحة الفرح جماعة من أفاضل الوقت وأذكيائه ثم اطلقت العساكر بنادقها طلقات متتالية ودخل العروس بيت العز والشرف
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e467" xml:lang="ar">وسان التهنئة يخبر عن حسن صنع دولته مؤرخاً</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e470" xml:lang="ar">رب المحاسن زف الشمس للقمر</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e473" xml:lang="ar"> ٢٠٢   ١٠   ٨٧   ٤٣١   ٤٠٠ </p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e491" xml:lang="ar"><date change="#d3e288 #d2e301" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1310" from="1892" to="1893" xml:id="date_5.d2e538">سنة ١٣١٠</date> </p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e498" xml:lang="ar">وفي منتصف الساعة الخامسة ليلاً سار موكب العروس الفاضل مشتملاً على فرقة من العساكر حاملة للسلاح لتأديه التعظيم اللازم وأمامها فرقة أخرى تتقدمها الموسيقى العسكرية</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e502" xml:lang="ar">ثم مرَّ إلى شارع سبيل والدة عباس باشا الأول ثم إلى جامع الماس الكائن بميدان الحلمية فدخل العروس ومن معه لصلاة العشاء والناس كانوا يقتصرون على صلاة العروس وهم ينتظرون أما هذا فصلَّي معه كل من صحبه إظهاراً للعشائر الدينية ثم خرج الموكب ومشى محفوفاً بالأُبهة والجلال حتى دخل السراي العامرة مرموقاً بأعين التعظيم والإجلال قد خلعت عليه الأفراح ثوب أنس وسرور وكل محب يقول</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e505" xml:lang="ar">أُحب فرح رياض</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e508" xml:lang="ar"> ١١   ٢٨٨   ١٠١١ </p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e520" xml:lang="ar"><date change="#d3e288 #d2e301" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1310" from="1892" to="1893" xml:id="date_6.d2e556">سنة ١٣١٠</date> </p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e527" xml:lang="ar">وقد خطب في ساحة الفرح جماعة من أفاضل الوقت وأذكيائه ثم اطلقت العساكر بنادقها طلقات متتالية ودخل العروس بيت العز والشرف
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P439.xhtml" ed="shamela" n="n1-p438" change="#d2e232" xml:id="pb_11.d2e529"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="438" facs="#facs_438" xml:id="pb_12.d2e530"/>
                     وإنا نزولنا عن درجة المهنئين والمؤرخين نتقدم بين يدي دولته بالتبريك متبعين ذلك بدعوات تتناولها يد القبول إن شاء الله تعالى سائلين الله تعالى أن أن يديم سعوده بتوجهات الحضرة الخديوية حفظها الله تعالىة ونظره بعين العناية التي هو أحق بها وأهلها وأن يشفع هذا الفرح المحمودي بالفرح الحسيني ويردف الاثنين بأفراح البنين والبنات. فإن تفضل بقبول ذلك انثنينا إلى الثناء على الوزراء الأجلاء والأمراء العظام والعلماء الكرام والنبهاء والأدباء الذين استنارت بهم تلك الليالي وانست بهم النفوس كما نثني على حضرات ذوات الأجانب وأعيانهم الذين لبوا الدعوة فتم بهم نظام تلك المحافل الوزيرية التي جمعت بين الأجناس والطوائف فكانت عنواناً لليالي أفراح الأمراء. وما قدمنا هذه التهنئة إلا بقدرنا لا بقدر ما يجب للحضرة الرياضية من المهنئين.</p>
-                <byline change="#d2e150 #d2e232" xml:id="byline_1.d2e533">
-               <persName change="#d2e232 #d3e270" xml:id="persName_4.d2e535" ref="oape:pers:962 viaf:72750911">
-                            <forename>عبد الله</forename>
-                            <surname>النديم</surname>
+                <byline change="#d2e150 #d2e232 #d2e321" xml:id="byline_1.d2e533" xml:lang="ar">
+               <persName change="#d2e232 #d3e270 #d2e321" xml:id="persName_4.d2e535" ref="oape:pers:962 viaf:72750911" xml:lang="ar">
+                            <forename change="#d2e301 #d2e321" xml:id="forename_5.d2e570" xml:lang="ar">عبد الله</forename>
+                            <surname change="#d2e301 #d2e321" xml:id="surname_5.d2e572" xml:lang="ar">النديم</surname>
                         </persName> 
                <lb change="#d2e232" xml:id="lb_1.d2e538"/>
-               <persName change="#d2e232" xml:id="persName_5.d2e540">عبد الفتاح النديم</persName>
+               <persName change="#d2e232 #d2e321" xml:id="persName_5.d2e540" xml:lang="ar">عبد الفتاح النديم</persName>
             </byline>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e545">
-                <head change="#d2e232" xml:id="head_4.d2e547">الآداب العامة</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e550">الناس تبحث في الآداب العامة المختصة بالرجال وكثر كلام في تربية الأبناء وتهذيب الشبان وتنزير الأذهان بالمعارف وسكتوا عما يختص بالنساء الللآتي هن معراج الشرف بعفتهن وبئر المصائب بابتذالهن ولا نريد بذلك قسم المتزوجات اللائي صانهن الخباء وعصمهن الأزواج وإنما أردنا المبتذلات المتعرضات لثلم الشرف وهتك الأعراض وقد كتبت <bibl type="periodical" subtype="newspaper" change="#d2e312">جريدة <title level="j" change="#d2e174 #d2e232" xml:id="title_5.d2e552">النيل</title></bibl>
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e545" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_4.d2e547" xml:lang="ar">الآداب العامة</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e550" xml:lang="ar">الناس تبحث في الآداب العامة المختصة بالرجال وكثر كلام في تربية الأبناء وتهذيب الشبان وتنزير الأذهان بالمعارف وسكتوا عما يختص بالنساء الللآتي هن معراج الشرف بعفتهن وبئر المصائب بابتذالهن ولا نريد بذلك قسم المتزوجات اللائي صانهن الخباء وعصمهن الأزواج وإنما أردنا المبتذلات المتعرضات لثلم الشرف وهتك الأعراض وقد كتبت <bibl type="periodical" subtype="newspaper" change="#d2e312 #d2e301 #d2e321" xml:id="bibl_1.d2e589" xml:lang="ar">جريدة <title level="j" change="#d2e174 #d2e232 #d2e321" xml:id="title_5.d2e552" xml:lang="ar">النيل</title></bibl>
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P440.xhtml" ed="shamela" n="n1-p439" change="#d2e232" xml:id="pb_13.d2e555"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="439" facs="#facs_439" xml:id="pb_14.d2e556"/>
                     الغراء في هذا الباب فصلاً بديعاً صادراً من غيور على الحُرَم وعندما نبهني عليه الفاضل الألمعي ذو العزة علي بك حيدر قال لي أخبرني وزيد من الناس أنه دخل مكاناً فقيل له نأُتيك بحرم فلان وسموا له ذاتاً عظيمة ثم في مكان آخر قيل له تأُتيك بحرم فلان وسموا له ذاتاً عظيمة ثم في مكان آخر قيل له نأتيك بحرم فلان يعنون الأولى فجيء له بامرأة تخالفها في الجسم واللون وفي مكان ثالث قيل له نأتيك بحرم فلان يريدونها أيضاً فجيء له بثالثة تخالف الثنتين فتحقق كذب العاهرات وعلم أنهن يسلبن الناس نقودهم بهذه الأوهام وما يأتين إلا بمثلهن وهذا كله في الأماكن الشهيرة بالبيوت السرية وهي ليست سرية بل هي معلومة لا تخفى على رجال الضبط والربط ونظام المدينة يقضي بان تكون بيوت المومسات بعيدة عن بيوت الناس الطيبين دفعاً لمثل هذه الشبهة فإن كثيراً من الشبان والأجانب يدخلون تلك البيوت ويزعمون أنهم قابلوا حرم فلان واجتمعوا بزوجة زيد ويتحدثون بذلك في مجالسهم الخمرية واللهوية وربما بلغ الأمر زوج المرأة فطلقها بغياً وعدواناً وربما كان له منها أولاد فتشتت شمهلم ببعدهم عنه أو عن أمهم وهي بريئة من كل سوءٍ. ولئن قيل أن الحرية تقضي بعدم تعرض أحد لأحد في أموره الخاصة قلنا أن الحرية عبارة عن المطالبة بالحقوق والوقوف عند الحدود وهذا الذي نسمه به ونراه رجوع إلى الهبيمية وخروج عن حد الإنسانية ولئن كان ذلك سائغاً في أوروبا فإن لكل أمة عادات وروابط دينية أو بيتية وهذه الإباحية لا تناسب أخلاق المسلمين ولا قواعدهم الدينية ولا عاداتهم والقانون الحق هو الحافظ لحقوق الأمة من غير أن يجنى أو يعزى بالجناية عليها بما يبيحه من الأحوال المحظورة عندها فعلى من يهمهم حفظ الأعراض وصون
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P441.xhtml" ed="shamela" n="n1-p440" change="#d2e232" xml:id="pb_15.d2e558"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="440" facs="#facs_440" xml:id="pb_16.d2e559"/>
                     الشرف مما يخدشه أن يتقدموا للحكومة الجليلة بطلب السعي في أعمال حاجز منيع بين المومسات والأحرار وتنقية الشوارع والدروب من تلك البيوت التي جلبت الضرر على كثير من الناس واتهمت كثيراً من المصونات العفيفات ظلماً وعدواناً وقيل لنا</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e562">إن بعض النساء يخرجن إلى القهاوي والبير والمقامر في لباس النساء المصونات ويجلسن بجوار الناس ثم تفتري الواحدة منهم الكذب وتدعي أنها حرم فلان أو سرية علان وأنها ما خرجت من بيتها إلا هذه الليلة ولا تزال تزين له الكذب حتى يقع كلامها موقع الصدق عنده ثم تأخذه إلى بيت من تلك البيوت السرية بدعوى أنه بيت أمها وأختها أو صاحبتها فيخرج وهو على زعم أنه كان مع حرم فلان وما هي إلا بغيٌ من البغايا احتالت لغرضها بالكذب والأباطيل واتهمت حرة محتجبة تحت أستار العفاف. وبمثل هذه الحيوانيات لهجت ألسنة الفسقة بأسماء المخدرات اغتراراً بأكاذيب الفاجرات وكما نبريء ذوات الخدور من الابتذال لهذا الد لا نجرد الظن من تسلط فاجرة على حرة إذا تسامح الأزواج في دخول النساء إلى بيوتهم. وأعظم قانون يضعه الأزواج لحفظ أعراضهم إذا عز إقفال تلك البيوت أن يشدوا في منع خروج النساء من البيوت ويقفلوا أبوابهم في وجه كل داخلة من غير أقاربهم وأصهارهم ومن يثقون بصيانتهن وإلا أن بقى الحال على ما هي عليه أنجز أمر التهمة شيئاً فشيئاً حتى لا يبقى بيت وإلا وللفسفة كلام في شأنه وافتراءٌ على أهله. وأننا نسمع أن أوروبا ما تريد من الشرق إلا أن يدخل باب المدنية وهذا الذي نراه هو الهمجية بل الحيوانية الصرفة فإننا أما أن يقول أن زوجة الرجل شرعية ولا يجوز تعدي الغير عليها أو قانونية عند من
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e562" xml:lang="ar">إن بعض النساء يخرجن إلى القهاوي والبير والمقامر في لباس النساء المصونات ويجلسن بجوار الناس ثم تفتري الواحدة منهم الكذب وتدعي أنها حرم فلان أو سرية علان وأنها ما خرجت من بيتها إلا هذه الليلة ولا تزال تزين له الكذب حتى يقع كلامها موقع الصدق عنده ثم تأخذه إلى بيت من تلك البيوت السرية بدعوى أنه بيت أمها وأختها أو صاحبتها فيخرج وهو على زعم أنه كان مع حرم فلان وما هي إلا بغيٌ من البغايا احتالت لغرضها بالكذب والأباطيل واتهمت حرة محتجبة تحت أستار العفاف. وبمثل هذه الحيوانيات لهجت ألسنة الفسقة بأسماء المخدرات اغتراراً بأكاذيب الفاجرات وكما نبريء ذوات الخدور من الابتذال لهذا الد لا نجرد الظن من تسلط فاجرة على حرة إذا تسامح الأزواج في دخول النساء إلى بيوتهم. وأعظم قانون يضعه الأزواج لحفظ أعراضهم إذا عز إقفال تلك البيوت أن يشدوا في منع خروج النساء من البيوت ويقفلوا أبوابهم في وجه كل داخلة من غير أقاربهم وأصهارهم ومن يثقون بصيانتهن وإلا أن بقى الحال على ما هي عليه أنجز أمر التهمة شيئاً فشيئاً حتى لا يبقى بيت وإلا وللفسفة كلام في شأنه وافتراءٌ على أهله. وأننا نسمع أن أوروبا ما تريد من الشرق إلا أن يدخل باب المدنية وهذا الذي نراه هو الهمجية بل الحيوانية الصرفة فإننا أما أن يقول أن زوجة الرجل شرعية ولا يجوز تعدي الغير عليها أو قانونية عند من
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P442.xhtml" ed="shamela" n="n1-p441" change="#d2e232" xml:id="pb_17.d2e564"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="441" facs="#facs_441" xml:id="pb_18.d2e565"/>
                     يعتبر الدين قانوناً وعلى كلا الأمرين يلزم أخذ الطرق اللازمة لحفظها وعدم ابتذالها واتهامها حضر الزوج أو غاب وهو بمفرده لا يمكنه ذلك فإنه فرد في مجتمع أمة عظيمة فبقى الأمر منوطاً بالقائمين برعاية الأمم وصيانة أعراضهم فإن أهمل هذا الحق الشرعي أو القانوني كان باعثاً للهمجية. ثم أننا نقول أن واضعي القوانين غي معصومين من الخطاء فإنما هي أفكار فرد أو أفراد دونت بحسب استحسانهم فهي قابلة للنقض والإبرام إذا رفعت الشكوى منها للقابضين على أزمة الأمم فنرجوا أن يحال بيننا وبين هذه النكبة الفظيعة والطامة الكبرى حفظاً لنظام المدينةة ومنعاً للعيث في الأعراض النقية وحصرصاً على العوائد الشرقية شرفية كانت أو دينية وسداً لهذا الباب الذي ما فتح بين قوم إلا تركهم فوضى لا يحفظ لهم نسب ولا يعرف لهم حسب وأين الغيرة الشرقية التي من أجلها ضرب الحجاب واتخذ الاغا والبواب إذا علم أهل الحارة أن في جوارهم بيت بغيٍ وسكتوا عنه ولم يتظلموا منه إلى الحاكم فليعقد أهل الشرف عزائمهم على أنهم لا</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e568">يغمض لهم جفن حتى تطهر المدن من هذه النجاسات التي لوثت كثيراً من طاهرات الذيول عفيفات الطباع وإلا فما ناب هذا اليوم سينوب ذاك غدا والآن يتكلم فلان في بيت أخيه وسيتكلم الغير في بيته فالبدار البدار يا ذوي الغيرة وجدوا في هذا الطلب العادل الحق قبل تفاقم الخطب وفرقوا بين بيوتكم الطاهرة وبين تلك البيوت الخبيثة بحدي هذا حلال وهذا حرام.</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e568" xml:lang="ar">يغمض لهم جفن حتى تطهر المدن من هذه النجاسات التي لوثت كثيراً من طاهرات الذيول عفيفات الطباع وإلا فما ناب هذا اليوم سينوب ذاك غدا والآن يتكلم فلان في بيت أخيه وسيتكلم الغير في بيته فالبدار البدار يا ذوي الغيرة وجدوا في هذا الطلب العادل الحق قبل تفاقم الخطب وفرقوا بين بيوتكم الطاهرة وبين تلك البيوت الخبيثة بحدي هذا حلال وهذا حرام.</p>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e572">
-                <head change="#d2e232" xml:id="head_5.d2e574">إن المساجد لله</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e577">لا يختلف في ذلك اثنان ولكننا رأينا جامع قوصون بشارع محمد علي
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e572" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_5.d2e574" xml:lang="ar">إن المساجد لله</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e577" xml:lang="ar">لا يختلف في ذلك اثنان ولكننا رأينا جامع قوصون بشارع محمد علي
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P443.xhtml" ed="shamela" n="n1-p442" change="#d2e232" xml:id="pb_19.d2e579"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="442" facs="#facs_442" xml:id="pb_20.d2e580"/>
                     المجاور بمأمورية الأوقاف بعد أن بني معظمه ترك وهجر وليته لما ترك حفظت حرمته بل اتخذ بابه منصعا (مبالاً) يبول عليه كل مار دفعه البول ويعز علينا أن نرى معابد الغير محترمة معتني بصيانتها ونظافتها ونرى مسجداً من مساجدنا بعد أن كانت توضع الجباء على ترابه صار بابه مرحاضاً فنرجو ممن يهمهم أو يناط بهم ذلك إن يقيلونا من هذه المعرة والوصمة القبيحة خدمة للدين أو مجاراة لأروبا أو حفظاً للصحة وكفانا أن نرى بعض المساجد مخبزاً أو مذبحاً وكأني بمغفل يقول هذا تعصب ديني ولو كان فينا تعصب ما شرب بيننا شربة ماء ولكننا أمضينا ثلاثة عشر قرناً ونحن متفقون مع المسيحيين والإسرائيليين في السكنى والمعاملة لم يكدر صفونا إلا الدخلاء بدسائسهم ومفترياتهم وإلا فإننا ماملنا يوماً ما لإساءة من خالفنا في الدين وإن كان من أمة محاربة لنا ولا نتعرض كذلك لمعابد الغير بل حرية الأديان مطلقة في الشرق قبل أن تعرف أوروبا كلمة حرية على أن الأوروبي لم يتعرض لنا تعرض شرقي دخل البلاد ضيفاً فسكر وعربد</p>
-                <byline change="#d2e150 #d2e232" xml:id="byline_2.d2e583">قالت <bibl type="periodical" subtype="newspaper" change="#d2e312">جريدة <title level="j" change="#d2e174 #d2e232" xml:id="title_5.d2e585">الحاضرة</title></bibl> التونسية ما نصه</byline>
+                <byline change="#d2e150 #d2e232 #d2e321" xml:id="byline_2.d2e583" xml:lang="ar">قالت <bibl type="periodical" subtype="newspaper" change="#d2e312 #d2e301 #d2e321" xml:id="bibl_2.d2e624" xml:lang="ar">جريدة <title level="j" change="#d2e174 #d2e232 #d2e321" xml:id="title_5.d2e585" xml:lang="ar">الحاضرة</title></bibl> التونسية ما نصه</byline>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e591">
-                <head change="#d2e232" xml:id="head_6.d2e593">لا أكراه في الدين</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e596">بلغت درجة اضطهاد اليهود بالروسيا إلى حالة لا تتلف بكثير عما يقع من الاضطهادات الدينية بأوروبا أثناء القرون الوسطى فقد كان القسوس إذ ذاك يحاكمون بمجالس التفتيش من لم يعتقد فيما جاءت به الكنيسة
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e591" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_6.d2e593" xml:lang="ar">لا أكراه في الدين</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e596" xml:lang="ar">بلغت درجة اضطهاد اليهود بالروسيا إلى حالة لا تتلف بكثير عما يقع من الاضطهادات الدينية بأوروبا أثناء القرون الوسطى فقد كان القسوس إذ ذاك يحاكمون بمجالس التفتيش من لم يعتقد فيما جاءت به الكنيسة
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P444.xhtml" ed="shamela" n="n1-p443" change="#d2e232" xml:id="pb_21.d2e598"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="443" facs="#facs_443" xml:id="pb_22.d2e599"/>
                     الكاثوليكية ويقتلونهم صبراً بنواع من العذاب أشهرها الحرق فاهلكت الناء خلقاً كثيراً من مسلمي الأندلس ويهودها بل ومن نفس المسيحيين الذين ما تمسكوا بقيد العقدية الكاتوليكية ولقد انقضت على تلك الفضائع أربع قرون وجاء القرن التاسع عشر بانوارها العرفانية وحكمائه وفلاسفتهم فلم يكون بالحسبان ثوران التعصبات الدينية والرجوع إلى الاضطهاد القديمة ولكن أبت الأمة الروسية إلى ان تعطي للعالم المتمدن برهان على ما لها من قلة الاكتراثات بحرية الضمير فأوسعت اليهود أنواع العذاب من النهب والقتل ثم طردتهم من كثير من أوطانهم وهاهيا الأخبار الأخيرة جاء بما يفيد أن الروس كشفوا القناع عن مقاصدهم فانذروا تجار اليهود بمدينة موسكو بأنهم لا يسمحوا لهم بالتعاطي تجارتهم والإقامة بين أظهرهم إلا متى ارتدُّوا عن دينهم ودخلوا في الديانة النصرانية الاورثوذكسية واشترطوا عليهم الإقامة مدة ثلاث سنين في إحدى القرى المجاورة لمدينة موسكو تحت مراقبة القسوس فمن ثبت بعد تلك المدة حسنُ تمسكه بالديانة الاورثوذكسية سمحوا له بالعود إلى المدينة المذكورة وتعاطي أسباب المعاش فما أشبه هذه الحالة بما كانت عليه الأمم المسيحية في القرون الوسطى ولا أحد يرق لحال أولئك المساكين ولا دولة تأخذ بناصرهم ولو وقع معشار لك في إحدى الممالك الإسلامية لقامت القيامة وامتلأت أعمدة الصحف بالتنديد وتشديد النكير على البربرية والاضطهاد وربما سيقت الأساطيل وحشدت الجنود قياماً بواجب الحرية والإنسانية.</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e602">(الأستاذ) هل يسمع بحدوث مثل هذا التعصب في الشرق معاذ الله.
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e602" xml:lang="ar">(الأستاذ) هل يسمع بحدوث مثل هذا التعصب في الشرق معاذ الله.
                     </p></div>
 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P445.xhtml" ed="shamela" n="n1-p444" change="#d2e232" xml:id="pb_23.d2e604"/>
 <pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="444" facs="#facs_444" xml:id="pb_24.d2e605"/>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e609">
-                <head change="#d2e232" xml:id="head_7.d2e611">المعلم حنفي والسيد عفيفي</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e614">. ح. بدنا نخلص الحسبه اللي بينا وبين بعض بقى يا سيدنا وكل إنسان أولى بحقه. س. وأنت كنت فين المده دي كلها وجاي على آخر العمر تقولي الحسبة والمسبة. ح. هو سكات الإنسان عن حقه يضيعه يا سيد أنا كنت في شغلانه للأستاذ ولما فضيت منها أديني جيت. س. ابن حلال والله جبت الغايبة يا أوسطى حنفي الأستاذ دا ايه اللي طلع لنا في آخر الزمن وداير يقول لنا الإصلاح المدنية الوطنية المعارف الآداب الألفة الاتحاد شوفوا الإفرنج عملت ازاي شوفا أوروبا محتوفة أزاي بالله يا معلم حنفي انت يخلصك الكلام. ح. يخلصني يعني أيه أنت منتش شايف يا سيد تأخبرنا وضحك الناس علينا لما صبحنا معيره يبقى هو كلام الجماعة الخواجات دكله موش في عضمنا حقَّا اللي ما يختشي على عرضه بعد كدا ياكل هوى. س. بس يا معلمي احنا عملنا أيه يعايرونا الناس بيه الواحد منا قاعد كافي خيره شرُّه من بيته لدكانه ولا احنا بنقول دول بيعملوا ايه ولاَّ دول بيسوُّوا ايه إلا ماشيين في حالنا لا بأيدنا ولا برجلنا. ح. ما هي دي اللي بيعايرونا بها الإفرنج. س. بقى أُمال هَّما عاوزين ننهبل على الدنيا زيهم ونصبح زي المجانين دا يجري من هنا ودا يروح من هنا ودا يقول الجرانيل قالت أيه التلغرافات عادت ايه زي اللي همَّ رايحين يخلدوا في الدنيا. ح. ما تأخذ نيش يا سيد هوَّا أخرنا وخلانا ورا الناس إلا نقرتكم دي واقتصاركم على البيت والدكان الواحد منكم يقول الدنيا هوَّا قعادك في الدكان
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e609" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_7.d2e611" xml:lang="ar">المعلم حنفي والسيد عفيفي</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e614" xml:lang="ar">. ح. بدنا نخلص الحسبه اللي بينا وبين بعض بقى يا سيدنا وكل إنسان أولى بحقه. س. وأنت كنت فين المده دي كلها وجاي على آخر العمر تقولي الحسبة والمسبة. ح. هو سكات الإنسان عن حقه يضيعه يا سيد أنا كنت في شغلانه للأستاذ ولما فضيت منها أديني جيت. س. ابن حلال والله جبت الغايبة يا أوسطى حنفي الأستاذ دا ايه اللي طلع لنا في آخر الزمن وداير يقول لنا الإصلاح المدنية الوطنية المعارف الآداب الألفة الاتحاد شوفوا الإفرنج عملت ازاي شوفا أوروبا محتوفة أزاي بالله يا معلم حنفي انت يخلصك الكلام. ح. يخلصني يعني أيه أنت منتش شايف يا سيد تأخبرنا وضحك الناس علينا لما صبحنا معيره يبقى هو كلام الجماعة الخواجات دكله موش في عضمنا حقَّا اللي ما يختشي على عرضه بعد كدا ياكل هوى. س. بس يا معلمي احنا عملنا أيه يعايرونا الناس بيه الواحد منا قاعد كافي خيره شرُّه من بيته لدكانه ولا احنا بنقول دول بيعملوا ايه ولاَّ دول بيسوُّوا ايه إلا ماشيين في حالنا لا بأيدنا ولا برجلنا. ح. ما هي دي اللي بيعايرونا بها الإفرنج. س. بقى أُمال هَّما عاوزين ننهبل على الدنيا زيهم ونصبح زي المجانين دا يجري من هنا ودا يروح من هنا ودا يقول الجرانيل قالت أيه التلغرافات عادت ايه زي اللي همَّ رايحين يخلدوا في الدنيا. ح. ما تأخذ نيش يا سيد هوَّا أخرنا وخلانا ورا الناس إلا نقرتكم دي واقتصاركم على البيت والدكان الواحد منكم يقول الدنيا هوَّا قعادك في الدكان
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P446.xhtml" ed="shamela" n="n1-p445" change="#d2e232" xml:id="pb_25.d2e616"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="445" facs="#facs_445" xml:id="pb_26.d2e617"/>
                     موش من الدنيا وجريك على عيالك موش من الدنيا وصنعة الشغَّال اللي زيي موش من الدنيا والكام نول اللي في البلد موش من الدنيا وكل ما تشوفوا عينك وتسمه به ودنك في الناس موش من الدنيا فليه نذم الدنيا واحنا عاضين عليها بأيدينا وأسناننا قول دي قلة بخت وعدم حيلة وإلا هو أحد يكره العمار وتنظيم البيوت والعيشة الهنية بقى أنت ليلة ما تأكل لحم موش تحمد الله بكل جسمك موش زي ليلة ما تأكل عدس وتحمد من طرف شفتيك يا ترى هيَّا الدنيا بس للخواجات ما تجي أُمال نرمي نفسنا في داهية ونسيبها لهم. دا كلام بطال يا سيد عفيفي. س. شوف يا معلم حنفي ما فيش أحسن من الراجل اللي يقوم من دكانه يروَّح بيته ويقفل بابه عليه ويقعد مبسوط إن جاله واحد صاحبه اهم قعدوا للنكته شوية يضحكوا يشبرقوا بكام كلمه يكون معاهم حبوب عنبر شوية أسرار حتى جراوش قطعة هندي يتعاطوا اللي يتعاطوه ويشوفوا كيفهم شوية وينبسطوا ويَّا بعضهم وأما تقول لي فرنسا عملت انكلترا</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e620">سوت ألمانيا قالت ايتاليا عادت دا كلام فارغ. هيا الدنيا دامتن لمين لما رايحين نجري عليها زي الإفرنج. ح. أنا لله وأنا إليه راجعون ولما أنت تقول كدا يدوَر على تقدم بلاده مين أنت لسَّه برده ماسك في الحشيش والداهية السودا والبلاوالحرَّ دي يبقى ما عرفتش إن دي امور تقلب الدماغ وتخرب العقل لسَّه هات لي واحد عاقل من الجماعة الشدَّاده وإلا المعاجنيه اللي الواحد منهم يروح تعمله المرة لعبه وتقعد تضحك عليه وهوَّا مغمض زي الأعمى ولسانه معووج والملعونة بتهيَّأ لو أمور عجيبه ساعة يضحك وساعة يعيّط وساعة يسكت وساعة يخاف
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e620" xml:lang="ar">سوت ألمانيا قالت ايتاليا عادت دا كلام فارغ. هيا الدنيا دامتن لمين لما رايحين نجري عليها زي الإفرنج. ح. أنا لله وأنا إليه راجعون ولما أنت تقول كدا يدوَر على تقدم بلاده مين أنت لسَّه برده ماسك في الحشيش والداهية السودا والبلاوالحرَّ دي يبقى ما عرفتش إن دي امور تقلب الدماغ وتخرب العقل لسَّه هات لي واحد عاقل من الجماعة الشدَّاده وإلا المعاجنيه اللي الواحد منهم يروح تعمله المرة لعبه وتقعد تضحك عليه وهوَّا مغمض زي الأعمى ولسانه معووج والملعونة بتهيَّأ لو أمور عجيبه ساعة يضحك وساعة يعيّط وساعة يسكت وساعة يخاف
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P447.xhtml" ed="shamela" n="n1-p446" change="#d2e232" xml:id="pb_27.d2e622"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="446" facs="#facs_446" xml:id="pb_28.d2e623"/>
                     وهو قاعد ما هو عارف إن كانت الدنيا بتهوي ولا بتدوي بقى دي الإنسانية ودي العبادة اللي تعبدوها. لو كان الواحد منكم يفضُّه من الهذيان ده ويدوّر على أموره ويمشي مع دا وده ويدَّاخل في أمور الخواجات وياخذ ويعطي لما يتقن تجارته ويفتح له محل زيهم وإلاّ يسبَّب ويَّاهم في التجارة اللي طالعة داخله موش أحسن. س. يعني شفت مين عمل كدا وفلح. ح. طيب بس بقى يا سيد عفيفي ليه احنا ما حناش شايفين الناس اللي ربنا فتح عليهم ومشيوا مشي الناس الطيبين. شوف إنت بيت مدكور أهم دول دبروا أنفسهم وشدوا حيلهم ودخلوا وعطوا ودخلوا في زوارق الجماعة البرانيين وفتحوا لهم محل بسم الله ما شاء الله عليه ومشيوا مع الناس بالحسنى والصداقة والأمانة لما صبحوا محبوبين عند الناس وعرفتهم الأمراء والذوات وعمد البلاد ومشايخ البلد وصار كل من كان لازمه صيني سراير كراسي مرايات ترابيزات معالق سكاكين شوك بساطات أدوات أكل أدوات شرب يروح يأخذ منهم وهما رُخرين ما بحيبوش إلا الحاجة العال والبضاعة النضيفة المضمونة تلاقي الناس عرفت قيمتهم وسابوا الخواجات وصاروا ياخدوا من أولاد بلدهم وينفعوا جنسهم وشوف أولاد الجَّمال اللي بشطارتهم فتحوا لهم محلات في مصر واسكندرية وعاملوا الناس بالأمانة ولا يعرفو غش ولا يجيبوش إلا البضاعة العال لما صبحوا بين أهل بلادهم زي الشمّامة. وشوف بيت الشيخة في إسكندرية وشطارته وتداخله مع الإفرنج ومجايبه الجوخ العال والحرارير الموده والأصناف اللطيفة ومشيه بالحزم لما كسب اسم كويس وشوف أولاد أبو النصر اللي ربنا فتح لهم الباب بعدما انحرقت وكالتهم وراح فيها متاعهم وعفشهم وفلوسهم إزاي ما
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P448.xhtml" ed="shamela" n="n1-p447" change="#d2e232" xml:id="pb_29.d2e625"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="447" facs="#facs_447" xml:id="pb_30.d2e626"/>
                     اشتغلوا وتوكلوا على الله وبشطارتهم ونشاطهم وصدقهم مع الناس ازي ما رجعت الميّه لمجاريها وفتحوا لهم محل في اسكندرية</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e629">ومحل في المنصورة وصاروا أحسن من الأول ورنا عوَّض عليهم خسايرهم وانفتح البيت وبقت أشيتهم معدن وشوف فوزي أفندي الصيدلي وتجار الخشب والحطب والماني فاتوره والحراير والأجواخ والخردجية وأدمات العمارات وغيرها اللي تركوا الكسل ولا عرفوش مسألة المعاجين الملعونة دي والفتوا لحالهم لما صبحت تجارتهم متقدمة وأحوالهم كدا طيب. صحيح إن فيه بعض مغفلين من أولاد اليوم اللي يروح يقضي حاجته كلها من الغريب لكن يوم في يوم يرجعوا ويعرفوا أنهم غلطانين في العمايل دي وياخدوا حاجتهم من أولاد بلدهم ما دام يلاقي الحاجة اللي رايح ياخدها من الخواجه موجودة عند ابن بلده ما هو يرجع ياخد منه بس ركهم على شوية كلام من الأستاذ تفوِّقهم من الغفلة دي وهما يرجعوا يتندموا أو يقولوا يا ريت اللي جرى ما كان. وأما مسألة المعاجين والحشيش والحلاوه المعسلة والبلح والمربات المصنوعة بالدُهنة دي كلها أمور باطلة ما حواليهاش إلا الجبن وقعاد الراجل زيو زي المره وبزيادة علينا يا سيد عفيفي من الأمور المسخره دي بدنا نفتح عينينا ونشوف الدنيا بقت إزاي. إنت منتش شايف الناس اللي فاتوا بلادهم وجم يجروا على عيشهم وتجارتهم وإحنا بس قاعدين نقول النصارى وحشين الإفرنج غشاشين الخواجات مكارين وبدل ده وداه ما نجاهد إحنا كما ونمشي مشي الرجاله لما ينعدل حالنا زيهم. إحنا بقينا حدوته في أحنكة الناس والداهية أن كل من دخل البلاد يقول لنا يلا فلاحين وإن شم واحد
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e629" xml:lang="ar">ومحل في المنصورة وصاروا أحسن من الأول ورنا عوَّض عليهم خسايرهم وانفتح البيت وبقت أشيتهم معدن وشوف فوزي أفندي الصيدلي وتجار الخشب والحطب والماني فاتوره والحراير والأجواخ والخردجية وأدمات العمارات وغيرها اللي تركوا الكسل ولا عرفوش مسألة المعاجين الملعونة دي والفتوا لحالهم لما صبحت تجارتهم متقدمة وأحوالهم كدا طيب. صحيح إن فيه بعض مغفلين من أولاد اليوم اللي يروح يقضي حاجته كلها من الغريب لكن يوم في يوم يرجعوا ويعرفوا أنهم غلطانين في العمايل دي وياخدوا حاجتهم من أولاد بلدهم ما دام يلاقي الحاجة اللي رايح ياخدها من الخواجه موجودة عند ابن بلده ما هو يرجع ياخد منه بس ركهم على شوية كلام من الأستاذ تفوِّقهم من الغفلة دي وهما يرجعوا يتندموا أو يقولوا يا ريت اللي جرى ما كان. وأما مسألة المعاجين والحشيش والحلاوه المعسلة والبلح والمربات المصنوعة بالدُهنة دي كلها أمور باطلة ما حواليهاش إلا الجبن وقعاد الراجل زيو زي المره وبزيادة علينا يا سيد عفيفي من الأمور المسخره دي بدنا نفتح عينينا ونشوف الدنيا بقت إزاي. إنت منتش شايف الناس اللي فاتوا بلادهم وجم يجروا على عيشهم وتجارتهم وإحنا بس قاعدين نقول النصارى وحشين الإفرنج غشاشين الخواجات مكارين وبدل ده وداه ما نجاهد إحنا كما ونمشي مشي الرجاله لما ينعدل حالنا زيهم. إحنا بقينا حدوته في أحنكة الناس والداهية أن كل من دخل البلاد يقول لنا يلا فلاحين وإن شم واحد
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P449.xhtml" ed="shamela" n="n1-p448" change="#d2e232" xml:id="pb_31.d2e631"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="448" facs="#facs_448" xml:id="pb_32.d2e632"/>
                     يقول له امشي فلاح زي ما يقول للواحد يا حمار يا طور ودا كله من نومنا وخوفنا من الناس بسبب الحشيش اللي كسر قلبنا وخلانا ورا الناس. س. طيب أهو الفلاح ما ياكلشي حشيش ولا معاجين أمال ما بيتشطرشي زي الخواجات لي. ح. بقى إنت عاوز إن الفلاح إللي طول النهار ورا المحراث ولأ القصاببه ويرجع آخر النهار ما يصدق يجيب جنبه الأرض من القرف والتعب هوا اللي يشوف قرف أمور الدنيا ويسعى في مصلحتنا الرك كله على أهل البنادر والناس الباينين في البلاد هما لما يعملوا جمعية على شان حاجة ولا ياخدو نواب للبلاد رايحين ياخدوا من الفلاحين الضعفا ولاَّ من أعيان البنادر وعمد البلاد تملى الناس الباينين في كل حته هما اللي عليهم كلام ومين بياخد المعاجين والحشيش والخمره غير الناس المتبينين وإن كان فينا كام واحد لا يعرفوا دا ولا دا ولكن دول ناس قليلين. وإنت بدل ما تقول على اجدعان أولاد اليوم دول أولاد آخر زمن دول جماعة</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e635">نطاطه دول عيال دول مجانين ما تمشي وياهم وتعلمهم الكمال وهما يستحوا منك مرَّه في مره ينعدل حالهم ويمشوا طيب ولا لما تسيبهم في حل شعرهم وكل ما جت سيرتهم تشتمهم ما يفضلوا على ما هم فيه ويكرهوك ويبقى إذا جا واحد غريب وعاز يعمل فيك حاجه هما يساعدوه من غيظتهم منك. س. طيب وليه الناس ما تورِّيش بعضها السكة العدلة خليهم يستقيموا ويمشوا في حالهم. ح. آهو الجرانيل نازلة نازلة طيبه والأستاذ كل يوم يقول لنا أشكال وألوان ويورينا طرق سهلة بس ركك على كوني أحد إيدي في إيدك ونتفق على المشي في طريقه من
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e635" xml:lang="ar">نطاطه دول عيال دول مجانين ما تمشي وياهم وتعلمهم الكمال وهما يستحوا منك مرَّه في مره ينعدل حالهم ويمشوا طيب ولا لما تسيبهم في حل شعرهم وكل ما جت سيرتهم تشتمهم ما يفضلوا على ما هم فيه ويكرهوك ويبقى إذا جا واحد غريب وعاز يعمل فيك حاجه هما يساعدوه من غيظتهم منك. س. طيب وليه الناس ما تورِّيش بعضها السكة العدلة خليهم يستقيموا ويمشوا في حالهم. ح. آهو الجرانيل نازلة نازلة طيبه والأستاذ كل يوم يقول لنا أشكال وألوان ويورينا طرق سهلة بس ركك على كوني أحد إيدي في إيدك ونتفق على المشي في طريقه من
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P450.xhtml" ed="shamela" n="n1-p449" change="#d2e232" xml:id="pb_33.d2e637"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="449" facs="#facs_449" xml:id="pb_34.d2e638"/>
                     اللي بيقول عليها. س. بقى الكلام موش ليه ولك بس إحنا ويَّانا ناس طيبين كثير نشاورهم ونشوف إياك ربنا يهديهم ونفضها من التجرمه وقلة الحيا ويكفي اللي جرى أنا والله يا معلم حنفي أعرف اللي بتقوله دا كله وبس باقول لك الكلام دا أشوف رايح تقول إيه والا إحنا في غفلة كبيرة والداهيه بعدنا عن بعض وعداوتنا لبعض بالكدب وكل واحد فاهم في نفسه إنه هوّ الوحيد وهوّ العاقل وهوّ اللي ما فيش حد زيُّه مع إن دا كله قلة عقل ولا واحد في الدنيا إلا وله فايدة وله محاسن ما توجد في غيره يا ترى أنا يا بياع العطورات رايحشي أبقى زي النجار ولاّ الحداد ولاَّ زي الخياط وإذا كانوا ناس في صنعه واحده فكل واحد له مزيه جنس وإحنا محتاجين لبعضنا وكل إنسان يبذل ما عنده وإما بالله عليك إذا قعدنا بس نذم بعضنا ونفتخر بالكدب وكل إنسان ما بيدوّر إلى على هم بطنه ومنفعة نفسه إيش رايح يفيد البلاد من دا ومنين نشوف زي تقدم الإفرنج اللي تافّين في حنك بعضهم وكل واحد يساعد أخوه ويمدح فيه وماشيين زي الألف. ح. والله جبت الغايبه يا سيد عفيفي طيب شوف النصين دول لما أروح أجيب حاجه للعيال وأرجع نتكلم كما كلمتين إياك نرسي لنا على طريقة ويّا إخواننا اللي ربنا يهديهم ويصلح حالهم.</p>
             </div>
-         <div change="#d2e64 #d2e232"  type="section" xml:id="div_1.d2e642">
-                <head change="#d2e232" xml:id="head_8.d2e644">باب الأدبيات</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e647">من كلام الفاضل محمود أفندي واصف حبيس سجن إسكندرية الآن ما قاله مؤّرخاً تلاوة الفرمان الشريف السلطاني:</p>
-                <lg change="#d2e82 #d2e232" xml:id="lg_4.d2e650">
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e652">
-                        <seg change="#d2e232" xml:id="seg_1.d2e654">دام السعود خديوي مصر عباس</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e657">فليفرج القطر وليستبشر الناس</seg>
+         <div change="#d2e64 #d2e232 #d2e321" type="section" xml:id="div_1.d2e642" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_8.d2e644" xml:lang="ar">باب الأدبيات</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e647" xml:lang="ar">من كلام الفاضل محمود أفندي واصف حبيس سجن إسكندرية الآن ما قاله مؤّرخاً تلاوة الفرمان الشريف السلطاني:</p>
+                <lg change="#d2e82 #d2e232 #d2e321" xml:id="lg_4.d2e650" xml:lang="ar">
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e652" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e654" xml:lang="ar">دام السعود خديوي مصر عباس</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e657" xml:lang="ar">فليفرج القطر وليستبشر الناس</seg>
                     </l>
                 <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P451.xhtml" ed="shamela" n="n1-p450" change="#d2e232" xml:id="pb_35.d2e661"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="450" facs="#facs_450" xml:id="pb_36.d2e662"/>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e664">
-                        <seg change="#d2e232" xml:id="seg_1.d2e666">سما إلى التبة العلياء فانتعشت</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e669">روح البلاد وزال الهم والبأس</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e664" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e666" xml:lang="ar">سما إلى التبة العلياء فانتعشت</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e669" xml:lang="ar">روح البلاد وزال الهم والبأس</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e673">
-                        <seg change="#d2e232" xml:id="seg_1.d2e675">لله يوم به نالت سعادتها</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e678">مصر وحل بها بشر وإيناس</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e673" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e675" xml:lang="ar">لله يوم به نالت سعادتها</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e678" xml:lang="ar">مصر وحل بها بشر وإيناس</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e682">
-                        <seg change="#d2e232" xml:id="seg_1.d2e684">يوم به عمت الأفراح وانتشرت</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e687">بين الرعية أعياد وأعراس</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e682" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e684" xml:lang="ar">يوم به عمت الأفراح وانتشرت</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e687" xml:lang="ar">بين الرعية أعياد وأعراس</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e692">
-                        <seg change="#d2e232" xml:id="seg_1.d2e694">يوم الجلوس الذي ضاء الزمان به</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e697">كأنه في جبين الدهر نبراس</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e692" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e694" xml:lang="ar">يوم الجلوس الذي ضاء الزمان به</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e697" xml:lang="ar">كأنه في جبين الدهر نبراس</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e701">
-                        <seg change="#d2e232" xml:id="seg_1.d2e703">يوم به فرمان المجد قد رسخت</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e706">بنص أحكامه للملك آساس</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e701" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e703" xml:lang="ar">يوم به فرمان المجد قد رسخت</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e706" xml:lang="ar">بنص أحكامه للملك آساس</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e710">
-                        <seg change="#d2e232" xml:id="seg_1.d2e712">حيث الجلالة منشور سرادقها</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e715">والدهر يقرأُ والعلياءُ قرطاس</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e710" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e712" xml:lang="ar">حيث الجلالة منشور سرادقها</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e715" xml:lang="ar">والدهر يقرأُ والعلياءُ قرطاس</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e719">
-                        <seg change="#d2e232" xml:id="seg_1.d2e721">حيث العزيز رقى أوج العلى ونمت</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e724">لملكه في رياض السعد أغراس</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e719" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e721" xml:lang="ar">حيث العزيز رقى أوج العلى ونمت</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e724" xml:lang="ar">لملكه في رياض السعد أغراس</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e728">
-                        <seg change="#d2e232" xml:id="seg_1.d2e730">حيث البشائر قد نادت مؤرخة</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e733">دام السعود خديوي مصر عباس</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e728" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e730" xml:lang="ar">حيث البشائر قد نادت مؤرخة</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e733" xml:lang="ar">دام السعود خديوي مصر عباس</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e737">
-                        <seg change="#d2e232" xml:id="seg_1.d2e739"><date change="#d3e288" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1309" from="1891" to="1892">سنة ١٣٠٩</date> </seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e746"> ٤٥   ١٧١   ٦٣٠   ٣٣٠   ١٣٣ </seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e737" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e739" xml:lang="ar"><date change="#d3e288 #d2e301" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1309" from="1891" to="1892" xml:id="date_7.d2e781">سنة ١٣٠٩</date> </seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e746" xml:lang="ar"> ٤٥   ١٧١   ٦٣٠   ٣٣٠   ١٣٣ </seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e766">فرج الله كربه وعطف عليه قلب الأمير الأفخم أيده الله تعالى.</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e766" xml:lang="ar">فرج الله كربه وعطف عليه قلب الأمير الأفخم أيده الله تعالى.</p>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e770">
-                <head change="#d2e232" xml:id="head_9.d2e772">تقريظ</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e775">ورد لنا هذا التقريظ من الفرع الزكي والشاب الألمعي إبراهيم بك العرب ولولا وجوب إجابته في نشره لحفظناه فيما حفظ قال أعزه الله:</p>
-                <lg change="#d2e82 #d2e232" xml:id="lg_5.d2e778">
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e780">
-                        <seg change="#d2e232" xml:id="seg_1.d2e782">وافاك أستاذ الندي</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e785">فدع الملامة يا مليم</seg>
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e770" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_9.d2e772" xml:lang="ar">تقريظ</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e775" xml:lang="ar">ورد لنا هذا التقريظ من الفرع الزكي والشاب الألمعي إبراهيم بك العرب ولولا وجوب إجابته في نشره لحفظناه فيما حفظ قال أعزه الله:</p>
+                <lg change="#d2e82 #d2e232 #d2e321" xml:id="lg_5.d2e778" xml:lang="ar">
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e780" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e782" xml:lang="ar">وافاك أستاذ الندي</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e785" xml:lang="ar">فدع الملامة يا مليم</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e789">
-                        <seg change="#d2e232" xml:id="seg_1.d2e791">واستهد بالأستاذ إن</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e794">شئت الصراط المستقيم</seg>
-                    </l>
-                </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e799">أيسوغ والأستاذ فينا اللهو مع خشف وريم</p>
-                <lg change="#d2e82 #d2e232" xml:id="lg_6.d2e802">
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e804">
-                        <seg change="#d2e232" xml:id="seg_1.d2e806">هشم الملاهي وعظه</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e809">فكأنها ورق هشيم</seg>
-                    </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e813">
-                        <seg change="#d2e232" xml:id="seg_1.d2e815">بذل النصائح جهده</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e818">فكأنه مولى حميم</seg>
-                    </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e822">
-                        <seg change="#d2e232" xml:id="seg_1.d2e824">غسل الملاهي زجره</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e827">فكأنه الماء الحميم</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e789" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e791" xml:lang="ar">واستهد بالأستاذ إن</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e794" xml:lang="ar">شئت الصراط المستقيم</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e833">نثر كنثر الدر والمرجان من عقد نظيم
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e799" xml:lang="ar">أيسوغ والأستاذ فينا اللهو مع خشف وريم</p>
+                <lg change="#d2e82 #d2e232 #d2e321" xml:id="lg_6.d2e802" xml:lang="ar">
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e804" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e806" xml:lang="ar">هشم الملاهي وعظه</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e809" xml:lang="ar">فكأنها ورق هشيم</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e813" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e815" xml:lang="ar">بذل النصائح جهده</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e818" xml:lang="ar">فكأنه مولى حميم</seg>
+                    </l>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e822" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e824" xml:lang="ar">غسل الملاهي زجره</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e827" xml:lang="ar">فكأنه الماء الحميم</seg>
+                    </l>
+                </lg>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e833" xml:lang="ar">نثر كنثر الدر والمرجان من عقد نظيم
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P452.xhtml" ed="shamela" n="n1-p451" change="#d2e232" xml:id="pb_37.d2e835"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="451" facs="#facs_451" xml:id="pb_38.d2e836"/>
                     وفكاهة كفواكه 
                     <gap resp="#org_MS" change="#d2e232" xml:id="gap_2.d2e838"/>
                     من روض جنات النعيم</p>
-                <lg change="#d2e82 #d2e232" xml:id="lg_7.d2e841">
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e843">
-                        <seg change="#d2e232" xml:id="seg_1.d2e845">وعبارة خفت على</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e848">أسماعنا مثل النسيم</seg>
+                <lg change="#d2e82 #d2e232 #d2e321" xml:id="lg_7.d2e841" xml:lang="ar">
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e843" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e845" xml:lang="ar">وعبارة خفت على</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e848" xml:lang="ar">أسماعنا مثل النسيم</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e853">قد أخبرت هذي اللآ - لي أن منشئها حكيم</p>
-                <lg change="#d2e82 #d2e232" xml:id="lg_8.d2e856">
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e858">
-                        <seg change="#d2e232" xml:id="seg_1.d2e860">شهم دعته لمجدها</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e863">رتب البلاغة من قديم</seg>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e853" xml:lang="ar">قد أخبرت هذي اللآ - لي أن منشئها حكيم</p>
+                <lg change="#d2e82 #d2e232 #d2e321" xml:id="lg_8.d2e856" xml:lang="ar">
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e858" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e860" xml:lang="ar">شهم دعته لمجدها</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e863" xml:lang="ar">رتب البلاغة من قديم</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e867">
-                        <seg change="#d2e232" xml:id="seg_1.d2e869">فلذلك قلت مؤرخاً</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e872">لبي بأستاذ نديم</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e867" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e869" xml:lang="ar">فلذلك قلت مؤرخاً</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e872" xml:lang="ar">لبي بأستاذ نديم</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e876">
-                        <seg change="#d2e232" xml:id="seg_1.d2e878"><date change="#d3e288" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1310" from="1892" to="1893">سنة ١٣١٠</date> </seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e885"> ٤٢   ١١٦٤   ١٠٤ </seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e876" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e878" xml:lang="ar"><date change="#d3e288 #d2e301" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1310" from="1892" to="1893" xml:id="date_8.d2e903">سنة ١٣١٠</date> </seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e885" xml:lang="ar"> ٤٢   ١١٦٤   ١٠٤ </seg>
                     </l>
                 </lg>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e900">
-                <head change="#d2e232" xml:id="head_10.d2e902">رجاء وإرجاء</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e905">نرى كل من يرغب الاشتراك في جريدتنا الأستاذ يطلب منا الأعداد الماضية وحيث أن الأعداد الماضية انتهت إلى السابع وتم طبع الأول والثاني الطبعة الثانية وسنطبع الأعداد بعدهما عند وجود الفرصة فنرجو الراغبين في الاشتراك قبول ما يقدم إليهم من الأعداد منتظرين طبع ما انتهى وحيث أننا نطبع الآن ألفين وخمسمائة كل أسبوع وطلب الاشتراك متواصل فسنطبع ثلاثة آلاف بعد هذا العدد فراراً من كلفة الطبع مرة ثانية فيما يأتي من الأعداد وظن كثير من الأمراء أننا ربما أعدنا طبع ما يكون من هذا العدد إذا جاوز المشتركون ثلاثة آلاف وهو ظن أوجبه إقبال الناس على الأستاذ وتواصل الطلبات حققه الله تعالى بفضله.</p>
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e900" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_10.d2e902" xml:lang="ar">رجاء وإرجاء</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e905" xml:lang="ar">نرى كل من يرغب الاشتراك في جريدتنا الأستاذ يطلب منا الأعداد الماضية وحيث أن الأعداد الماضية انتهت إلى السابع وتم طبع الأول والثاني الطبعة الثانية وسنطبع الأعداد بعدهما عند وجود الفرصة فنرجو الراغبين في الاشتراك قبول ما يقدم إليهم من الأعداد منتظرين طبع ما انتهى وحيث أننا نطبع الآن ألفين وخمسمائة كل أسبوع وطلب الاشتراك متواصل فسنطبع ثلاثة آلاف بعد هذا العدد فراراً من كلفة الطبع مرة ثانية فيما يأتي من الأعداد وظن كثير من الأمراء أننا ربما أعدنا طبع ما يكون من هذا العدد إذا جاوز المشتركون ثلاثة آلاف وهو ظن أوجبه إقبال الناس على الأستاذ وتواصل الطلبات حققه الله تعالى بفضله.</p>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e909">
-                <head change="#d2e232" xml:id="head_11.d2e911">رثاء</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e914">أنشبت المنية أظفارها بالمرحوم حسام الدين باشا مفتش السنطة والهياتم
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e909" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_11.d2e911" xml:lang="ar">رثاء</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e914" xml:lang="ar">أنشبت المنية أظفارها بالمرحوم حسام الدين باشا مفتش السنطة والهياتم
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P453.xhtml" ed="shamela" n="n1-p452" change="#d2e232" xml:id="pb_39.d2e916"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="452" facs="#facs_452" xml:id="pb_40.d2e917"/>
                     سابقاً واحد عتقى المرحوم عباس باشا الأول وترك  ٦٢٥  فداناً وقف منها مائة لخادمه أحمد وأولاده والبقية لأولاد شكيب باشا كما كتب له جميع متروكاته من نقود وأثاث ما عدا ثيابه فإنها بقيت لدائرة البرنس عبد الحليم باشا وقد رثاه صديقه السيد محمد أفندي التميمي الداري بقصيدة طويلة منها قوله:</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e923">شعر</p>
-                <lg change="#d2e82 #d2e232" xml:id="lg_9.d2e926">
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e928">
-                        <seg change="#d2e232" xml:id="seg_1.d2e930">وساروا حول نعش فيه شمس</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e933">تحيط به الأكابر كالبدور</seg>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e923" xml:lang="ar">شعر</p>
+                <lg change="#d2e82 #d2e232 #d2e321" xml:id="lg_9.d2e926" xml:lang="ar">
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e928" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e930" xml:lang="ar">وساروا حول نعش فيه شمس</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e933" xml:lang="ar">تحيط به الأكابر كالبدور</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e937">
-                        <seg change="#d2e232" xml:id="seg_1.d2e939">وفاضت أعين الأمراء تجري</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e942">بدمع كالسحاب على أمير</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e937" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e939" xml:lang="ar">وفاضت أعين الأمراء تجري</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e942" xml:lang="ar">بدمع كالسحاب على أمير</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e946">
-                        <seg change="#d2e232" xml:id="seg_1.d2e948">على من كان للمضطر كنزاً</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e951">وعوناً للغنيّ وللفقير</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e946" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e948" xml:lang="ar">على من كان للمضطر كنزاً</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e951" xml:lang="ar">وعوناً للغنيّ وللفقير</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e955">
-                        <seg change="#d2e232" xml:id="seg_1.d2e957">حسام الدين باشا ذي المعالي</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e960">أبي الحسنات والخير الكثير</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e955" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e957" xml:lang="ar">حسام الدين باشا ذي المعالي</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e960" xml:lang="ar">أبي الحسنات والخير الكثير</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e964">
-                        <seg change="#d2e232" xml:id="seg_1.d2e966">ستبكي فضله ضعفآءُ قوم</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e969">يعانوا في المساءِ وفي البكور</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e964" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e966" xml:lang="ar">ستبكي فضله ضعفآءُ قوم</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e969" xml:lang="ar">يعانوا في المساءِ وفي البكور</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e974">
-                        <seg change="#d2e232" xml:id="seg_1.d2e976">وينشد خيره للناس بيتاً</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e979">به التاريخ كالبدر المنير</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e974" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e976" xml:lang="ar">وينشد خيره للناس بيتاً</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e979" xml:lang="ar">به التاريخ كالبدر المنير</seg>
                     </l>
-                    <l change="#d2e82 #d2e232" type="bayt" xml:id="l_1.d2e983">
-                        <seg change="#d2e232" xml:id="seg_1.d2e985">حسام الدين في جنات عدم</seg>
-                        <seg change="#d2e232" xml:id="seg_1.d2e988">هنيءٌ بين ولدان وحور</seg>
+                    <l change="#d2e82 #d2e232 #d2e321" type="bayt" xml:id="l_1.d2e983" xml:lang="ar">
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e985" xml:lang="ar">حسام الدين في جنات عدم</seg>
+                        <seg change="#d2e232 #d2e321" xml:id="seg_1.d2e988" xml:lang="ar">هنيءٌ بين ولدان وحور</seg>
                     </l>
                 </lg>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e993"> ١٠٩   ٩٥   ٩٠   ٤٥٤   ١٢٤ = ٦٥   ٦٢   ٩١   ٢٢٠ </p>
-                <byline change="#d2e150 #d2e232" xml:id="byline_3.d2e1025"><date change="#d3e288" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1310" from="1892" to="1893">سنة ١٣١٠</date> </byline>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e993" xml:lang="ar"> ١٠٩   ٩٥   ٩٠   ٤٥٤   ١٢٤ = ٦٥   ٦٢   ٩١   ٢٢٠ </p>
+                <byline change="#d2e150 #d2e232 #d2e321" xml:id="byline_3.d2e1025" xml:lang="ar"><date change="#d3e288 #d2e301" calendar="#cal_islamic" resp="#xslt" cert="low" xml:lang="ar" datingMethod="#cal_islamic" when-custom="1310" from="1892" to="1893" xml:id="date_9.d2e1009">سنة ١٣١٠</date> </byline>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1034">
-                <head change="#d2e232" xml:id="head_12.d2e1036">خطبة ابن السماك</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1039">وردت لنا رسالة من طنطا لأحد الأفاضل وفيها يقول بينتم ما يلزم للخطابة ولم تبينوا الخطب المفسدة للأخلاق الجاري العمل بها في بعض جهات الريف.</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1042">فمن ذلك خطبة ابن السماك المختلقة على الله سبحانه وتعالى بعد الحمدلة والصلاة على النبي صلى الله عليه وسلم والآية والوعظ يقول الخطيب أيها الناس حكى أن كان في زمن هارون الرشيد واعظ يقال له
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e1034" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_12.d2e1036" xml:lang="ar">خطبة ابن السماك</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e1039" xml:lang="ar">وردت لنا رسالة من طنطا لأحد الأفاضل وفيها يقول بينتم ما يلزم للخطابة ولم تبينوا الخطب المفسدة للأخلاق الجاري العمل بها في بعض جهات الريف.</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e1042" xml:lang="ar">فمن ذلك خطبة ابن السماك المختلقة على الله سبحانه وتعالى بعد الحمدلة والصلاة على النبي صلى الله عليه وسلم والآية والوعظ يقول الخطيب أيها الناس حكى أن كان في زمن هارون الرشيد واعظ يقال له
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P454.xhtml" ed="shamela" n="n1-p453" change="#d2e232" xml:id="pb_41.d2e1044"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="453" facs="#facs_453" xml:id="pb_42.d2e1045"/>
                     ابن السماك يحضر في مجلس وعظه ألف ألف واعظ نام ذات ليلة من الأيام فرأى رؤيا في المنام أن القيامة قد قامت والموازين قد نصبت واستقامت. والمنادي ينادي هلم إلى العرض على الله يا ابن السماك فعند ذلك انتبهت الملائكة الكرام. ونهضوا به وأوقفوه بين يدي الملك العلام. فقال له الله: ما حيلتك يا ابن السماك؟ فقال له: يا رب أنا واعظ أعظ الناس وأشوقهم إلى جنتك وأخوفهم من عذابك. فقال له: نعم تفعل ذلك بالنهار. وبالليل تصرُّ على معصيتي غاية الإصرار. فقال له: يا رب ومن يشهدُ عليّ بذلك؟ فقال له: الله تشهد عليك ملائكتي الكرام. فقال له: يا رب ملائكتك الكرام أعدائي. فقال له الله: ولمَ ذاك يا ابن السماك؟ فقال: لأنك قلت في كتابك العزيز: {وإذ قال ربك للملائكة أني جاعل في الأرض خليفة قالوا تجعل فيها من يفسد فيه ويسفك الدماءِ ونحن نسبح بحمدك ونقدّس لك} فقد سبوا أبي من قبلي ومن سب أبي فقد عاداه ومن عاداه فقد عاداني ومن عاداني فلا تجوز له عليّ شهادة. فقال له الله: تشهد عليك يداك ورجلاك يا ابن السماك. قال: يا رب يداي ورجلاي كانوا لا ينطقون في الدنيا وإذا نطقوا اليوم خوفاً منك والخائف لا تجوز له شهادة. فقال له الله: ولمَ ذاك يا ابن السماك؟ فقال له: لأنك قلت في كتابك العزيز: {يوم تشهد عليهم ألسنتهم وأيديهم وأرجلهم بما كانوا يعملون}. فقال له الله عز وجل: تشهد عليك نفسك التي بين جنبيك. فقال: يا رب نفسي عدوتي والعدو لا يجوز له على عدوه شهادة. فقال له: ولمَ ذاك يا ابن السماك؟ فقال: يا رب لقولك في كتابك العزيز: {وما أبرئُ نفسي إن النفس لأمارة بالسوء إلا ما رحم ربي} وكل من أمر بسوءٍ فهو عدو والعدو لا تجوز له على
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P455.xhtml" ed="shamela" n="n1-p454" change="#d2e232" xml:id="pb_43.d2e1047"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="454" facs="#facs_454" xml:id="pb_44.d2e1048"/>
                     عدوه شهادة. فقال له الله: يشهد عليك سمعك وبصرك يا ابن السماك. فقال: يا رب سمعي وبصري لا تجوز لهما عليّ شهادة. فقال له: ولم ذاك يا ابن السماك؟ فقال: يا رب لقولك في كتابك العزيز: {ولا تقف ما ليس له به علم إن السمع والبصر والفؤاد كل أولئك كان عنه مسؤولاً}. فقال له الله عز وجل:</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1051">أشهد عليك أنا يا ابن السماك. فعند ذلك سكت قليلاً بالجواب مستحياً من هيبة الملك الوهاب ثم رفع رأسه وقال: يا رب يا من محبتك في قلبي متمكنة أنت حاكم أم عادل أم قاضٍ أم بينة؟ فعند ذلك قال الله عز وجل: إئتوا بعبدي إلى النار. فلما سحبته الملائكةُ التفت في الطريق، فقال الله: ما ألفتك يا عبدي؟ فقال: أرجو رحمتك يا ربي. فقال له الله: ولمَ ذاك يا ابن السماك؟ فقال: لقولك في كتابك العزيز: {ورحمتي وسعت كل شيء}، وقد سمعت من أبي عن جدي عن نافع عن النبي صلى الله عليه وسلم عن جبريل عنك يا رب أنك قلت: من فعل معصية في دار الدنيا ثم تاب عنها فإني لا أفضحه بها يوم القيامة. فقال الله عز وجل: صدقت أنت وصدق أبوك وصدق جدك وصدق نافع وصدق النبي صلى الله عليه وسلم وصدق جبريل وصدقت أنا، يا ملائكتي إيتو بعبدي إلى الجنة لو كان عليه ذنوب مثل الجبال لغفرتها وأنا ذو الجلال أو كما قال اهـ.</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1054">(الأستاذ) فهذه عبارة وإن كان لها شواهد إلا أن اختلافها أكبر افتراء على الله تعالى وسنبين مضارها.</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e1051" xml:lang="ar">أشهد عليك أنا يا ابن السماك. فعند ذلك سكت قليلاً بالجواب مستحياً من هيبة الملك الوهاب ثم رفع رأسه وقال: يا رب يا من محبتك في قلبي متمكنة أنت حاكم أم عادل أم قاضٍ أم بينة؟ فعند ذلك قال الله عز وجل: إئتوا بعبدي إلى النار. فلما سحبته الملائكةُ التفت في الطريق، فقال الله: ما ألفتك يا عبدي؟ فقال: أرجو رحمتك يا ربي. فقال له الله: ولمَ ذاك يا ابن السماك؟ فقال: لقولك في كتابك العزيز: {ورحمتي وسعت كل شيء}، وقد سمعت من أبي عن جدي عن نافع عن النبي صلى الله عليه وسلم عن جبريل عنك يا رب أنك قلت: من فعل معصية في دار الدنيا ثم تاب عنها فإني لا أفضحه بها يوم القيامة. فقال الله عز وجل: صدقت أنت وصدق أبوك وصدق جدك وصدق نافع وصدق النبي صلى الله عليه وسلم وصدق جبريل وصدقت أنا، يا ملائكتي إيتو بعبدي إلى الجنة لو كان عليه ذنوب مثل الجبال لغفرتها وأنا ذو الجلال أو كما قال اهـ.</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e1054" xml:lang="ar">(الأستاذ) فهذه عبارة وإن كان لها شواهد إلا أن اختلافها أكبر افتراء على الله تعالى وسنبين مضارها.</p>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1058">
-                <head change="#d2e232" xml:id="head_13.d2e1060">هداية السائل إلى إنشاء الرسائل</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1063">تأليف الشاب النبيه الفاضل السيد عبد الباسط الأُنسي البيروتي
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e1058" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_13.d2e1060" xml:lang="ar">هداية السائل إلى إنشاء الرسائل</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e1063" xml:lang="ar">تأليف الشاب النبيه الفاضل السيد عبد الباسط الأُنسي البيروتي
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P456.xhtml" ed="shamela" n="n1-p455" change="#d2e232" xml:id="pb_45.d2e1065"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="455" facs="#facs_455" xml:id="pb_46.d2e1066"/>
                     وضعه في الإنشاء لتعليم التلامذة طرق المراسلات البسيطة وقد رتبه على خمسة أبواب الأول في الألقاب ومخاطبة الملوك والوزراء والأمراء وغيرهم. والثاني في مخاطبة العلماء والقضاة والأقارب. والثالث في مخاطبة التجار والأخوان. والرابع في تهاني الأعياد والأفراح وغيرها. والخامس في العتاب والتعزية وثمنه ثلاثة قروش ويباع عند الفاضل السيد عبد الواحد الطوبي بالكتبية وعند غيره أيضاً ولا بأس باقتنائه فإن فيه كثيراً من الفوائد للمتعلمين والمشتغلين بالكتابة.</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1069">تنبيه</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1072">المرجو من حضرات مشتركي جريدتنا بجبهتي مينا البصل والقباري أن يدفعوا قيم الاشتراك إلى وكيلنا حضرة عبد القادر أفندي سري ويأخذوا منه الوصل اللازم إذ قد أرسلت إليه القسائم مختومة بختم الإدارة ممضاة بإمضاء مدير الجريدة وقد تفضلوا بدفع القسط الأول بلا طلب فليتفضلوا بدفع القسط الثاني أو القيمة ممن لم يسبق لهم دفع شيء قبل ذلك كما نرجو بقية مشتركي إسكندرية أن يلبوا طلب حضرة السيد حسن المصري وكيل عموم الإسكندرية فقد أرسلت إليه القسائم أيضاً وإننا لحضرات المشتركين من الشاكرين.</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e1069" xml:lang="ar">تنبيه</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e1072" xml:lang="ar">المرجو من حضرات مشتركي جريدتنا بجبهتي مينا البصل والقباري أن يدفعوا قيم الاشتراك إلى وكيلنا حضرة عبد القادر أفندي سري ويأخذوا منه الوصل اللازم إذ قد أرسلت إليه القسائم مختومة بختم الإدارة ممضاة بإمضاء مدير الجريدة وقد تفضلوا بدفع القسط الأول بلا طلب فليتفضلوا بدفع القسط الثاني أو القيمة ممن لم يسبق لهم دفع شيء قبل ذلك كما نرجو بقية مشتركي إسكندرية أن يلبوا طلب حضرة السيد حسن المصري وكيل عموم الإسكندرية فقد أرسلت إليه القسائم أيضاً وإننا لحضرات المشتركين من الشاكرين.</p>
             </div>
-         <div change="#d2e64 #d2e232" subtype="article" type="item" xml:id="div_1.d2e1076">
-                <head change="#d2e232" xml:id="head_14.d2e1078">عجب وعجاب</head>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1081">لا نرسل عدداً من أعداد الجريدة إلى الزقازيق إلا وتأتينا الشكوى
+         <div change="#d2e64 #d2e232 #d2e321" subtype="article" type="item" xml:id="div_1.d2e1076" xml:lang="ar">
+                <head change="#d2e232 #d2e321" xml:id="head_14.d2e1078" xml:lang="ar">عجب وعجاب</head>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e1081" xml:lang="ar">لا نرسل عدداً من أعداد الجريدة إلى الزقازيق إلا وتأتينا الشكوى
                     <pb corresp="../epub/shamela_35118/OEBPS/xhtml/P457.xhtml" ed="shamela" n="n1-p456" change="#d2e232" xml:id="pb_47.d2e1083"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="456" facs="#facs_456" xml:id="pb_48.d2e1084"/>
                     من اثنين أو ثلاثة من المشتركين بعدم وصول الجريدة إليهم ومن الغريب عدم وصول جريدة حضرة عبد المنعم أفندي خالد معاون بوليس القنايات ولا الجواب الذي أرسل إليه فالتزمنا مخاطبته بطريق السكورتاه لعلنا نأمن على الجواب وأعجب من هذا أننا أرسلنا مائتي ورقة زيادة داخل صندوقين لحضرة وكيلنا هناك فوصله صندوق واحد وكلما شكونا واحداً من المستخدمين ادعى عدم وصول المدعي به فبأية واسطة نثبته عليه إذا لم يجعل العموم رابطة لذلك ويعز علينا أن نرى مصلحة مصرية يقع فيها هذا الخلل ومثل الزقازيق محلة دمنة التي تتلاعب بجريدة حضرة عبد المجيد أفندي محمد كاتب تحريرات تفتيش طناح وعسى أن نرى في مكاتب الخلل ما نراه في مكاتب الانتظام من الأمانة والاستقامة.</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1087">إعلان</p>
-                <p change="#d2e73 #d2e232" xml:id="p_2.d2e1090">لقد تعين حسن أفندي علي وكيلاً طوافاً بالوجه القبلي فالرجاءُ من حضرات المشتركين اعتماده وتسليم قيم الاشتراك وأخذ سند الوصول منه مختوماً بختم الإدارة ممضي بخط مدير الجريدة غير أننا نرجو المشتركين فيما فوق أسيوط إلى حلفان أن يرسلوا قيم الاشتراك بواسطة البوسطة وبوصولها إلينا يرسل إليهم سند الوصول حيث يتعذر على الوكيل القيام إليهم الآن وللجميع الفضل والثناء.</p>
-                <byline change="#d2e150 #d2e232" xml:id="byline_4.d2e1093">(<persName change="#d2e232 #d3e270" xml:id="persName_6.d2e1095" ref="oape:pers:962 viaf:72750911">
-                            <forename xml:lang="ar">عبد الله</forename>
-                            <surname xml:lang="ar">نديم</surname>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e1087" xml:lang="ar">إعلان</p>
+                <p change="#d2e73 #d2e232 #d2e321" xml:id="p_2.d2e1090" xml:lang="ar">لقد تعين حسن أفندي علي وكيلاً طوافاً بالوجه القبلي فالرجاءُ من حضرات المشتركين اعتماده وتسليم قيم الاشتراك وأخذ سند الوصول منه مختوماً بختم الإدارة ممضي بخط مدير الجريدة غير أننا نرجو المشتركين فيما فوق أسيوط إلى حلفان أن يرسلوا قيم الاشتراك بواسطة البوسطة وبوصولها إلينا يرسل إليهم سند الوصول حيث يتعذر على الوكيل القيام إليهم الآن وللجميع الفضل والثناء.</p>
+                <byline change="#d2e150 #d2e232 #d2e321" xml:id="byline_4.d2e1093" xml:lang="ar">(<persName change="#d2e232 #d3e270 #d2e321" xml:id="persName_6.d2e1095" ref="oape:pers:962 viaf:72750911" xml:lang="ar">
+                            <forename xml:lang="ar" change="#d2e301" xml:id="forename_6.d2e1077">عبد الله</forename>
+                            <surname xml:lang="ar" change="#d2e301" xml:id="surname_6.d2e1080">نديم</surname>
                         </persName>)
                     </byline>
             </div><pb corresp="../epub/shamela_35118/OEBPS/xhtml/P458.xhtml" ed="shamela" n="n1-p457" change="#d2e232" xml:id="pb_49.d2e1098"/><pb change="#d2e218 #d2e227 #d2e232" ed="print" edRef="#edition_1" n="457" facs="#" xml:id="pb_50.d2e1099"/>
