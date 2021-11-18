@@ -4,11 +4,17 @@
                 xsi:schemaLocation="http://www.loc.gov/standards/mods/mods-3-7.xsd">
    <mods>
       <titleInfo>
-         <title xml:lang="ar">التشخيص العربي</title>
+         <title xml:lang="ar"/>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
       <genre authority="marcgt" xml:lang="en">article</genre>
+      <name type="personal" xml:lang="ar">
+         <namePart type="family" xml:lang="ar">الاسكندرية</namePart>
+         <role>
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+         </role>
+      </name>
       <relatedItem type="host">
          <titleInfo>
             <title xml:lang="ar">الأستاذ</title>
@@ -40,19 +46,19 @@
                <number>33</number>
             </detail>
             <extent unit="pages">
-               <start>773</start>
-               <end>774</end>
+               <start>766</start>
+               <end>768</end>
             </extent>
          </part>
-         <identifier type="BibTeX">oclc_1036721166-i_33-div_1.d2e418</identifier>
+         <identifier type="BibTeX">oclc_1036721166-i_33-div_3.d2e516</identifier>
          <identifier type="jid">106</identifier>
          <identifier type="OCLC">1036721166</identifier>
          <identifier type="URI">oclc_1036721166-i_33</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_33.TEIP5.xml#div_1.d2e418</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_33.TEIP5.xml#div_1.d2e418</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_33.TEIP5.xml#div_3.d2e516</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_33.TEIP5.xml#div_3.d2e516</url>
       </location>
       <language>
          <languageTerm type="code"
