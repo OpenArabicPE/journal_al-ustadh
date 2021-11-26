@@ -4,7 +4,7 @@
                 xsi:schemaLocation="http://www.loc.gov/standards/mods/mods-3-7.xsd">
    <mods>
       <titleInfo>
-         <title xml:lang="ar">الزيارة العيدية</title>
+         <title xml:lang="ar">المربّي</title>
       </titleInfo>
       <typeOfResource>text</typeOfResource>
       <genre authority="local" xml:lang="en">journalArticle</genre>
@@ -40,19 +40,19 @@
                <number>34</number>
             </detail>
             <extent unit="pages">
-               <start>800</start>
-               <end>803</end>
+               <start>804</start>
+               <end>805</end>
             </extent>
          </part>
-         <identifier type="BibTeX">oclc_1036721166-i_34-div_1.d2e530</identifier>
+         <identifier type="BibTeX">oclc_1036721166-i_34-div_2</identifier>
          <identifier type="jid">106</identifier>
          <identifier type="OCLC">1036721166</identifier>
          <identifier type="URI">oclc_1036721166-i_34</identifier>
       </relatedItem>
       <accessCondition>http://creativecommons.org/licenses/by-sa/4.0/</accessCondition>
       <location>
-         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_34.TEIP5.xml#div_1.d2e530</url>
-         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_34.TEIP5.xml#div_1.d2e530</url>
+         <url usage="primary display">https://github.com/openarabicpe/journal_al-ustadh/blob/master/tei/oclc_1036721166-i_34.TEIP5.xml#div_2</url>
+         <url usage="primary display">https://openarabicpe.github.io/journal_al-ustadh/tei/oclc_1036721166-i_34.TEIP5.xml#div_2</url>
       </location>
       <language>
          <languageTerm type="code"
