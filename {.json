@@ -1,0 +1,24 @@
+{
+    "communities": [
+        {
+            "identifier": "arab-periodical-studies"
+        }
+    ],
+    "creators": [
+        {
+            "affiliation": "Humboldt-Universität zu Berlin",
+            "name": "Grallert, Till",
+            "orcid": "0000-0002-5739-8094"
+        }
+    ],
+    "keywords": [
+        "Digital Editions",
+        "Arabic Periodicals",
+        "Ottoman Empire",
+        "TEI XML",
+        "Cairo",
+        "Egypt"
+    ],
+    "license": "CC BY-SA 4.0",
+    "title": "An open, collaborative, and scholarly digital edition of ʿAbd Allāh Nadīm al-Idrīsī's weekly journal \"al-Ustādh\" (Cairo, 1892–1893)"
+}
